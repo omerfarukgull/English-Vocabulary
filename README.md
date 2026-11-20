@@ -12,6 +12,9 @@ React + TypeScript + Vite, veriler cihazda (IndexedDB), üyelik/sunucu yok.
 - Kelimelerim: arama, kategori/seviye/durum filtresi, favoriler, detay, tekrar et
 - İstatistik: toplamlar, doğru oranı, 14 günlük grafik, haftalık karşılaştırma, zor kategoriler
 - Açık/koyu tema, konuşma hızı ve ses seçimi, JSON yedek al / geri yükle, onaylı sıfırlama
+- Kategori bazlı çalışma: Ana sayfadaki "Çalışılan kategori" seçimiyle yeni kelimeler yalnızca o kategoriden gelir
+  (bugünün henüz görülmemiş kelimeleri de yeni kategoriden yeniden seçilir). Tekrar ekranında da "Hangi kategoriden?" seçilebilir.
+  Akıllı tekrar takvimi, günlük hedef ve istatistikler tüm kategorilerde ortaktır.
 - Kendi kelimeni ekle: sözlükte zaten varsa yeniden eklemez, mevcut kelimeyi öğrenme listene almayı önerir; eklenen kelimeler
   "Kendi kelimelerim" kategorisinde durur, sonradan düzenlenip silinebilir, günlük planda öne alınır
 - Yazım hatası kontrolü: kelime eklerken uygulama sözlüğü + 63.367 kelimelik çevrimdışı İngilizce listeyle karşılaştırılır

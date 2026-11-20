@@ -14,6 +14,7 @@ export interface Settings {
   dailyGoal: number;
   levelPref: 'A2' | 'A1' | 'B1' | 'mixed';
   reminder: { on: boolean; time: string }; // günlük hatırlatma saati "HH:MM"
+  focusCat: string; // '' = tüm kategoriler; aksi halde yeni kelimeler yalnızca bu kategoriden gelir
 }
 export interface AppState {
   version: 1;
@@ -26,7 +27,7 @@ export interface AppState {
 }
 
 const KEY = 'pev-state-v1';
-export const DEFAULT_SETTINGS: Settings = { theme: 'system', rate: 0.9, autoplay: true, dailyGoal: 10, levelPref: 'A2', reminder: { on: false, time: '20:00' } };
+export const DEFAULT_SETTINGS: Settings = { theme: 'system', rate: 0.9, autoplay: true, dailyGoal: 10, levelPref: 'A2', reminder: { on: false, time: '20:00' }, focusCat: '' };
 export function emptyState(): AppState {
   return { version: 1, progress: {}, favorites: [], days: {}, plan: { date: '', ids: [] }, settings: { ...DEFAULT_SETTINGS }, custom: [] };
 }
@@ -69,7 +70,7 @@ export function normalizeState(s: unknown): AppState {
     favorites: Array.isArray(o.favorites) ? o.favorites.filter(id => WORD_BY_ID[id]) : [],
     days: o.days && typeof o.days === 'object' ? o.days : {},
     plan: o.plan && Array.isArray(o.plan.ids) ? { date: String(o.plan.date), ids: o.plan.ids.filter(id => WORD_BY_ID[id]) } : base.plan,
-    settings: { ...DEFAULT_SETTINGS, ...(o.settings ?? {}), reminder: { ...DEFAULT_SETTINGS.reminder, ...(o.settings?.reminder ?? {}) } },
+    settings: { ...DEFAULT_SETTINGS, ...(o.settings ?? {}), reminder: { ...DEFAULT_SETTINGS.reminder, ...(o.settings?.reminder ?? {}) }, focusCat: typeof o.settings?.focusCat === 'string' && WORDS.some(w => w.cat === o.settings!.focusCat) ? o.settings.focusCat : '' },
     custom,
   };
 }
@@ -103,7 +104,8 @@ const LEVEL_ORDER: Record<Settings['levelPref'], Level[]> = { A2: ['A2', 'A1', '
 
 /** Henüz görülmemiş kelimeleri seviye tercihine göre, kategorileri karıştırarak sıralar. */
 export function unseenOrdered(s: AppState): string[] {
-  const all = WORDS.filter(w => !s.progress[w.id] && !s.plan.ids.includes(w.id));
+  const fc = s.settings.focusCat;
+  const all = WORDS.filter(w => !s.progress[w.id] && !s.plan.ids.includes(w.id) && (!fc || w.cat === fc));
   const mine = all.filter(w => w.custom).map(w => w.id); // kendi eklediğin kelimeler önce gelir
   const unseen = all.filter(w => !w.custom);
   const order = LEVEL_ORDER[s.settings.levelPref];
@@ -129,6 +131,19 @@ export function ensurePlan() {
     const doneToday = Object.values(s.progress).filter(p => p.firstSeen === today).length;
     const ids = unseenOrdered(base).slice(0, Math.max(0, goal - doneToday));
     return { ...s, plan: { date: today, ids } };
+  });
+}
+/** Çalışılan kategoriyi değiştirir; bugünün planındaki henüz görülmemiş kelimeler yeni kategoriden yeniden seçilir. */
+export function setFocusCat(cat: string) {
+  update(s => {
+    const s1 = { ...s, settings: { ...s.settings, focusCat: cat } };
+    const today = dayKey();
+    if (s1.plan.date !== today) return s1;
+    const seenIds = s1.plan.ids.filter(id => s1.progress[id] !== undefined);
+    const base = { ...s1, plan: { date: today, ids: seenIds } };
+    const doneToday = Object.values(s1.progress).filter(p => p.firstSeen === today).length;
+    const fresh = unseenOrdered(base).slice(0, Math.max(0, s1.settings.dailyGoal - doneToday));
+    return { ...s1, plan: { date: today, ids: [...seenIds, ...fresh] } };
   });
 }
 export function extendPlan(n: number) {

@@ -1,7 +1,7 @@
 import { mdiRepeat, mdiAlertCircleOutline, mdiStarOutline, mdiShuffleVariant, mdiHistory } from '@mdi/js';
 import { useState } from 'react';
-import { Icon } from '../components/ui';
-import { WORD_BY_ID } from '../lib/data';
+import { FocusPicker, Icon } from '../components/ui';
+import { CAT_BY_ID, WORD_BY_ID } from '../lib/data';
 import { MODE_LABELS, shuffle } from '../lib/quiz';
 import { speechSupported } from '../lib/speech';
 import type { QuizMode } from '../lib/srs';
@@ -22,20 +22,28 @@ const SESSION = 20;
 export default function Review({ start }: { start: (c: SessionConfig) => void }) {
   const s = useApp();
   const [mode, setMode] = useState<QuizMode | 'mixed'>('mixed');
-  const due = dueIds(s);
-  const seen = Object.keys(s.progress);
+  const [cat, setCat] = useState(s.settings.focusCat);
+  const inCat = (id: string) => !cat || WORD_BY_ID[id]?.cat === cat;
+  const due = dueIds(s).filter(inCat);
+  const allSeen = Object.keys(s.progress);
+  const seen = allSeen.filter(inCat);
   const hard = seen.filter(id => s.progress[id].status === 'hard');
   const favs = s.favorites.filter(id => s.progress[id]);
   const oldest = [...seen].sort((a, b) => s.progress[a].lastSeen - s.progress[b].lastSeen);
   const needImg = mode === 'img-write' || mode === 'img-choice';
   const filt = (ids: string[]) => needImg ? ids.filter(id => WORD_BY_ID[id].img) : ids;
-  const run = (ids: string[], title: string) => { const list = filt(ids).slice(0, SESSION); if (list.length) start({ ids: list, mode, title }); };
+  const catName = cat ? ` · ${CAT_BY_ID[cat]?.tr}` : '';
+  const run = (ids: string[], title: string) => { const list = filt(ids).slice(0, SESSION); if (list.length) start({ ids: list, mode, title: title + catName }); };
 
-  if (seen.length === 0) return <div className="screen"><h1>Tekrar</h1><div className="card empty">Henüz tekrar edilecek kelime yok. Önce "Öğren" sekmesinden birkaç kelime öğren; burada seni akıllı tekrarlar bekleyecek.</div></div>;
+  if (allSeen.length === 0) return <div className="screen"><h1>Tekrar</h1><div className="card empty">Henüz tekrar edilecek kelime yok. Önce "Öğren" sekmesinden birkaç kelime öğren; burada seni akıllı tekrarlar bekleyecek.</div></div>;
 
   return (
     <div className="screen">
       <h1>Tekrar</h1>
+      <section className="card">
+        <FocusPicker value={cat} onChange={setCat} label="Hangi kategoriden?" countMode="seen" />
+        {cat && seen.length === 0 && <p className="muted small" style={{ margin: '8px 0 0' }}>Bu kategoriden henüz kelime öğrenmedin. Önce Öğren ekranından bu kategoriyi seçip birkaç kelime öğren.</p>}
+      </section>
       <section className="card hero">
         <div className="muted">Akıllı tekrar</div>
         <div className="hero-num"><b>{due.length}</b> kelime tekrar bekliyor</div>

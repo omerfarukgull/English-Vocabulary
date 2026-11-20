@@ -1,8 +1,9 @@
 import { mdiCogOutline, mdiFire, mdiCheckCircle, mdiBookOpenVariant, mdiRepeat, mdiClipboardCheckOutline, mdiTrophyOutline, mdiBellRingOutline } from '@mdi/js';
-import { Icon, ProgressBar } from '../components/ui';
+import { FocusPicker, Icon, ProgressBar } from '../components/ui';
 import { dayKey } from '../lib/date';
 import { reminderDue } from '../lib/reminder';
-import { dueIds, streak, todayNewCount, useApp } from '../lib/store';
+import { dueIds, setFocusCat, streak, todayNewCount, useApp } from '../lib/store';
+import { CAT_BY_ID } from '../lib/data';
 import type { Tab } from '../App';
 
 export default function Home({ go, openSettings, startTest }: { go: (t: Tab) => void; openSettings: () => void; startTest: () => void }) {
@@ -37,6 +38,13 @@ export default function Home({ go, openSettings, startTest }: { go: (t: Tab) => 
         {goalDone
           ? <div className="success-msg"><Icon path={mdiTrophyOutline} size={20} /> Tebrikler! Bugünkü {goal} kelime hedefini tamamladın.</div>
           : <button className="btn primary block" onClick={() => go('learn')}><Icon path={mdiBookOpenVariant} size={20} /> {learnedToday === 0 ? 'Yeni kelime öğren' : 'Öğrenmeye devam et'}</button>}
+      </section>
+
+      <section className="card">
+        <FocusPicker value={s.settings.focusCat} onChange={setFocusCat} />
+        <p className="muted small" style={{ margin: '8px 0 0' }}>{s.settings.focusCat
+          ? `Yeni kelimeler yalnızca "${CAT_BY_ID[s.settings.focusCat]?.tr}" kategorisinden gelir. Tekrar ekranında da kategori seçebilirsin.`
+          : 'Yeni kelimeler tüm kategorilerden karışık gelir. Belirli bir konuya odaklanmak için kategori seç.'}</p>
       </section>
 
       <section className="stat-row">

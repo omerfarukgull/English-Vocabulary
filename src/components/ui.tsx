@@ -1,6 +1,6 @@
 import { mdiVolumeHigh, mdiTortoise, mdiClose } from '@mdi/js';
 import { useEffect, type ReactNode } from 'react';
-import { CAT_BY_ID, FAMILIES, ICONS, WORD_BY_ID, type Word, capEn, capTr } from '../lib/data';
+import { CATEGORIES, CAT_BY_ID, FAMILIES, ICONS, WORDS, WORD_BY_ID, type Word, capEn, capTr } from '../lib/data';
 import { speak, speechSupported } from '../lib/speech';
 import { useApp } from '../lib/store';
 
@@ -127,3 +127,24 @@ export function ProgressBar({ value, label }: { value: number; label?: string })
 }
 
 export const STATUS_LABEL = { new: 'Yeni', learning: 'Öğreniliyor', learned: 'Öğrenildi', hard: 'Zorlanıyorum' } as const;
+
+/** Çalışılan kategori seçimi: yeni kelimeler (Öğren) bu kategoriden gelir. İlerleme tüm kategorilerde ortaktır. */
+export function FocusPicker({ value, onChange, label = 'Çalışılan kategori', countMode = 'new' }: { value: string; onChange: (c: string) => void; label?: string; countMode?: 'new' | 'seen' }) {
+  const s = useApp();
+  const counts = new Map<string, number>();
+  for (const w of WORDS) {
+    const hit = countMode === 'new' ? !s.progress[w.id] : !!s.progress[w.id];
+    if (hit) counts.set(w.cat, (counts.get(w.cat) ?? 0) + 1);
+  }
+  const unit = countMode === 'new' ? 'yeni' : 'kelime';
+  const total = [...counts.values()].reduce((a, b) => a + b, 0);
+  return (
+    <label className="focus-pick">
+      <span className="muted small">{label}</span>
+      <select value={value} onChange={e => onChange(e.target.value)} aria-label={label}>
+        <option value="">Tüm kategoriler ({total} {unit})</option>
+        {CATEGORIES.filter(c => WORDS.some(w => w.cat === c.id)).map(c => <option key={c.id} value={c.id}>{c.tr} ({counts.get(c.id) ?? 0} {unit})</option>)}
+      </select>
+    </label>
+  );
+}

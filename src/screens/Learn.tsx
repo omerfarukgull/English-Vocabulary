@@ -1,8 +1,8 @@
 import { mdiArrowRight, mdiArrowLeft, mdiPartyPopper } from '@mdi/js';
 import { useEffect, useState } from 'react';
-import { Icon, ProgressBar, WordCard } from '../components/ui';
-import { WORD_BY_ID } from '../lib/data';
-import { ensurePlan, extendPlan, markSeen, todayNewCount, unseenOrdered, useApp } from '../lib/store';
+import { FocusPicker, Icon, ProgressBar, WordCard } from '../components/ui';
+import { CAT_BY_ID, WORD_BY_ID } from '../lib/data';
+import { ensurePlan, extendPlan, markSeen, setFocusCat, todayNewCount, unseenOrdered, useApp } from '../lib/store';
 
 export default function Learn({ startTodayTest }: { startTodayTest: () => void }) {
   const s = useApp();
@@ -15,6 +15,11 @@ export default function Learn({ startTodayTest }: { startTodayTest: () => void }
   const remainingInBank = unseenOrdered(s).length;
 
   if (firstUnseen === -1 && back === null) {
+    const fc = s.settings.focusCat;
+    const picker = <div className="card"><FocusPicker value={fc} onChange={setFocusCat} /></div>;
+    if (remainingInBank === 0 && fc && (ids.length === 0 || learnedToday < goal)) {
+      return <div className="screen"><h1>Öğren</h1>{picker}<div className="card empty">"{CAT_BY_ID[fc]?.tr}" kategorisindeki tüm kelimeleri gördün! Tekrar ekranında bu kategoriyi pekiştirebilir ya da yukarıdan başka bir kategori seçebilirsin.</div></div>;
+    }
     if (ids.length === 0 && remainingInBank === 0 && learnedToday === 0) {
       return <div className="screen"><h1>Öğren</h1><div className="card empty">Tüm kelimeleri gördün! Artık tekrar ve testlerle pekiştirebilirsin.</div></div>;
     }
@@ -27,8 +32,9 @@ export default function Learn({ startTodayTest }: { startTodayTest: () => void }
           <p>Bugün <b>{learnedToday}</b> yeni kelime öğrendin{learnedToday >= goal ? ` ve ${goal} kelimelik hedefini tamamladın.` : '.'}</p>
           <p className="muted">Kalıcı olması için şimdi kısa bir testle pekiştir.</p>
           <button className="btn primary block" onClick={startTodayTest}>Bugünün kelimeleriyle test ol</button>
-          {remainingInBank > 0 && <button className="btn block" onClick={() => extendPlan(5)}>5 kelime daha öğren</button>}
+          {remainingInBank > 0 && <button className="btn block" onClick={() => extendPlan(5)}>5 kelime daha öğren{fc ? ` (${CAT_BY_ID[fc]?.tr})` : ''}</button>}
         </div>
+        {picker}
       </div>
     );
   }
@@ -46,6 +52,7 @@ export default function Learn({ startTodayTest }: { startTodayTest: () => void }
     <div className="screen learn">
       <div className="row between"><h1>Öğren</h1><span className="muted">{position} / {ids.length}</span></div>
       <ProgressBar value={(firstUnseen === -1 ? ids.length : firstUnseen) / Math.max(1, ids.length)} label="Bugünkü kelimeler" />
+      {s.settings.focusCat && <div className="muted small">Kategori: {CAT_BY_ID[s.settings.focusCat]?.tr}</div>}
       <div className="fade" key={word.id}><WordCard word={word} autoplay /></div>
       <div className="row gap bottom-actions">
         <button className="btn" onClick={prev} disabled={idx === 0} aria-label="Önceki kelime"><Icon path={mdiArrowLeft} size={20} /></button>
