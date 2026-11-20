@@ -1,0 +1,1328 @@
+# Türkçe hafıza ipuçları: kelime-id|ipucu  (görseli olmayan kelimeler için; otomatik ipucunun önüne geçer)
+evening|"Eve-ning": eve dönüş saati → akşam. (morning sabah, evening akşam)
+weekend|week (hafta) + end (son) → haftanın sonu = hafta sonu
+habit|"He-bit": her gün bitmeyen tekrar → alışkanlık
+noise|"Noyz" → "noise" kulakta "nooo!" diye bağıran gürültü
+brother|"Bro" (kanka) kısaltması buradan gelir → erkek kardeş
+sister|"Sis" kısaltması → kız kardeş; "sister" ve "brother" ikili
+uncle|"Ankıl" → anneni ya da babanın erkek kardeşi: amca, dayı
+aunt|"Ent" → aunt, uncle'ın kadın karşılığı: teyze, hala
+cousin|Türkçedeki "kuzen" ile aynı kökten (Fransızca cousin)
+husband|"Hazbınd": hız + bant… evin bandını tutan eş → koca
+wife|"Vayf" → wife ile Wi-Fi'ı karıştırma: evdeki eş (kadın)
+friend|"Frend" → Friends dizisi: altı arkadaş
+neighbor|"Neybır" → nigh (yakın) + bor (oturan): yakında oturan = komşu
+teenager|-teen ile biten yaşlar (thir-teen … nine-teen) → 13-19 yaş genç
+company|"Kampıni" → İtalyanca compagnia, "kumpanya" ile aynı kök → şirket
+customer|custom (âdet) → dükkâna âdet edinip gelen kişi = müşteri
+interview|inter (arasında) + view (bakış) → karşılıklı bakışma = mülakat
+guide|"Gayd" → turist rehberi önde gider, "guide" yol gösterir
+souvenir|Fransızca "souvenir" = hatıra → gezi hatırası, hediyelik eşya
+border|"Bordür" ile aynı kök: kenar çizgisi → sınır
+museum|"Müze" ile aynı kök (Yunanca mouseion)
+afraid|"Ifreyd" → a-FRAID: "freyd" sesi titrek bir "korkuyorum"
+proud|"Praud" → göğsünü kabartan "prau!" → gururlu
+lonely|lone (tek) + -ly: tek başına → yalnız (one = bir)
+fear|"Fiır" → "fear" ve "fire": ateş görünce duyduğun korku
+hope|"Houp!" → umutla zıplayan çocuk: "hop!" → umut
+jealous|"Celıs" → kıskançlıktan "celallenen" kişi
+drive|"Drayv" → "drive-thru" (arabadan inmeden): araba sürmek
+sleep|"Sliip" → "slip" terlikle uyumaya git: uyumak
+listen|"Lisın" → "listen to music": kulak ver = dinlemek
+sell|"Sel" → sell / sale (indirim satışı) → satmak
+wash|"Vaş" → çamaşır makinesindeki "wash" düğmesi → yıkamak
+close|"Klouz" → pencerede "Close" (✕) → kapatmak
+forget|for + get: almayı unuttun → unutmak (zıttı remember)
+remember|re (yeniden) + member: kişiyi yeniden zihnine üye yap → hatırlamak
+learn|"Lörn" → e-learning (uzaktan öğrenme) → öğrenmek
+travel|"Trevıl" → travel agency: seyahat acentesi
+new|"Nuu" → "news" (yeni olanlar) = haberler → yeni
+old|"Ould" → "old school": eski usul → eski, yaşlı
+beautiful|beauty (güzellik, "bütü") + -ful (dolu) → güzel
+easy|"İizi" → "easy" düğmesi: kolay mod
+difficult|"Difıkılt" → "difficult" uzun ve zor yazılır → zor
+dirty|"Dörti" → dirt (kir) + -y → kirli
+busy|"Bizi" → "Busy" yazan telefon: hat meşgul
+size|"Sayz" → S, M, L "size" = beden, boyut
+change|"Çeync" → change (değiştirmek): bozuğa değişen para = para üstü
+fever|"Fiivır" → "fever" ateşte "fıv fıv" yanan alın → ateş
+blood|"Blad" → "blood" ile "blade" (bıçak): kesilince akan kan
+pajamas|Türkçedeki "pijama" ile aynı kelime (Farsça pay-cāme)
+uniform|uni (tek) + form (biçim): herkes tek biçim = üniforma
+accept|"Iksept" → "Accept cookies" düğmesi → kabul etmek
+agree|"Igrii" → "I agree" kutucuğu: katılıyorum → aynı fikirde olmak
+allow|"Ilau" → "Allow notifications?" → izin vermek
+answer|"Ensır" → Q&A: question & answer → cevaplamak
+apologize|"Apoloji" (savunma) ile aynı kök → özür dilemek
+appear|"Ipiır" → app ekranda "belirir" → görünmek
+arrive|"Arrivals" (havalimanı geliş kapısı) → varmak, ulaşmak
+avoid|a + void (boşluk): aradaki boşluğa kaç → kaçınmak
+bake|"Beyk" → bakery (fırın dükkânı) → fırında pişirmek
+become|be (olmak) + come (gelmek): bir hâle gelmek → olmak
+begin|"Bigin" → beginner (yeni başlayan) → başlamak
+believe|"Biliiv" → "believe me": bana inan → inanmak
+belong|be + long: uzun süredir oranın → ait olmak; "belongings" = eşyalar
+borrow|"Barou" → borrow (ödünç AL) ↔ lend (ödünç VER); borç gibi düşün
+breathe|"Briid" → breath (nefes) → nefes almak
+bring|"Bring" → bana doğru getir (take: götür)
+build|"Bild" → building (bina) → inşa etmek
+burn|"Börn" → yanık kremi "burn cream" → yakmak, yanmak
+catch|"Keç" → "Catch!" diye atılan topu yakala
+celebrate|"Selıbreyt" → celebration (kutlama), "selebrite" ünlü → kutlamak
+chat|"Çet" → chat (sohbet) uygulamaları → sohbet etmek
+check|"Çek" → kontrol listesindeki ✓ "check" → kontrol etmek
+choose|"Çuuz" → choose ↔ choice (seçim) → seçmek
+collect|"Kılekt" → koleksiyon (collection) → toplamak, biriktirmek
+come|"Kam" → "Come here!" → gelmek (go: gitmek)
+complain|"Kımpleyn" → complaint (şikâyet) → şikâyet etmek
+continue|"Kıntinyu" → oyunlardaki "Continue" düğmesi → devam etmek
+count|"Kaunt" → countdown: geri sayım → saymak
+cover|"Kavır" → kitap kapağı "cover" → örtmek, kapatmak
+cross|"Kras" → cross (çarpı, artı işareti) → karşıya geçmek
+cut|"Kat" → bilgisayarda "Cut" (Kes) komutu → kesmek
+decide|de + cide (kesmek, Latince): seçenekleri kes at → karar vermek
+deliver|"Dilivır" → delivery (teslimat, kurye) → teslim etmek
+describe|de + scribe (yazmak): yazıyla anlat → tarif etmek, betimlemek
+destroy|de + stroy (kurmak) tersi → yıkmak, yok etmek
+die|"Day" → "die" ve "dead" (ölü) → ölmek
+discover|dis (kaldır) + cover (örtü): örtüyü kaldır → keşfetmek
+discuss|"Diskas" → discussion (tartışma) → tartışmak, görüşmek
+do|"Duu" → "Do your homework" → yapmak
+drop|"Drap" → damla (drop) gibi düşür → düşürmek
+earn|"Örn" → earnings (kazanç) → para kazanmak
+enjoy|en + joy (neşe) → keyif almak; "Enjoy your meal!" = afiyet olsun
+enter|"Entır" → klavyedeki Enter tuşu → girmek
+escape|"Iskeyp" → klavyedeki Esc tuşu → kaçmak
+explain|ex (dışarı) + plain (düz, açık): açık hâle getir → açıklamak
+fail|"Feyl" → "Failed" (başarısız) yazan ekran → başarısız olmak
+feed|"Fiid" → food (yiyecek) ver → beslemek; sosyal medya akışı da "feed"
+feel|"Fiil" → feeling (duygu) → hissetmek
+fill|"Fil" → "full" (dolu) yap → doldurmak
+find|"Faynd" → "Find" (Bul) arama komutu → bulmak
+fit|"Fit" → fit vücut kalıba uyar → uymak (beden)
+fly|"Flay" → fly (sinek) de uçar → uçmak
+fold|"Fould" → "fold" ↔ "unfold": kâğıdı katla → katlamak
+follow|"Falou" → sosyal medyada "Follow" → takip etmek
+forgive|for + give: hatayı bağışla → affetmek
+get|"Get" → "get" çok anlamlı: al, edin, ol, var
+give|"Giv" → give ↔ take (al) → vermek
+go|"Gou" → "Go!" (Başla, git!) → gitmek
+guess|"Ges" → "Guess what?" Tahmin et ne oldu → tahmin etmek
+hang|"Heng" → hanger (askı) → asmak
+happen|"Hepın" → "What happened?" Ne oldu? → olmak, meydana gelmek
+hate|"Heyt" → hater (nefret eden) → nefret etmek
+have|"Hev" → "I have a car" → sahip olmak
+hear|"Hiır" → hear ve ear (kulak) iç içe → duymak
+hide|"Hayd" → "hide-and-seek": saklambaç → saklamak
+hit|"Hit" → "hit" şarkı listeleri vurur → vurmak
+hold|"Hould" → "Hold on!" Tut, bekle → tutmak
+hug|"Hag" → "hug" kısa ve sıkı: sarılmak
+hurry|"Höri" → "Hurry up!" Haydi acele et!
+hurt|"Hört" → "hurt" ve "heart" (kalp): kalbi kırmak → acıtmak, incitmek
+imagine|image (görüntü, imaj) → zihinde canlandır → hayal etmek
+improve|"İmpruuv" → im + prove: kendini kanıtlayarak ilerle → geliştirmek
+invite|"İnvayt" → invitation (davetiye) → davet etmek
+join|"Coyn" → "Join" (Katıl) düğmesi → katılmak
+keep|"Kiip" → "Keep calm" (sakin kal) → tutmak, saklamak
+kill|"Kil" → killer (katil), "painkiller" ağrıyı öldüren ilaç → öldürmek
+knock|"Nak" (k okunmaz) → "nak nak" kapı vuruşu → kapıyı çalmak
+know|"Nou" (k okunmaz) → knowledge (bilgi) → bilmek
+lead|"Liid" → leader (lider) → yönetmek, öncülük etmek
+leave|"Liiv" → "Leave the room" → ayrılmak, terk etmek
+lend|"Lend" → lend (ödünç VER) ↔ borrow (ödünç AL)
+lie|"Lay" → "lie" yalan; "liar" = yalancı → yalan söylemek
+lift|"Lift" → asansör (İngiliz: lift) yük kaldırır → kaldırmak
+live|"Liv" → "live" (canlı yayın) → yaşamak
+lose|"Luuz" → loser (kaybeden) → kaybetmek
+make|"Meyk" → make-up (makyaj: yüzü yapmak) → yapmak, üretmek
+marry|"Meri" → "Marry me?" evlilik teklifi → evlenmek
+matter|"Metır" → "It doesn't matter": önemli değil → önemli olmak
+meet|"Miit" → meeting (toplantı) → tanışmak, buluşmak
+mention|"Menşın" → sosyal medyada "@mention" = adını anmak → bahsetmek
+miss|"Mis" → "I miss you": seni özledim; "miss the bus": otobüsü kaçırmak
+mix|"Miks" → mikser (mixer) → karıştırmak
+need|"Niid" → "I need help": yardıma ihtiyacım var
+notice|"Noutis" → note (not) al, dikkatini çeksin → fark etmek; "notice" ilan da demek
+offer|"Afır" → mağazada "special offer" → teklif etmek
+order|"Ordır" → "order" sırası: garsona sipariş ver → sipariş etmek
+own|"Oun" → owner (sahip), "my own car" → sahip olmak
+pass|"Pes" → pas ver (futbolda pass): uzatmak; sınavı "pass" = geçmek
+pay|"Pey" → PayPal, "pay" ödeme → ödemek
+pick|"Pik" → pick-up: alıp götüren kamyonet → seçmek, toplamak
+plan|Türkçedeki "plan" ile aynı → planlamak
+play|"Pley" → PlayStation: oynamak; gitar "play" etmek = çalmak
+prefer|"Prifır" → preference (tercih) → tercih etmek
+prepare|"Priper" → "prepare" ↔ "hazır et" → hazırlamak (preparation)
+promise|"Pramis" → "I promise": söz veriyorum
+put|"Put" → bir şeyi bir yere "put" diye koy → koymak
+reach|"Riiç" → elini "riiç" diye uzatıp ulaş → ulaşmak
+recommend|re + commend (övmek) → tavsiye etmek
+relax|"Rileks" → Türkçedeki "rilaks ol" → rahatlamak
+rent|"Rent" → "rent a car": araba kiralama → kiralamak
+repair|re + pair (eş, uyum): yeniden uydur → onarmak
+repeat|re (yeniden) + peat → müzik çalarda "repeat" → tekrarlamak
+rest|"Rest" → restoran (dinlenip yemek yenen yer) → dinlenmek
+return|re (geri) + turn (dönmek) → geri dönmek
+say|"Sey" → "say" = söylemek; "say hello" → merhaba de
+see|"Sii" → see ve sea (deniz) aynı okunur: denizi gör → görmek
+show|"Şou" → TV şovu: gösteri → göstermek
+shut|"Şat" → kapıyı "şat!" diye çarpıp kapat → kapatmak
+smell|"Smel" → smell (koku); "smell good" güzel kokmak
+solve|"Salv" → solution (çözüm) → çözmek
+spell|"Spel" → büyü (spell) gibi harf harf söyle → hecelemek
+spend|"Spend" → para "spend" et → harcamak; zaman geçirmek
+stand|"Stend" → stand (fuardaki ayakta duran tezgâh) → ayakta durmak
+start|"Start" → "Start" düğmesi: başlat → başlatmak
+stay|"Stey" → "Stay home": evde kal → kalmak
+stop|"Stap" → trafikteki STOP levhası → durmak
+study|"Stadi" → stüdyo (study, çalışma odası) → ders çalışmak
+succeed|"Sıksiid" → success (başarı) → başarmak
+suggest|"Sıgcest" → suggestion (öneri) → önermek
+take|"Teyk" → film çekimindeki "take" (alış) → almak, götürmek
+taste|"Teyst" → tast(e)… "tat" sesi → tadına bakmak
+teach|"Tiiç" → teacher (öğretmen) → öğretmek
+tell|"Tel" → telefonda anlatmak → tell = anlatmak, söylemek
+thank|"Thenk" → "Thank you" → teşekkür etmek
+try|"Tray" → "Try again": tekrar dene → denemek
+turn|"Törn" → turnike (turn: dönen) → dönmek, çevirmek
+understand|under (altında) + stand (durmak): konunun altına in → anlamak
+use|"Yuuz" → user (kullanıcı) → kullanmak
+visit|"Vizit" → doktor vizitesi (ziyaret) → ziyaret etmek
+wake-up|wake (uyan) + up (yukarı): yataktan doğrul → uyanmak
+want|"Vant" → "I want" … "vant vant" isteyen çocuk → istemek
+warn|"Worn" → warning (uyarı) işareti → uyarmak
+wear|"Wer" → "wear" (giyim), sportswear = spor giyim → giymek
+win|"Win" → "You win!" oyun sonu → kazanmak (yarışma)
+work|"Wörk" → workshop (atölye), workout → çalışmak
+worry|"Wöri" → "Don't worry": merak etme → endişelenmek
+act|"Ekt" → actor (aktör) → rol yapmak, davranmak
+admire|ad + mire (hayret): ayna (mirror) gibi bakakal → hayran olmak
+afford|"Iford" → "I can't afford it": param yetmez → parası yetmek
+announce|"Inauns" → announcement (anons) → duyurmak
+argue|"Argyu" → argüman (argument) → tartışmak
+arrange|"Ireync" → aranjman (arrangement) → düzenlemek
+attack|"Itek" → atak (attack) → saldırmak
+attend|"Itend" → attendance (yoklama) → katılmak (toplantı, okul)
+blow|"Blou" → "blow out the candles": mumları üfle → üflemek
+brush|"Braş" → fırça (brush), toothbrush = diş fırçası → fırçalamak
+calculate|"Kelkyuleyt" → calculator (hesap makinesi) → hesaplamak
+cancel|"Kensıl" → "Cancel" (İptal) düğmesi → iptal etmek
+care|"Ker" → "I don't care": umurumda değil → önemsemek
+cause|"Kooz" → "because" (çünkü) içinde saklı: neden → neden olmak
+cheer|"Çiır" → cheerleader (amigo) → tezahürat yapmak
+chew|"Çuu" → chewing gum: çiklet → çiğnemek
+communicate|"Kımyuunikeyt" → komünikasyon (iletişim) → iletişim kurmak
+complete|"Kımpliit" → komple (tam) → tamamlamak
+connect|"Kınekt" → konnektör (bağlantı) → bağlamak
+contain|"Kınteyn" → konteyner (içine yük alır) → içermek
+create|"Krieyt" → kreatif (yaratıcı) → yaratmak, oluşturmak
+dare|"Der" → "Truth or dare": doğruluk mu cesaret mi → cesaret etmek
+depend|de + pend (asılı): bir şeye asılı kalmak → bağlı olmak
+deserve|de + serve (hizmet): hizmetini verdin → hak etmek
+develop|"Divelıp" → developer (yazılımcı) → geliştirmek
+educate|"Ecıkeyt" → education (eğitim) → eğitmek
+encourage|en + courage (cesaret) → cesaretlendirmek
+exercise|"Eksırsayz" → egzersiz → egzersiz yapmak
+exist|"İgzist" → existence (varoluş), Exit değil → var olmak
+expect|ex + spect (bakmak): dışarı bakıp gözlemek → beklemek, ummak
+experience|"Ekspiriyıns" → eksper (deneyimli uzman) → deneyimlemek
+fry|"Fray" → French fries: kızarmış patates → kızartmak
+gain|"Geyn" → "gain weight": kilo almak → kazanmak (kilo, deneyim)
+get-up|get + up (yukarı): yataktan yukarı → kalkmak
+include|in (içine) + clude (kapamak) → dahil etmek
+increase|in + crease: "in" büyür, artar → artırmak (zıttı decrease)
+inform|in + form: bilgiyi biçimlendir → information (bilgi) → bilgilendirmek
+injure|"İncır" → injury (sakatlık) → yaralamak
+introduce|intro (giriş) → kişiyi tanıt → tanıştırmak
+invent|"İnvent" → invention (icat), inventor (mucit) → icat etmek
+knit|"Nit" (k okunmaz) → knitting (örgü) → örgü örmek
+lay|"Ley" → masayı "lay the table": sofrayı kur → sermek, koymak
+lie-down|lie (uzanmak) + down (aşağı) → uzanmak
+manage|"Menic" → manager (müdür, menajer) → yönetmek, başa çıkmak
+measure|"Mejır" → metre ile ölç → ölçmek; measurement (ölçü)
+mean|"Miin" → meaning (anlam) → anlamına gelmek
+mind|"Maynd" → "Do you mind?" sakıncası var mı? → sakıncası olmak
+nod|"Nad" → kafayı "nad nad" aşağı yukarı → başını sallamak
+obey|"Oubey" → "o bey" ne derse yapılır → itaat etmek
+organize|"Orgınayz" → organizasyon → düzenlemek, organize etmek
+perform|per + form: sahnede formunu göster → performans → sahne almak
+pretend|"Pritend" → "pre-tend": rolüne öne geç → -mış gibi yapmak
+print|"Print" → printer (yazıcı) → yazdırmak
+produce|"Prıduus" → prodüksiyon, product (ürün) → üretmek
+pronounce|"Prınauns" → pronunciation (telaffuz) → telaffuz etmek
+prove|"Pruuv" → proof (kanıt) → kanıtlamak
+punish|"Paniş" → punishment (ceza) → cezalandırmak; "pun" darbesi
+raise|"Reyz" → "raise your hand": elini kaldır → yükseltmek
+realize|real (gerçek) + -ize: gerçeği gör → farkına varmak
+recognize|re (yeniden) + cognize (bilmek): tekrar bilmek → tanımak
+record|"Rikord" → rekor, REC düğmesi (kayıt) → kaydetmek
+reduce|re + duce: geri götür → küçült → azaltmak (reduction: indirim)
+refuse|re (geri) + fuse: teklifi geri it → reddetmek
+remind|re (yeniden) + mind (zihin): zihne tekrar getir → hatırlatmak
+remove|re + move (hareket ettirmek): yerinden çek → kaldırmak, çıkarmak
+report|"Riport" → rapor → bildirmek
+rescue|"Reskyu" → rescue team: kurtarma ekibi → kurtarmak
+respect|re + spect (bakmak): tekrar dönüp bakmak → saygı duymak
+retire|re + tire (yorulmak): yorulup geri çekil → emekli olmak
+rise|"Rayz" → sunrise: güneşin doğuşu → yükselmek, doğmak
+roll|"Roul" → rulo (roll), rolling → yuvarlamak
+rub|"Rab" → ellerini "rab rab" ov → ovmak
+rush|"Raş" → rush hour: trafiğin en yoğun saati → koşturmak
+seem|"Siim" → "seem" ve "see" (görmek) → gibi görünmek
+serve|"Sörv" → servis (service) → servis yapmak; voleybolda servis atmak
+set|"Set" → masa takımı "set" kur → kurmak, ayarlamak
+shake|"Şeyk" → milkshake: çalkalanmış süt → sallamak
+shine|"Şayn" → "shiny" parlak, güneş "shine" eder → parlamak
+shoot|"Şuut" → futbolda şut → ateş etmek, şut çekmek
+sign|"Sayn" → signature (imza) → imzalamak
+ski|Türkçedeki "ski/kayak" ile aynı → kayak yapmak
+slip|"Slip" → slipper (terlik) kaygan zeminde → kaymak (ayak)
+sneeze|"Sniiz" → "hap-şuu!" gibi ses taklidi: "sniiiz!" → hapşırmak
+sound|"Saund" → ses (sound): "That sounds good" → kulağa iyi geliyor
+store|"Stoor" → store (mağaza, depo) → depolamak
+suffer|"Safır" → "sufferer" → acı çekmek; safra acısı gibi
+support|"Sıport" → taraftar (supporter) → desteklemek
+surprise|"Sürpriz" → şaşırtmak
+swallow|"Swalou" → hap yutar gibi "swal-low" → yutmak
+tidy|"Taydi" → "Tidy up your room": odanı topla → toplamak
+trust|"Trast" → "Trust me": bana güven → güvenmek
+type|"Tayp" → typewriter (daktilo) → klavyede yazmak
+vote|"Vout" → vote (oy), voter (seçmen) → oy vermek
+weigh|"Wey" → weight (ağırlık) → tartmak
+whisper|"Wispır" → "wis-per" fısıltı sesi gibi → fısıldamak
+whistle|"Wisıl" → hakem düdüğü (whistle) → ıslık çalmak
+wonder|"Wandır" → "I wonder…" acaba … merak ediyorum → merak etmek
+wrap|"Rep" (w okunmaz) → dürüm "wrap" → sarmak, paketlemek
+yawn|"Yoon" → esnerken "yoooon" ağzı açılır → esnemek
+able|"Eybıl" → "be able to": -ebilmek → yapabilen
+absent|ab (uzak) + sent: orada değil → yok, devamsız (present: var)
+active|"Aktif" → aktif, hareketli
+alive|a + live (yaşamak) → hayatta, canlı
+alone|al(l) + one (bir): tamamen bir → yalnız, tek başına
+amazing|"Imeyzing" → maze (labirent): şaşkına çeviren → harika, şaşırtıcı
+ancient|"Eynşınt" → antik (ancient) → çok eski
+annoying|"Inoying" → "a-noy-ing": "of ya!" dedirten → sinir bozucu
+asleep|a + sleep (uyku) → uykuda (awake: uyanık)
+attractive|attract (çekmek), atraksiyon → çekici
+available|avail (yarar) + able: kullanılabilir → müsait, mevcut
+awake|a + wake (uyanmak) → uyanık (asleep: uykuda)
+awful|"Aafıl" → "aaf!" diye yüz buruşturtan → berbat
+bad|"Bed" → bad ↔ good: kötü
+basic|"Beysik" → base (taban) → temel
+best|"Best" → good, better, best → en iyi
+better|"Betır" → good, better, best → daha iyi
+bitter|"Bitır" → bitter çikolata: acı (tat)
+boring|"Booring" → bore (sıkmak), "bo-ring": boş zil sesi → sıkıcı
+brave|"Breyv" → "Braveheart" (cesur yürek) → cesur
+bright|"Brayt" → bright (parlak) ekran ışığı → parlak
+brilliant|"Brilyınt" → pırlanta (brilliant) gibi parlak → harika
+central|center (merkez) + -al → merkezi
+certain|"Sörtın" → certificate (sertifika): kesin belge → emin
+cheerful|cheer (neşe, tezahürat) + -ful (dolu) → neşeli
+clear|"Kliır" → "clear" (temizle) düğmesi → açık, net
+clever|"Klevır" → "clever" ile "lever" (kaldıraç): aklını kullanır → zeki
+comfortable|"Kamfırtıbıl" → konfor (comfort) + -able → rahat (eşya)
+common|"Kamın" → komün (ortak) → yaygın, ortak
+complicated|"Kampılıkeytid" → komplike → karmaşık
+cool|"Kuul" → cool (havalı) → serin, havalı
+correct|"Kırekt" → korektör (düzeltici) → doğru
+crazy|"Kreyzi" → kriz geçiren → deli, çılgın
+cruel|"Kruuıl" → "kru-el": kırbaçlı el → zalim
+curly|"Körli" → curl (bukle) → kıvırcık
+cute|"Kyuut" → "kyuut" sevimli yavru kedi → şirin
+dark|"Dark" → "Dark mode": karanlık mod → karanlık, koyu
+dead|"Ded" → die (ölmek) → dead (ölü)
+deep|"Diip" → "diiip" uzayan derinlik sesi → derin
+delicious|"Diliişıs" → "deli gibi" lezzetli → lezzetli
+direct|"Dayrekt" → direkt → doğrudan
+early|"Örli" → "early bird": erkenci kuş → erken
+electric|"İlektrik" → elektrik → elektrikli
+enormous|e + norm (ölçü): normun dışına taşan → devasa
+exact|"İgzekt" → egzakt (kesin) bilimler → tam, kesin
+excellent|excel (üstün olmak) → mükemmel
+exciting|excite (heyecanlandırmak) + -ing → heyecan verici
+extra|"Ekstra" → ek, fazladan
+fair|"Fer" → fair play: adil oyun → adil
+false|"Fools" → "fals" (müzikte yanlış nota) → yanlış, sahte
+fantastic|"Fantastik" → fantastik, harika
+fat|"Fet" → fat (yağ) → şişman
+favorite|"Feyvırit" → favori → en sevilen
+fine|"Fayn" → "I'm fine": iyiyim → iyi, güzel
+flat|"Flet" → flat ekran TV (düz ekran) → düz
+fluent|"Fluuınt" → flu-: akmak (fluid sıvı) → akıcı (dil)
+foreign|"Forın" → fore (dış) → yabancı; foreigner yabancı kişi
+fresh|"Freş" → fresh (taze) meyve suyu → taze
+fried|fry (kızartmak) → fried chicken: kızarmış tavuk
+frozen|freeze (donmak) → Frozen (Karlar Ülkesi) → donmuş
+general|"Cenırıl" → genel (general) → genel
+generous|"Cenırıs" → gen-erous: genişçe veren → cömert
+gentle|"Centıl" → centilmen (gentleman) → nazik, yumuşak
+glad|"Gled" → "Glad to meet you": tanıştığıma memnun oldum
+good|"Gud" → good ↔ bad → iyi
+great|"Greyt" → Great Britain: büyük → harika, büyük
+guilty|"Gilti" → guilt (suç) → suçlu
+handsome|hand (el) + some: "el üstünde tutulacak" → yakışıklı
+hard|"Hard" → hard disk (sert disk) → sert, zor
+honest|"Anist" (h okunmaz) → honesty (dürüstlük) → dürüst
+horrible|"Horıbıl" → horror (korku filmi) → korkunç
+huge|"Hyuuc" → "hüc!" diye büyüyen dev → kocaman
+hungry|"Hangri" → Hungary (Macaristan) aç kaldı → aç
+ill|"İl" → illness (hastalık) → hasta
+important|"İmportant" → import (ithal): önemli malları getir → önemli
+independent|in (değil) + depend (bağlı) → bağımsız
+kind|"Kaynd" → kind heart: iyi kalp → nazik
+large|"Larc" → L beden = large → geniş, büyük
+late|"Leyt" → "Better late than never": geç olsun güç olmasın → geç
+lazy|"Leyzi" → "leyzi leyzi" yatan kedi → tembel
+little|"Litıl" → "a little": biraz → küçük, az
+local|"Loukıl" → lokal (yerel) → yerel
+loose|"Luus" → lose değil! loose = bol, gevşek (lose: kaybetmek)
+main|"Meyn" → main menu: ana menü → ana, asıl
+modern|Türkçedeki "modern" ile aynı
+necessary|"Nesıseri" → necessity (gereklilik) → gerekli
+negative|"Negatif" → olumsuz
+nice|"Nays" → "Nice to meet you" → güzel, hoş
+normal|Türkçedeki "normal" ile aynı
+ordinary|order (düzen, sıra) → sıradan
+patient|"Peyşınt" → patient (hasta) da demek: hasta sabırla bekler → sabırlı
+perfect|"Pörfikt" → perfect (mükemmel), perfeksiyonist → kusursuz
+polite|"Pılayt" → politik davranan kişi → kibar
+poor|"Pur" → "poor thing": zavallı şey → fakir, zavallı
+popular|"Papyulır" → popüler
+positive|"Pozitif" → olumlu
+possible|"Pasıbıl" → possibility (olasılık) → mümkün
+pretty|"Priti" → "Pretty Woman" (Güzel Kadın) → güzel, hoş
+private|"Prayvıt" → privacy (gizlilik), prive → özel
+public|"Pablik" → public (halka açık), "pablik" yer → kamuya açık
+quick|"Kwik" → "quick" hızlı yanıt → çabuk
+ready|"Redi" → "Ready, steady, go!" → hazır
+real|"Riıl" → realite (gerçeklik) → gerçek
+rich|"Riç" → "Richie Rich" zengin çocuk → zengin
+right|"Rayt" → right (sağ) taraf → doğru, sağ
+romantic|"Romantik" → romantik
+rough|"Raf" → "raf" diye pürüzlü kaba tahta → pürüzlü, kaba
+round|"Raund" → boks raundu dönerek → yuvarlak
+rude|"Ruud" → "rude" kaba davranış → kaba
+serious|"Siriyıs" → seri (ciddi) bir konu → ciddi
+sharp|"Şarp" → "şarp" diye kesen bıçak → keskin
+shy|"Şay" → utangaç; "şay" diye kızaran yüz
+silly|"Sili" → "sili" (saçma) şaka → aptalca, saçma
+simple|"Simpıl" → simple (basit), sade → basit
+single|"Singıl" → single (tekli) şarkı, bekâr → tek
+slim|"Slim" → slim fit (dar kesim) → ince
+smart|"Smart" → smartphone (akıllı telefon) → zeki, şık
+smooth|"Smuud" → smoothie: pürüzsüz içecek → pürüzsüz
+soft|"Saft" → soft (yumuşak) müzik → yumuşak
+sorry|"Sari" → "Sorry!" → üzgünüm, özür dilerim
+sour|"Saur" → "sour cream" ekşi krema → ekşi
+special|"Speşıl" → spesiyal (special) → özel
+straight|"Streyt" → straight (düz) çizgi → düz
+strange|"Streync" → stranger (yabancı) → garip, tuhaf
+strict|"Strikt" → "strikt" sıkı kurallar → katı, sıkı
+stupid|"Stuupid" → "stüpid" → aptal
+sure|"Şur" → "Sure!" elbette → emin
+sweet|"Swiit" → "sweet" (tatlı) → "Home sweet home"
+terrible|"Terıbıl" → terör (terror) gibi korkunç → berbat
+thirsty|"Thörsti" → thirst (susuzluk) → susamış
+tight|"Tayt" → tayt (sıkı oturan giysi) → dar
+true|"Truu" → true/false: doğru/yanlış → doğru, gerçek
+typical|"Tipikıl" → tipik
+ugly|"Agli" → "The Ugly Duckling": çirkin ördek yavrusu → çirkin
+usual|"Yuujuıl" → usually (genellikle) → her zamanki
+warm|"Worm" → warm-up (ısınma hareketi) → ılık, sıcak
+weak|"Wiik" → "week" (hafta) değil: weak = zayıf (zıttı strong)
+wet|"Wet" → wet wipes: ıslak mendil → ıslak
+whole|"Houl" → hole (delik) değil: whole = bütün, tüm
+wild|"Wayld" → wildlife (yaban hayatı) → vahşi
+wise|"Wayz" → wisdom (bilgelik) → bilge
+wonderful|wonder (harika şey, merak) + -ful (dolu) → harikulade
+wooden|wood (odun, tahta) + -en → ahşap
+worse|"Wörs" → bad, worse, worst → daha kötü
+worst|"Wörst" → bad, worse, worst → en kötü
+wrong|"Rong" (w okunmaz) → wrong number: yanlış numara → yanlış
+young|"Yang" → youth (gençlik) → genç
+class|"Kles" → klas (sınıf) → sınıf, ders
+lesson|"Lesın" → "lesson" ders → "learn your lesson": dersini al
+university|Türkçedeki "üniversite" ile aynı kök
+college|"Kalic" → kolej → yüksekokul
+subject|"Sabcekt" → "sabcekt" konu başlığı (e-postadaki Subject) → ders, konu
+word|"Wörd" → Microsoft Word: kelime işlemci → kelime
+sentence|"Sentıns" → sentez gibi kelimeleri birleştirir → cümle
+grammar|"Gremır" → gramer → dil bilgisi
+vocabulary|vocab (kısaltma), vokal (ses) → kelime hazinesi
+mistake|mis (yanlış) + take (almak) → hata
+mark|"Mark" → markala, işaretle → not (puan)
+grade|"Greyd" → derece (grade) → sınıf seviyesi, not
+page|"Peyc" → web page: web sayfası → sayfa
+paper|"Peypır" → papirüs → kâğıt
+example|"İgzempıl" → "for example" (örneğin) → örnek
+practice|"Prektis" → pratik → alıştırma
+project|"Pracekt" → proje
+course|"Kors" → kurs
+degree|"Digrii" → derece (degree) → diploma (üniversite)
+headteacher|head (baş) + teacher (öğretmen) → okul müdürü
+classmate|class (sınıf) + mate (arkadaş) → sınıf arkadaşı
+term|"Törm" → term (dönem); "term" = terim de demek → dönem
+glue|"Gluu" → glue stick: stick yapıştırıcı → yapıştırıcı
+crayon|"Kreyan" → Fransızca crayon (kurşun kalem) → pastel boya
+letter|"Letır" → letter (harf, mektup): mektup harflerden oluşur
+story|"Stoori" → Instagram story: hikâye
+poem|"Pouım" → poet (şair), poetry (şiir) → şiir
+essay|"Esey" → deneme yazısı → kompozisyon
+topic|"Tapik" → forumdaki "topic" başlığı → konu
+pronunciation|pronounce (telaffuz etmek) → telaffuz; dikkat: "pronoun" değil "pronun"
+skill|"Skil" → skill (yetenek) puanı oyunlarda → beceri
+experiment|"İksperımınt" → expert (uzman) deneyerek öğrenir → deney
+result|"Rizalt" → "re-sult": sonunda kalan → sonuç
+level|"Levıl" → oyunlardaki level → seviye
+memorize|memory (hafıza) + -ize → ezberlemek
+revise|re (yeniden) + vise (görmek): tekrar göz at → revize → tekrar etmek
+cheat|"Çiit" → oyunlardaki "cheat code" (hile) → kopya çekmek
+kindergarten|Almanca: Kinder (çocuklar) + Garten (bahçe) → anaokulu
+primary-school|primary (birincil, ilk) + school → ilkokul
+professor|Türkçedeki "profesör" ile aynı
+lecture|"Lekçır" → lektör (ders veren) → konferans, üniversite dersi
+pupil|"Pyuupıl" → küçük öğrenci; aynı kelime göz bebeği de demek
+chalk|"Çook" → "çok" yazarsın tahtaya tebeşirle → tebeşir
+swimming|swim (yüzmek) + -ing → yüzme; swimming pool = yüzme havuzu
+running|run (koşmak) + -ing → koşu; running shoes = koşu ayakkabısı
+game|"Geym" → game over: oyun bitti → oyun
+team|"Tiim" → takım (team) çalışması, teamwork
+goal|"Goul" → gol! ve hayattaki hedef → gol, hedef
+fan|"Fen" → fanatik taraftar (fan) → taraftar, hayran
+referee|"Refırii" → refer (başvurmak): kararı ona sorulur → hakem
+hobby|Türkçedeki "hobi" ile aynı
+photography|photo (ışık) + graphy (yazım) → fotoğrafçılık
+doll|"Dal" → Barbie doll → oyuncak bebek
+competition|compete (yarışmak), kompetisyon → yarışma
+racket|Türkçedeki "raket" ile aynı
+fitness|fit (formda) + -ness → zindelik, fitness salonu
+marathon|Türkçedeki "maraton" ile aynı (Yunan şehri Marathon)
+horse-riding|horse (at) + riding (binme) → binicilik
+collection|collect (toplamak) → koleksiyon
+country|"Kantri" → country müzik (kırsal) → ülke
+capital|"Kepıtıl" → capital letter: büyük harf → başkent (ülkenin "baş"ı)
+square|"Skwer" → square (kare): kare şeklinde meydan → meydan
+restaurant|Türkçedeki "restoran" ile aynı
+cafe|Türkçedeki "kafe" ile aynı
+station|"Steyşın" → istasyon
+corner|"Kornır" → futbolda korner (köşe vuruşu) → köşe
+crossroads|cross (kesişmek) + roads (yollar) → kavşak
+sidewalk|side (kenar) + walk (yürüme) → yol kenarında yürünen yer = kaldırım
+center|"Sentır" → santra (orta nokta) → merkez
+gallery|Türkçedeki "galeri" ile aynı
+traffic|Türkçedeki "trafik" ile aynı
+population|popüler (halka ait), people → nüfus
+area|"Eriya" → arena gibi geniş alan → bölge, alan
+place|"Pleys" → plaza (meydan, yer) → yer
+roof|"Ruuf" → "roof" ↔ "proof": çatı evi korur → çatı
+floor|"Floor" → dance floor (dans pisti) → zemin, kat
+clinic|Türkçedeki "klinik" ile aynı
+embassy|"Embısi" → ambassador (büyükelçi) → büyükelçilik
+time|"Taym" → futbolda "taym" (devre) → zaman, saat
+day|"Dey" → Monday, Friday: günler "day" ile biter → gün
+week|"Wiik" → weekend (hafta sonu) → hafta
+month|"Manth" → moon (ay) ile aynı kök → ay (takvim)
+year|"Yiır" → New Year: yeni yıl → yıl
+hour|"Auır" (h okunmaz) → happy hour → saat (süre)
+minute|"Minit" → mini (küçük) zaman parçası → dakika
+second|"Sekınd" → saniye; ayrıca "ikinci" demek
+today|to + day (gün) → bugün
+tonight|to + night (gece) → bu gece
+afternoon|after (sonra) + noon (öğle) → öğleden sonra
+night|"Nayt" → "Good night": iyi geceler → gece
+monday|Moon (Ay) + day → Ay'ın günü → pazartesi
+tuesday|Tiw (savaş tanrısı) günü → salı ("tu" = two: haftanın 2. iş günü)
+wednesday|"Wenzdey" (d okunmaz) → haftanın ortası → çarşamba
+thursday|Thor'un günü (Thor-s-day) → perşembe
+friday|"Fraydey" → "Black Friday" indirimleri cuma → cuma
+saturday|Saturn (Satürn) günü → cumartesi
+sunday|Sun (Güneş) + day → güneşin günü → pazar
+january|"Cenyueri" → Janus (kapıların tanrısı): yılın kapısı → ocak
+february|"Februeri" → yılın en kısa ayı → şubat
+march|"Març" → "mart" ile benzer → mart
+april|"Eyprıl" → "April Fools' Day" (1 Nisan şakası) → nisan
+may|"Mey" → "mayıs" ile aynı başlar → mayıs
+june|"Cuun" → Haziran = June, Temmuz = July: "Jun" önce gelir
+july|"Cuulay" → Julius Caesar'ın ayı → temmuz
+august|"Agıst" → Augustus'un ayı, "ağustos" → ağustos
+september|sept (7, eski takvimde) → eylül
+october|octo (8, ahtapotun 8 kolu) → eski takvimin 8. ayı → ekim
+november|novem (9) → eski takvimin 9. ayı → kasım
+december|decem (10) → eski takvimin 10. ayı → aralık
+spring|"Spring" → yay (spring) gibi fışkıran çiçekler → ilkbahar
+summer|"Samır" → summer camp: yaz kampı → yaz
+winter|"Wintır" → winter sports: kış sporları → kış
+season|"Siizın" → dizi "season" (sezon) → mevsim
+date|"Deyt" → "date" (tarih) ve "date" (randevu) → tarih
+century|cent (yüz): percent = yüzde → yüzyıl
+present|"Prezınt" → hem "şimdi" hem "hediye": şimdiki an bir hediyedir
+future|"Fyuuçır" → fütürist (gelecekçi) → gelecek
+moment|Türkçedeki "moment/an" → "Just a moment": bir dakika
+age|"Eyc" → "age" yaş; teenage = genç yaş
+pair|"Per" → a pair of shoes: bir çift ayakkabı → çift
+dozen|"Dazın" → "düzine" ile aynı kök → 12 adet
+weekday|week (hafta) + day (gün) → hafta içi günü
+fortnight|fourteen nights (14 gece) → iki hafta
+decade|deca (10): decathlon → on yıl
+dot|"Dat" → ".com" = "dot com" → nokta
+song|"Song" → "Eurovision Song Contest" → şarkı
+band|"Bend" → bant gibi birlikte çalan grup → müzik grubu
+concert|Türkçedeki "konser" ile aynı
+instrument|Türkçedeki "enstrüman" ile aynı
+microphone|micro (küçük) + phone (ses) → mikrofon
+art|"Art" → artist (sanatçı) → sanat
+photo|Türkçedeki "foto" ile aynı → fotoğraf
+actress|actor + -ess (kadın) → aktris
+program|Türkçedeki "program" ile aynı
+news|new (yeni) + s → yeni şeyler = haberler
+magazine|"Megıziin" → magazin dergisi → dergi
+novel|"Navıl" → novel (yeni, roman): roman (Türkçedeki "nova" yeni)
+author|"Oothır" → otorite (authority) sahibi yazar → yazar
+character|Türkçedeki "karakter" ile aynı
+exhibition|"Eksıbişın" → exhibit (sergilemek) → sergi
+stage|"Steyc" → stage (sahne) → stand-up sahnesi
+audience|audio (ses, duymak) → dinleyen kitle → seyirci
+channel|"Çenıl" → TV kanalı → kanal
+article|"Artikıl" → artikel (makale) → makale, yazı
+journalist|"Cörnılist" → journal (günlük gazete) → gazeteci
+cartoon|"Kartuun" → karton üzerine çizim → çizgi film
+comedy|Türkçedeki "komedi" ile aynı
+horror-film|horror (korku, dehşet) + film → korku filmi
+series|"Siriiz" → seri → dizi
+episode|"Epısoud" → epizot → dizi bölümü
+poster|Türkçedeki "poster" ile aynı → afiş
+headline|head (baş) + line (satır) → manşet
+hello|"Helou" → alo (telefon) ile aynı kökten → merhaba
+goodbye|"God be with you" (Tanrı seninle olsun) kısalması → hoşça kal
+please|"Pliiz" → "please" (memnun etmek): rica ederim → lütfen
+welcome|well (iyi) + come (gelmek) → hoş geldin
+name|"Neym" → "My name is …" → isim, ad
+surname|sur (üst, ek) + name → soyadı
+people|"Piipıl" → popüler, "people" = halk → insanlar
+group|Türkçedeki "grup" ile aynı
+society|"Sısayıti" → sosyal, sosyete → toplum
+government|govern (yönetmek) + -ment → hükümet
+president|"Prezidınt" → başkan (preside: başkanlık etmek) → cumhurbaşkanı
+rule|"Ruul" → ruler (cetvel, hükümdar): çizgiyi belirler → kural
+police|Türkçedeki "polis" ile aynı
+culture|Türkçedeki "kültür" ile aynı
+tradition|"Trıdişın" → tradisyonel (geleneksel) → gelenek
+wedding|wed (evlenmek) + -ing → düğün
+argument|argüman, argue (tartışmak) → kavga, münakaşa
+advice|"Idvays" → advise (öğüt vermek) → tavsiye
+joke|"Couk" → joker (şakacı) kartı → şaka
+apology|apologize (özür dilemek) → özür
+excuse|"Excuse me" (affedersiniz): kendini mazur gösterme → bahane
+postcard|post (posta) + card (kart) → kartpostal
+stamp|"Stemp" → damga (stamp) → pul
+envelope|"Envıloup" → "en-velope": mektubu sarıp kaplar → zarf
+voice|"Voys" → voice message: sesli mesaj → ses (insan)
+club|Türkçedeki "kulüp" ile aynı
+volunteer|"Valıntiır" → voluntary (gönüllü), "volonter" → gönüllü
+citizen|"Sitızın" → city (şehir) halkı → vatandaş
+stranger|strange (garip, yabancı) + -er → tanımadık kişi
+adult|"Edalt" → +18 adult → yetişkin
+kid|"Kid" → "kids menu": çocuk menüsü → çocuk
+lady|"Leydi" → leydi → hanımefendi; "Ladies" = bayanlar
+gentleman|gentle (nazik) + man (adam) → centilmen, beyefendi
+partner|Türkçedeki "partner" ile aynı → eş, ortak
+boyfriend|boy (erkek çocuk) + friend → erkek arkadaş
+girlfriend|girl (kız) + friend → kız arkadaş
+relationship|relation (ilişki, bağ) + -ship → ilişki
+marriage|marry (evlenmek) → evlilik
+parents|"Perınts" → "parent" tek ebeveyn → anne baba
+son|"San" → sun (güneş) gibi okunur: "güneşim oğlum" → oğul
+daughter|"Dootır" → "doğdu kız": kız evlat
+grandchild|grand (büyük) + child (çocuk): kuşak atlayan → torun
+twin|"Twin" → two (iki) → ikiz
+nephew|"Nefyuu" → erkek yeğen (niece: kız yeğen)
+niece|"Niis" → niece (kız yeğen), nephew (erkek yeğen)
+relative|relation (bağ) → akraba
+problem|Türkçedeki "problem" ile aynı → sorun
+solution|solve (çözmek) → çözüm; "solüsyon"
+reason|"Riizın" → reason ↔ "rezon" (mantık) → sebep
+thing|"Thing" → something (bir şey), anything → şey
+way|"Wey" → "No way!" Olmaz! / highway (otoyol) → yol, yöntem
+part|"Part" → parça (part), "part-time" → parça, bölüm
+piece|"Piis" → "a piece of cake": bir dilim kek → parça
+end|"End" → film sonunda "THE END" → son
+beginning|begin (başlamak) + -ing → başlangıç
+front|"Frant" → front (ön cephe) → ön
+back|"Bek" → futbolda bek (arkada oynar) → arka, sırt
+fact|"Fekt" → "fakt" (olgu) → "in fact": aslında → gerçek
+truth|true (doğru) + -th → doğruluk, gerçek
+chance|"Çens" → şans (chance) → şans, fırsat
+opportunity|"Apırtuunıti" → oportünist (fırsatçı) → fırsat
+memory|"Memıri" → memory kart (hafıza kartı) → hafıza, anı
+life|"Layf" → "lifestyle": yaşam tarzı → hayat
+health|"Helth" → heal (iyileşmek) ile aynı kök → sağlık; healthy sağlıklı
+nature|"Neyçır" → natürel (doğal) → doğa
+power|"Pauır" → power bank (güç deposu) → güç
+danger|"Deyncır" → "DANGER" tehlike tabelası → tehlike
+safety|safe (güvenli) → safety belt: emniyet kemeri → güvenlik
+trouble|"Trabıl" → "in trouble": başı belada → sıkıntı, bela
+accident|"Eksıdınt" → aksident: istenmeden "kaza"
+mess|"Mes" → "What a mess!": ne dağınıklık! → dağınıklık
+speed|"Spiid" → speedometer (hız göstergesi) → hız
+amount|"Imaunt" → a + mount (yığın, dağ): yığının büyüklüğü → miktar
+quality|"Kwalıti" → kalite
+cost|"Kast" → "kost" maliyet: "How much does it cost?" → maliyet
+interest|"İntrist" → interesting (ilginç) → ilgi; faiz de demek
+attention|"Itenşın" → "Attention!" (Dikkat!) anonsu → dikkat
+freedom|free (özgür) + -dom (alan) → özgürlük
+pain|"Peyn" → painkiller (ağrı kesici) → acı, ağrı
+situation|"Siçueyşın" → site (yer): bulunduğun durum → durum
+condition|"Kındişın" → kondisyon → koşul, durum
+action|"Ekşın" → aksiyon filmi → hareket, eylem
+instruction|instruct (eğitmek): kullanım talimatı → talimat
+style|"Stayl" → stil → tarz
+fashion|"Feşın" → "fashion week": moda haftası → moda
+model|Türkçedeki "model" ile aynı
+system|Türkçedeki "sistem" ile aynı
+method|"Methıd" → metot → yöntem
+step|"Step" → step aerobik (basamak) → adım
+risk|Türkçedeki "risk" ile aynı
+advantage|"Idventic" → avantaj
+benefit|bene (iyi) + fit (yapmak) → fayda
+contact|"Kantekt" → kontak, contact lens (temas) → iletişim, temas
+symbol|Türkçedeki "sembol" ile aynı
+everything|every (her) + thing (şey) → her şey
+nothing|no (hiç) + thing (şey) → hiçbir şey
+something|some (bir) + thing (şey) → bir şey
+anything|any (herhangi) + thing (şey) → herhangi bir şey
+everybody|every (her) + body (kişi) → herkes
+anybody|any (herhangi) + body (kişi) → herhangi biri
+already|all + ready (hazır): her şey çoktan hazır → zaten, çoktan
+yet|"Yet" → "Not yet": henüz değil → henüz
+still|"Stil" → "still" (kıpırdamadan): durum değişmedi → hâlâ
+soon|"Suun" → "Coming soon": yakında → yakında
+now|"Nau" → "right now": hemen şimdi → şimdi
+then|"Den" → "and then": ve sonra → sonra, o zaman
+later|late (geç) + -er (daha) → daha geç = daha sonra; "See you later"
+before|be + fore (ön): öncesinde → önce
+after|"Eftır" → afternoon: öğleden sonra → sonra
+ago|"Igou" → "two years ago": iki yıl önce → önce (zaman)
+suddenly|sudden (ani) + -ly → aniden
+immediately|im (değil) + mediate (aracı): araya bir şey girmeden → hemen
+here|"Hiır" → here (burada) ↔ there (orada); "where" sorusuna cevap
+there|"Der" → here (burada) ↔ there (orada)
+away|a + way (yol): yolun ötesine → uzağa, uzakta
+together|to + gather (toplanmak) → birlikte
+very|"Veri" → "very good": çok iyi → çok
+quite|"Kwayt" → quiet (sessiz) değil! quite = oldukça
+too|"Tuu" → "too much": çok fazla; "me too": ben de
+enough|"İnaf" → "Enough!" (Yeter!) → yeterli
+almost|all (hepsi) + most (çoğu) → neredeyse
+only|one (bir) + -ly → yalnızca bir → sadece
+just|"Cast" → "just now": az önce → sadece, az önce
+also|all (hepsi) + so (öyle) → ayrıca, de/da
+even|"İivın" → even (eşit, çift); "even you": sen bile → bile
+maybe|may (olabilir) + be (olmak) → belki
+perhaps|per + haps (happen: olmak): olabilir → belki de
+probably|probable (olası) + -ly → muhtemelen
+of-course|of + course (yol): işin olağan yolu → tabii ki
+well|"Wel" → "Well done!": aferin, iyi iş → iyi (zarf)
+especially|special (özel) + -ly → özellikle
+actually|actual (gerçek) + -ly → aslında
+anyway|any (herhangi) + way (yol): hangi yoldan olursa → neyse, yine de
+however|how (nasıl) + ever (olursa): nasıl olursa olsun → ancak
+but|"Bat" → "but" kısa bir dur: ama
+or|"Oor" → "or" ↔ "and" (ve) → veya
+because|be + cause (neden) → çünkü
+so|"Sou" → "so" bu yüzden; "so so": şöyle böyle
+if|"İf" → programlamadaki "if" komutu → eğer
+when|"Wen" → W soruları: when = ne zaman
+while|"Wayl" → programlamadaki "while" döngüsü: -iken
+until|"Intil" → "till" kısaltması → -e kadar
+although|all + though (gerçi) → -e rağmen
+unless|un + less: "if not" → -medikçe
+with|"Wid" → "with" ↔ "without" → ile
+without|with (ile) + out (dışarı) → -sız, olmadan
+about|"Ibaut" → "About" sayfası: hakkında → hakkında, yaklaşık
+during|"During" → durmadan süren zaman: sırasında
+since|"Sins" → "since 1990": 1990'dan beri → -den beri
+instead|in + stead (yer): onun yerinde → yerine
+everyday|every (her) + day (gün) → her günkü = gündelik
+hardly|"Hardli" → hard (zor) ile karışmasın: zar zor → neredeyse hiç
+snack|"Snek" → snack bar → atıştırmalık
+apricot|"Eyprikat" → "abrikoz" (Fransızca abricot) → kayısı
+fig|"Fig" → "fig" kısa ve tatlı → incir
+melon|"Melın" → watermelon (karpuz) → kavun
+mango|Türkçedeki "mango" ile aynı
+onion|"Anyın" → onion rings: soğan halkası → soğan
+cucumber|"Kyuukambır" → "kıvrık kambur" yeşil salatalık → salatalık
+lettuce|"Letis" → "let us" salata yapalım: marul
+eggplant|egg (yumurta) + plant (bitki): yumurta biçimli sebze → patlıcan
+spinach|"Spiniç" → Temel Reis'in (Popeye) gücü → ıspanak
+yogurt|Türkçe "yoğurt" kelimesinden İngilizceye geçti
+cream|"Kriim" → krema, krem
+steak|"Steyk" → "steyk" (stake: kazık) gibi kalın et → biftek
+cereal|"Siriyıl" → Ceres (tahıl tanrıçası) → kahvaltılık gevrek
+cup|"Kap" → "kap" (kupa) → fincan; World Cup = Dünya Kupası
+glass|"Gles" → glass (cam): camdan bardak → bardak
+plate|"Pleyt" → plaka (düz yüzey) → tabak
+bowl|"Boul" → bowling topu yuvarlak → kâse
+bill|"Bil" → "The bill, please" → hesap
+ingredient|"İngriidiyınt" → in (içine) giren → malzeme
+vegetarian|vegetable (sebze) → vejetaryen
+pancake|pan (tava) + cake (kek) → tavada kek = krep, pankek
+biscuit|Türkçedeki "bisküvi" ile aynı kök
+egg-yolk|egg (yumurta) + yolk ("yellow" gibi: sarı) → yumurta sarısı
+vinegar|"Vinıgır" → vin (şarap) + aigre (ekşi): ekşi şarap → sirke
+parsley|"Parsli" → "persil" (Fransızca) → maydanoz
+mint|"Mint" → mint (nane) aromalı sakız → nane
+walnut|wal(l) + nut (kuruyemiş): duvar gibi sert kabuk → ceviz
+hazelnut|hazel (ela) + nut: ela renkli kuruyemiş → fındık
+lentil|"Lentıl" → lens (mercek) adını mercimekten alır → mercimek
+chickpea|chick (civciv) + pea (bezelye): civciv başı gibi → nohut
+puppy|"Papi" → "puppy love" → köpek yavrusu
+kitten|"Kitın" → kitty (pisi) → kedi yavrusu
+giraffe|Türkçedeki "zürafa" ile aynı kök (Arapça zarāfa)
+zebra|Türkçedeki "zebra" ile aynı
+crocodile|"Krakıdayl" → krokodil → timsah
+pigeon|"Picın" → "pigeon" pıt pıt yürüyen → güvercin
+room|"Ruum" → "room service": oda servisi → oda
+bedroom|bed (yatak) + room (oda) → yatak odası
+dining-room|dining (yemek yeme) + room → yemek odası
+hall|"Hool" → hol → koridor, salon
+ceiling|"Siiling" → "sealing": evin üstünü kapatan → tavan
+shelf|"Şelf" → şef rafları düzenler → raf
+bookcase|book (kitap) + case (dolap) → kitaplık
+sheet|"Şiit" → "sheet" (yaprak, örtü) → çarşaf
+bath|"Beth" → bathroom (banyo) → küvet, yıkanma
+doorbell|door (kapı) + bell (zil) → kapı zili
+cushion|"Kuşın" → kuş tüyü yastık → minder, kırlent
+bin|"Bin" → "recycle bin" (geri dönüşüm kutusu) → çöp kutusu
+broom|"Bruum" → büyücü süpürgesi "vruum" → süpürge
+laundry|"Loondri" → laundromat (çamaşırhane) → çamaşır
+tray|"Trey" → tepsi; "ice tray" = buz kalıbı
+mug|"Mag" → kupa (mug) bardak → kupa
+sky|"Skay" → Skype, skyline → gökyüzü
+earth|"Örth" → Google Earth → dünya, toprak
+air|"Er" → airport (havalimanı) → hava
+thunder|"Thandır" → "thunder" gümbürtüsü: Thor'un çekici → gök gürültüsü
+sunshine|sun (güneş) + shine (parlamak) → güneş ışığı
+sunrise|sun (güneş) + rise (yükselmek) → gün doğumu
+sunset|sun (güneş) + set (batmak) → gün batımı
+lake|"Leyk" → göl; "Lake Van" = Van Gölü
+ocean|"Ouşın" → okyanus
+sand|"Send" → sandbox (kum havuzu) → kum
+coast|"Koust" → coast guard: sahil güvenlik → kıyı
+field|"Fiild" → football field (futbol sahası) → tarla, alan
+soil|"Soyl" → "soy" (köken): her şey topraktan gelir → toprak
+mud|"Mad" → "mud" çamur banyosu → çamur
+pine|"Payn" → pine cone: çam kozalağı → çam
+climate|"Klaymıt" → klima (iklimlendirme) → iklim
+face|"Feys" → Facebook (yüz kitabı) → yüz
+hair|"Her" → hairdresser (kuaför) → saç
+neck|"Nek" → necklace (kolye) → boyun
+shoulder|"Şouldır" → omuz; "cold shoulder": soğuk davranmak
+thumb|"Tham" (b okunmaz) → "thumbs up" (başparmak yukarı) → başparmak
+toe|"Tou" → "tiptoe": parmak ucunda yürümek → ayak parmağı
+lip|"Lip" → lipstick (ruj) → dudak
+skin|"Skin" → skincare (cilt bakımı) → cilt, deri
+chest|"Çest" → chest (sandık): kaburgalar bir sandık gibi → göğüs
+muscle|"Masıl" (c okunmaz) → maskülen kaslar → kas
+flu|"Fluu" → influenza'nın kısası → grip
+stomachache|stomach (mide) + ache (ağrı) → karın ağrısı
+backache|back (sırt) + ache (ağrı) → sırt ağrısı
+allergy|Türkçedeki "alerji" ile aynı
+wound|"Wuund" → "vuuund!" sıyrık → yara
+pill|"Pil" → pil gibi küçük ve yuvarlak → hap
+vitamin|Türkçedeki "vitamin" ile aynı
+breath|"Breth" → breathe (nefes almak) → nefes
+throat|"Throut" → "throat" boğazdan geçen "thr" sesi → boğaz
+sunscreen|sun (güneş) + screen (perde, kalkan) → güneş kremi
+manager|manage (yönetmek) + -er → menajer, müdür
+colleague|"Kaliig" → kolej (college) arkadaşı gibi: meslektaş → iş arkadaşı
+secretary|Türkçedeki "sekreter" ile aynı
+lawyer|law (hukuk, kanun) + -yer → avukat
+pilot|Türkçedeki "pilot" ile aynı
+plumber|"Plamır" (b okunmaz) → plumbum (kurşun boru) → tesisatçı
+firefighter|fire (yangın) + fighter (savaşan) → itfaiyeci
+waitress|waiter (garson) + -ess (kadın) → kadın garson
+shop-assistant|shop (dükkân) + assistant (yardımcı) → satış elemanı
+accountant|account (hesap) + -ant → muhasebeci
+architect|"Arkıtekt" → arkitekt (mimar) → mimar; architecture mimari
+scientist|science (bilim) + -ist → bilim insanı
+businessman|business (iş) + man (adam) → iş adamı
+business|busy (meşgul) + -ness: meşguliyet → iş, ticaret
+profession|"Prıfeşın" → profesyonel → meslek
+schedule|"Skecuul" → school'a benzer: ders programı → program, takvim
+duty|"Duuti" → "on duty": görev başında → görev
+shift|"Şift" → klavyedeki Shift: kaydırma → vardiya
+staff|"Stef" → "Staff only": sadece personel → personel
+client|"Klayınt" → klient (müşteri) → hizmet alan müşteri
+product|produce (üretmek) → ürün
+service|"Sörvis" → servis → hizmet
+profit|"Prafit" → "prof-it": kazançlı iş → kâr
+loan|"Loun" → "loan" ↔ "lend" (ödünç vermek) → kredi, borç
+debt|"Det" (b okunmaz) → "debt" borç defteri → borç
+account|"Ikaunt" → count (saymak): bankada para sayılır → hesap
+cash|"Keş" → cash (nakit) ödeme, "keş" para → nakit
+industry|"İndıstri" → endüstri → sanayi
+trade|"Treyd" → trader (tüccar) → ticaret
+file|"Fayl" → bilgisayar dosyası (file) → dosya
+clothes|"Kloudz" → cloth (kumaş) → giysiler
+jeans|"Ciinz" → cins pantolon → kot pantolon
+sweater|sweat (terlemek) + -er: terleten → kazak
+suit|"Suut" → "suit" (takım), swimsuit (mayo) → takım elbise
+blouse|Türkçedeki "bluz" ile aynı
+raincoat|rain (yağmur) + coat (palto) → yağmurluk
+swimsuit|swim (yüzmek) + suit (takım) → mayo
+pocket|"Pakit" → pocket book (cep kitabı) → cep
+bracelet|"Breyslıt" → brace (kol, Fransızca bras) → bilezik
+jewelry|jewel (mücevher taşı) → mücevher
+leather|"Ledır" → leather ceket: deri ceket → deri
+smartphone|smart (akıllı) + phone (telefon) → akıllı telefon
+social-media|social (sosyal) + media (medya) → sosyal medya
+selfie|self (kendi) + -ie → özçekim
+technology|Türkçedeki "teknoloji" ile aynı
+wheel|"Wiil" → "wheel" dönüp "viiil" eden → tekerlek
+passenger|pass (geçmek) + -enger: yoldan geçen → yolcu
+driving-license|driving (sürüş) + license (lisans, izin) → ehliyet
+ferry|"Feri" → feribot (ferry boat) → vapur
+platform|Türkçedeki "platform": trenin yanaştığı yer → peron
+minibus|mini (küçük) + bus (otobüs) → minibüs, dolmuş
+trip|"Trip" → road trip: yol gezisi → gezi
+luggage|"Lagıc" → lug (sürüklemek): sürüklenen eşya → bagaj
+reservation|Türkçedeki "rezervasyon" ile aynı
+departure|depart (ayrılmak) → havalimanında "Departures": kalkış
+delay|de + lay (bırakmak): sonraya bırak → rötar
+customs|custom (âdet) vergisi → gümrük
+view|"Vyuu" → "sea view": deniz manzarası → manzara
+hostel|Türkçedeki "hostel" ile aynı (hotel'in ucuzu)
+key-card|key (anahtar) + card (kart) → kartlı anahtar
+fitting-room|fit (uymak) + room: kıyafetin uyup uymadığına bakılan oda
+package|"Pekic" → paket (pack) → paket, koli
+kilo|Türkçedeki "kilo" ile aynı
+bargain|"Bargın" → "bar-gain": pazarlıkla kazan → kelepir
+day-off|day (gün) + off (kapalı): işin kapalı olduğu gün → izin günü
+chore|"Çoor" → "çor-ba gibi her gün" yapılan ev işi → ev işi
+mail|"Meyl" → e-mail: elektronik posta → posta
+shampoo|"Şempuu" → Hintçe "champo" (masaj) → şampuan
+scared|scare (korkutmak) + -ed → korkmuş
+disappointed|dis (tersi) + appointed (atanmış, beklenen) → hayal kırıklığına uğramış
+pleased|please (memnun etmek) + -ed → memnun
+grateful|"Greytfıl" → gratis (teşekkür, bedava) + -ful → minnettar
+confident|"Kanfıdınt" → con + fide (güven) → kendinden emin
+anxious|"Enkşıs" → anxiety (kaygı) → kaygılı
+homesick|home (ev) + sick (hasta): evi için hasta → sıla hasreti çeken
+mood|"Muud" → mod (mood): "in a good mood" → ruh hali
+anger|"Engır" → angry (kızgın) → öfke
+joy|"Coy" → "joy" (neşe), enjoy (keyif almak) → sevinç
+stress|Türkçedeki "stres" ile aynı
+mom|"Mam" → mama (anne) → anne
+dad|"Ded" → daddy (babacığım), dede değil baba!
+grandparents|grand (büyük) + parents (anne baba) → büyükanne ve büyükbaba
+couple|"Kapıl" → kapl: bir çift → çift (sevgili)
+achieve|"Içiiv" → achievement (başarı, oyunlarda "rozet") → başarmak
+add-up|add (eklemek) + up → sayıları üst üste topla → toplamak
+advise|advice (öğüt) fiili: s ile "z" okunur → tavsiye vermek
+appreciate|"Ipriişieyt" → price (değer): değerini bil → takdir etmek
+attach|"Iteç" → e-postada "attachment" (ek) → iliştirmek
+bend|"Bend" → bend (viraj) → eğmek, bükmek
+bet|"Bet" → bet (bahis) sitesi → bahse girmek
+blame|"Bleym" → "blame" ↔ "flame" (alev): suçu üstüne yak → suçlamak
+bless|"Bles" → "Bless you!" (hapşırınca: çok yaşa) → kutsamak
+bother|"Badır" → "Don't bother me": beni rahatsız etme
+bounce|"Bauns" → "bounce" zıplayan top → sekmek
+burst|"Börst" → "börst!" balon patlaması → patlamak
+chase|"Çeys" → car chase: araba kovalamacası → kovalamak
+clean-up|clean (temizlemek) + up (tamamen) → ortalığı toplamak
+come-back|come (gelmek) + back (geri) → geri gelmek; "comeback" geri dönüş
+concentrate|"Kansıntreyt" → konsantre ol → odaklanmak
+consider|"Kınsidır" → "con-sider": yanına oturup düşün → göz önünde bulundurmak
+deal-with|deal (iş, anlaşma) + with (ile) → bir işle uğraşmak = başa çıkmak
+decorate|"Dekıreyt" → dekorasyon → süslemek
+delete|"Diliit" → klavyedeki Delete tuşu → silmek
+deny|"Dinay" → "de-nay": hayır demek → inkâr etmek
+eat-out|eat (yemek) + out (dışarı) → dışarıda yemek
+explore|"İksploor" → explorer (kâşif, gezgin) → keşfetmek
+fall-in-love|fall (düşmek) + in love (aşka) → aşka düşmek = aşık olmak
+fill-in|fill (doldurmak) + in (içine) → formun boşluklarını doldurmak
+find-out|find (bulmak) + out (dışarı): gerçeği ortaya çıkar → öğrenmek
+float|"Flout" → "float" (şamandıra) suyun üstünde kalır → su üstünde durmak
+freeze|"Friiz" → freezer (dondurucu) → donmak
+get-dressed|get (olmak) + dressed (giyinik) → giyinmek
+get-off|get + off (ayrılmak): araçtan ayrıl → inmek
+get-on|get + on (üstüne): aracın üstüne/içine → binmek
+give-up|give (vermek) + up: teslim etmek → vazgeçmek
+go-out|go (gitmek) + out (dışarı) → dışarı çıkmak
+grow-up|grow (büyümek) + up (yukarı) → büyüyüp yetişmek
+hold-on|hold (tut) + on (devam): hatta kal → beklemek
+hunt|"Hant" → hunter (avcı) → avlamak
+identify|"Aydentıfay" → ID (identity) kartı → tanımlamak
+ignore|"İgnoor" → ignorans → görmezden gelmek
+interrupt|inter (araya) + rupt (kırmak) → sözünü kesmek
+keep-going|keep (sürdürmek) + going (gitmek) → yılmadan devam etmek
+laugh-at|laugh (gülmek) + at (-e) → birine gülmek
+let|"Let" → "Let's go!" Haydi gidelim → izin vermek, bırakmak
+look-after|look (bakmak) + after (ardından): birinin ardından bakmak → ilgilenmek
+look-for|look (bakmak) + for (için): bulmak için bak → aramak
+look-forward-to|look (bak) + forward (ileri) + to: ileriye bakıp bekle → dört gözle beklemek
+note-down|note (not) + down (aşağı) → kâğıda indir = not almak
+pass-by|pass (geçmek) + by (yanından) → yanından geçmek
+pick-up|pick (almak) + up (yukarı) → yerden almak; birini arabayla almak
+put-on|put (koymak) + on (üstüne) → üzerine giymek
+recover|re (yeniden) + cover (örtmek): yara kapanır → iyileşmek
+replace|re (yeniden) + place (yerleştirmek) → yerine başkasını koymak
+sail|"Seyl" → sailor (denizci) → yelken açmak
+scratch|"Skreç" → Scratch (çizik) kart → kaşımak
+set-off|set (başlatmak) + off (uzağa) → yola çıkmak
+shave|"Şeyv" → shaver (tıraş makinesi) → tıraş olmak
+slide|"Slayd" → slayt (kaydırılan görsel) → kaymak
+spread|"Spred" → ekmeğe sürülen "spread" (sürülebilir krem) → yaymak, sürmek
+squeeze|"Skwiiz" → "skwiiz!" diye limon sık → sıkmak
+stand-up|stand (durmak) + up (yukarı) → ayağa kalkmak; stand-up gösterisi
+stick|"Stik" → sticker (çıkartma) → yapıştırmak
+take-off|take (almak) + off (üstünden): mont çıkar; uçak yerden kalkar
+try-on|try (denemek) + on (üstünde) → kıyafeti denemek
+turn-off|turn (çevirmek) + off (kapalı) → kapatmak
+turn-on|turn (çevirmek) + on (açık) → açmak
+wake|"Weyk" → wake up (uyan) → uyandırmak
+wander|"Wandır" → wonder (merak) ile karışmasın: wander = amaçsız dolaşmak
+wipe|"Wayp" → wet wipes (ıslak mendil) → silmek
+basement|base (taban) + -ment → bodrum
+attic|"Etik" → "Attic" (Attika tarzı çatı katı) → tavan arası
+yard|"Yard" → backyard: arka bahçe → avlu
+gas|"Ges" → gaz → doğalgaz; ABD'de benzin de demek
+mineral-water|mineral (mineral) + water (su) → maden suyu
+tuna|"Tuuna" → ton balığı (tuna) konservesi
+gum|"Gam" → chewing gum: çiklet → sakız
+zucchini|İtalyanca zucca (kabak) → kabak (dolmalık)
+hamster|Türkçedeki "hamster" ile aynı
+salesperson|sales (satış) + person (kişi) → satış temsilcisi
+photographer|photograph (fotoğraf) + -er → fotoğrafçı
+postman|post (posta) + man (adam) → postacı
+eyebrow|eye (göz) + brow (kaş, alın) → kaş
+cheek|"Çiik" → "çiik" diye yanaktan öpücük → yanak
+chin|"Çin" → "chin" ↔ "çene": ç ile başlarlar
+wrist|"Rist" (w okunmaz) → wristwatch (kol saati) → bilek
+ankle|"Enkıl" → ankle boots: bilek botu → ayak bileği
+elbow|"Elbou" → el + bow (yay): kolun bükülen yeri → dirsek
+hip|"Hip" → hip-hop dansı kalçayla → kalça
+notification|notify (bildirmek), note → bildirim
+checkout|check (kontrol) + out (çıkış) → kasa (ödeme yeri); otelden çıkış
+avenue|"Evınuu" → Fifth Avenue: geniş cadde → bulvar
+suburb|sub (alt, kenar) + urb (şehir: urban) → banliyö
+pe|PE = Physical Education: fiziksel eğitim → beden eğitimi
+blonde|"Bland" → "blond" saç → sarışın
+bald|"Boold" → "bold" (kalın) değil: bald = saçsız → kel
+curious|"Kyuriyıs" → curiosity (merak), "Curiosity" Mars aracı → meraklı
+daily|day (gün) + -ly → günlük; Daily Mail gazetesi
+dear|"Diır" → mektup başı "Dear Ali" → sevgili, değerli
+delighted|de + light (ışık): yüzü aydınlanmış → çok memnun
+double|"Dabıl" → dubl (iki kat) → çift
+elderly|elder (daha yaşlı) + -ly → yaşlı (kibar)
+final|"Faynıl" → final maçı: son → nihai
+fixed|fix (sabitlemek) + -ed → sabit; fixed price = sabit fiyat
+former|"Formır" → fore (önce) → eski, önceki
+frightened|fright (dehşet) + -ened → korkmuş
+furious|"Fyuriyıs" → fury (öfke), "fırtına gibi" → çok öfkeli
+gorgeous|"Gorcıs" → "gorcıs" göz kamaştıran → muhteşem
+hard-working|hard (sıkı) + working (çalışan) → çalışkan
+homemade|home (ev) + made (yapılmış) → ev yapımı
+icy|ice (buz) + -y → buzlu
+international|inter (arası) + national (ulusal) → uluslararası
+latest|late (geç) + -est: en geç gelen → en son, en yeni
+lost|lose (kaybetmek) → "Lost" dizisi: kayıp
+mad|"Med" → "Mad Max": deli; "mad at me": bana kızgın
+medium|"Miidiyım" → M beden = medium → orta
+missing|miss (kaçırmak, eksik olmak) → "missing person": kayıp kişi
+national|nation (ulus) + -al → ulusal; national team = milli takım
+next|"Nekst" → "Next" (İleri) düğmesi → sonraki
+official|"Ifişıl" → ofis (office): resmî kurum → resmî
+original|Türkçedeki "orijinal" ile aynı
+plastic|Türkçedeki "plastik" ile aynı
+pleasant|please (memnun etmek) → hoş, keyifli
+previous|pre (önce) + vious (yol: via) → önceki
+proper|"Prapır" → property (mülk), "prop-er" yerinde olan → uygun, düzgün
+raw|"Roo" → raw (ham) veri, çiğ et → çiğ
+recent|"Riisınt" → recently (son zamanlarda) → yakın zamandaki
+regular|"Regyulır" → regüler (düzenli) → düzenli
+responsible|response (cevap) + -ible: cevap verebilen → sorumlu
+ripe|"Rayp" → "ripe" ↔ "raw" (çiğ, ham) → olgun (meyve)
+second-hand|second (ikinci) + hand (el) → ikinci el
+selfish|self (kendi) + -ish → hep kendini düşünen → bencil
+sensible|sense (akıl, duyu) + -ible → mantıklı (sensitive: hassas ile karıştırma)
+separate|"Sepırıt" → separatör (ayırıcı) → ayrı
+several|"Sevırıl" → seven (7) değil ama "birkaç" → birkaç
+silent|"Saylınt" → silent mode: sessiz mod → sessiz
+skinny|skin (deri) + -ny: deri bir kemik → sıska; skinny jeans dar kot
+sore|"Soor" → "sore throat": boğaz ağrısı → ağrılı
+spare|"Sper" → spare tire: stepne (yedek lastik) → yedek
+terrific|"Tırifik" → terrible değil! terrific = müthiş, harika
+tiny|"Tayni" → "tiny" incecik ses: minicik
+total|Türkçedeki "total" ile aynı → toplam
+various|vary (değişmek) + -ous → varyasyonlu → çeşitli
+violent|"Vayılınt" → violence (şiddet) → şiddet içeren
+visible|vis (görmek: vision) + -ible → görünür
+warm-hearted|warm (sıcak) + hearted (kalpli) → sıcakkanlı
+well-known|well (iyi) + known (bilinen) → tanınmış
+worth|"Wörth" → "worth it": değer → değeri olan
+yummy|"Yami" → "yam yam" yemek sesi → nefis
+accompany|ac + company (arkadaşlık) → eşlik etmek
+adapt|"Idept" → adaptör, adapte olmak → uyum sağlamak
+admit|ad + mit (göndermek): içeri bırak → kabul etmek, itiraf etmek
+aim|"Eym" → aim (nişan almak) → hedeflemek
+apply|"Iplay" → application (başvuru, uygulama) → başvurmak
+approve|ap + prove (kanıtlamak) → approved: onaylandı → onaylamak
+beat|"Biit" → beat (vuruş) ritmi gibi rakibe vur → yenmek
+beg|"Beg" → "beg" kısa ve acıklı: "lütfen!" → yalvarmak
+behave|be + have: kendini tutmak → davranmak; behavior = davranış
+bury|"Beri" → berry (dut) gibi okunur: toprağa göm → gömmek
+calm-down|calm (sakin) + down → sakinleşmek
+cheer-up|cheer (neşe) + up (yukarı) → moral ver → neşelendirmek
+claim|"Kleym" → "klaim" (talep) → iddia etmek
+comment|"Kament" → yorum (comment) bölümü → yorum yapmak
+confirm|con + firm (sağlam): sağlamlaştır → teyit etmek
+consist|con + sist (durmak): bir arada duran parçalardan → oluşmak
+convince|con + vince (yenmek: victory) → fikrini yenip ikna etmek
+cure|"Kyur" → kür (tedavi) → tedavi etmek
+damage|"Demic" → hasar (damage) → zarar vermek
+defend|"Difend" → defans (savunma) → savunmak
+demand|"Dimend" → "demand" (talep) → talep etmek
+disturb|dis + turb (karıştırmak: türbülans) → rahatsız etmek
+doubt|"Daut" (b okunmaz) → "no doubt": şüphesiz → şüphe etmek
+drag|"Dreg" → drag & drop: sürükle bırak → sürüklemek
+employ|"İmploy" → employee (çalışan), employer (işveren) → işe almak
+expand|ex + pand (yaymak) → ekspansiyon → genişletmek
+fasten|fast (sıkı) + -en → "Fasten your seatbelt": kemerini bağla
+forecast|fore (önceden) + cast (atmak) → hava tahmini → tahmin etmek
+gather|"Gedır" → together (bir arada) → toplanmak
+glow|"Glou" → glow stick: parlayan çubuk → parıldamak
+handle|hand (el) + -le → kapı kolu (handle): elinde tut → idare etmek
+heal|"Hiil" → health (sağlık) → iyileşmek (yara)
+hire|"Hayır" → "Hayır deme, işe alındın!" → eleman tutmak, kiralamak
+inspire|in + spire (nefes: spirit) → içine ruh üfle → ilham vermek
+install|"İnstool" → Install (Yükle) düğmesi → program kurmak
+insist|in + sist (durmak): üstünde durmak → ısrar etmek
+investigate|"İnvestıgeyt" → in + vestigate (iz sürmek) → soruşturmak
+join-in|join (katılmak) + in (içine) → etkinliğe dahil olmak
+lean|"Liin" → Pisa'nın "leaning tower" (eğik kulesi) → yaslanmak
+limit|Türkçedeki "limit" ile aynı → sınırlamak
+load|"Loud" → download (indirmek), upload (yüklemek) → yüklemek
+mend|"Mend" → amend (düzeltmek) → onarmak (dikiş)
+obtain|ob + tain (tutmak) → eline tut → elde etmek
+occur|"Ikör" → "oc-cur": yolunun üstüne çıkmak → meydana gelmek
+owe|"Ou" → "I owe you" (IOU senedi): sana borçluyum
+participate|part (parça) + icipate (almak) → yer almak, katılmak
+persuade|per + suade (tatlı dil, sweet) → ikna etmek
+post|"Poust" → posta, sosyal medya "post"u → postalamak, paylaşmak
+predict|pre (önce) + dict (söylemek) → önceden söyle → öngörmek
+prevent|pre (önce) + vent (gelmek): önüne geç → önlemek
+publish|public (kamu) + -ish → halka sun → yayımlamak
+quit|"Kwit" → oyundaki "Quit" (Çık) → bırakmak
+react|re (geri) + act (hareket) → reaksiyon → tepki vermek
+reflect|re (geri) + flect (bükmek) → reflektör → yansıtmak
+rely|re + ly (bağlamak) → "rely on me": bana güven → dayanmak
+request|re + quest (aramak, istek) → rica etmek
+review|re (yeniden) + view (bakmak) → gözden geçirmek; yorum, eleştiri
+satisfy|"Setisfay" → satisfaction (memnuniyet) → memnun etmek
+scare|"Sker" → scary (korkunç) → korkutmak
+select|"Sılekt" → selektör, "Select all" (Tümünü seç) → seçmek
+settle|"Setıl" → settle (oturmak): yeni yere yerleşmek → yerleşmek
+shut-down|shut (kapatmak) + down (tamamen) → bilgisayarı kapatmak
+sort|"Sort" → "Sort by" (sırala) seçeneği → sıralamak, ayırmak
+stretch|"Streç" → streç film (esneyen) → germek, esnemek
+struggle|"Stragıl" → "stra-ggle": debelenmek → mücadele etmek
+supply|"Sıplay" → "supply" (arz): supply & demand = arz ve talep → tedarik
+surround|sur (üstünden) + round (yuvarlak) → surround ses → çevrelemek
+survive|sur + vive (yaşamak) → Survivor yarışması → hayatta kalmak
+tease|"Tiiz" → "tiz" sesle takılmak → alay etmek
+tie-up|tie (bağlamak, kravat) + up → iple bağlamak
+tour|"Tur" → tur atmak → gezmek
+twist|"Twist" → twist dansı (bükülerek) → burkmak, bükmek
+wash-up|wash (yıkamak) + up → yemekten sonra bulaşık yıkamak
+waste|"Weyst" → waste (atık, israf) → israf etmek
+attempt|"Itempt" → "at-tempt": tempt (deneme, cezbetme) → girişim
+balance|"Belıns" → balans (denge) ayarı → denge
+basis|base (taban) → temel, dayanak
+belief|believe (inanmak) → inanç
+blank|"Blenk" → blanko (boş) çek → boşluk
+capacity|Türkçedeki "kapasite" ile aynı
+challenge|"Çelınc" → TikTok "challenge" (meydan okuma) → zorluk
+comfort|"Kamfırt" → konfor → rahatlık, teselli
+community|"Kımyuunıti" → komün, common (ortak) → topluluk
+concern|"Kınsörn" → "con-cern": seni ilgilendiren dert → endişe
+courage|"Körıc" → kor (Fransızca coeur = kalp) → cesaret
+emotion|"İmouşın" → emoji, emosyon → duygu
+excitement|excite (heyecanlandırmak) + -ment → heyecan
+favor|"Feyvır" → favori (favorite) birine yapılan → iyilik
+fun|"Fan" → "Have fun!" iyi eğlenceler → eğlence
+humor|Türkçedeki "mizah/hümor" → mizah
+image|"İmic" → imaj → görüntü
+influence|"İnfluıns" → influencer (etkileyici kişi) → etki
+issue|"İşuu" → "iş" (mesele) → sorun, mesele
+lack|"Lek" → "leke" gibi eksik kalan yer → eksiklik
+loss|lose (kaybetmek) → kayıp
+majority|major (büyük) + -ity → çoğunluk (minority: azınlık)
+manner|"Menır" → manners (görgü), "maniyer" → tavır, üslup
+nightmare|night (gece) + mare (cin, kâbus perisi) → kâbus
+permission|permit (izin vermek) → izin
+personality|person (kişi) + -ality → kişilik
+pride|proud (gururlu) → gurur
+priority|"Prayorıti" → prior (önce) → öncelik
+prize|"Prayz" → price (fiyat) değil, prize = ödül
+proof|prove (kanıtlamak) → ispat; waterproof = su geçirmez
+question-mark|question (soru) + mark (işaret) → soru işareti (?)
+reward|re + ward → "reward" ödül; karşılık olarak verilen
+role|Türkçedeki "rol" ile aynı
+sense|"Sens" → sensör (duyu) → duyu, anlam; "make sense" = mantıklı olmak
+shame|"Şeym" → "What a shame!": ne yazık! → utanç
+shock|Türkçedeki "şok" ile aynı
+source|"Soors" → sos değil; "open source": açık kaynak → kaynak
+spirit|"Spirit" → spiritüel → ruh
+standard|Türkçedeki "standart" ile aynı
+strength|strong (güçlü) → güç, kuvvet
+suggestion|suggest (önermek) → öneri
+talent|"Telınt" → talent show: yetenek yarışması → yetenek
+theory|Türkçedeki "teori" ile aynı
+thought|think (düşünmek) → thought (düşündü / düşünce)
+threat|"Thret" → threaten (tehdit etmek) → tehdit
+wisdom|wise (bilge) + -dom → bilgelik; wisdom tooth = yirmilik diş
+youth|young (genç) + -th → gençlik
+tourism|tour + -ism → turizm
+accommodation|"Ikamıdeyşın" → akomodasyon: kalınacak yer → konaklama
+campsite|camp (kamp) + site (yer) → kamp alanı
+cruise|"Kruuz" → kruvaziyer gemisi → gemi turu
+guidebook|guide (rehber) + book (kitap) → rehber kitap
+landscape|land (kara, arazi) + scape (görünüm) → doğa manzarası
+travel-agent|travel (seyahat) + agent (acente) → seyahat acentesi
+pedestrian|ped (ayak: pedal) → yaya
+price-tag|price (fiyat) + tag (etiket) → fiyat etiketi
+infection|Türkçedeki "enfeksiyon" ile aynı
+symptom|Türkçedeki "semptom" ile aynı → belirti
+treatment|treat (tedavi etmek, davranmak) + -ment → tedavi
+continent|"Kantinınt" → kontinental (kıtasal) → kıta
+shadow|"Şedou" → "shadow" (gölge) → siluet
+shade|"Şeyd" → sunshade (güneşlik) → serin gölgelik
+puddle|"Padıl" → "pat pat" basılan su birikintisi
+office-hours|office (ofis) + hours (saatler) → mesai saatleri
+handwriting|hand (el) + writing (yazı) → el yazısı
+paragraph|Türkçedeki "paragraf" ile aynı
+title|"Taytıl" → film "title"ı, titr → başlık
+chapter|"Çeptır" → kitap bölümü (chapter 1)
+summary|sum (toplam) + -mary → özet
+gossip|"Gasip" → "gasip" laf taşıyan → dedikodu
+rumor|"Ruumır" → "rumor has it…" söylendiğine göre → söylenti
+complaint|complain (şikâyet etmek) → şikâyet
+congratulations|"Kıngreçuleyşınz" → "Congrats!" → tebrikler
+excuse-me|excuse (mazur görmek) + me → affedersiniz
+diary|"Dayıri" → day (gün): günü yazdığın defter → günlük
+label|"Leybıl" → plak şirketi "label", etiket
+lid|"Lid" → kapağı "lid" diye kapat → kapak
+napkin|"Nepkin" → "nap-kin": ağız silecek bez → peçete
+parcel|"Parsıl" → parsel (parça) → posta kolisi
+rubbish|"Rabiş" → "Rubbish!" (saçmalık!) → çöp
+string|"String" → string (ince ip; tanga) → ip
+costume|Türkçedeki "kostüm" ile aynı
+mat|"Met" → yoga mat → paspas, minder
+brick|"Brik" → briket (tuğla) → tuğla
+dust|"Dast" → dust (toz), duster (toz bezi) → toz
+steam|"Stiim" → Steam (oyun platformu), steam engine (buhar makinesi) → buhar
+pond|"Pand" → "pond" küçük göl → gölet
+bay|"Bey" → Körfez (bay): Ha Long Bay → körfez
+countryside|country (kırsal) + side (taraf) → kırsal kesim
+feather|"Fedır" → "feather" uçan tüy → kuş tüyü
+flame|"Fleym" → flamingo değil: flame = alev; "flame thrower" alev makinesi
+bride|"Brayd" → bridal (gelinlik) → gelin
+groom|"Gruum" → bridegroom (damat) → damat
+hero|Türkçedeki "kahraman", süper "hero"
+host|"Houst" → host (ev sahibi), hostes → davet sahibi
+circus|Türkçedeki "sirk" ile aynı kök (circle: çember)
+scene|"Siin" → sahne (scene) → film sahnesi
+award|"Iword" → Grammy Awards → ödül
+budget|"Bacit" → bütçe
+trolley|"Trali" → troleybüs gibi tekerlekli → alışveriş arabası
+silk|"Silk" → Silk Road: İpek Yolu → ipek
+crown|"Kraun" → kron, krallık tacı (crown) → taç
+appetite|"Epıtayt" → aperatif (iştah açıcı) → iştah
+equipment|equip (donatmak) + -ment → ekipman
+metal|Türkçedeki "metal" ile aynı
+count-on|count (saymak) + on (üzerine): seni hesaba katıyorum → güvenmek
+feel-like|feel (hissetmek) + like (gibi): "pizza gibi hissediyorum" → canı istemek
+get-along|get (olmak) + along (yan yana): yan yana iyi yürümek → iyi geçinmek
+get-lost|get (olmak) + lost (kayıp) → kaybolmak; "Get lost!" kaybol!
+get-married|get (olmak) + married (evli) → evlenmek
+go-shopping|go (gitmek) + shopping (alışveriş) → alışverişe gitmek
+have-fun|have (sahip olmak) + fun (eğlence) → eğlenmek; "Have fun!"
+look-like|look (görünmek) + like (gibi) → gibi görünmek = benzemek
+make-friends|make (yapmak) + friends (arkadaşlar) → arkadaş edinmek
+pay-attention|pay (ödemek) + attention (dikkat): dikkatini "öde" → dikkat etmek
+take-a-photo|take (almak) + a photo → fotoğraf çekmek
+take-care|take (almak) + care (özen) → "Take care!" kendine iyi bak
+take-part|take (almak) + part (parça, rol): bir rol al → katılmak
+wait-for|wait (beklemek) + for (için) → birini beklemek
+accurate|"Ekyırıt" → akurat: tam isabet → kesin, hatasız
+aggressive|Türkçedeki "agresif" ile aynı → saldırgan
+artificial|art (yapım) + ficial (yapılmış) → yapay; AI = artificial intelligence
+brief|"Briif" → brifing (kısa bilgilendirme) → kısa
+efficient|"İfişınt" → efektif çalışan → verimli
+energetic|energy (enerji) → enerjik
+essential|essence (öz, esans) → temel, şart
+extreme|Türkçedeki "ekstrem" ile aynı → aşırı
+fancy|"Fensi" → fantezi (fancy) → süslü, lüks
+flexible|flex (esnemek) + -ible → fleksibl → esnek
+legal|"Liigıl" → legal (yasal), illegal (yasa dışı) → yasal
+mental|"Mentıl" → mental (zihinsel) sağlık → zihinsel
+mild|"Mayld" → "mild" hafif peynir → ılıman, hafif
+modest|"Madist" → mode (ölçü) bilen → alçakgönüllü
+nasty|"Nesti" → "nasty" iğrenç tat → kötü
+obvious|ob + via (yol): yolun ortasında → açık, belli
+outdoor|out (dışarı) + door (kapı): kapının dışı → açık hava
+indoor|in (içeri) + door (kapı): kapının içi → kapalı alan
+physical|"Fizikıl" → fizik → fiziksel
+precious|"Preşıs" → price (değer) → kıymetli; "My precious" (Yüzüklerin Efendisi)
+punctual|"Pankçuıl" → punto (nokta): tam noktasında → dakik
+rare|"Rer" → "rare" az pişmiş et ve nadir eşya → nadir
+reliable|rely (güvenmek) + -able → güvenilir
+sensitive|sense (duyu) + -itive → sensitif → hassas
+sincere|"Sinsiır" → "Sincerely" (mektup sonu: içtenlikle) → içten
+sticky|stick (yapışmak) + -y → yapışkan; sticky notes
+temporary|tempo (zaman) → geçici
+tough|"Taf" → "tough guy": sert adam → sert, zorlu
+unknown|un (değil) + known (bilinen) → bilinmeyen
+upper|up (yukarı) + -er → üst; upper case = büyük harf
+willing|will (irade, istek) + -ing → istekli
+ahead|a + head (baş): başın önünde → ileride, önde
+besides|beside (yanında) + s → bunun yanında = ayrıca
+eventually|event (olay) + -ually: olayların sonunda → en sonunda
+forever|for (için) + ever (hep) → sonsuza dek
+fortunately|fortune (şans, servet) + -ly → neyse ki
+mostly|most (çoğu) + -ly → çoğunlukla
+otherwise|other (diğer) + wise (şekilde): diğer şekilde → aksi halde
+straight-away|straight (doğrudan) + away → hemen, derhal
+therefore|there (orada) + fore (için): o nedenle → bu nedenle
+whatever|what (ne) + ever (her) → her ne
+wherever|where (nerede) + ever (her) → her nerede
+overnight|over (boyunca) + night (gece) → gece boyunca, bir gecede
+depressed|depress (bastırmak) + -ed → depresyonda → bunalımda
+fond|"Fand" → "fond of": -e düşkün; fondü sever gibi
+optimistic|optimist → iyimser
+pessimistic|pesimist → kötümser
+politics|Türkçedeki "politika" ile aynı → siyaset
+politician|politics + -ian → politikacı
+mayor|"Meyır" → "major" (büyük) → şehrin büyüğü = belediye başkanı
+ceremony|Türkçedeki "seremoni" ile aynı → tören
+billion|bi (iki) + llion: milyon × bin → milyar
+o-clock|"of the clock" kısaltması → "3 o'clock" saat tam üç
+daytime|day (gün) + time (zaman) → gündüz
+lifetime|life (hayat) + time (zaman) → ömür
+period|"Piriyıd" → periyot → dönem, süre
+athlete|Türkçedeki "atlet" ile aynı → sporcu
+leisure|"Liijır" → "leisure time": boş zaman
+jogging|"Caging" → jog (yavaş koşmak) → hafif koşu
+peanut|pea (bezelye) + nut (kuruyemiş) → yer fıstığı
+raisin|"Reyzın" → Fransızca raisin (üzüm) → kuru üzüm
+doormat|door (kapı) + mat (paspas) → kapı paspası
+blossom|"Blasım" → bloom (çiçek açmak) → ağaç çiçeği
+breeze|"Briiz" → "briiz" hafif rüzgâr sesi → esinti
+headquarters|head (baş) + quarters (karargâh) → genel merkez
+workplace|work (iş) + place (yer) → iş yeri
+laundromat|laundry (çamaşır) + -omat (otomat) → çamaşırhane
+plaster|"Plestır" → plaster (alçı) → yara bandı
+eyesight|eye (göz) + sight (görüş) → görme yeteneği
+tracksuit|track (koşu pisti) + suit (takım) → eşofman

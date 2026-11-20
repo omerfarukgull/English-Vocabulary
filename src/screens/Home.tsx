@@ -1,0 +1,77 @@
+import { mdiCogOutline, mdiFire, mdiCheckCircle, mdiBookOpenVariant, mdiRepeat, mdiClipboardCheckOutline, mdiTrophyOutline, mdiBellRingOutline } from '@mdi/js';
+import { Icon, ProgressBar } from '../components/ui';
+import { dayKey } from '../lib/date';
+import { reminderDue } from '../lib/reminder';
+import { dueIds, streak, todayNewCount, useApp } from '../lib/store';
+import type { Tab } from '../App';
+
+export default function Home({ go, openSettings, startTest }: { go: (t: Tab) => void; openSettings: () => void; startTest: () => void }) {
+  const s = useApp();
+  const goal = s.settings.dailyGoal;
+  const learnedToday = todayNewCount(s);
+  const today = s.days[dayKey()];
+  const reviewsToday = today?.reviews ?? 0;
+  const due = dueIds(s).length;
+  const total = Object.values(s.progress).filter(p => p.status === 'learned').length;
+  const seen = Object.keys(s.progress).length;
+  const st = streak(s);
+  const pct = Math.min(100, Math.round((learnedToday / goal) * 100));
+  const goalDone = learnedToday >= goal;
+  const testDone = !!today?.testDone;
+  const allDone = goalDone && due === 0 && (testDone || learnedToday === 0);
+  const dateStr = new Date().toLocaleDateString('tr-TR', { weekday: 'long', day: 'numeric', month: 'long' });
+
+  return (
+    <div className="screen">
+      <header className="top">
+        <div><div className="muted small">{dateStr}</div><h1>Kelime Defterim</h1></div>
+        <button className="icon-btn" onClick={openSettings} aria-label="Ayarlar"><Icon path={mdiCogOutline} /></button>
+      </header>
+
+      {reminderDue() && <div className="notice warn" role="status"><Icon path={mdiBellRingOutline} size={20} /><div><b>Hatırlatma saatin geçti.</b><span className="small">Bugünkü hedefe {goal - learnedToday} kelime kaldı.</span></div></div>}
+      <section className="card hero">
+        <div className="muted">Bugünkü Hedefin</div>
+        <div className="hero-num"><b>{Math.min(learnedToday, 999)}</b> / {goal} kelime</div>
+        <ProgressBar value={learnedToday / goal} label="Günlük ilerleme" />
+        <div className="row between small"><span>Günlük ilerleme: %{pct}</span>{learnedToday > goal && <span>+{learnedToday - goal} ekstra</span>}</div>
+        {goalDone
+          ? <div className="success-msg"><Icon path={mdiTrophyOutline} size={20} /> Tebrikler! Bugünkü {goal} kelime hedefini tamamladın.</div>
+          : <button className="btn primary block" onClick={() => go('learn')}><Icon path={mdiBookOpenVariant} size={20} /> {learnedToday === 0 ? 'Yeni kelime öğren' : 'Öğrenmeye devam et'}</button>}
+      </section>
+
+      <section className="stat-row">
+        <div className="mini"><b>{reviewsToday}</b><span>Bugünkü tekrar</span></div>
+        <div className="mini"><b>{total}</b><span>Öğrenilen toplam</span></div>
+        <div className="mini"><b className="row center"><Icon path={mdiFire} size={18} className="fire" />{st.current}</b><span>Gün serisi</span></div>
+      </section>
+
+      <section className="card">
+        <h2>Bugün yapılacaklar</h2>
+        <ol className="todo">
+          <li className={goalDone ? 'done' : ''}>
+            <Icon path={goalDone ? mdiCheckCircle : mdiBookOpenVariant} size={22} />
+            <div><b>{goal} yeni kelime öğren</b><span className="muted small">{goalDone ? 'Tamamlandı' : `${goal - learnedToday} kelime kaldı`}</span></div>
+            {!goalDone && <button className="btn small" onClick={() => go('learn')}>Başla</button>}
+          </li>
+          <li className={due === 0 ? 'done' : ''}>
+            <Icon path={due === 0 ? mdiCheckCircle : mdiRepeat} size={22} />
+            <div><b>Tekrarları tamamla</b><span className="muted small">{due === 0 ? (seen ? 'Şu an bekleyen tekrar yok' : 'Önce birkaç kelime öğren') : `${due} kelime tekrar bekliyor`}</span></div>
+            {due > 0 && <button className="btn small" onClick={() => go('review')}>Tekrar yap</button>}
+          </li>
+          <li className={testDone ? 'done' : ''}>
+            <Icon path={testDone ? mdiCheckCircle : mdiClipboardCheckOutline} size={22} />
+            <div><b>Günün testini çöz</b><span className="muted small">{testDone ? 'Tamamlandı' : seen ? 'Karışık, kısa bir test' : 'Kelime öğrendikten sonra açılır'}</span></div>
+            {!testDone && seen > 0 && <button className="btn small" onClick={startTest}>Teste başla</button>}
+          </li>
+        </ol>
+        {allDone && seen > 0 && <p className="success-msg">Bugünlük her şey tamam. Yarın görüşmek üzere!</p>}
+      </section>
+
+      <section className="quick">
+        <button className="btn primary" onClick={() => go('learn')}>Yeni kelime öğren</button>
+        <button className="btn" onClick={() => go('review')} disabled={seen === 0}>Tekrar yap</button>
+        <button className="btn" onClick={startTest} disabled={seen === 0}>Teste başla</button>
+      </section>
+    </div>
+  );
+}
