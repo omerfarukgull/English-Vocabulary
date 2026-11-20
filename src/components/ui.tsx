@@ -1,6 +1,6 @@
 import { mdiVolumeHigh, mdiTortoise, mdiClose } from '@mdi/js';
 import { useEffect, type ReactNode } from 'react';
-import { CAT_BY_ID, FAMILIES, ICONS, WORD_BY_ID, type Word } from '../lib/data';
+import { CAT_BY_ID, FAMILIES, ICONS, WORD_BY_ID, type Word, capEn, capTr } from '../lib/data';
 import { speak, speechSupported } from '../lib/speech';
 import { useApp } from '../lib/store';
 
@@ -71,8 +71,8 @@ export function WordCard({ word, autoplay, onPick }: { word: Word; autoplay?: bo
   return (
     <div className="word-card">
       <WordImage word={word} size={168} />
-      <div className="wc-en">{word.en}</div>
-      <div className="wc-tr">{word.tr}</div>
+      <div className="wc-en">{capEn(word.en)}</div>
+      <div className="wc-tr">{capTr(word.tr)}</div>
       {(word.say || word.ipa) && <div className="wc-pron">
         {word.say && <span><b>Okunuş:</b> {word.say}</span>}
         {word.ipa && <span className="ipa">{word.ipa}</span>}
@@ -85,8 +85,8 @@ export function WordCard({ word, autoplay, onPick }: { word: Word; autoplay?: bo
         {word.exTr && <div className="ex-tr">{word.exTr}</div>}
       </div>}
       {FAMILIES[word.id] && <div className="wc-family"><b>Kelime ailesi</b><div className="chips">{FAMILIES[word.id].filter(id => WORD_BY_ID[id]).map(id => onPick
-        ? <button key={id} className="chip btnchip" onClick={() => onPick(id)}>{WORD_BY_ID[id].en} · {WORD_BY_ID[id].tr}</button>
-        : <span key={id} className="chip">{WORD_BY_ID[id].en} · {WORD_BY_ID[id].tr}</span>)}</div></div>}
+        ? <button key={id} className="chip btnchip" onClick={() => onPick(id)}>{capEn(WORD_BY_ID[id].en)} · {capTr(WORD_BY_ID[id].tr)}</button>
+        : <span key={id} className="chip">{capEn(WORD_BY_ID[id].en)} · {capTr(WORD_BY_ID[id].tr)}</span>)}</div></div>}
       <div className="wc-meta"><span className="chip">{CAT_BY_ID[word.cat]?.tr}</span><span className="chip">{word.level}</span></div>
     </div>
   );

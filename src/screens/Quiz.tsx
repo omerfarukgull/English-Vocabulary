@@ -1,7 +1,7 @@
 import { mdiCheckCircle, mdiCloseCircle, mdiVolumeHigh, mdiTortoise, mdiArrowRight, mdiTrophyOutline } from '@mdi/js';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Icon, ProgressBar, WordCard, WordImage } from '../components/ui';
-import { WORD_BY_ID } from '../lib/data';
+import { WORD_BY_ID, capEn, capTr } from '../lib/data';
 import { buildQuestion, checkTyped, MODE_LABELS, pickMode, type Check, type Question } from '../lib/quiz';
 import { speak } from '../lib/speech';
 import type { QuizMode } from '../lib/srs';
@@ -66,9 +66,9 @@ export default function Quiz({ config, onExit }: { config: SessionConfig; onExit
           <h2>Tekrar tamamlandı</h2>
           <p><b>{results.correct}</b> doğru, <b>{results.wrong}</b> yanlış (%{pct})</p>
           {uniqueWrong.length > 0
-            ? <><p className="muted">Bu kelimeler daha sık karşına çıkacak:</p><div className="chips">{uniqueWrong.map(id => <span key={id} className="chip">{WORD_BY_ID[id].en} – {WORD_BY_ID[id].tr}</span>)}</div></>
+            ? <><p className="muted">Bu kelimeler daha sık karşına çıkacak:</p><div className="chips">{uniqueWrong.map(id => <span key={id} className="chip">{capEn(WORD_BY_ID[id].en)} – {capTr(WORD_BY_ID[id].tr)}</span>)}</div></>
             : <p className="muted">Hepsini doğru bildin. Tekrar aralıkları uzatıldı.</p>}
-          {results.typoIds.length > 0 && <><p className="muted">Yazımına dikkat et (yarın tekrar sorulacak):</p><div className="chips">{[...new Set(results.typoIds)].map(id => <span key={id} className="chip">{WORD_BY_ID[id].en}</span>)}</div></>}
+          {results.typoIds.length > 0 && <><p className="muted">Yazımına dikkat et (yarın tekrar sorulacak):</p><div className="chips">{[...new Set(results.typoIds)].map(id => <span key={id} className="chip">{capEn(WORD_BY_ID[id].en)}</span>)}</div></>}
           <button className="btn primary block" onClick={onExit}>Tamam</button>
         </div>
       </div>
@@ -93,10 +93,10 @@ export default function Quiz({ config, onExit }: { config: SessionConfig; onExit
             <Icon path={answer.check === 'wrong' ? mdiCloseCircle : mdiCheckCircle} size={26} />
             <b>{answer.check === 'correct' ? 'Doğru!' : answer.check === 'typo' ? 'Neredeyse doğru! Küçük bir yazım hatası var.' : 'Yanlış, sorun değil.'}</b>
           </div>
-          {answer.check === 'typo' && <p className="fb-line typo-line">Senin yazdığın: <s>{answer.typed}</s> · Doğru yazımı: <b>{word.en}</b><br /><span className="muted small">Tam doğru sayılmadı; kelime yarın yeniden sorulacak.</span></p>}
+          {answer.check === 'typo' && <p className="fb-line typo-line">Senin yazdığın: <s>{answer.typed}</s> · Doğru yazımı: <b>{capEn(word.en)}</b><br /><span className="muted small">Tam doğru sayılmadı; kelime yarın yeniden sorulacak.</span></p>}
           {answer.check === 'wrong'
             ? <div className="fb-card"><WordCard word={word} /></div>
-            : <p className="fb-line"><b>{word.en}</b> = {word.tr} {[word.say, word.ipa].some(Boolean) && <span className="muted">· {[word.say, word.ipa].filter(Boolean).join(' · ')}</span>}</p>}
+            : <p className="fb-line"><b>{capEn(word.en)}</b> = {capTr(word.tr)} {[word.say, word.ipa].some(Boolean) && <span className="muted">· {[word.say, word.ipa].filter(Boolean).join(' · ')}</span>}</p>}
           <button className="btn primary block" onClick={next} autoFocus>Devam <Icon path={mdiArrowRight} size={20} /></button>
         </div>
       )}
@@ -108,10 +108,10 @@ function Prompt({ q }: { q: Question }) {
   const { settings } = useApp();
   const w = WORD_BY_ID[q.id];
   switch (q.mode) {
-    case 'img-write': return <div className="prompt"><WordImage word={w} size={176} hideLabel /><div className="prompt-tr">{w.tr}</div><p>Bu kelimenin İngilizcesini yaz.</p></div>;
-    case 'img-choice': return <div className="prompt"><WordImage word={w} size={176} hideLabel /><div className="prompt-tr">{w.tr}</div><p>İngilizcesi hangisi?</p></div>;
-    case 'tr-en': return <div className="prompt"><div className="big-word">{w.tr}</div><p>İngilizce karşılığını yaz.</p></div>;
-    case 'en-tr': return <div className="prompt"><div className="big-word">{w.en}</div><p>Türkçe anlamı hangisi?</p></div>;
+    case 'img-write': return <div className="prompt"><WordImage word={w} size={176} hideLabel /><div className="prompt-tr">{capTr(w.tr)}</div><p>Bu kelimenin İngilizcesini yaz.</p></div>;
+    case 'img-choice': return <div className="prompt"><WordImage word={w} size={176} hideLabel /><div className="prompt-tr">{capTr(w.tr)}</div><p>İngilizcesi hangisi?</p></div>;
+    case 'tr-en': return <div className="prompt"><div className="big-word">{capTr(w.tr)}</div><p>İngilizce karşılığını yaz.</p></div>;
+    case 'en-tr': return <div className="prompt"><div className="big-word">{capEn(w.en)}</div><p>Türkçe anlamı hangisi?</p></div>;
     case 'listen': return (
       <div className="prompt">
         <button className="listen-btn" onClick={() => speak(w.en, settings.rate, settings.voice)} aria-label="Tekrar dinle"><Icon path={mdiVolumeHigh} size={56} /></button>
@@ -128,7 +128,7 @@ function Choices({ q, answer, onPick }: { q: Question; answer: { picked?: string
       {q.options!.map(id => {
         const w = WORD_BY_ID[id];
         const cls = answer ? (id === q.id ? 'right' : id === answer.picked ? 'wrongpick' : 'dim') : '';
-        return <button key={id} className={`choice ${cls}`} disabled={!!answer} onClick={() => onPick(id)}>{showTr ? w.tr : w.en}</button>;
+        return <button key={id} className={`choice ${cls}`} disabled={!!answer} onClick={() => onPick(id)}>{showTr ? capTr(w.tr) : capEn(w.en)}</button>;
       })}
     </div>
   );

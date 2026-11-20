@@ -1,6 +1,6 @@
 import { mdiAlertOutline, mdiCheckCircle, mdiInformationOutline } from '@mdi/js';
 import { useEffect, useState } from 'react';
-import { type Level, type Word } from '../lib/data';
+import { type Level, type Word, capEn, capTr } from '../lib/data';
 import { dictionaryReady, loadDictionary, lookup, type Lookup } from '../lib/spell';
 import { addCustomWord, addToPlan, ensurePlan, makeCustomWord, updateCustomWord, useApp } from '../lib/store';
 import { Icon, Sheet } from './ui';
@@ -70,7 +70,7 @@ export default function AddWord({ open, onClose, edit, onOpenWord, goLearn }: {
             <div className="notice info">
               <Icon path={mdiInformationOutline} size={20} />
               <div>
-                <b>Bu kelime sözlükte zaten var:</b> {exists.en} = {exists.tr}
+                <b>Bu kelime sözlükte zaten var:</b> {capEn(exists.en)} = {capTr(exists.tr)}
                 <div className="row gap wrap">
                   <button type="button" className="btn small" onClick={() => { onClose(); onOpenWord(exists.id); }}>Kelimeyi aç</button>
                   {!exP && <button type="button" className="btn primary small" onClick={() => { ensurePlan(); addToPlan(exists.id); onClose(); goLearn(); }}>Öğrenme listeme ekle</button>}
@@ -83,7 +83,7 @@ export default function AddWord({ open, onClose, edit, onOpenWord, goLearn }: {
             <div className="notice info">
               <Icon path={mdiInformationOutline} size={20} />
               <div><b>Bunu mu demek istediniz?</b>
-                <div className="chips">{res.near.map(w => <button type="button" key={w.id} className="chip btnchip" onClick={() => setEn(w.en)}>{w.en} · {w.tr}</button>)}</div>
+                <div className="chips">{res.near.map(w => <button type="button" key={w.id} className="chip btnchip" onClick={() => setEn(w.en)}>{capEn(w.en)} · {capTr(w.tr)}</button>)}</div>
               </div>
             </div>
           )}

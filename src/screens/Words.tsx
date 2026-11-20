@@ -2,7 +2,7 @@ import { mdiMagnify, mdiStar, mdiStarOutline, mdiPlus, mdiPencilOutline, mdiDele
 import AddWord from '../components/AddWord';
 import { useEffect, useMemo, useState } from 'react';
 import { Confirm, Icon, Sheet, STATUS_LABEL, WordCard, WordImage } from '../components/ui';
-import { CATEGORIES, WORDS, WORD_BY_ID } from '../lib/data';
+import { CATEGORIES, WORDS, WORD_BY_ID, capEn, capTr } from '../lib/data';
 import { addToPlan, deleteCustomWord, ensurePlan, toggleFavorite, useApp } from '../lib/store';
 import type { SessionConfig } from './Quiz';
 
@@ -59,7 +59,7 @@ export default function Words({ start, goLearn }: { start: (c: SessionConfig) =>
             <li key={w.id}>
               <button className="wl-main" onClick={() => setOpen(w.id)}>
                 <WordImage word={w} size={48} />
-                <div className="wl-text"><b>{w.en}</b><span>{w.tr}</span></div>
+                <div className="wl-text"><b>{capEn(w.en)}</b><span>{capTr(w.tr)}</span></div>
                 <span className={`badge ${st}`}>{STATUS_LABEL[st]}</span>
               </button>
               <button className="icon-btn star" onClick={() => toggleFavorite(w.id)} aria-label={s.favorites.includes(w.id) ? 'Favorilerden çıkar' : 'Favorilere ekle'}><Icon path={s.favorites.includes(w.id) ? mdiStar : mdiStarOutline} /></button>

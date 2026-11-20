@@ -39,3 +39,8 @@ export const ALIASES: Record<string, string[]> = {
   pajamas: ['pyjamas'], 't-shirt': ['tshirt', 'tee shirt'], 'light-bulb': ['bulb', 'lightbulb'], mall: ['shopping mall', 'shopping centre', 'shopping center'],
   'ice-cream': ['icecream'], 'remote-control': ['remote'], chicken: ['chicken meat'], grapes: ['grape'], shoes: ['shoe'], boots: ['boot'], socks: ['sock'], gloves: ['glove'], scissors: ['scissor'],
 };
+
+/** Ekranda gösterim için ilk harfi büyütür (yalnızca görünüm; cevap kontrolü büyük/küçük harfe duyarsız). */
+export const capEn = (s: string) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
+/** Türkçe kurallarıyla: i → İ, ı → I. */
+export const capTr = (s: string) => (s ? s.charAt(0).toLocaleUpperCase('tr') + s.slice(1) : s);
