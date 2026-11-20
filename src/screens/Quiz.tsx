@@ -108,8 +108,8 @@ function Prompt({ q }: { q: Question }) {
   const { settings } = useApp();
   const w = WORD_BY_ID[q.id];
   switch (q.mode) {
-    case 'img-write': return <div className="prompt"><WordImage word={w} size={176} hideLabel /><p>Bu görselin İngilizcesini yaz.</p></div>;
-    case 'img-choice': return <div className="prompt"><WordImage word={w} size={176} hideLabel /><p>Bu görsel hangi kelime?</p></div>;
+    case 'img-write': return <div className="prompt"><WordImage word={w} size={176} hideLabel /><div className="prompt-tr">{w.tr}</div><p>Bu kelimenin İngilizcesini yaz.</p></div>;
+    case 'img-choice': return <div className="prompt"><WordImage word={w} size={176} hideLabel /><div className="prompt-tr">{w.tr}</div><p>İngilizcesi hangisi?</p></div>;
     case 'tr-en': return <div className="prompt"><div className="big-word">{w.tr}</div><p>İngilizce karşılığını yaz.</p></div>;
     case 'en-tr': return <div className="prompt"><div className="big-word">{w.en}</div><p>Türkçe anlamı hangisi?</p></div>;
     case 'listen': return (

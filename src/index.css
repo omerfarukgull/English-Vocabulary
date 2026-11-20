@@ -104,6 +104,7 @@ main { padding: max(12px, env(safe-area-inset-top)) 16px calc(84px + env(safe-ar
 .quiz .q-body { display: flex; flex-direction: column; gap: 14px; }
 .prompt { display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; padding: 8px 0; }
 .prompt p { margin: 0; color: var(--muted); }
+.prompt-tr { font-size: 1.6rem; font-weight: 700; color: var(--text); line-height: 1.2; overflow-wrap: anywhere; }
 .big-word { font-size: 2.1rem; font-weight: 700; padding: 18px 8px 4px; overflow-wrap: anywhere; }
 .listen-btn { width: 120px; height: 120px; border-radius: 50%; border: 0; background: var(--accent-soft); color: var(--accent); display: grid; place-items: center; cursor: pointer; }
 .choices { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
