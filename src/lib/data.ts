@@ -38,6 +38,10 @@ export const ALIASES: Record<string, string[]> = {
   'police-officer': ['policeman', 'police'], bicycle: ['bike'], motorcycle: ['motorbike'], sofa: ['couch'],
   pajamas: ['pyjamas'], 't-shirt': ['tshirt', 'tee shirt'], 'light-bulb': ['bulb', 'lightbulb'], mall: ['shopping mall', 'shopping centre', 'shopping center'],
   'ice-cream': ['icecream'], 'remote-control': ['remote'], chicken: ['chicken meat'], grapes: ['grape'], shoes: ['shoe'], boots: ['boot'], socks: ['sock'], gloves: ['glove'], scissors: ['scissor'],
+  // Aynı anlamdaki zamirler birbirinin yerine kabul edilir
+  someone: ['somebody', 'some one'], somebody: ['someone'], anyone: ['anybody', 'any one'], anybody: ['anyone'],
+  everyone: ['everybody'], everybody: ['everyone'], 'no-one': ['nobody', 'noone', 'no-one'], nobody: ['no one', 'noone', 'no-one'],
+  'each-other': ['one another'], 'one-another': ['each other'],
 };
 
 /** Ekranda gösterim için ilk harfi büyütür (yalnızca görünüm; cevap kontrolü büyük/küçük harfe duyarsız). */

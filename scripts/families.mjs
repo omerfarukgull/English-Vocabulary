@@ -10,6 +10,11 @@ const SUFFIX = [
   ['ship', ''], ['hood', ''], ['th', ''], ['ity', ''], ['ity', 'e'], ['ility', 'le'], ['ic', ''], ['ish', ''], ['ee', ''],
 ];
 export const IRREGULAR = [
+  // Zamir takımları: kişi → nesne → iyelik → iyelik zamiri → dönüşlü
+  ['i', 'me', 'my', 'mine', 'myself'], ['you', 'your', 'yours', 'yourself', 'yourselves'], ['he', 'him', 'his', 'himself'],
+  ['she', 'her', 'hers', 'herself'], ['it', 'its', 'itself'], ['we', 'us', 'our', 'ours', 'ourselves'], ['they', 'them', 'their', 'theirs', 'themselves'],
+  ['who', 'whom', 'whose', 'whoever'], ['which', 'whichever'], ['what', 'whatever'], ['this', 'these'], ['that', 'those'],
+  ['other', 'others', 'another'], ['someone', 'somebody', 'something'], ['anyone', 'anybody', 'anything'], ['everyone', 'everybody', 'everything'], ['no-one', 'nobody', 'nothing', 'none'],
   ['strong', 'strength'], ['die', 'dead', 'death'], ['high', 'height'], ['long', 'length'], ['wide', 'width'], ['true', 'truth'],
   ['succeed', 'success', 'successful'], ['choose', 'choice'], ['believe', 'belief'], ['prove', 'proof'], ['speak', 'speech'], ['sell', 'sale'],
   ['live', 'life', 'alive'], ['lose', 'loss', 'lost'], ['think', 'thought'], ['fly', 'flight'], ['decide', 'decision'], ['explain', 'explanation'],
@@ -21,7 +26,7 @@ export const IRREGULAR = [
   ['luck', 'lucky', 'luckily'], ['hunger', 'hungry'], ['thirst', 'thirsty'], ['anger', 'angry'], ['able', 'ability', 'unable'],
 ];
 // kural sonucu çıkan ama gerçekte ilgisiz eşleşmeler (gözden geçirmede bulundu)
-export const EXCLUDE = new Set('hardly>hard evening>even shower>show farmer>far remember>member busy>bus discount>count tooth>too discover>cover improve>prove matter>mat repair>pair return>turn remind>mind remove>move report>port retire>tire better>bet early>ear ready>read story>store topic>top windy>win ruler>rule mistake>take letter>let research>search corner>corn winter>win comedy>come poster>post army>arm tradition>trade partner>part inside>side butter>but drawer>draw earth>ear plumber>plum career>care business>busy folder>fold sweater>sweat final>fine former>form missing>sing tiny>tin apply>apple apply>app react>act review>view image>age manner>man legal>leg indoor>door mayor>may tired>tire boxing>box active>act engineer>engine recover>cover inform>form island>is reason>son rest>re party>part carpet>car restaurant>rest'.split(' '));
+export const EXCLUDE = new Set('young>you youth>you bother>both many>man hardly>hard evening>even shower>show farmer>far remember>member busy>bus discount>count tooth>too discover>cover improve>prove matter>mat repair>pair return>turn remind>mind remove>move report>port retire>tire better>bet early>ear ready>read story>store topic>top windy>win ruler>rule mistake>take letter>let research>search corner>corn winter>win comedy>come poster>post army>arm tradition>trade partner>part inside>side butter>but drawer>draw earth>ear plumber>plum career>care business>busy folder>fold sweater>sweat final>fine former>form missing>sing tiny>tin apply>apple apply>app react>act review>view image>age manner>man legal>leg indoor>door mayor>may tired>tire boxing>box active>act engineer>engine recover>cover inform>form island>is reason>son rest>re party>part carpet>car restaurant>rest'.split(' '));
 export function families(ids, extraGroups = []) {
   const has = new Set(ids);
   const parent = new Map(ids.map(i => [i, i]));

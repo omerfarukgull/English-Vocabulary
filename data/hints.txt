@@ -1326,3 +1326,65 @@ laundromat|laundry (çamaşır) + -omat (otomat) → çamaşırhane
 plaster|"Plestır" → plaster (alçı) → yara bandı
 eyesight|eye (göz) + sight (görüş) → görme yeteneği
 tracksuit|track (koşu pisti) + suit (takım) → eşofman
+i|"Ay" → İngilizcede "I" her zaman büyük yazılır: ben
+you|"Yuu" → "I love you": seni seviyorum → sen, siz (tekil ve çoğul aynı)
+he|"Hii" → he erkek, she kadın: "she" içinde "he" saklı
+she|"Şii" → she = s + he: erkeğin (he) yanına "s" ekle → kadın
+it|"İt" → it: cansız şeyler ve hayvanlar için "o"
+we|"Wii" → W ile başlar: we = biz (W iki kişi gibi: ben + sen)
+they|"Dey" → they, them, their: hepsi "th" ile başlar → onlar
+me|"Mii" → "Help me!": bana yardım et → beni, bana
+him|"Him" → he → him: "o"yu nesne yap: onu, ona (erkek)
+her|"Hör" → she → her: hem "onu" (I see her) hem "onun" (her bag)
+us|"As" → we → us: "Join us": bize katıl
+them|"Dem" → they → them: onları, onlara
+my|"May" → my → mine → myself: benim → benimki → kendim
+your|"Yur" → you → your: senin (you're = you are ile karıştırma)
+his|"Hiz" → he → his: onun (erkek); "his car" = onun arabası
+its|"İts" → it → its: onun (cansız, hayvan); it's = it is ile karıştırma
+our|"Auır" → we → our: bizim; "our house" = bizim evimiz
+their|"Der" → they → their: onların; there (orada) ile aynı okunur
+mine|"Mayn" → my + n: "This is mine" = bu benimki
+yours|your + s → seninki; "Yours sincerely" mektup sonu
+hers|her + s → onunki (kadın)
+ours|our + s → bizimki
+theirs|their + s → onlarınki
+myself|my (benim) + self (kendi) → kendim; "selfie" kendini çekmek
+yourself|your + self → kendin; "Help yourself": buyur, kendin al
+himself|him + self → kendisi (erkek)
+herself|her + self → kendisi (kadın)
+itself|it + self → kendisi (cansız, hayvan); "by itself" kendiliğinden
+ourselves|our + selves (çoğul self) → kendimiz
+yourselves|your + selves (çoğul) → kendiniz
+themselves|them + selves → kendileri
+this|"Dis" → this yakındaki tek şey: bu (that: şu, uzaktaki)
+that|"Det" → that uzaktaki: şu, o; ayrıca "ki" bağlacı: I know that…
+these|"Diiz" → this'in çoğulu: bunlar (yakın)
+those|"Douz" → that'in çoğulu: şunlar (uzak)
+who|"Huu" → WHO = Dünya Sağlık Örgütü: "kim?"
+whom|who + m → kimi, kime (resmî): "To whom?" kime?
+whose|"Huuz" → who + se: kimin? "Whose bag?" kimin çantası?
+which|"Wiç" → seçenekler arasında: hangisi?
+what|"Wat" → "What?!" Ne?! → ne
+whoever|who (kim) + ever (her) → her kim
+whichever|which (hangisi) + ever → hangisi olursa
+someone|some (bir) + one (kişi) → biri; somebody ile aynı
+anyone|any (herhangi) + one (kişi) → herhangi biri; anybody ile aynı
+everyone|every (her) + one (kişi) → herkes; everybody ile aynı
+no-one|no (hiç) + one (kişi) → hiç kimse; nobody ile aynı (ayrı yazılır)
+nobody|no (hiç) + body (kişi) → hiç kimse; "no one" ile aynı
+somebody|some (bir) + body (kişi) → biri, birisi; "someone" ile aynı
+each|"İiç" → each: tek tek her biri; "each day" = her gün
+both|"Bouth" → both = iki taraf da: ikisi de
+all|"Ool" → "all" = hepsi; "all day" = bütün gün
+none|"Nan" → no + one: hiçbiri
+either|"İidır" → iki seçenekten biri: ya bu ya şu
+neither|n + either: "hiçbiri" → ikisi de değil
+other|"Adır" → "the other side": öbür taraf → diğer
+others|other + s → diğerleri
+another|an (bir) + other (diğer) → başka bir, bir tane daha
+some|"Sam" → "some water": biraz su → biraz, bazı
+any|"Eni" → soruda ve olumsuzda: "Any questions?" Hiç sorunuz var mı?
+many|"Meni" → "How many?" Kaç tane? → çok (sayılabilen: many books)
+much|"Maç" → "How much?" Ne kadar? → çok (sayılamayan: much water)
+few|"Fyuu" → "a few": birkaç; "few" tek başına: az

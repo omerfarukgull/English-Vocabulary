@@ -5,7 +5,7 @@ React + TypeScript + Vite, veriler cihazda (IndexedDB), üyelik/sunucu yok.
 
 ## Özellikler
 - Günlük 10 yeni kelime hedefi (tekrarlardan ayrı sayılır), ilerleme çubuğu, seri (streak)
-- 2509 kelime, 25 kategori, A1/A2/B1 (A2'den başlar, sonra A1 eksikleri, sonra B1)
+- 2571 kelime, 26 kategori (Zamirler dahil: kişi, nesne, iyelik, dönüşlü, işaret, soru, belgisiz ve karşılıklı zamirler), A1/A2/B1 (A2'den başlar, sonra A1 eksikleri, sonra B1)
 - Öğrenme kartı: görsel, İngilizce, Türkçe, Türkçe okunuş, IPA, sesli telaffuz, örnek cümle + çeviri
 - 5 test türü + karışık: görselden yaz, görselden seç, İngilizce→Türkçe, Türkçe→İngilizce yaz, dinle ve bul
 - SM-2 benzeri akıllı tekrar; "Öğrenildi" için art arda 3 doğru + en az 3 farklı test türü gerekir
@@ -19,7 +19,7 @@ React + TypeScript + Vite, veriler cihazda (IndexedDB), üyelik/sunucu yok.
   Yazılı testlerde tek harflik kayma (uzun kelimede iki) "Neredeyse doğru" sayılır: doğru yazım gösterilir, kelime tam doğru
   sayılmaz ve ertesi gün yeniden sorulur. Yazılan şey uygulamadaki başka bir kelimeyse (ör. "three" yerine "tree") yanlış sayılır.
 - Kelime aileleri: aynı kökten kelimeler kartta birlikte gösterilir (happy, unhappy, happiness …; 199 grup)
-- Hafıza ipuçları: görseli olmayan 1477 kelimenin hepsinde Türkçe bir ipucu var (benzer ses, Türkçedeki ortak kelime,
+- Hafıza ipuçları: görseli olmayan 1539 kelimenin hepsinde Türkçe bir ipucu var (benzer ses, Türkçedeki ortak kelime,
   kelimenin parçaları ya da ekleri). İpuçları `data/hints.txt` dosyasındadır; birleşik kelimeler ve ekli kelimeler için
   olanlar build sırasında otomatik üretilir, dosyadaki elle yazılmış ipucu her zaman önceliklidir.
 - Günlük hatırlatma (Ayarlar): seçtiğin saatte bildirim. Sınırları: uygulama açıkken her tarayıcıda çalışır; uygulama
@@ -55,7 +55,7 @@ Kelime → görsel eşleşmeleri `data/images.txt` dosyasındadır (`kelime-id|s
 Her eşleşme ekranda tek tek kontrol edildi; bir ikon yalnızca bir kelimede kullanılabilir (build denetler) ve başka bir
 kelimenin resmine çok benzeyen eşleşmeler çıkarıldı.
 
-2509 kelimenin 1032'sinde görsel var. Kalan 1477 kelimede (çoğu fiil, sıfat, soyut kavram, bağlaç; ayrıca haftanın günleri
+2571 kelimenin 1032'sinde görsel var. Kalan 1539 kelimede (çoğu fiil, sıfat, soyut kavram, bağlaç; ayrıca haftanın günleri
 ve aylar) yanıltmayan bir resim bulunamadığı için alakasız görsel yerine nötr harf kartı gösterilir; bu kelimeler görselli
 testlerde sorulmaz.
 
