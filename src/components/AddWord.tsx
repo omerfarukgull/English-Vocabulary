@@ -54,9 +54,9 @@ export default function AddWord({ open, onClose, edit, onOpenWord, goLearn }: {
         <div className="add-word">
           <p className="success-msg"><Icon path={mdiCheckCircle} size={20} /> "{saved.en}" eklendi.</p>
           <p className="muted small">Kendi eklediğin kelimeler yeni kelime sırasında en öne gelir ve tüm testlerde (görselli testler hariç) sorulur.</p>
-          <div className="row gap wrap">
+          <div className="stack-btns">
+            <button className="btn primary" onClick={() => { ensurePlan(); addToPlan(saved.id); onClose(); goLearn(); }}>Şimdi öğren</button>
             <button className="btn" onClick={() => { setSaved(null); setEn(''); setTr(''); setEx(''); setExTr(''); setSay(''); }}>Bir kelime daha ekle</button>
-            <button className="btn primary grow" onClick={() => { ensurePlan(); addToPlan(saved.id); onClose(); goLearn(); }}>Şimdi öğren</button>
           </div>
         </div>
       ) : (

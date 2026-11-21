@@ -71,7 +71,7 @@ export default function Review({ start }: { start: (c: SessionConfig) => void })
         <p className="muted small">Tekrar tarihi gelmemiş kelimelerde doğru cevap takvimi değiştirmez; yanlış cevap kelimeyi öne alır.</p>
         <div className="list-btns">
           <button className="btn" onClick={() => run(shuffle(seen), 'Karışık pratik')} disabled={!filt(seen).length}><Icon path={mdiShuffleVariant} size={20} /> Rastgele ({Math.min(SESSION, filt(seen).length)})</button>
-          <button className="btn" onClick={() => run(oldest, 'Uzun süredir görmediklerin')} disabled={!filt(oldest).length}><Icon path={mdiHistory} size={20} /> En uzun süredir görmediklerim</button>
+          <button className="btn" onClick={() => run(oldest, 'Uzun süredir görmediklerin')} disabled={!filt(oldest).length}><Icon path={mdiHistory} size={20} /> Uzun süredir görmediklerim</button>
           <button className="btn" onClick={() => run(shuffle(hard), 'Zorlandıklarım')} disabled={!filt(hard).length}><Icon path={mdiAlertCircleOutline} size={20} /> Zorlandıklarım ({filt(hard).length})</button>
           <button className="btn" onClick={() => run(shuffle(favs), 'Favoriler')} disabled={!filt(favs).length}><Icon path={mdiStarOutline} size={20} /> Favorilerim ({filt(favs).length})</button>
         </div>

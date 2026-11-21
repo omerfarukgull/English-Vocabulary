@@ -76,7 +76,7 @@ export default function Settings({ open, onClose }: { open: boolean; onClose: ()
           <input type="time" value={st.reminder.time} onChange={e => { if (e.target.value) { setSettings({ reminder: { ...st.reminder, time: e.target.value } }); setTimeout(scheduleInPage, 0); } }} />
         </label>
         {remMsg && <p className="note">{remMsg}</p>}
-        <button className="btn" onClick={() => downloadIcs(st.reminder.time)}>Takvime günlük hatırlatıcı ekle (.ics)</button>
+        <button className="btn" onClick={() => downloadIcs(st.reminder.time)}>Takvime hatırlatıcı ekle (.ics)</button>
         <p className="muted small">En güvenilir yol takvim hatırlatıcısıdır: telefonun takviminde her gün {st.reminder.time}'da alarm çalar, internet gerekmez (iPhone dahil). {notifySupported ? 'Uygulama içi bildirim tarayıcıya bağlıdır.' : ''} Hatırlatma saati geçtiğinde ana sayfada da uyarı görünür.</p>
 
         <h3>Sesli telaffuz</h3>

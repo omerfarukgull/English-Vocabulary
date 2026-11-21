@@ -1,4 +1,4 @@
-import { mdiMagnify, mdiStar, mdiStarOutline, mdiPlus, mdiPencilOutline, mdiDeleteOutline } from '@mdi/js';
+import { mdiMagnify, mdiStar, mdiStarOutline, mdiPlus, mdiPencilOutline, mdiDeleteOutline, mdiRepeat, mdiBookOpenVariant } from '@mdi/js';
 import AddWord from '../components/AddWord';
 import { useEffect, useMemo, useState } from 'react';
 import { Confirm, Icon, Sheet, STATUS_LABEL, WordCard, WordImage } from '../components/ui';
@@ -74,11 +74,11 @@ export default function Words({ start, goLearn }: { start: (c: SessionConfig) =>
             <span className={`badge ${p?.status ?? 'new'}`}>{STATUS_LABEL[p?.status ?? 'new']}</span>
             {p && <span className="muted small">{p.correct} doğru · {p.wrong} yanlış · sonraki tekrar: {p.due <= Date.now() ? 'şimdi' : new Date(p.due).toLocaleDateString('tr-TR', { day: 'numeric', month: 'short' })}</span>}
           </div>
-          <div className="row gap wrap">
-            <button className="btn" onClick={() => toggleFavorite(w.id)}><Icon path={fav ? mdiStar : mdiStarOutline} size={20} /> {fav ? 'Favoride' : 'Favorilere ekle'}</button>
+          <div className="stack-btns">
             {p
-              ? <button className="btn primary grow" onClick={() => { setOpen(null); start({ ids: [w.id], mode: 'mixed', title: `Tekrar: ${w.en}` }); }}>Bu kelimeyi tekrar et</button>
-              : <button className="btn primary grow" onClick={() => { ensurePlan(); addToPlan(w.id); setOpen(null); goLearn(); }}>Şimdi öğren</button>}
+              ? <button className="btn primary" onClick={() => { setOpen(null); start({ ids: [w.id], mode: 'mixed', title: `Tekrar: ${w.en}` }); }}><Icon path={mdiRepeat} size={20} /> Bu kelimeyi tekrar et</button>
+              : <button className="btn primary" onClick={() => { ensurePlan(); addToPlan(w.id); setOpen(null); goLearn(); }}><Icon path={mdiBookOpenVariant} size={20} /> Şimdi öğren</button>}
+            <button className="btn" onClick={() => toggleFavorite(w.id)}><Icon path={fav ? mdiStar : mdiStarOutline} size={20} /> {fav ? 'Favoride' : 'Favorilere ekle'}</button>
           </div>
           {w.custom && <div className="row gap wrap">
             <span className="muted small grow">Bu kelimeyi sen ekledin.</span>

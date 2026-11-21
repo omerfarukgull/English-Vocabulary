@@ -19,7 +19,7 @@ export default function Replay({ day, onExit, onTest }: { day: LearnedDay; onExi
         <h2>Tekrar tamam</h2>
         <p>{formatDayLong(day.date)} öğrendiğin <b>{ids.length}</b> kelimeyi yeniden gözden geçirdin.</p>
         <p className="muted">Kalıcı olması için bu kelimelerle kısa bir test çözebilirsin.</p>
-        {ids.length > 0 && <button className="btn primary block" onClick={onTest}>Bu günün kelimeleriyle test ol</button>}
+        {ids.length > 0 && <button className="btn primary block" onClick={onTest}>Bu günün testini çöz</button>}
         <button className="btn block" onClick={() => setI(0)}>Baştan tekrar et</button>
         <button className="btn ghost block" onClick={onExit}>Geri dön</button>
       </div>

@@ -44,7 +44,7 @@ function LearnToday({ startTodayTest, seg }: { startTodayTest: () => void; seg: 
           <h2>{learnedToday >= goal ? 'Harika iş!' : 'Plan tamamlandı'}</h2>
           <p>Bugün <b>{learnedToday}</b> yeni kelime öğrendin{learnedToday >= goal ? ` ve ${goal} kelimelik hedefini tamamladın.` : '.'}</p>
           <p className="muted">Kalıcı olması için şimdi kısa bir testle pekiştir.</p>
-          <button className="btn primary block" onClick={startTodayTest}>Bugünün kelimeleriyle test ol</button>
+          <button className="btn primary block" onClick={startTodayTest}>Bugünün testini çöz</button>
           {remainingInBank > 0 && <button className="btn block" onClick={() => extendPlan(5)}>5 kelime daha öğren{fc ? ` (${CAT_BY_ID[fc]?.tr})` : ''}</button>}
         </div>
         {picker}
