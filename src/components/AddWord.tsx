@@ -4,6 +4,7 @@ import { type Level, type Word, capEn, capTr } from '../lib/data';
 import { dictionaryReady, loadDictionary, lookup, type Lookup } from '../lib/spell';
 import { addCustomWord, addToPlan, ensurePlan, makeCustomWord, updateCustomWord, useApp } from '../lib/store';
 import { Icon, Sheet } from './ui';
+import { t } from '../lib/i18n';
 
 /** Kendi kelimeni ekle / düzenle. Sözlükte olan kelime yeniden eklenmez; yazım hatası için öneri gösterilir. */
 export default function AddWord({ open, onClose, edit, onOpenWord, goLearn }: {
@@ -39,42 +40,42 @@ export default function AddWord({ open, onClose, edit, onOpenWord, goLearn }: {
     const extra = { ex, exTr, say, level };
     if (edit) {
       const clash = updateCustomWord(edit.id, en, tr, extra);
-      if (clash) { setErr(`"${clash.en}" zaten var.`); return; }
+      if (clash) { setErr(t('"{w}" zaten var.', { w: clash.en })); return; }
       onClose(); return;
     }
     const r = addCustomWord(makeCustomWord(en, tr, extra));
-    if (!r.added) { setErr(`"${r.word.en}" zaten var.`); return; }
+    if (!r.added) { setErr(t('"{w}" zaten var.', { w: r.word.en })); return; }
     setSaved(r.word);
   }
 
   const exP = exists ? s.progress[exists.id] : undefined;
   return (
-    <Sheet open={open} onClose={onClose} title={edit ? 'Kelimeyi düzenle' : 'Kendi kelimeni ekle'}>
+    <Sheet open={open} onClose={onClose} title={edit ? t('Kelimeyi düzenle') : t('Kendi kelimeni ekle')}>
       {saved ? (
         <div className="add-word">
-          <p className="success-msg"><Icon path={mdiCheckCircle} size={20} /> "{saved.en}" eklendi.</p>
-          <p className="muted small">Kendi eklediğin kelimeler yeni kelime sırasında en öne gelir ve tüm testlerde (görselli testler hariç) sorulur.</p>
+          <p className="success-msg"><Icon path={mdiCheckCircle} size={20} /> {t('"{w}" eklendi.', { w: saved.en })}</p>
+          <p className="muted small">{t('Kendi eklediğin kelimeler yeni kelime sırasında en öne gelir ve tüm testlerde (görselli testler hariç) sorulur.')}</p>
           <div className="stack-btns">
-            <button className="btn primary" onClick={() => { ensurePlan(); addToPlan(saved.id); onClose(); goLearn(); }}>Şimdi öğren</button>
-            <button className="btn" onClick={() => { setSaved(null); setEn(''); setTr(''); setEx(''); setExTr(''); setSay(''); }}>Bir kelime daha ekle</button>
+            <button className="btn primary" onClick={() => { ensurePlan(); addToPlan(saved.id); onClose(); goLearn(); }}>{t('Şimdi öğren')}</button>
+            <button className="btn" onClick={() => { setSaved(null); setEn(''); setTr(''); setEx(''); setExTr(''); setSay(''); }}>{t('Bir kelime daha ekle')}</button>
           </div>
         </div>
       ) : (
         <form className="add-word" onSubmit={e => { e.preventDefault(); save(); }}>
-          <label className="field">İngilizce kelime
-            <input value={en} onChange={e => { setEn(e.target.value); setErr(''); }} placeholder="ör. apple" autoCapitalize="off" autoCorrect="off" spellCheck={false} autoComplete="off" required />
+          <label className="field">{t('İngilizce kelime')}
+            <input value={en} onChange={e => { setEn(e.target.value); setErr(''); }} placeholder={t('ör. {x}', { x: 'apple' })} autoCapitalize="off" autoCorrect="off" spellCheck={false} autoComplete="off" required />
           </label>
-          {!ready && en.trim() && <p className="muted small">Yazım listesi yükleniyor…</p>}
+          {!ready && en.trim() && <p className="muted small">{t('Yazım listesi yükleniyor…')}</p>}
 
           {exists && (
             <div className="notice info">
               <Icon path={mdiInformationOutline} size={20} />
               <div>
-                <b>Bu kelime sözlükte zaten var:</b> {capEn(exists.en)} = {capTr(exists.tr)}
+                <b>{t('Bu kelime sözlükte zaten var:')}</b> {capEn(exists.en)} = {capTr(exists.tr)}
                 <div className="row gap wrap">
-                  <button type="button" className="btn small" onClick={() => { onClose(); onOpenWord(exists.id); }}>Kelimeyi aç</button>
-                  {!exP && <button type="button" className="btn primary small" onClick={() => { ensurePlan(); addToPlan(exists.id); onClose(); goLearn(); }}>Öğrenme listeme ekle</button>}
-                  {exP && <span className="muted small">Bu kelimeyi zaten öğreniyorsun.</span>}
+                  <button type="button" className="btn small" onClick={() => { onClose(); onOpenWord(exists.id); }}>{t('Kelimeyi aç')}</button>
+                  {!exP && <button type="button" className="btn primary small" onClick={() => { ensurePlan(); addToPlan(exists.id); onClose(); goLearn(); }}>{t('Öğrenme listeme ekle')}</button>}
+                  {exP && <span className="muted small">{t('Bu kelimeyi zaten öğreniyorsun.')}</span>}
                 </div>
               </div>
             </div>
@@ -82,7 +83,7 @@ export default function AddWord({ open, onClose, edit, onOpenWord, goLearn }: {
           {!exists && res && res.near.length > 0 && (
             <div className="notice info">
               <Icon path={mdiInformationOutline} size={20} />
-              <div><b>Bunu mu demek istediniz?</b>
+              <div><b>{t('Bunu mu demek istediniz?')}</b>
                 <div className="chips">{res.near.map(w => <button type="button" key={w.id} className="chip btnchip" onClick={() => setEn(w.en)}>{capEn(w.en)} · {capTr(w.tr)}</button>)}</div>
               </div>
             </div>
@@ -90,31 +91,31 @@ export default function AddWord({ open, onClose, edit, onOpenWord, goLearn }: {
           {unknown && (() => { const extraSug = res!.suggestions.filter(x => !res!.near.some(w => w.en.toLowerCase() === x)); return (
             <div className="notice warn">
               <Icon path={mdiAlertOutline} size={20} />
-              <div><b>Bu kelime sözlükte bulunamadı, emin misin?</b>
-                <span className="small"> "{res!.unknownParts.join(', ')}" İngilizce kelime listesinde yok. Yazım hatası olabilir.</span>
+              <div><b>{t('Bu kelime sözlükte bulunamadı, emin misin?')}</b>
+                <span className="small"> {t('"{w}" İngilizce kelime listesinde yok. Yazım hatası olabilir.', { w: res!.unknownParts.join(', ') })}</span>
                 {extraSug.length > 0 && <div className="chips">{extraSug.map(x => <button type="button" key={x} className="chip btnchip" onClick={() => setEn(x)}>{x}</button>)}</div>}
               </div>
             </div>
           ); })()}
 
-          <label className="field">Türkçe anlamı
-            <input value={tr} onChange={e => setTr(e.target.value)} placeholder="ör. elma" required />
+          <label className="field">{t('Türkçe anlamı')}
+            <input value={tr} onChange={e => setTr(e.target.value)} placeholder={t('ör. {x}', { x: 'elma' })} required />
           </label>
-          <label className="field">Okunuşu (isteğe bağlı)
-            <input value={say} onChange={e => setSay(e.target.value)} placeholder="ör. epıl" />
+          <label className="field">{t('Okunuşu (isteğe bağlı)')}
+            <input value={say} onChange={e => setSay(e.target.value)} placeholder={t('ör. {x}', { x: 'epıl' })} />
           </label>
-          <label className="field">Örnek cümle (isteğe bağlı)
-            <input value={ex} onChange={e => setEx(e.target.value)} placeholder="ör. I eat an apple every day." />
+          <label className="field">{t('Örnek cümle (isteğe bağlı)')}
+            <input value={ex} onChange={e => setEx(e.target.value)} placeholder={t('ör. {x}', { x: 'I eat an apple every day.' })} />
           </label>
-          <label className="field">Örnek cümlenin Türkçesi (isteğe bağlı)
+          <label className="field">{t('Örnek cümlenin Türkçesi (isteğe bağlı)')}
             <input value={exTr} onChange={e => setExTr(e.target.value)} />
           </label>
-          <label className="field">Seviye
+          <label className="field">{t('Seviye')}
             <select value={level} onChange={e => setLevel(e.target.value as Level)}><option>A1</option><option>A2</option><option>B1</option></select>
           </label>
           {err && <p className="note">{err}</p>}
-          <button type="submit" className="btn primary block" disabled={!canSave}>{edit ? 'Kaydet' : unknown ? 'Yine de kaydet' : 'Kelimeyi ekle'}</button>
-          <p className="muted small">Anlam kontrolü yapılamaz (internet ve ücretli servis yok); Türkçe anlamı kendin yazarsın. Kelimeleri sonradan düzenleyip silebilirsin.</p>
+          <button type="submit" className="btn primary block" disabled={!canSave}>{edit ? t('Kaydet') : unknown ? t('Yine de kaydet') : t('Kelimeyi ekle')}</button>
+          <p className="muted small">{t('Anlam kontrolü yapılamaz (internet ve ücretli servis yok); Türkçe anlamı kendin yazarsın. Kelimeleri sonradan düzenleyip silebilirsin.')}</p>
         </form>
       )}
     </Sheet>

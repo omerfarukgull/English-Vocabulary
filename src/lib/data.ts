@@ -1,6 +1,7 @@
 import raw from '../data/words.json';
 import iconPaths from '../data/icons.json';
 import families from '../data/families.json';
+import { getLang } from './i18n';
 
 export type Level = 'A1' | 'A2' | 'B1';
 export interface Word {
@@ -24,6 +25,8 @@ export function registerCustomWords(list: Word[]) {
   for (const w of list) { if (WORD_BY_ID[w.id]) continue; const x = { ...w, custom: true, cat: CUSTOM_CAT, img: false }; WORDS.push(x); WORD_BY_ID[x.id] = x; }
 }
 export const CAT_BY_ID: Record<string, Category> = Object.fromEntries(CATEGORIES.map(c => [c.id, c]));
+/** Kategori adı, arayüz diline göre. */
+export const catName = (id: string) => { const c = CAT_BY_ID[id]; return c ? (getLang() === 'en' ? c.en : c.tr) : ''; };
 export const ICONS: Record<string, string> = iconPaths;
 /** Aynı kökten kelimeler (happy → unhappy, happiness). */
 export const FAMILIES: Record<string, string[]> = families;

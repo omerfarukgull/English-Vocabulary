@@ -2,7 +2,8 @@ import { mdiMagnify, mdiStar, mdiStarOutline, mdiPlus, mdiPencilOutline, mdiDele
 import AddWord from '../components/AddWord';
 import { useEffect, useMemo, useState } from 'react';
 import { Confirm, Icon, Sheet, STATUS_LABEL, WordCard, WordImage } from '../components/ui';
-import { CATEGORIES, WORDS, WORD_BY_ID, capEn, capTr } from '../lib/data';
+import { CATEGORIES, WORDS, WORD_BY_ID, capEn, capTr, catName } from '../lib/data';
+import { locale, t } from '../lib/i18n';
 import { addToPlan, deleteCustomWord, ensurePlan, toggleFavorite, useApp } from '../lib/store';
 import type { SessionConfig } from './Quiz';
 
@@ -43,16 +44,16 @@ export default function Words({ start, goLearn }: { start: (c: SessionConfig) =>
 
   return (
     <div className="screen">
-      <div className="row between"><h1>Kelimelerim</h1><button className="btn small" onClick={() => setAdding(true)}><Icon path={mdiPlus} size={20} /> Kelime ekle</button></div>
-      <div className="search"><Icon path={mdiMagnify} size={20} /><input type="search" value={q} onChange={e => setQ(e.target.value)} placeholder="İngilizce veya Türkçe ara" aria-label="Kelime ara" /></div>
-      <div className="chips scroll" role="tablist">{FILTERS.map(([k, l]) => <button key={k} role="tab" aria-selected={f === k} className={`chip btnchip ${f === k ? 'on' : ''}`} onClick={() => setF(k)}>{l}</button>)}</div>
+      <div className="row between"><h1>{t('Kelimelerim')}</h1><button className="btn small" onClick={() => setAdding(true)}><Icon path={mdiPlus} size={20} /> {t('Kelime ekle')}</button></div>
+      <div className="search"><Icon path={mdiMagnify} size={20} /><input type="search" value={q} onChange={e => setQ(e.target.value)} placeholder={t('İngilizce veya Türkçe ara')} aria-label={t('Kelime ara')} /></div>
+      <div className="chips scroll" role="tablist">{FILTERS.map(([k, l]) => <button key={k} role="tab" aria-selected={f === k} className={`chip btnchip ${f === k ? 'on' : ''}`} onClick={() => setF(k)}>{t(l)}</button>)}</div>
       <div className="row gap">
-        <select value={cat} onChange={e => setCat(e.target.value)} aria-label="Kategori"><option value="">Tüm kategoriler</option>{CATEGORIES.map(c => <option key={c.id} value={c.id}>{c.tr}</option>)}</select>
-        <select value={level} onChange={e => setLevel(e.target.value)} aria-label="Seviye"><option value="">Tüm seviyeler</option><option>A1</option><option>A2</option><option>B1</option></select>
+        <select value={cat} onChange={e => setCat(e.target.value)} aria-label={t('Kategori')}><option value="">{t('Tüm kategoriler')}</option>{CATEGORIES.map(c => <option key={c.id} value={c.id}>{catName(c.id)}</option>)}</select>
+        <select value={level} onChange={e => setLevel(e.target.value)} aria-label={t('Seviye')}><option value="">{t('Tüm seviyeler')}</option><option>A1</option><option>A2</option><option>B1</option></select>
       </div>
-      <div className="muted small">{list.length} kelime</div>
+      <div className="muted small">{t('{n} kelime', { n: list.length })}</div>
       {list.length === 0
-        ? <div className="card empty">{f === 'seen' && Object.keys(s.progress).length === 0 ? 'Henüz kelime öğrenmedin. Öğrendiğin kelimeler burada listelenecek.' : 'Bu filtreye uyan kelime yok.'}</div>
+        ? <div className="card empty">{f === 'seen' && Object.keys(s.progress).length === 0 ? t('Henüz kelime öğrenmedin. Öğrendiğin kelimeler burada listelenecek.') : t('Bu filtreye uyan kelime yok.')}</div>
         : <ul className="word-list">{list.slice(0, limit).map(w => {
           const st = s.progress[w.id]?.status ?? 'new';
           return (
@@ -60,36 +61,36 @@ export default function Words({ start, goLearn }: { start: (c: SessionConfig) =>
               <button className="wl-main" onClick={() => setOpen(w.id)}>
                 <WordImage word={w} size={48} />
                 <div className="wl-text"><b>{capEn(w.en)}</b><span>{capTr(w.tr)}</span></div>
-                <span className={`badge ${st}`}>{STATUS_LABEL[st]}</span>
+                <span className={`badge ${st}`}>{t(STATUS_LABEL[st])}</span>
               </button>
-              <button className="icon-btn star" onClick={() => toggleFavorite(w.id)} aria-label={s.favorites.includes(w.id) ? 'Favorilerden çıkar' : 'Favorilere ekle'}><Icon path={s.favorites.includes(w.id) ? mdiStar : mdiStarOutline} /></button>
+              <button className="icon-btn star" onClick={() => toggleFavorite(w.id)} aria-label={s.favorites.includes(w.id) ? t('Favorilerden çıkar') : t('Favorilere ekle')}><Icon path={s.favorites.includes(w.id) ? mdiStar : mdiStarOutline} /></button>
             </li>);
         })}</ul>}
-      {list.length > limit && <button className="btn block" onClick={() => setLimit(l => l + 100)}>Daha fazla göster ({list.length - limit} kelime daha)</button>}
+      {list.length > limit && <button className="btn block" onClick={() => setLimit(l => l + 100)}>{t('Daha fazla göster ({n} kelime daha)', { n: list.length - limit })}</button>}
 
-      <Sheet open={!!w} onClose={() => setOpen(null)} title="Kelime detayı">
+      <Sheet open={!!w} onClose={() => setOpen(null)} title={t('Kelime detayı')}>
         {w && <>
           <WordCard word={w} onPick={setOpen} />
           <div className="detail-stats">
-            <span className={`badge ${p?.status ?? 'new'}`}>{STATUS_LABEL[p?.status ?? 'new']}</span>
-            {p && <span className="muted small">{p.correct} doğru · {p.wrong} yanlış · sonraki tekrar: {p.due <= Date.now() ? 'şimdi' : new Date(p.due).toLocaleDateString('tr-TR', { day: 'numeric', month: 'short' })}</span>}
+            <span className={`badge ${p?.status ?? 'new'}`}>{t(STATUS_LABEL[p?.status ?? 'new'])}</span>
+            {p && <span className="muted small">{t('{c} doğru · {w} yanlış · sonraki tekrar: {d}', { c: p.correct, w: p.wrong, d: p.due <= Date.now() ? t('şimdi') : new Date(p.due).toLocaleDateString(locale(), { day: 'numeric', month: 'short' }) })}</span>}
           </div>
           <div className="stack-btns">
             {p
-              ? <button className="btn primary" onClick={() => { setOpen(null); start({ ids: [w.id], mode: 'mixed', title: `Tekrar: ${w.en}` }); }}><Icon path={mdiRepeat} size={20} /> Bu kelimeyi tekrar et</button>
-              : <button className="btn primary" onClick={() => { ensurePlan(); addToPlan(w.id); setOpen(null); goLearn(); }}><Icon path={mdiBookOpenVariant} size={20} /> Şimdi öğren</button>}
-            <button className="btn" onClick={() => toggleFavorite(w.id)}><Icon path={fav ? mdiStar : mdiStarOutline} size={20} /> {fav ? 'Favoride' : 'Favorilere ekle'}</button>
+              ? <button className="btn primary" onClick={() => { setOpen(null); start({ ids: [w.id], mode: 'mixed', title: t('Tekrar: {w}', { w: capEn(w.en) }) }); }}><Icon path={mdiRepeat} size={20} /> {t('Bu kelimeyi tekrar et')}</button>
+              : <button className="btn primary" onClick={() => { ensurePlan(); addToPlan(w.id); setOpen(null); goLearn(); }}><Icon path={mdiBookOpenVariant} size={20} /> {t('Şimdi öğren')}</button>}
+            <button className="btn" onClick={() => toggleFavorite(w.id)}><Icon path={fav ? mdiStar : mdiStarOutline} size={20} /> {fav ? t('Favoride') : t('Favorilere ekle')}</button>
           </div>
           {w.custom && <div className="row gap wrap">
-            <span className="muted small grow">Bu kelimeyi sen ekledin.</span>
-            <button className="btn small" onClick={() => { setEditing(w.id); setOpen(null); }}><Icon path={mdiPencilOutline} size={18} /> Düzenle</button>
-            <button className="btn small danger" onClick={() => setDelId(w.id)}><Icon path={mdiDeleteOutline} size={18} /> Sil</button>
+            <span className="muted small grow">{t('Bu kelimeyi sen ekledin.')}</span>
+            <button className="btn small" onClick={() => { setEditing(w.id); setOpen(null); }}><Icon path={mdiPencilOutline} size={18} /> {t('Düzenle')}</button>
+            <button className="btn small danger" onClick={() => setDelId(w.id)}><Icon path={mdiDeleteOutline} size={18} /> {t('Sil')}</button>
           </div>}
         </>}
       </Sheet>
       <AddWord open={adding || !!editing} edit={editing ? WORD_BY_ID[editing] : null} onClose={() => { setAdding(false); setEditing(null); }}
         onOpenWord={id => { setF('all'); setOpen(id); }} goLearn={goLearn} />
-      <Confirm open={!!delId} title="Kelime silinsin mi?" text={delId && WORD_BY_ID[delId] ? `"${WORD_BY_ID[delId].en}" ve bu kelimedeki ilerlemen silinecek.` : ''} confirmText="Sil" danger
+      <Confirm open={!!delId} title={t('Kelime silinsin mi?')} text={delId && WORD_BY_ID[delId] ? t('"{w}" ve bu kelimedeki ilerlemen silinecek.', { w: WORD_BY_ID[delId].en }) : ''} confirmText={t('Sil')} danger
         onConfirm={() => { if (delId) deleteCustomWord(delId); setDelId(null); setOpen(null); }} onCancel={() => setDelId(null)} />
     </div>
   );

@@ -32,6 +32,9 @@ React + TypeScript + Vite, veriler cihazda (IndexedDB), üyelik/sunucu yok.
   kapalıyken yalnızca arka plan eşitlemesini destekleyen tarayıcılarda (Android Chrome, ana ekrana eklenmiş olarak) ve
   saati tarayıcının belirlediği bir zamanda gelir. iPhone'da kapalı uygulamadan bildirim garanti değildir. Bu yüzden
   ".ics takvim hatırlatıcısı" düğmesi telefonun takvimine her gün o saatte alarmlı bir etkinlik ekler; en güvenilir yol budur.
+- Arayüz dili (Ayarlar → Dil / Language): Türkçe veya English. Yalnızca menüler, düğmeler ve mesajlar çevrilir;
+  kelimeler İngilizce, anlamları, ipuçları ve örnek çevirileri Türkçe kalır. Seçim cihazda saklanır, varsayılan Türkçe.
+  Metinler `src/lib/i18n-en.ts` içinde (anahtar Türkçe metnin kendisi).
 - Çevrimdışı çalışma (service worker tüm dosyaları önbelleğe alır), ana ekrana eklenebilir
 
 ## Çalıştırma (bilgisayarda)

@@ -2,18 +2,19 @@ import { mdiArrowRight, mdiArrowLeft, mdiPartyPopper } from '@mdi/js';
 import { useEffect, useState, type ReactNode } from 'react';
 import DayList from '../components/DayList';
 import { FocusPicker, Icon, ProgressBar, WordCard } from '../components/ui';
-import { CAT_BY_ID, WORD_BY_ID } from '../lib/data';
+import { catName, WORD_BY_ID } from '../lib/data';
+import { t } from '../lib/i18n';
 import { ensurePlan, extendPlan, markSeen, setFocusCat, todayNewCount, unseenOrdered, useApp, type LearnedDay } from '../lib/store';
 
 export type LearnView = 'today' | 'days';
 export default function Learn({ startTodayTest, view, setView, onReplay, onDayTest }: { startTodayTest: () => void; view: LearnView; setView: (v: LearnView) => void; onReplay: (d: LearnedDay) => void; onDayTest: (d: LearnedDay) => void }) {
   const seg = (
     <div className="seg learn-seg" role="tablist">
-      <button role="tab" aria-selected={view === 'today'} className={view === 'today' ? 'on' : ''} onClick={() => setView('today')}>Bugün</button>
-      <button role="tab" aria-selected={view === 'days'} className={view === 'days' ? 'on' : ''} onClick={() => setView('days')}>Günlerim</button>
+      <button role="tab" aria-selected={view === 'today'} className={view === 'today' ? 'on' : ''} onClick={() => setView('today')}>{t('Bugün')}</button>
+      <button role="tab" aria-selected={view === 'days'} className={view === 'days' ? 'on' : ''} onClick={() => setView('days')}>{t('Günlerim')}</button>
     </div>
   );
-  if (view === 'days') return <div className="screen"><h1>Öğren</h1>{seg}<DayList onReplay={onReplay} onTest={onDayTest} /></div>;
+  if (view === 'days') return <div className="screen"><h1>{t('Öğren')}</h1>{seg}<DayList onReplay={onReplay} onTest={onDayTest} /></div>;
   return <LearnToday startTodayTest={startTodayTest} seg={seg} />;
 }
 
@@ -31,21 +32,21 @@ function LearnToday({ startTodayTest, seg }: { startTodayTest: () => void; seg: 
     const fc = s.settings.focusCat;
     const picker = <div className="card"><FocusPicker value={fc} onChange={setFocusCat} /></div>;
     if (remainingInBank === 0 && fc && (ids.length === 0 || learnedToday < goal)) {
-      return <div className="screen"><h1>Öğren</h1>{seg}{picker}<div className="card empty">"{CAT_BY_ID[fc]?.tr}" kategorisindeki tüm kelimeleri gördün! Tekrar ekranında bu kategoriyi pekiştirebilir ya da yukarıdan başka bir kategori seçebilirsin.</div></div>;
+      return <div className="screen"><h1>{t('Öğren')}</h1>{seg}{picker}<div className="card empty">{t('"{c}" kategorisindeki tüm kelimeleri gördün! Tekrar ekranında bu kategoriyi pekiştirebilir ya da yukarıdan başka bir kategori seçebilirsin.', { c: catName(fc) })}</div></div>;
     }
     if (ids.length === 0 && remainingInBank === 0 && learnedToday === 0) {
-      return <div className="screen"><h1>Öğren</h1>{seg}<div className="card empty">Tüm kelimeleri gördün! Artık tekrar ve testlerle pekiştirebilirsin.</div></div>;
+      return <div className="screen"><h1>{t('Öğren')}</h1>{seg}<div className="card empty">{t('Tüm kelimeleri gördün! Artık tekrar ve testlerle pekiştirebilirsin.')}</div></div>;
     }
     return (
       <div className="screen">
-        <h1>Öğren</h1>{seg}
+        <h1>{t('Öğren')}</h1>{seg}
         <div className="card celebrate">
           <Icon path={mdiPartyPopper} size={56} />
-          <h2>{learnedToday >= goal ? 'Harika iş!' : 'Plan tamamlandı'}</h2>
-          <p>Bugün <b>{learnedToday}</b> yeni kelime öğrendin{learnedToday >= goal ? ` ve ${goal} kelimelik hedefini tamamladın.` : '.'}</p>
-          <p className="muted">Kalıcı olması için şimdi kısa bir testle pekiştir.</p>
-          <button className="btn primary block" onClick={startTodayTest}>Bugünün testini çöz</button>
-          {remainingInBank > 0 && <button className="btn block" onClick={() => extendPlan(5)}>5 kelime daha öğren{fc ? ` (${CAT_BY_ID[fc]?.tr})` : ''}</button>}
+          <h2>{learnedToday >= goal ? t('Harika iş!') : t('Plan tamamlandı')}</h2>
+          <p>{learnedToday >= goal ? t('Bugün {n} yeni kelime öğrendin ve {g} kelimelik hedefini tamamladın.', { n: learnedToday, g: goal }) : t('Bugün {n} yeni kelime öğrendin.', { n: learnedToday })}</p>
+          <p className="muted">{t('Kalıcı olması için şimdi kısa bir testle pekiştir.')}</p>
+          <button className="btn primary block" onClick={startTodayTest}>{t('Bugünün testini çöz')}</button>
+          {remainingInBank > 0 && <button className="btn block" onClick={() => extendPlan(5)}>{t('5 kelime daha öğren')}{fc ? ` (${catName(fc)})` : ''}</button>}
         </div>
         {picker}
       </div>
@@ -63,14 +64,14 @@ function LearnToday({ startTodayTest, seg }: { startTodayTest: () => void; seg: 
 
   return (
     <div className="screen learn">
-      <div className="row between"><h1>Öğren</h1><span className="muted">{position} / {ids.length}</span></div>
+      <div className="row between"><h1>{t('Öğren')}</h1><span className="muted">{position} / {ids.length}</span></div>
       {seg}
-      <ProgressBar value={(firstUnseen === -1 ? ids.length : firstUnseen) / Math.max(1, ids.length)} label="Bugünkü kelimeler" />
-      {s.settings.focusCat && <div className="muted small">Kategori: {CAT_BY_ID[s.settings.focusCat]?.tr}</div>}
+      <ProgressBar value={(firstUnseen === -1 ? ids.length : firstUnseen) / Math.max(1, ids.length)} label={t('Bugünkü kelimeler')} />
+      {s.settings.focusCat && <div className="muted small">{t('Kategori: {c}', { c: catName(s.settings.focusCat) })}</div>}
       <div className="fade" key={word.id}><WordCard word={word} autoplay /></div>
       <div className="row gap bottom-actions">
-        <button className="btn" onClick={prev} disabled={idx === 0} aria-label="Önceki kelime"><Icon path={mdiArrowLeft} size={20} /></button>
-        <button className="btn primary grow" onClick={next}>{back !== null ? 'İleri' : position >= ids.length ? 'Bitir' : 'Sonraki kelime'} <Icon path={mdiArrowRight} size={20} /></button>
+        <button className="btn" onClick={prev} disabled={idx === 0} aria-label={t('Önceki kelime')}><Icon path={mdiArrowLeft} size={20} /></button>
+        <button className="btn primary grow" onClick={next}>{back !== null ? t('İleri') : position >= ids.length ? t('Bitir') : t('Sonraki kelime')} <Icon path={mdiArrowRight} size={20} /></button>
       </div>
     </div>
   );

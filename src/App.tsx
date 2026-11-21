@@ -12,6 +12,7 @@ import Review from './screens/Review';
 import Settings from './screens/Settings';
 import Stats from './screens/Stats';
 import Words from './screens/Words';
+import { t } from './lib/i18n';
 
 export type Tab = 'home' | 'learn' | 'review' | 'words' | 'stats';
 const TABS: [Tab, string, string][] = [
@@ -45,17 +46,17 @@ export default function App() {
 
   /** Günün testi: bugün öğrenilen kelimeler + bekleyen tekrarlar; yoksa karışık pratik. */
   const startDailyTest = useCallback(() => {
-    const st = getState(); const t = dayKey();
-    const todays = Object.keys(st.progress).filter(id => st.progress[id].firstSeen === t);
+    const st = getState(); const today = dayKey();
+    const todays = Object.keys(st.progress).filter(id => st.progress[id].firstSeen === today);
     const due = dueIds(st).filter(id => !todays.includes(id));
     let ids = [...shuffle(todays), ...due].slice(0, 20);
     if (ids.length < 5) ids = [...ids, ...shuffle(Object.keys(st.progress).filter(id => !ids.includes(id)))].slice(0, 10);
-    start({ ids: shuffle(ids), mode: 'mixed', title: 'Günün testi', daily: true });
+    start({ ids: shuffle(ids), mode: 'mixed', title: t('Günün testi'), daily: true });
   }, [start]);
 
   const openReplay = useCallback((d: LearnedDay, from: Tab = 'learn') => { setSession(null); setReplay(d); setReplayFrom(from); if (location.hash !== '#learn') location.hash = 'learn'; setTab('learn'); window.scrollTo(0, 0); }, []);
   const replayToday = useCallback(() => { const d = learnedDays(getState()).find(x => x.date === dayKey()); if (d) openReplay(d, 'home'); }, [openReplay]);
-  const dayTest = useCallback((d: LearnedDay) => start({ ids: shuffle(d.ids), mode: 'mixed', title: `${d.n}. Gün testi` }), [start]);
+  const dayTest = useCallback((d: LearnedDay) => start({ ids: shuffle(d.ids), mode: 'mixed', title: t('{n}. Gün testi', { n: d.n }) }), [start]);
   const showDays = useCallback(() => { setLearnView('days'); go('learn'); }, [go]);
 
   return (
@@ -70,10 +71,10 @@ export default function App() {
           : tab === 'words' ? <Words start={start} goLearn={() => go('learn')} />
           : <Stats />}
       </main>
-      <nav className="tabbar" aria-label="Ana menü">
-        {TABS.map(([t, label, icon]) => (
-          <button key={t} className={tab === t ? 'on' : ''} aria-current={tab === t ? 'page' : undefined} onClick={() => go(t)}>
-            <Icon path={icon} size={24} /><span>{label}</span>
+      <nav className="tabbar" aria-label={t('Ana menü')}>
+        {TABS.map(([tb, label, icon]) => (
+          <button key={tb} className={tab === tb ? 'on' : ''} aria-current={tab === tb ? 'page' : undefined} onClick={() => go(tb)}>
+            <Icon path={icon} size={24} /><span>{t(label)}</span>
           </button>
         ))}
       </nav>

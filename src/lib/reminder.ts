@@ -5,6 +5,7 @@
 // - iPhone/iPad (Safari) kapalı uygulamaya yerel zamanlanmış bildirim desteklemez; orada takvim hatırlatıcısı (.ics) kullanılır.
 import { getState } from './store';
 import { dayKey } from './date';
+import { t } from './i18n';
 
 export const notifySupported = typeof window !== 'undefined' && 'Notification' in window && 'serviceWorker' in navigator;
 export const isIOS = typeof navigator !== 'undefined' && (/iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1));
@@ -72,8 +73,8 @@ export function downloadIcs(time: string) {
     'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Personal English Vocabulary//TR', 'CALSCALE:GREGORIAN',
     'BEGIN:VEVENT', `UID:pev-daily-${ymd}@kelimelerim`, `DTSTAMP:${stamp}`,
     `DTSTART:${ymd}T${h}${m}00`, `DTEND:${ymd}T${h}${String(Math.min(59, Number(m) + 10)).padStart(2, '0')}00`,
-    'RRULE:FREQ=DAILY', 'SUMMARY:İngilizce kelime zamanı', `DESCRIPTION:Bugünkü kelimelerini çalış: ${url}`, `URL:${url}`,
-    'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:İngilizce kelime zamanı', 'TRIGGER:PT0M', 'END:VALARM',
+    'RRULE:FREQ=DAILY', `SUMMARY:${t('İngilizce kelime zamanı')}`, `DESCRIPTION:${t('Bugünkü kelimelerini çalış: {u}', { u: url })}`, `URL:${url}`,
+    'BEGIN:VALARM', 'ACTION:DISPLAY', `DESCRIPTION:${t('İngilizce kelime zamanı')}`, 'TRIGGER:PT0M', 'END:VALARM',
     'END:VEVENT', 'END:VCALENDAR',
   ].join('\r\n');
   const blob = new Blob([ics], { type: 'text/calendar' });

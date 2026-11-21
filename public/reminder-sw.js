@@ -30,9 +30,12 @@ async function maybeRemind() {
   if (day.newWords >= goal) return; // bugünkü hedef tamam
   await idb('readwrite', st => st.put(today, LAST));
   const left = goal - day.newWords;
-  await self.registration.showNotification('Kelime zamanı', {
-    body: day.newWords ? `Bugün ${left} yeni kelime kaldı. Birkaç dakika yeter.` : `Bugünkü ${goal} kelimen seni bekliyor.`,
-    icon: 'pwa-192.png', badge: 'pwa-192.png', tag: 'daily-reminder', lang: 'tr',
+  const en = s.settings.lang === 'en';
+  await self.registration.showNotification(en ? 'Vocabulary time' : 'Kelime zamanı', {
+    body: en
+      ? (day.newWords ? `${left} new word${left === 1 ? '' : 's'} left today. A few minutes is enough.` : `Your ${goal} words for today are waiting.`)
+      : (day.newWords ? `Bugün ${left} yeni kelime kaldı. Birkaç dakika yeter.` : `Bugünkü ${goal} kelimen seni bekliyor.`),
+    icon: 'pwa-192.png', badge: 'pwa-192.png', tag: 'daily-reminder', lang: en ? 'en' : 'tr',
   });
 }
 self.addEventListener('periodicsync', e => { if (e.tag === 'daily-reminder') e.waitUntil(maybeRemind()); });

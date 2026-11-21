@@ -1,8 +1,9 @@
 import { mdiVolumeHigh, mdiTortoise, mdiClose } from '@mdi/js';
 import { useEffect, type ReactNode } from 'react';
-import { CATEGORIES, CAT_BY_ID, FAMILIES, ICONS, WORDS, WORD_BY_ID, type Word, capEn, capTr } from '../lib/data';
+import { CATEGORIES, catName, FAMILIES, ICONS, WORDS, WORD_BY_ID, type Word, capEn, capTr } from '../lib/data';
 import { speak, speechSupported } from '../lib/speech';
 import { useApp } from '../lib/store';
+import { t } from '../lib/i18n';
 
 export function Icon({ path, size = 24, className }: { path: string; size?: number; className?: string }) {
   return <svg viewBox="0 0 24 24" width={size} height={size} aria-hidden="true" className={className}><path d={path} fill="currentColor" /></svg>;
@@ -31,15 +32,15 @@ export function WordImage({ word, size = 160, hideLabel }: { word: Word; size?: 
   const style = { width: size, height: size, ['--h' as string]: hue } as React.CSSProperties;
   if (d) {
     return (
-      <div className="word-img" style={style} role="img" aria-label={hideLabel ? 'Kelime görseli' : word.en}>
+      <div className="word-img" style={style} role="img" aria-label={hideLabel ? t('Kelime görseli') : word.en}>
         <IconSvg data={d} size={size * 0.56} />
       </div>
     );
   }
   return (
-    <div className="word-img fallback" style={style} role="img" aria-label={hideLabel ? 'Görsel yok' : `${word.en} (görsel yok)`}>
+    <div className="word-img fallback" style={style} role="img" aria-label={hideLabel ? t('Görsel yok') : t('{w} (görsel yok)', { w: word.en })}>
       <span style={{ fontSize: size * 0.38 }}>{word.en[0].toUpperCase()}</span>
-      {size >= 100 && <small>{CAT_BY_ID[word.cat]?.tr}</small>}
+      {size >= 100 && <small>{catName(word.cat)}</small>}
     </div>
   );
 }
@@ -49,17 +50,17 @@ export function SpeakButton({ text, label, compact }: { text: string; label?: st
   if (!speechSupported) return null;
   return (
     <span className="speak-group">
-      <button className={compact ? 'icon-btn' : 'speak-btn'} onClick={() => speak(text, settings.rate, settings.voice)} aria-label={`${label ?? text} dinle`}>
-        <Icon path={mdiVolumeHigh} size={compact ? 20 : 22} />{!compact && <span>{label ?? 'Dinle'}</span>}
+      <button className={compact ? 'icon-btn' : 'speak-btn'} onClick={() => speak(text, settings.rate, settings.voice)} aria-label={t('{x} dinle', { x: label ?? text })}>
+        <Icon path={mdiVolumeHigh} size={compact ? 20 : 22} />{!compact && <span>{label ?? t('Dinle')}</span>}
       </button>
-      {!compact && <button className="icon-btn" onClick={() => speak(text, Math.max(0.5, settings.rate - 0.35), settings.voice)} aria-label="Yavaş dinle" title="Yavaş dinle"><Icon path={mdiTortoise} size={20} /></button>}
+      {!compact && <button className="icon-btn" onClick={() => speak(text, Math.max(0.5, settings.rate - 0.35), settings.voice)} aria-label={t('Yavaş dinle')} title={t('Yavaş dinle')}><Icon path={mdiTortoise} size={20} /></button>}
     </span>
   );
 }
 
 export function NoSpeechNote() {
   if (speechSupported) return null;
-  return <p className="note">Bu cihaz/tarayıcı sesli okumayı desteklemiyor. Telaffuz için okunuş ve IPA yazımını kullanabilirsin.</p>;
+  return <p className="note">{t('Bu cihaz/tarayıcı sesli okumayı desteklemiyor. Telaffuz için okunuş ve IPA yazımını kullanabilirsin.')}</p>;
 }
 
 /** Kelimenin tam öğrenme kartı içeriği (öğren ekranı, detay ve yanlış cevap sonrası). */
@@ -74,20 +75,20 @@ export function WordCard({ word, autoplay, onPick }: { word: Word; autoplay?: bo
       <div className="wc-en">{capEn(word.en)}</div>
       <div className="wc-tr">{capTr(word.tr)}</div>
       {(word.say || word.ipa) && <div className="wc-pron">
-        {word.say && <span><b>Okunuş:</b> {word.say}</span>}
+        {word.say && <span><b>{t('Okunuş:')}</b> {word.say}</span>}
         {word.ipa && <span className="ipa">{word.ipa}</span>}
       </div>}
-      <SpeakButton text={word.en} label="Kelimeyi dinle" />
+      <SpeakButton text={word.en} label={t('Kelimeyi dinle')} />
       <NoSpeechNote />
-      {word.hint && <div className="wc-hint"><b>Hafıza ipucu</b><span>{word.hint}</span></div>}
+      {word.hint && <div className="wc-hint"><b>{t('Hafıza ipucu')}</b><span>{word.hint}</span></div>}
       {word.ex && <div className="wc-example">
-        <div className="ex-en">{word.ex}{' '}<SpeakButton text={word.ex} compact label="Örnek cümleyi" /></div>
+        <div className="ex-en">{word.ex}{' '}<SpeakButton text={word.ex} compact label={t('Örnek cümleyi')} /></div>
         {word.exTr && <div className="ex-tr">{word.exTr}</div>}
       </div>}
-      {FAMILIES[word.id] && <div className="wc-family"><b>Kelime ailesi</b><div className="chips">{FAMILIES[word.id].filter(id => WORD_BY_ID[id]).map(id => onPick
+      {FAMILIES[word.id] && <div className="wc-family"><b>{t('Kelime ailesi')}</b><div className="chips">{FAMILIES[word.id].filter(id => WORD_BY_ID[id]).map(id => onPick
         ? <button key={id} className="chip btnchip" onClick={() => onPick(id)}>{capEn(WORD_BY_ID[id].en)} · {capTr(WORD_BY_ID[id].tr)}</button>
         : <span key={id} className="chip">{capEn(WORD_BY_ID[id].en)} · {capTr(WORD_BY_ID[id].tr)}</span>)}</div></div>}
-      <div className="wc-meta"><span className="chip">{CAT_BY_ID[word.cat]?.tr}</span><span className="chip">{word.level}</span></div>
+      <div className="wc-meta"><span className="chip">{catName(word.cat)}</span><span className="chip">{word.level}</span></div>
     </div>
   );
 }
@@ -102,7 +103,7 @@ export function Sheet({ open, onClose, title, children }: { open: boolean; onClo
   return (
     <div className="sheet-backdrop" onClick={onClose}>
       <div className="sheet" role="dialog" aria-modal="true" aria-label={title} onClick={e => e.stopPropagation()}>
-        <div className="sheet-head"><h2>{title}</h2><button className="icon-btn" onClick={onClose} aria-label="Kapat"><Icon path={mdiClose} /></button></div>
+        <div className="sheet-head"><h2>{title}</h2><button className="icon-btn" onClick={onClose} aria-label={t('Kapat')}><Icon path={mdiClose} /></button></div>
         <div className="sheet-body">{children}</div>
       </div>
     </div>
@@ -115,7 +116,7 @@ export function Confirm({ open, title, text, confirmText, danger, onConfirm, onC
     <div className="sheet-backdrop center" onClick={onCancel}>
       <div className="dialog" role="alertdialog" aria-modal="true" onClick={e => e.stopPropagation()}>
         <h2>{title}</h2><p>{text}</p>
-        <div className="row end"><button className="btn ghost" onClick={onCancel}>Vazgeç</button><button className={danger ? 'btn danger' : 'btn primary'} onClick={onConfirm}>{confirmText}</button></div>
+        <div className="row end"><button className="btn ghost" onClick={onCancel}>{t('Vazgeç')}</button><button className={danger ? 'btn danger' : 'btn primary'} onClick={onConfirm}>{confirmText}</button></div>
       </div>
     </div>
   );
@@ -129,21 +130,22 @@ export function ProgressBar({ value, label }: { value: number; label?: string })
 export const STATUS_LABEL = { new: 'Yeni', learning: 'Öğreniliyor', learned: 'Öğrenildi', hard: 'Zorlanıyorum' } as const;
 
 /** Çalışılan kategori seçimi: yeni kelimeler (Öğren) bu kategoriden gelir. İlerleme tüm kategorilerde ortaktır. */
-export function FocusPicker({ value, onChange, label = 'Çalışılan kategori', countMode = 'new' }: { value: string; onChange: (c: string) => void; label?: string; countMode?: 'new' | 'seen' }) {
+export function FocusPicker({ value, onChange, label, countMode = 'new' }: { value: string; onChange: (c: string) => void; label?: string; countMode?: 'new' | 'seen' }) {
   const s = useApp();
   const counts = new Map<string, number>();
   for (const w of WORDS) {
     const hit = countMode === 'new' ? !s.progress[w.id] : !!s.progress[w.id];
     if (hit) counts.set(w.cat, (counts.get(w.cat) ?? 0) + 1);
   }
-  const unit = countMode === 'new' ? 'yeni' : 'kelime';
+  const lbl = label ?? t('Çalışılan kategori');
+  const cnt = (n: number) => countMode === 'new' ? t('{n} yeni', { n }) : t('{n} kelime', { n });
   const total = [...counts.values()].reduce((a, b) => a + b, 0);
   return (
     <label className="focus-pick">
-      <span className="muted small">{label}</span>
-      <select value={value} onChange={e => onChange(e.target.value)} aria-label={label}>
-        <option value="">Tüm kategoriler ({total} {unit})</option>
-        {CATEGORIES.filter(c => WORDS.some(w => w.cat === c.id)).map(c => <option key={c.id} value={c.id}>{c.tr} ({counts.get(c.id) ?? 0} {unit})</option>)}
+      <span className="muted small">{lbl}</span>
+      <select value={value} onChange={e => onChange(e.target.value)} aria-label={lbl}>
+        <option value="">{t('Tüm kategoriler')} ({cnt(total)})</option>
+        {CATEGORIES.filter(c => WORDS.some(w => w.cat === c.id)).map(c => <option key={c.id} value={c.id}>{catName(c.id)} ({cnt(counts.get(c.id) ?? 0)})</option>)}
       </select>
     </label>
   );

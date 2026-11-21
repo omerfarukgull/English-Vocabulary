@@ -6,6 +6,7 @@ import { buildQuestion, checkTyped, MODE_LABELS, pickMode, type Check, type Ques
 import { speak } from '../lib/speech';
 import type { QuizMode } from '../lib/srs';
 import { availableModes, getState, markTestDone, recordAnswer, useApp } from '../lib/store';
+import { t } from '../lib/i18n';
 
 export interface SessionConfig { ids: string[]; mode: QuizMode | 'mixed'; title: string; daily?: boolean }
 
@@ -63,13 +64,13 @@ export default function Quiz({ config, onExit }: { config: SessionConfig; onExit
         <h1>{config.title}</h1>
         <div className="card celebrate">
           <Icon path={mdiTrophyOutline} size={56} />
-          <h2>Tekrar tamamlandı</h2>
-          <p><b>{results.correct}</b> doğru, <b>{results.wrong}</b> yanlış (%{pct})</p>
+          <h2>{t('Tekrar tamamlandı')}</h2>
+          <p>{t('{c} doğru, {w} yanlış (%{p})', { c: results.correct, w: results.wrong, p: pct })}</p>
           {uniqueWrong.length > 0
-            ? <><p className="muted">Bu kelimeler daha sık karşına çıkacak:</p><div className="chips">{uniqueWrong.map(id => <span key={id} className="chip">{capEn(WORD_BY_ID[id].en)} – {capTr(WORD_BY_ID[id].tr)}</span>)}</div></>
-            : <p className="muted">Hepsini doğru bildin. Tekrar aralıkları uzatıldı.</p>}
-          {results.typoIds.length > 0 && <><p className="muted">Yazımına dikkat et (yarın tekrar sorulacak):</p><div className="chips">{[...new Set(results.typoIds)].map(id => <span key={id} className="chip">{capEn(WORD_BY_ID[id].en)}</span>)}</div></>}
-          <button className="btn primary block" onClick={onExit}>Tamam</button>
+            ? <><p className="muted">{t('Bu kelimeler daha sık karşına çıkacak:')}</p><div className="chips">{uniqueWrong.map(id => <span key={id} className="chip">{capEn(WORD_BY_ID[id].en)} – {capTr(WORD_BY_ID[id].tr)}</span>)}</div></>
+            : <p className="muted">{t('Hepsini doğru bildin. Tekrar aralıkları uzatıldı.')}</p>}
+          {results.typoIds.length > 0 && <><p className="muted">{t('Yazımına dikkat et (yarın tekrar sorulacak):')}</p><div className="chips">{[...new Set(results.typoIds)].map(id => <span key={id} className="chip">{capEn(WORD_BY_ID[id].en)}</span>)}</div></>}
+          <button className="btn primary block" onClick={onExit}>{t('Tamam')}</button>
         </div>
       </div>
     );
@@ -79,8 +80,8 @@ export default function Quiz({ config, onExit }: { config: SessionConfig; onExit
   const isChoice = q.mode === 'en-tr' || q.mode === 'img-choice' || q.mode === 'listen';
   return (
     <div className="screen quiz">
-      <div className="row between"><button className="btn ghost small" onClick={onExit}>Bitir</button><span className="muted small">{MODE_LABELS[q.mode]}</span><span className="muted small">{i + 1} / {queue.length}</span></div>
-      <ProgressBar value={i / queue.length} label="Test ilerlemesi" />
+      <div className="row between"><button className="btn ghost small" onClick={onExit}>{t('Bitir')}</button><span className="muted small">{t(MODE_LABELS[q.mode])}</span><span className="muted small">{i + 1} / {queue.length}</span></div>
+      <ProgressBar value={i / queue.length} label={t('Test ilerlemesi')} />
       <div className="fade q-body" key={i}>
         <Prompt q={q} />
         {isChoice
@@ -91,13 +92,13 @@ export default function Quiz({ config, onExit }: { config: SessionConfig; onExit
         <div className={`feedback ${answer.check === 'wrong' ? 'bad' : answer.check === 'typo' ? 'almost' : 'good'}`}>
           <div className="fb-head">
             <Icon path={answer.check === 'wrong' ? mdiCloseCircle : mdiCheckCircle} size={26} />
-            <b>{answer.check === 'correct' ? 'Doğru!' : answer.check === 'typo' ? 'Neredeyse doğru! Küçük bir yazım hatası var.' : 'Yanlış, sorun değil.'}</b>
+            <b>{answer.check === 'correct' ? t('Doğru!') : answer.check === 'typo' ? t('Neredeyse doğru! Küçük bir yazım hatası var.') : t('Yanlış, sorun değil.')}</b>
           </div>
-          {answer.check === 'typo' && <p className="fb-line typo-line">Senin yazdığın: <s>{answer.typed}</s> · Doğru yazımı: <b>{capEn(word.en)}</b><br /><span className="muted small">Tam doğru sayılmadı; kelime yarın yeniden sorulacak.</span></p>}
+          {answer.check === 'typo' && <p className="fb-line typo-line">{t('Senin yazdığın:')} <s>{answer.typed}</s> · {t('Doğru yazımı:')} <b>{capEn(word.en)}</b><br /><span className="muted small">{t('Tam doğru sayılmadı; kelime yarın yeniden sorulacak.')}</span></p>}
           {answer.check === 'wrong'
             ? <div className="fb-card"><WordCard word={word} /></div>
             : <p className="fb-line"><b>{capEn(word.en)}</b> = {capTr(word.tr)} {[word.say, word.ipa].some(Boolean) && <span className="muted">· {[word.say, word.ipa].filter(Boolean).join(' · ')}</span>}</p>}
-          <button className="btn primary block" onClick={next} autoFocus>Devam <Icon path={mdiArrowRight} size={20} /></button>
+          <button className="btn primary block" onClick={next} autoFocus>{t('Devam')} <Icon path={mdiArrowRight} size={20} /></button>
         </div>
       )}
     </div>
@@ -108,15 +109,15 @@ function Prompt({ q }: { q: Question }) {
   const { settings } = useApp();
   const w = WORD_BY_ID[q.id];
   switch (q.mode) {
-    case 'img-write': return <div className="prompt"><WordImage word={w} size={176} hideLabel /><div className="prompt-tr">{capTr(w.tr)}</div><p>Bu kelimenin İngilizcesini yaz.</p></div>;
-    case 'img-choice': return <div className="prompt"><WordImage word={w} size={176} hideLabel /><div className="prompt-tr">{capTr(w.tr)}</div><p>İngilizcesi hangisi?</p></div>;
-    case 'tr-en': return <div className="prompt"><div className="big-word">{capTr(w.tr)}</div><p>İngilizce karşılığını yaz.</p></div>;
-    case 'en-tr': return <div className="prompt"><div className="big-word">{capEn(w.en)}</div><p>Türkçe anlamı hangisi?</p></div>;
+    case 'img-write': return <div className="prompt"><WordImage word={w} size={176} hideLabel /><div className="prompt-tr">{capTr(w.tr)}</div><p>{t('Bu kelimenin İngilizcesini yaz.')}</p></div>;
+    case 'img-choice': return <div className="prompt"><WordImage word={w} size={176} hideLabel /><div className="prompt-tr">{capTr(w.tr)}</div><p>{t('İngilizcesi hangisi?')}</p></div>;
+    case 'tr-en': return <div className="prompt"><div className="big-word">{capTr(w.tr)}</div><p>{t('İngilizce karşılığını yaz.')}</p></div>;
+    case 'en-tr': return <div className="prompt"><div className="big-word">{capEn(w.en)}</div><p>{t('Türkçe anlamı hangisi?')}</p></div>;
     case 'listen': return (
       <div className="prompt">
-        <button className="listen-btn" onClick={() => speak(w.en, settings.rate, settings.voice)} aria-label="Tekrar dinle"><Icon path={mdiVolumeHigh} size={56} /></button>
-        <button className="btn ghost small" onClick={() => speak(w.en, Math.max(0.5, settings.rate - 0.35), settings.voice)}><Icon path={mdiTortoise} size={18} /> Yavaş dinle</button>
-        <p>Duyduğun kelime hangisi?</p>
+        <button className="listen-btn" onClick={() => speak(w.en, settings.rate, settings.voice)} aria-label={t('Tekrar dinle')}><Icon path={mdiVolumeHigh} size={56} /></button>
+        <button className="btn ghost small" onClick={() => speak(w.en, Math.max(0.5, settings.rate - 0.35), settings.voice)}><Icon path={mdiTortoise} size={18} /> {t('Yavaş dinle')}</button>
+        <p>{t('Duyduğun kelime hangisi?')}</p>
       </div>);
   }
 }
@@ -135,18 +136,18 @@ function Choices({ q, answer, onPick }: { q: Question; answer: { picked?: string
 }
 
 function Typed({ q, answer, onSubmit, onGiveUp }: { q: Question; answer: { typed?: string; check: Check } | null; onSubmit: (t: string) => void; onGiveUp: () => void }) {
-  const [t, setT] = useState('');
+  const [val, setVal] = useState('');
   const ref = useRef<HTMLInputElement>(null);
   const w = WORD_BY_ID[q.id];
-  const hint = useMemo(() => `${w.en.replace(/[^a-z]/gi, '').length} harf${w.en.includes(' ') ? ' (iki kelime)' : ''}`, [w]);
+  const hint = useMemo(() => t('{n} harf', { n: w.en.replace(/[^a-z]/gi, '').length }) + (w.en.includes(' ') ? t(' (iki kelime)') : ''), [w]);
   useEffect(() => { ref.current?.focus({ preventScroll: true }); }, [q]);
   return (
-    <form className="typed" onSubmit={e => { e.preventDefault(); if (t.trim()) onSubmit(t); }}>
-      <input ref={ref} value={t} onChange={e => setT(e.target.value)} disabled={!!answer} placeholder="İngilizce kelimeyi yaz" aria-label="Cevabın"
+    <form className="typed" onSubmit={e => { e.preventDefault(); if (val.trim()) onSubmit(val); }}>
+      <input ref={ref} value={val} onChange={e => setVal(e.target.value)} disabled={!!answer} placeholder={t('İngilizce kelimeyi yaz')} aria-label={t('Cevabın')}
         autoCapitalize="off" autoComplete="off" autoCorrect="off" spellCheck={false} enterKeyHint="done" inputMode="text"
         className={answer ? (answer.check === 'wrong' ? 'bad' : answer.check === 'typo' ? 'almost' : 'good') : ''} />
-      {!answer && <div className="muted small">İpucu: {hint}</div>}
-      {!answer && <div className="row gap"><button type="button" className="btn ghost" onClick={onGiveUp}>Bilmiyorum</button><button type="submit" className="btn primary grow" disabled={!t.trim()}>Kontrol et</button></div>}
+      {!answer && <div className="muted small">{t('İpucu: {h}', { h: hint })}</div>}
+      {!answer && <div className="row gap"><button type="button" className="btn ghost" onClick={onGiveUp}>{t('Bilmiyorum')}</button><button type="submit" className="btn primary grow" disabled={!val.trim()}>{t('Kontrol et')}</button></div>}
     </form>
   );
 }

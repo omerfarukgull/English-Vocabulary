@@ -4,6 +4,7 @@ import { BUILTIN_BY_EN, CUSTOM_CAT, registerCustomWords, WORDS, WORD_BY_ID, type
 import { dayKey } from './date';
 import { grade, newProgress, type QuizMode, type WordProgress } from './srs';
 import { speechSupported } from './speech';
+import { setLang, t, type Lang } from './i18n';
 
 export interface DayLog { newWords: number; reviews: number; correct: number; wrong: number; testDone?: boolean }
 export interface Settings {
@@ -15,6 +16,7 @@ export interface Settings {
   levelPref: 'A2' | 'A1' | 'B1' | 'mixed';
   reminder: { on: boolean; time: string }; // günlük hatırlatma saati "HH:MM"
   focusCat: string; // '' = tüm kategoriler; aksi halde yeni kelimeler yalnızca bu kategoriden gelir
+  lang: Lang; // arayüz dili (kelime içeriği her zaman İngilizce → Türkçe)
 }
 export interface AppState {
   version: 1;
@@ -27,7 +29,7 @@ export interface AppState {
 }
 
 const KEY = 'pev-state-v1';
-export const DEFAULT_SETTINGS: Settings = { theme: 'system', rate: 0.9, autoplay: true, dailyGoal: 10, levelPref: 'A2', reminder: { on: false, time: '20:00' }, focusCat: '' };
+export const DEFAULT_SETTINGS: Settings = { theme: 'system', rate: 0.9, autoplay: true, dailyGoal: 10, levelPref: 'A2', reminder: { on: false, time: '20:00' }, focusCat: '', lang: 'tr' };
 export function emptyState(): AppState {
   return { version: 1, progress: {}, favorites: [], days: {}, plan: { date: '', ids: [] }, settings: { ...DEFAULT_SETTINGS }, custom: [] };
 }
@@ -37,7 +39,7 @@ let loaded = false;
 const subs = new Set<() => void>();
 let saveTimer: number | undefined;
 
-function emit() { subs.forEach(f => f()); }
+function emit() { setLang(state.settings.lang); subs.forEach(f => f()); }
 function persist() {
   clearTimeout(saveTimer);
   saveTimer = window.setTimeout(() => {
@@ -49,9 +51,9 @@ export function flush() { if (saveTimer) { clearTimeout(saveTimer); saveTimer = 
 
 export function normalizeState(s: unknown): AppState {
   const base = emptyState();
-  if (!s || typeof s !== 'object') throw new Error('Geçersiz veri');
+  if (!s || typeof s !== 'object') throw new Error(t('Geçersiz veri'));
   const o = s as Partial<AppState>;
-  if (typeof o.progress !== 'object' || o.progress === null) throw new Error('İlerleme verisi bulunamadı');
+  if (typeof o.progress !== 'object' || o.progress === null) throw new Error(t('İlerleme verisi bulunamadı'));
   const custom: Word[] = [];
   for (const c of Array.isArray(o.custom) ? o.custom : []) {
     if (!c || typeof c.en !== 'string' || typeof c.tr !== 'string' || !c.en.trim() || !c.tr.trim()) continue;
@@ -70,7 +72,7 @@ export function normalizeState(s: unknown): AppState {
     favorites: Array.isArray(o.favorites) ? o.favorites.filter(id => WORD_BY_ID[id]) : [],
     days: o.days && typeof o.days === 'object' ? o.days : {},
     plan: o.plan && Array.isArray(o.plan.ids) ? { date: String(o.plan.date), ids: o.plan.ids.filter(id => WORD_BY_ID[id]) } : base.plan,
-    settings: { ...DEFAULT_SETTINGS, ...(o.settings ?? {}), reminder: { ...DEFAULT_SETTINGS.reminder, ...(o.settings?.reminder ?? {}) }, focusCat: typeof o.settings?.focusCat === 'string' && WORDS.some(w => w.cat === o.settings!.focusCat) ? o.settings.focusCat : '' },
+    settings: { ...DEFAULT_SETTINGS, ...(o.settings ?? {}), reminder: { ...DEFAULT_SETTINGS.reminder, ...(o.settings?.reminder ?? {}) }, focusCat: typeof o.settings?.focusCat === 'string' && WORDS.some(w => w.cat === o.settings!.focusCat) ? o.settings.focusCat : '', lang: o.settings?.lang === 'en' ? 'en' : 'tr' },
     custom,
   };
 }

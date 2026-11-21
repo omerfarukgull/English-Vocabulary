@@ -1,3 +1,4 @@
+import { locale } from './i18n';
 export const DAY = 86400000;
 export function dayKey(t: number = Date.now()): string {
   const d = new Date(t);
@@ -12,9 +13,9 @@ export function addDays(key: string, n: number): string {
 }
 export function formatDayShort(key: string): string {
   const [y, m, d] = key.split('-').map(Number);
-  return new Date(y, m - 1, d).toLocaleDateString('tr-TR', { weekday: 'short' });
+  return new Date(y, m - 1, d).toLocaleDateString(locale(), { weekday: 'short' });
 }
 export function formatDayLong(key: string): string {
   const [y, m, d] = key.split('-').map(Number);
-  return new Date(y, m - 1, d).toLocaleDateString('tr-TR', { weekday: 'long', day: 'numeric', month: 'long' });
+  return new Date(y, m - 1, d).toLocaleDateString(locale(), { weekday: 'long', day: 'numeric', month: 'long' });
 }
