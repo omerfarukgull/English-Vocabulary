@@ -43,9 +43,9 @@ export default function Home({ go, openSettings, startTest, replayToday, showDay
       <section className="card replay-card">
         <h2>Öğrendiklerini tekrar et</h2>
         <p className="muted small">{learnedToday > 0 ? `Bugün öğrendiğin ${learnedToday} kelimeyi, öğrenirken olduğu gibi kart kart yeniden gözden geçir.` : 'Bugün henüz kelime öğrenmedin. Önceki günlerin kelimelerine "Günlerim" bölümünden ulaşabilirsin.'}</p>
-        <div className="row gap">
-          {learnedToday > 0 && <button className="btn primary grow" onClick={replayToday}><Icon path={mdiPlayCircleOutline} size={20} /> Bugünün kelimelerini tekrar et</button>}
-          <button className={`btn ${learnedToday > 0 ? '' : 'grow'}`} onClick={showDays} disabled={seen === 0}><Icon path={mdiCalendarMonthOutline} size={20} /> Günlerim</button>
+        <div className="replay-btns">
+          {learnedToday > 0 && <button className="btn primary block" onClick={replayToday}><Icon path={mdiPlayCircleOutline} size={20} /> Bugünü tekrar et ({learnedToday} kelime)</button>}
+          <button className="btn block" onClick={showDays} disabled={seen === 0}><Icon path={mdiCalendarMonthOutline} size={20} /> Tüm günlerim</button>
         </div>
       </section>
 

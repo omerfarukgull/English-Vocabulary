@@ -206,3 +206,4 @@ select { flex: 1; min-width: 0; min-height: 44px; border-radius: 12px; border: 1
 .small-chip { margin-left: 8px; font-size: .75rem; padding: 2px 8px; vertical-align: middle; }
 .pager { margin-top: 12px; gap: 8px; }
 .learn-seg { margin-bottom: 12px; }
+.replay-btns { display: flex; flex-direction: column; gap: 10px; margin-top: 12px; }
