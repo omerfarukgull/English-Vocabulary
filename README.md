@@ -12,6 +12,9 @@ React + TypeScript + Vite, veriler cihazda (IndexedDB), üyelik/sunucu yok.
 - Kelimelerim: arama, kategori/seviye/durum filtresi, favoriler, detay, tekrar et
 - İstatistik: toplamlar, doğru oranı, 14 günlük grafik, haftalık karşılaştırma, zor kategoriler
 - Açık/koyu tema, konuşma hızı ve ses seçimi, JSON yedek al / geri yükle, onaylı sıfırlama
+- Günlere göre kelimeler: Öğren > "Günlerim" sekmesinde her gün öğrenilen kelimeler ayrı tutulur ("1. Gün", "2. Gün" …,
+  en yeni gün başta, sayfa başına 7 gün). Her gün kart kart yeniden gözden geçirilebilir ya da o günün kelimeleriyle test çözülebilir.
+  Ana sayfadaki "Bugünün kelimelerini tekrar et" düğmesi bugünün kelimelerini öğrenme sırasıyla yeniden gösterir. Bu tekrar ilerlemeyi değiştirmez.
 - Kategori bazlı çalışma: Ana sayfadaki "Çalışılan kategori" seçimiyle yeni kelimeler yalnızca o kategoriden gelir
   (bugünün henüz görülmemiş kelimeleri de yeni kategoriden yeniden seçilir). Tekrar ekranında da "Hangi kategoriden?" seçilebilir.
   Akıllı tekrar takvimi, günlük hedef ve istatistikler tüm kategorilerde ortaktır.

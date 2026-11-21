@@ -1,4 +1,4 @@
-import { mdiCogOutline, mdiFire, mdiCheckCircle, mdiBookOpenVariant, mdiRepeat, mdiClipboardCheckOutline, mdiTrophyOutline, mdiBellRingOutline } from '@mdi/js';
+import { mdiCogOutline, mdiFire, mdiCheckCircle, mdiBookOpenVariant, mdiRepeat, mdiClipboardCheckOutline, mdiTrophyOutline, mdiBellRingOutline, mdiPlayCircleOutline, mdiCalendarMonthOutline } from '@mdi/js';
 import { FocusPicker, Icon, ProgressBar } from '../components/ui';
 import { dayKey } from '../lib/date';
 import { reminderDue } from '../lib/reminder';
@@ -6,7 +6,7 @@ import { dueIds, setFocusCat, streak, todayNewCount, useApp } from '../lib/store
 import { CAT_BY_ID } from '../lib/data';
 import type { Tab } from '../App';
 
-export default function Home({ go, openSettings, startTest }: { go: (t: Tab) => void; openSettings: () => void; startTest: () => void }) {
+export default function Home({ go, openSettings, startTest, replayToday, showDays }: { go: (t: Tab) => void; openSettings: () => void; startTest: () => void; replayToday: () => void; showDays: () => void }) {
   const s = useApp();
   const goal = s.settings.dailyGoal;
   const learnedToday = todayNewCount(s);
@@ -38,6 +38,15 @@ export default function Home({ go, openSettings, startTest }: { go: (t: Tab) => 
         {goalDone
           ? <div className="success-msg"><Icon path={mdiTrophyOutline} size={20} /> Tebrikler! Bugünkü {goal} kelime hedefini tamamladın.</div>
           : <button className="btn primary block" onClick={() => go('learn')}><Icon path={mdiBookOpenVariant} size={20} /> {learnedToday === 0 ? 'Yeni kelime öğren' : 'Öğrenmeye devam et'}</button>}
+      </section>
+
+      <section className="card replay-card">
+        <h2>Öğrendiklerini tekrar et</h2>
+        <p className="muted small">{learnedToday > 0 ? `Bugün öğrendiğin ${learnedToday} kelimeyi, öğrenirken olduğu gibi kart kart yeniden gözden geçir.` : 'Bugün henüz kelime öğrenmedin. Önceki günlerin kelimelerine "Günlerim" bölümünden ulaşabilirsin.'}</p>
+        <div className="row gap">
+          {learnedToday > 0 && <button className="btn primary grow" onClick={replayToday}><Icon path={mdiPlayCircleOutline} size={20} /> Bugünün kelimelerini tekrar et</button>}
+          <button className={`btn ${learnedToday > 0 ? '' : 'grow'}`} onClick={showDays} disabled={seen === 0}><Icon path={mdiCalendarMonthOutline} size={20} /> Günlerim</button>
+        </div>
       </section>
 
       <section className="card">

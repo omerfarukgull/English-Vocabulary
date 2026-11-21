@@ -2,10 +2,11 @@ import { mdiHomeOutline, mdiBookOpenPageVariantOutline, mdiRepeat, mdiFormatList
 import { useCallback, useEffect, useState } from 'react';
 import { Icon } from './components/ui';
 import { dayKey } from './lib/date';
-import { dueIds, ensurePlan, getState, isLoaded, useApp } from './lib/store';
+import { dueIds, ensurePlan, getState, isLoaded, learnedDays, useApp, type LearnedDay } from './lib/store';
 import { shuffle } from './lib/quiz';
 import Home from './screens/Home';
-import Learn from './screens/Learn';
+import Learn, { type LearnView } from './screens/Learn';
+import Replay from './screens/Replay';
 import Quiz, { type SessionConfig } from './screens/Quiz';
 import Review from './screens/Review';
 import Settings from './screens/Settings';
@@ -24,6 +25,9 @@ export default function App() {
   const [tab, setTab] = useState<Tab>(readHash);
   const [session, setSession] = useState<SessionConfig | null>(null);
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [learnView, setLearnView] = useState<LearnView>('today');
+  const [replay, setReplay] = useState<LearnedDay | null>(null);
+  const [replayFrom, setReplayFrom] = useState<Tab>('learn');
 
   useEffect(() => { const f = () => setTab(readHash()); window.addEventListener('hashchange', f); return () => window.removeEventListener('hashchange', f); }, []);
   useEffect(() => { if (isLoaded()) ensurePlan(); }, [s.plan.date]);
@@ -36,8 +40,8 @@ export default function App() {
     if (s.settings.theme === 'system') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', s.settings.theme);
   }, [s.settings.theme]);
 
-  const go = useCallback((t: Tab) => { setSession(null); if (location.hash !== '#' + t) location.hash = t; setTab(t); window.scrollTo(0, 0); }, []);
-  const start = useCallback((c: SessionConfig) => { setSession(c); if (location.hash !== '#review') location.hash = 'review'; setTab('review'); window.scrollTo(0, 0); }, []);
+  const go = useCallback((t: Tab) => { setSession(null); setReplay(null); if (location.hash !== '#' + t) location.hash = t; setTab(t); window.scrollTo(0, 0); }, []);
+  const start = useCallback((c: SessionConfig) => { setReplay(null); setSession(c); if (location.hash !== '#review') location.hash = 'review'; setTab('review'); window.scrollTo(0, 0); }, []);
 
   /** Günün testi: bugün öğrenilen kelimeler + bekleyen tekrarlar; yoksa karışık pratik. */
   const startDailyTest = useCallback(() => {
@@ -49,13 +53,19 @@ export default function App() {
     start({ ids: shuffle(ids), mode: 'mixed', title: 'Günün testi', daily: true });
   }, [start]);
 
+  const openReplay = useCallback((d: LearnedDay, from: Tab = 'learn') => { setSession(null); setReplay(d); setReplayFrom(from); if (location.hash !== '#learn') location.hash = 'learn'; setTab('learn'); window.scrollTo(0, 0); }, []);
+  const replayToday = useCallback(() => { const d = learnedDays(getState()).find(x => x.date === dayKey()); if (d) openReplay(d, 'home'); }, [openReplay]);
+  const dayTest = useCallback((d: LearnedDay) => start({ ids: shuffle(d.ids), mode: 'mixed', title: `${d.n}. Gün testi` }), [start]);
+  const showDays = useCallback(() => { setLearnView('days'); go('learn'); }, [go]);
+
   return (
     <div className="app">
       <main>
         {session && tab === 'review'
           ? <Quiz key={JSON.stringify(session.ids) + session.mode} config={session} onExit={() => setSession(null)} />
-          : tab === 'home' ? <Home go={go} openSettings={() => setSettingsOpen(true)} startTest={startDailyTest} />
-          : tab === 'learn' ? <Learn startTodayTest={startDailyTest} />
+          : replay && tab === 'learn' ? <Replay key={replay.date} day={replay} onExit={() => go(replayFrom)} onTest={() => dayTest(replay)} />
+          : tab === 'home' ? <Home go={go} openSettings={() => setSettingsOpen(true)} startTest={startDailyTest} replayToday={replayToday} showDays={showDays} />
+          : tab === 'learn' ? <Learn startTodayTest={startDailyTest} view={learnView} setView={setLearnView} onReplay={d => openReplay(d)} onDayTest={dayTest} />
           : tab === 'review' ? <Review start={start} />
           : tab === 'words' ? <Words start={start} goLearn={() => go('learn')} />
           : <Stats />}

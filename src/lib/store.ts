@@ -161,7 +161,7 @@ export function addToPlan(id: string) {
 export function markSeen(id: string) {
   update(s => {
     if (s.progress[id]) return s;
-    const s2 = { ...s, progress: { ...s.progress, [id]: newProgress() } };
+    const s2 = { ...s, progress: { ...s.progress, [id]: { ...newProgress(), seenAt: Date.now() } } };
     return bumpDay(s2, d => ({ ...d, newWords: d.newWords + 1 }));
   });
 }
@@ -274,4 +274,17 @@ export function streak(s: AppState): { current: number; best: number } {
   if (!active(dayKey(cur.getTime()))) cur = new Date(cur.getTime() - 86400000); // bugün henüz çalışılmadıysa seri dünden devam eder
   while (active(dayKey(cur.getTime()))) { current++; cur = new Date(cur.getTime() - 86400000); }
   return { current, best: Math.max(best, current) };
+}
+
+/** Öğrenilen kelimeler günlere göre: 1. Gün en eski gün. Gün içindeki sıra öğrenilme sırasıdır. */
+export interface LearnedDay { date: string; n: number; ids: string[] }
+export function learnedDays(s: AppState): LearnedDay[] {
+  const by = new Map<string, string[]>();
+  for (const [id, p] of Object.entries(s.progress)) { if (!by.has(p.firstSeen)) by.set(p.firstSeen, []); by.get(p.firstSeen)!.push(id); }
+  const order = new Map(WORDS.map((w, i) => [w.id, i]));
+  const key = (id: string) => s.progress[id].seenAt ?? Number.MAX_SAFE_INTEGER;
+  return [...by.keys()].sort().map((date, i) => ({
+    date, n: i + 1,
+    ids: by.get(date)!.sort((a, b) => key(a) - key(b) || (order.get(a) ?? 0) - (order.get(b) ?? 0)),
+  }));
 }

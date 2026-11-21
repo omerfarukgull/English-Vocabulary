@@ -1,10 +1,23 @@
 import { mdiArrowRight, mdiArrowLeft, mdiPartyPopper } from '@mdi/js';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
+import DayList from '../components/DayList';
 import { FocusPicker, Icon, ProgressBar, WordCard } from '../components/ui';
 import { CAT_BY_ID, WORD_BY_ID } from '../lib/data';
-import { ensurePlan, extendPlan, markSeen, setFocusCat, todayNewCount, unseenOrdered, useApp } from '../lib/store';
+import { ensurePlan, extendPlan, markSeen, setFocusCat, todayNewCount, unseenOrdered, useApp, type LearnedDay } from '../lib/store';
 
-export default function Learn({ startTodayTest }: { startTodayTest: () => void }) {
+export type LearnView = 'today' | 'days';
+export default function Learn({ startTodayTest, view, setView, onReplay, onDayTest }: { startTodayTest: () => void; view: LearnView; setView: (v: LearnView) => void; onReplay: (d: LearnedDay) => void; onDayTest: (d: LearnedDay) => void }) {
+  const seg = (
+    <div className="seg learn-seg" role="tablist">
+      <button role="tab" aria-selected={view === 'today'} className={view === 'today' ? 'on' : ''} onClick={() => setView('today')}>Bugün</button>
+      <button role="tab" aria-selected={view === 'days'} className={view === 'days' ? 'on' : ''} onClick={() => setView('days')}>Günlerim</button>
+    </div>
+  );
+  if (view === 'days') return <div className="screen"><h1>Öğren</h1>{seg}<DayList onReplay={onReplay} onTest={onDayTest} /></div>;
+  return <LearnToday startTodayTest={startTodayTest} seg={seg} />;
+}
+
+function LearnToday({ startTodayTest, seg }: { startTodayTest: () => void; seg: ReactNode }) {
   const s = useApp();
   useEffect(() => { ensurePlan(); }, []);
   const ids = s.plan.ids;
@@ -18,14 +31,14 @@ export default function Learn({ startTodayTest }: { startTodayTest: () => void }
     const fc = s.settings.focusCat;
     const picker = <div className="card"><FocusPicker value={fc} onChange={setFocusCat} /></div>;
     if (remainingInBank === 0 && fc && (ids.length === 0 || learnedToday < goal)) {
-      return <div className="screen"><h1>Öğren</h1>{picker}<div className="card empty">"{CAT_BY_ID[fc]?.tr}" kategorisindeki tüm kelimeleri gördün! Tekrar ekranında bu kategoriyi pekiştirebilir ya da yukarıdan başka bir kategori seçebilirsin.</div></div>;
+      return <div className="screen"><h1>Öğren</h1>{seg}{picker}<div className="card empty">"{CAT_BY_ID[fc]?.tr}" kategorisindeki tüm kelimeleri gördün! Tekrar ekranında bu kategoriyi pekiştirebilir ya da yukarıdan başka bir kategori seçebilirsin.</div></div>;
     }
     if (ids.length === 0 && remainingInBank === 0 && learnedToday === 0) {
-      return <div className="screen"><h1>Öğren</h1><div className="card empty">Tüm kelimeleri gördün! Artık tekrar ve testlerle pekiştirebilirsin.</div></div>;
+      return <div className="screen"><h1>Öğren</h1>{seg}<div className="card empty">Tüm kelimeleri gördün! Artık tekrar ve testlerle pekiştirebilirsin.</div></div>;
     }
     return (
       <div className="screen">
-        <h1>Öğren</h1>
+        <h1>Öğren</h1>{seg}
         <div className="card celebrate">
           <Icon path={mdiPartyPopper} size={56} />
           <h2>{learnedToday >= goal ? 'Harika iş!' : 'Plan tamamlandı'}</h2>
@@ -51,6 +64,7 @@ export default function Learn({ startTodayTest }: { startTodayTest: () => void }
   return (
     <div className="screen learn">
       <div className="row between"><h1>Öğren</h1><span className="muted">{position} / {ids.length}</span></div>
+      {seg}
       <ProgressBar value={(firstUnseen === -1 ? ids.length : firstUnseen) / Math.max(1, ids.length)} label="Bugünkü kelimeler" />
       {s.settings.focusCat && <div className="muted small">Kategori: {CAT_BY_ID[s.settings.focusCat]?.tr}</div>}
       <div className="fade" key={word.id}><WordCard word={word} autoplay /></div>

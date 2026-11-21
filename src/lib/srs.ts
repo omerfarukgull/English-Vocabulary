@@ -15,6 +15,7 @@ export interface WordProgress {
   streak: number;      // art arda doğru cevap
   modes: QuizMode[];   // doğru bilinen farklı test türleri
   firstSeen: string;   // YYYY-MM-DD
+  seenAt?: number;     // ilk görüldüğü an (gün içindeki sıralama için)
   lastSeen: number;
 }
 
