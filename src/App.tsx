@@ -2,8 +2,7 @@ import { mdiHomeOutline, mdiBookOpenPageVariantOutline, mdiRepeat, mdiFormatList
 import { useCallback, useEffect, useState } from 'react';
 import { Icon } from './components/ui';
 import { dayKey } from './lib/date';
-import { dueIds, ensurePlan, getState, isLoaded, learnedDays, useApp, type LearnedDay } from './lib/store';
-import { shuffle } from './lib/quiz';
+import { buildTestPlan, DAILY_TEST_SIZE, ensurePlan, GENERAL_SIZE, generalPool, getState, isLoaded, learnedDays, useApp, type LearnedDay } from './lib/store';
 import Home from './screens/Home';
 import Learn, { type LearnView } from './screens/Learn';
 import Replay from './screens/Replay';
@@ -44,30 +43,34 @@ export default function App() {
   const go = useCallback((t: Tab) => { setSession(null); setReplay(null); if (location.hash !== '#' + t) location.hash = t; setTab(t); window.scrollTo(0, 0); }, []);
   const start = useCallback((c: SessionConfig) => { setReplay(null); setSession(c); if (location.hash !== '#review') location.hash = 'review'; setTab('review'); window.scrollTo(0, 0); }, []);
 
-  /** Günün testi: bugün öğrenilen kelimeler + bekleyen tekrarlar; yoksa karışık pratik. */
+  /** Günün testi: yalnızca bugün öğrenilen kelimelerden 20 soru (kelime azsa farklı test türleriyle tekrar sorulur). */
   const startDailyTest = useCallback(() => {
     const st = getState(); const today = dayKey();
     const todays = Object.keys(st.progress).filter(id => st.progress[id].firstSeen === today);
-    const due = dueIds(st).filter(id => !todays.includes(id));
-    let ids = [...shuffle(todays), ...due].slice(0, 20);
-    if (ids.length < 5) ids = [...ids, ...shuffle(Object.keys(st.progress).filter(id => !ids.includes(id)))].slice(0, 10);
-    start({ ids: shuffle(ids), mode: 'mixed', title: t('Günün testi'), daily: true });
+    const plan = buildTestPlan(todays, DAILY_TEST_SIZE);
+    if (plan.length) start({ ids: plan.map(x => x.id), plan, mode: 'mixed', title: t('Günün testi'), daily: true });
+  }, [start]);
+  /** Genel test: şimdiye kadar öğrenilen kelimelerden (haftada bir zorunlu, istenince her zaman). */
+  const startGeneralTest = useCallback(() => {
+    const st = getState();
+    const plan = buildTestPlan(generalPool(st), GENERAL_SIZE);
+    if (plan.length) start({ ids: plan.map(x => x.id), plan, mode: 'mixed', title: t('Genel test'), general: true });
   }, [start]);
 
   const openReplay = useCallback((d: LearnedDay, from: Tab = 'learn') => { setSession(null); setReplay(d); setReplayFrom(from); if (location.hash !== '#learn') location.hash = 'learn'; setTab('learn'); window.scrollTo(0, 0); }, []);
   const replayToday = useCallback(() => { const d = learnedDays(getState()).find(x => x.date === dayKey()); if (d) openReplay(d, 'home'); }, [openReplay]);
-  const dayTest = useCallback((d: LearnedDay) => start({ ids: shuffle(d.ids), mode: 'mixed', title: t('{n}. Gün testi', { n: d.n }) }), [start]);
+  const dayTest = useCallback((d: LearnedDay) => { const plan = buildTestPlan(d.ids, DAILY_TEST_SIZE); start({ ids: plan.map(x => x.id), plan, mode: 'mixed', title: t('{n}. Gün testi', { n: d.n }) }); }, [start]);
   const showDays = useCallback(() => { setLearnView('days'); go('learn'); }, [go]);
 
   return (
     <div className="app">
       <main>
         {session && tab === 'review'
-          ? <Quiz key={JSON.stringify(session.ids) + session.mode} config={session} onExit={() => setSession(null)} />
+          ? <Quiz key={session.title + JSON.stringify(session.ids) + session.mode} config={session} onExit={() => setSession(null)} />
           : replay && tab === 'learn' ? <Replay key={replay.date} day={replay} onExit={() => go(replayFrom)} onTest={() => dayTest(replay)} />
-          : tab === 'home' ? <Home go={go} openSettings={() => setSettingsOpen(true)} startTest={startDailyTest} replayToday={replayToday} showDays={showDays} />
-          : tab === 'learn' ? <Learn startTodayTest={startDailyTest} view={learnView} setView={setLearnView} onReplay={d => openReplay(d)} onDayTest={dayTest} />
-          : tab === 'review' ? <Review start={start} />
+          : tab === 'home' ? <Home go={go} openSettings={() => setSettingsOpen(true)} startTest={startDailyTest} startGeneral={startGeneralTest} replayToday={replayToday} showDays={showDays} />
+          : tab === 'learn' ? <Learn startTodayTest={startDailyTest} startGeneral={startGeneralTest} view={learnView} setView={setLearnView} onReplay={d => openReplay(d)} onDayTest={dayTest} />
+          : tab === 'review' ? <Review start={start} startGeneral={startGeneralTest} />
           : tab === 'words' ? <Words start={start} goLearn={() => go('learn')} />
           : <Stats />}
       </main>

@@ -2,12 +2,13 @@ import { mdiCogOutline, mdiFire, mdiCheckCircle, mdiBookOpenVariant, mdiRepeat, 
 import { FocusPicker, Icon, ProgressBar } from '../components/ui';
 import { dayKey } from '../lib/date';
 import { reminderDue } from '../lib/reminder';
-import { dueIds, setFocusCat, streak, todayNewCount, useApp } from '../lib/store';
+import { dueIds, generalStatus, setFocusCat, streak, todayNewCount, useApp } from '../lib/store';
+import GeneralTestCard from '../components/GeneralTest';
 import { catName } from '../lib/data';
 import { locale, t } from '../lib/i18n';
 import type { Tab } from '../App';
 
-export default function Home({ go, openSettings, startTest, replayToday, showDays }: { go: (t: Tab) => void; openSettings: () => void; startTest: () => void; replayToday: () => void; showDays: () => void }) {
+export default function Home({ go, openSettings, startTest, startGeneral, replayToday, showDays }: { go: (t: Tab) => void; openSettings: () => void; startTest: () => void; startGeneral: () => void; replayToday: () => void; showDays: () => void }) {
   const s = useApp();
   const goal = s.settings.dailyGoal;
   const learnedToday = todayNewCount(s);
@@ -20,7 +21,8 @@ export default function Home({ go, openSettings, startTest, replayToday, showDay
   const pct = Math.min(100, Math.round((learnedToday / goal) * 100));
   const goalDone = learnedToday >= goal;
   const testDone = !!today?.testDone;
-  const allDone = goalDone && due === 0 && (testDone || learnedToday === 0);
+  const gen = generalStatus(s);
+  const allDone = goalDone && due === 0 && (testDone || learnedToday === 0) && !gen.due;
   const dateStr = new Date().toLocaleDateString(locale(), { weekday: 'long', day: 'numeric', month: 'long' });
 
   return (
@@ -31,6 +33,7 @@ export default function Home({ go, openSettings, startTest, replayToday, showDay
       </header>
 
       {reminderDue() && <div className="notice warn" role="status"><Icon path={mdiBellRingOutline} size={20} /><div><b>{t('Hatırlatma saatin geçti.')}</b><span className="small">{t('Bugünkü hedefe {n} kelime kaldı.', { n: goal - learnedToday })}</span></div></div>}
+      {gen.due && <GeneralTestCard onStart={startGeneral} />}
       <section className="card hero">
         <div className="muted">{t('Bugünkü Hedefin')}</div>
         <div className="hero-num"><b>{Math.min(learnedToday, 999)}</b> / {t('{n} kelime', { n: goal })}</div>
@@ -78,17 +81,24 @@ export default function Home({ go, openSettings, startTest, replayToday, showDay
           </li>
           <li className={testDone ? 'done' : ''}>
             <Icon path={testDone ? mdiCheckCircle : mdiClipboardCheckOutline} size={22} />
-            <div><b>{t('Günün testini çöz')}</b><span className="muted small">{testDone ? t('Tamamlandı') : seen ? t('Karışık, kısa bir test') : t('Kelime öğrendikten sonra açılır')}</span></div>
-            {!testDone && seen > 0 && <button className="btn small" onClick={startTest}>{t('Teste başla')}</button>}
+            <div><b>{t('Günün testini çöz')}</b><span className="muted small">{testDone ? t('Tamamlandı') : learnedToday ? t('Bugünün kelimelerinden {n} soru', { n: 20 }) : t('Bugün kelime öğrendikten sonra açılır')}</span></div>
+            {!testDone && learnedToday > 0 && <button className="btn small" onClick={startTest}>{t('Teste başla')}</button>}
           </li>
+          {gen.due && <li>
+            <Icon path={mdiClipboardCheckOutline} size={22} />
+            <div><b>{t('Haftalık genel testi çöz')}</b><span className="muted small">{t('Haftada bir zorunlu')}</span></div>
+            <button className="btn small" onClick={startGeneral}>{t('Teste başla')}</button>
+          </li>}
         </ol>
         {allDone && seen > 0 && <p className="success-msg">{t('Bugünlük her şey tamam. Yarın görüşmek üzere!')}</p>}
       </section>
 
+      {!gen.due && <GeneralTestCard onStart={startGeneral} />}
+
       <section className="quick">
         <button className="btn primary" onClick={() => go('learn')}>{t('Yeni kelime öğren')}</button>
         <button className="btn" onClick={() => go('review')} disabled={seen === 0}>{t('Tekrar yap')}</button>
-        <button className="btn" onClick={startTest} disabled={seen === 0}>{t('Teste başla')}</button>
+        <button className="btn" onClick={startTest} disabled={learnedToday === 0}>{t('Günün testi')}</button>
       </section>
     </div>
   );

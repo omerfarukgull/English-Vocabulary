@@ -1,7 +1,7 @@
 import { get, set } from 'idb-keyval';
 import { useSyncExternalStore } from 'react';
 import { BUILTIN_BY_EN, CUSTOM_CAT, registerCustomWords, WORDS, WORD_BY_ID, type Level, type Word } from './data';
-import { dayKey } from './date';
+import { addDays, dayKey } from './date';
 import { grade, newProgress, type QuizMode, type WordProgress } from './srs';
 import { speechSupported } from './speech';
 import { setLang, t, type Lang } from './i18n';
@@ -26,12 +26,14 @@ export interface AppState {
   plan: { date: string; ids: string[] };
   settings: Settings;
   custom: Word[]; // kullanıcının eklediği kelimeler
+  general: GeneralResult[]; // haftalık genel test sonuçları (eskiden yeniye)
 }
+export interface GeneralResult { date: string; correct: number; total: number }
 
 const KEY = 'pev-state-v1';
 export const DEFAULT_SETTINGS: Settings = { theme: 'system', rate: 0.9, autoplay: true, dailyGoal: 10, levelPref: 'A2', reminder: { on: false, time: '20:00' }, focusCat: '', lang: 'tr' };
 export function emptyState(): AppState {
-  return { version: 1, progress: {}, favorites: [], days: {}, plan: { date: '', ids: [] }, settings: { ...DEFAULT_SETTINGS }, custom: [] };
+  return { version: 1, progress: {}, favorites: [], days: {}, plan: { date: '', ids: [] }, settings: { ...DEFAULT_SETTINGS }, custom: [], general: [] };
 }
 
 let state: AppState = emptyState();
@@ -74,6 +76,7 @@ export function normalizeState(s: unknown): AppState {
     plan: o.plan && Array.isArray(o.plan.ids) ? { date: String(o.plan.date), ids: o.plan.ids.filter(id => WORD_BY_ID[id]) } : base.plan,
     settings: { ...DEFAULT_SETTINGS, ...(o.settings ?? {}), reminder: { ...DEFAULT_SETTINGS.reminder, ...(o.settings?.reminder ?? {}) }, focusCat: typeof o.settings?.focusCat === 'string' && WORDS.some(w => w.cat === o.settings!.focusCat) ? o.settings.focusCat : '', lang: o.settings?.lang === 'en' ? 'en' : 'tr' },
     custom,
+    general: Array.isArray(o.general) ? o.general.filter(g => g && typeof g.date === 'string' && typeof g.total === 'number').map(g => ({ date: g.date, correct: Number(g.correct) || 0, total: g.total })) : [],
   };
 }
 
@@ -188,6 +191,60 @@ export function recordAnswer(id: string, result: boolean | 'almost', mode: QuizM
     return s2;
   });
 }
+/** Test planı: havuzdaki kelimelerden her zaman n soru. Kelime sayısı azsa kelimeler farklı test türleriyle tekrar sorulur;
+ *  mümkünse aynı kelime art arda gelmez. */
+export function buildTestPlan(pool: string[], n: number): { id: string; mode: QuizMode }[] {
+  const ids = [...new Set(pool)].filter(id => WORD_BY_ID[id]);
+  const total = ids.length ? n : 0;
+  const out: { id: string; mode: QuizMode }[] = [];
+  const used = new Map<string, QuizMode[]>();
+  const mix = <T,>(a: T[]) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
+  let round: string[] = []; let k = 0;
+  while (out.length < total) {
+    if (k >= round.length) {
+      round = mix(ids); k = 0;
+      if (round.length > 1 && out.length && round[0] === out[out.length - 1].id) [round[0], round[1]] = [round[1], round[0]];
+    }
+    const id = round[k++];
+    const avail = availableModes(id);
+    let cand = avail.filter(m => !(used.get(id) ?? []).includes(m));
+    if (!cand.length) { cand = avail; used.set(id, []); }
+    const last = out[out.length - 1]?.mode;
+    const c2 = cand.filter(m => m !== last);
+    const from = c2.length ? c2 : cand;
+    const mode = from[Math.floor(Math.random() * from.length)];
+    used.set(id, [...(used.get(id) ?? []), mode]);
+    out.push({ id, mode });
+  }
+  return out;
+}
+
+export const GENERAL_SIZE = 30;
+export const DAILY_TEST_SIZE = 20;
+export const GENERAL_MIN_WORDS = 10;
+/** Genel test için kelime seçimi: zorlanılan kelimeler önce (en fazla yarısı), kalanı rastgele. */
+export function generalPool(s: AppState): string[] {
+  const seen = Object.keys(s.progress);
+  const mix = (a: string[]) => [...a].sort(() => Math.random() - 0.5);
+  const hard = mix(seen.filter(id => s.progress[id].status === 'hard')).slice(0, GENERAL_SIZE / 2);
+  const rest = mix(seen.filter(id => !hard.includes(id)));
+  return [...hard, ...rest].slice(0, GENERAL_SIZE);
+}
+/** Haftalık genel test zamanı geldi mi? Son testten 7 gün geçtiyse ya da hiç yapılmadıysa ve ilk kelimenin üzerinden 7 gün geçtiyse. */
+/** due: zamanı geldi (ana sayfada uyarı). locked: bir günden fazla gecikti; test çözülene kadar yeni kelime öğrenme kilitli. */
+export function generalStatus(s: AppState): { due: boolean; locked: boolean; last?: GeneralResult; next?: string; enough: boolean } {
+  const seen = Object.values(s.progress);
+  const enough = seen.length >= GENERAL_MIN_WORDS;
+  const last = s.general[s.general.length - 1];
+  const today = dayKey();
+  const start = last ? last.date : seen.reduce((m, p) => (p.firstSeen < m ? p.firstSeen : m), today);
+  const next = addDays(start, 7);
+  return { due: enough && next <= today, locked: enough && addDays(next, 1) <= today, last, next, enough };
+}
+export function recordGeneral(correct: number, total: number) {
+  update(s => ({ ...s, general: [...s.general, { date: dayKey(), correct, total }].slice(-52) }));
+}
+
 export function markTestDone() { update(s => bumpDay(s, d => ({ ...d, testDone: true }))); }
 
 export function toggleFavorite(id: string) {

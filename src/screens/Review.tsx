@@ -8,6 +8,7 @@ import { speechSupported } from '../lib/speech';
 import type { QuizMode } from '../lib/srs';
 import { dueIds, useApp } from '../lib/store';
 import type { SessionConfig } from './Quiz';
+import GeneralTestCard from '../components/GeneralTest';
 
 const MODES: (QuizMode | 'mixed')[] = ['mixed', 'img-write', 'img-choice', 'en-tr', 'tr-en', 'listen'];
 const MODE_DESC: Record<QuizMode | 'mixed', string> = {
@@ -20,7 +21,7 @@ const MODE_DESC: Record<QuizMode | 'mixed', string> = {
 };
 const SESSION = 20;
 
-export default function Review({ start }: { start: (c: SessionConfig) => void }) {
+export default function Review({ start, startGeneral }: { start: (c: SessionConfig) => void; startGeneral: () => void }) {
   const s = useApp();
   const [mode, setMode] = useState<QuizMode | 'mixed'>('mixed');
   const [cat, setCat] = useState(s.settings.focusCat);
@@ -53,6 +54,8 @@ export default function Review({ start }: { start: (c: SessionConfig) => void })
           ? <button className="btn primary block" onClick={() => run(due, 'Akıllı tekrar')} disabled={!filt(due).length}><Icon path={mdiRepeat} size={20} /> {t('Tekrara başla ({n})', { n: Math.min(SESSION, filt(due).length) })}</button>
           : <p className="success-msg">{t('Şu an bekleyen tekrar yok. İstersen aşağıdan serbest pratik yapabilirsin.')}</p>}
       </section>
+
+      <GeneralTestCard onStart={startGeneral} />
 
       <section className="card">
         <h2>{t('Test türü')}</h2>

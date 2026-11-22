@@ -5,10 +5,15 @@ import { WORD_BY_ID, capEn, capTr } from '../lib/data';
 import { buildQuestion, checkTyped, MODE_LABELS, pickMode, type Check, type Question } from '../lib/quiz';
 import { speak } from '../lib/speech';
 import type { QuizMode } from '../lib/srs';
-import { availableModes, getState, markTestDone, recordAnswer, useApp } from '../lib/store';
+import { availableModes, getState, markTestDone, recordAnswer, recordGeneral, useApp } from '../lib/store';
 import { t } from '../lib/i18n';
 
-export interface SessionConfig { ids: string[]; mode: QuizMode | 'mixed'; title: string; daily?: boolean }
+export interface SessionConfig {
+  ids: string[]; mode: QuizMode | 'mixed'; title: string;
+  daily?: boolean;   // günün testi (bitince bugünün görevi tamamlanır)
+  general?: boolean; // haftalık genel test (bitince sonucu kaydedilir)
+  plan?: { id: string; mode: QuizMode }[]; // sabit soru listesi: verilirse soru sayısı değişmez (yanlışlar sona eklenmez)
+}
 
 function modeFor(id: string, wanted: QuizMode | 'mixed', last?: QuizMode): QuizMode {
   const avail = availableModes(id);
@@ -20,6 +25,7 @@ function modeFor(id: string, wanted: QuizMode | 'mixed', last?: QuizMode): QuizM
 export default function Quiz({ config, onExit }: { config: SessionConfig; onExit: () => void }) {
   const { settings } = useApp();
   const [queue, setQueue] = useState<Question[]>(() => {
+    if (config.plan) return config.plan.map(x => buildQuestion(x.id, x.mode));
     let last: QuizMode | undefined;
     return config.ids.map(id => { const m = modeFor(id, config.mode, last); last = m; return buildQuestion(id, m); });
   });
@@ -31,7 +37,13 @@ export default function Quiz({ config, onExit }: { config: SessionConfig; onExit
   const word = q ? WORD_BY_ID[q.id] : undefined;
   const done = i >= queue.length;
 
-  useEffect(() => { if (done && config.daily) markTestDone(); }, [done, config.daily]);
+  const recorded = useRef(false);
+  useEffect(() => {
+    if (!done || recorded.current) return;
+    recorded.current = true;
+    if (config.daily) markTestDone();
+    if (config.general) recordGeneral(results.correct, results.correct + results.wrong);
+  }, [done]); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (q?.mode === 'listen' && !answer) { const t = setTimeout(() => speak(WORD_BY_ID[q.id].en, settings.rate, settings.voice), 300); return () => clearTimeout(t); }
   }, [i, q?.mode]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -46,7 +58,7 @@ export default function Quiz({ config, onExit }: { config: SessionConfig; onExit
     setResults(r => ({ correct: r.correct + (ok ? 1 : 0), wrong: r.wrong + (ok ? 0 : 1), wrongIds: ok ? r.wrongIds : [...r.wrongIds, q.id], typoIds: check === 'typo' ? [...r.typoIds, q.id] : r.typoIds }));
     if (!ok) {
       speak(WORD_BY_ID[q.id].en, settings.rate, settings.voice);
-      if (!requeued.current.has(q.id)) { // yanlış bilinen kelime oturum sonunda farklı bir yöntemle tekrar sorulur
+      if (!config.plan && !requeued.current.has(q.id)) { // yanlış bilinen kelime oturum sonunda farklı bir yöntemle tekrar sorulur
         requeued.current.add(q.id);
         const m = modeFor(q.id, config.mode === 'mixed' ? 'mixed' : config.mode, q.mode);
         setQueue(qs => [...qs, buildQuestion(q.id, config.mode === 'mixed' ? m : q.mode)]);
@@ -64,7 +76,7 @@ export default function Quiz({ config, onExit }: { config: SessionConfig; onExit
         <h1>{config.title}</h1>
         <div className="card celebrate">
           <Icon path={mdiTrophyOutline} size={56} />
-          <h2>{t('Tekrar tamamlandı')}</h2>
+          <h2>{config.plan ? t('Test tamamlandı') : t('Tekrar tamamlandı')}</h2>
           <p>{t('{c} doğru, {w} yanlış (%{p})', { c: results.correct, w: results.wrong, p: pct })}</p>
           {uniqueWrong.length > 0
             ? <><p className="muted">{t('Bu kelimeler daha sık karşına çıkacak:')}</p><div className="chips">{uniqueWrong.map(id => <span key={id} className="chip">{capEn(WORD_BY_ID[id].en)} – {capTr(WORD_BY_ID[id].tr)}</span>)}</div></>

@@ -1,13 +1,13 @@
-import { mdiArrowRight, mdiArrowLeft, mdiPartyPopper } from '@mdi/js';
+import { mdiArrowRight, mdiArrowLeft, mdiPartyPopper, mdiLockOutline } from '@mdi/js';
 import { useEffect, useState, type ReactNode } from 'react';
 import DayList from '../components/DayList';
 import { FocusPicker, Icon, ProgressBar, WordCard } from '../components/ui';
 import { catName, WORD_BY_ID } from '../lib/data';
 import { t } from '../lib/i18n';
-import { ensurePlan, extendPlan, markSeen, setFocusCat, todayNewCount, unseenOrdered, useApp, type LearnedDay } from '../lib/store';
+import { ensurePlan, extendPlan, generalStatus, markSeen, setFocusCat, todayNewCount, unseenOrdered, useApp, type LearnedDay } from '../lib/store';
 
 export type LearnView = 'today' | 'days';
-export default function Learn({ startTodayTest, view, setView, onReplay, onDayTest }: { startTodayTest: () => void; view: LearnView; setView: (v: LearnView) => void; onReplay: (d: LearnedDay) => void; onDayTest: (d: LearnedDay) => void }) {
+export default function Learn({ startTodayTest, startGeneral, view, setView, onReplay, onDayTest }: { startTodayTest: () => void; startGeneral: () => void; view: LearnView; setView: (v: LearnView) => void; onReplay: (d: LearnedDay) => void; onDayTest: (d: LearnedDay) => void }) {
   const seg = (
     <div className="seg learn-seg" role="tablist">
       <button role="tab" aria-selected={view === 'today'} className={view === 'today' ? 'on' : ''} onClick={() => setView('today')}>{t('Bugün')}</button>
@@ -15,10 +15,10 @@ export default function Learn({ startTodayTest, view, setView, onReplay, onDayTe
     </div>
   );
   if (view === 'days') return <div className="screen"><h1>{t('Öğren')}</h1>{seg}<DayList onReplay={onReplay} onTest={onDayTest} /></div>;
-  return <LearnToday startTodayTest={startTodayTest} seg={seg} />;
+  return <LearnToday startTodayTest={startTodayTest} startGeneral={startGeneral} seg={seg} />;
 }
 
-function LearnToday({ startTodayTest, seg }: { startTodayTest: () => void; seg: ReactNode }) {
+function LearnToday({ startTodayTest, startGeneral, seg }: { startTodayTest: () => void; startGeneral: () => void; seg: ReactNode }) {
   const s = useApp();
   useEffect(() => { ensurePlan(); }, []);
   const ids = s.plan.ids;
@@ -27,6 +27,21 @@ function LearnToday({ startTodayTest, seg }: { startTodayTest: () => void; seg: 
   const learnedToday = todayNewCount(s);
   const goal = s.settings.dailyGoal;
   const remainingInBank = unseenOrdered(s).length;
+  const gen = generalStatus(s);
+
+  if (gen.locked && firstUnseen !== -1 && back === null) {
+    return (
+      <div className="screen">
+        <h1>{t('Öğren')}</h1>{seg}
+        <div className="card celebrate">
+          <Icon path={mdiLockOutline} size={56} />
+          <h2>{t('Önce haftalık genel test')}</h2>
+          <p>{t('Bu haftanın genel testi gecikti. Yeni kelime öğrenmek, şimdiye kadar öğrendiğin kelimelerden genel testi çözünce açılır.')}</p>
+          <button className="btn primary block" onClick={startGeneral}>{t('Genel teste başla')}</button>
+        </div>
+      </div>
+    );
+  }
 
   if (firstUnseen === -1 && back === null) {
     const fc = s.settings.focusCat;
@@ -44,8 +59,8 @@ function LearnToday({ startTodayTest, seg }: { startTodayTest: () => void; seg: 
           <Icon path={mdiPartyPopper} size={56} />
           <h2>{learnedToday >= goal ? t('Harika iş!') : t('Plan tamamlandı')}</h2>
           <p>{learnedToday >= goal ? t('Bugün {n} yeni kelime öğrendin ve {g} kelimelik hedefini tamamladın.', { n: learnedToday, g: goal }) : t('Bugün {n} yeni kelime öğrendin.', { n: learnedToday })}</p>
-          <p className="muted">{t('Kalıcı olması için şimdi kısa bir testle pekiştir.')}</p>
-          <button className="btn primary block" onClick={startTodayTest}>{t('Bugünün testini çöz')}</button>
+          {learnedToday > 0 && <><p className="muted">{t('Kalıcı olması için şimdi bugünün kelimeleriyle {n} soruluk testi çöz.', { n: 20 })}</p>
+          <button className="btn primary block" onClick={startTodayTest}>{t('Bugünün testini çöz')}</button></>}
           {remainingInBank > 0 && <button className="btn block" onClick={() => extendPlan(5)}>{t('5 kelime daha öğren')}{fc ? ` (${catName(fc)})` : ''}</button>}
         </div>
         {picker}

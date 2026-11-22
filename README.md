@@ -32,6 +32,11 @@ React + TypeScript + Vite, veriler cihazda (IndexedDB), üyelik/sunucu yok.
   kapalıyken yalnızca arka plan eşitlemesini destekleyen tarayıcılarda (Android Chrome, ana ekrana eklenmiş olarak) ve
   saati tarayıcının belirlediği bir zamanda gelir. iPhone'da kapalı uygulamadan bildirim garanti değildir. Bu yüzden
   ".ics takvim hatırlatıcısı" düğmesi telefonun takvimine her gün o saatte alarmlı bir etkinlik ekler; en güvenilir yol budur.
+- Günün testi: yalnızca o gün öğrenilen kelimelerden her zaman 20 soru, farklı test türleriyle (kelime azsa kelimeler
+  farklı türlerle tekrar sorulur, aynı kelime art arda gelmez). "Günlerim"deki gün testleri de 20 soru.
+- Genel test: şimdiye kadar öğrenilen tüm kelimelerden 30 soru (zorlanılan kelimeler öncelikli). İstenince her zaman
+  çözülebilir; haftada bir zorunludur: son genel testten (ya da ilk kelimeden) 7 gün sonra ana sayfada kalıcı uyarı çıkar,
+  bir gün daha gecikirse test çözülene kadar yeni kelime öğrenme kilitlenir (tekrar ve diğer testler açık kalır).
 - Arayüz dili (Ayarlar → Dil / Language): Türkçe veya English. Yalnızca menüler, düğmeler ve mesajlar çevrilir;
   kelimeler İngilizce, anlamları, ipuçları ve örnek çevirileri Türkçe kalır. Seçim cihazda saklanır, varsayılan Türkçe.
   Metinler `src/lib/i18n-en.ts` içinde (anahtar Türkçe metnin kendisi).

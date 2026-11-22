@@ -32,8 +32,7 @@ export const EN: Record<string, Entry> = {
   'Tamamlandı': 'Done', '{n} kelime kaldı': v => `${words(v)} left`, 'Başla': 'Start',
   'Tekrarları tamamla': 'Finish your reviews', 'Şu an bekleyen tekrar yok': 'No reviews due right now',
   'Önce birkaç kelime öğren': 'Learn a few words first', '{n} kelime tekrar bekliyor': v => `${words(v)} due for review`,
-  'Tekrar yap': 'Review', "Günün testini çöz": "Take today's test", 'Karışık, kısa bir test': 'A short, mixed test',
-  'Kelime öğrendikten sonra açılır': 'Unlocks after you learn some words', 'Teste başla': 'Start test',
+  'Tekrar yap': 'Review', "Günün testini çöz": "Take today's test", 'Teste başla': 'Start test',
   'Bugünlük her şey tamam. Yarın görüşmek üzere!': "All done for today. See you tomorrow!",
 
   // Öğren
@@ -42,7 +41,7 @@ export const EN: Record<string, Entry> = {
   'Harika iş!': 'Great job!', 'Plan tamamlandı': 'Plan complete',
   'Bugün {n} yeni kelime öğrendin ve {g} kelimelik hedefini tamamladın.': v => `You learned ${pl(v.n, 'new word')} today and reached your goal of ${words(v, 'g')}.`,
   'Bugün {n} yeni kelime öğrendin.': v => `You learned ${pl(v.n, 'new word')} today.`,
-  'Kalıcı olması için şimdi kısa bir testle pekiştir.': 'Lock them in now with a short test.',
+
   'Bugünün testini çöz': "Take today's test", '5 kelime daha öğren': 'Learn 5 more words',
   'Bugünkü kelimeler': "Today's words", 'Önceki kelime': 'Previous word', 'İleri': 'Next', 'Bitir': 'Finish', 'Sonraki kelime': 'Next word',
 
@@ -183,4 +182,20 @@ export const EN: Record<string, Entry> = {
 
   // Takvim hatırlatıcısı
   'İngilizce kelime zamanı': 'English vocabulary time', 'Bugünkü kelimelerini çalış: {u}': "Study today's words: {u}",
+  // Günün testi ve genel test
+  'Test tamamlandı': 'Test complete', 'Genel test': 'General test', 'Genel teste başla': 'Start general test',
+  'Bu haftanın genel testi seni bekliyor.': "This week's general test is waiting for you.",
+  'Haftada bir zorunlu. Yarına kadar çözmezsen yeni kelime öğrenme test çözülene kadar kilitlenir.': "Required once a week. If you don't take it by tomorrow, learning new words is locked until you do.",
+  'Test çözülene kadar yeni kelime öğrenme kilitli.': 'Learning new words is locked until you take the test.',
+  'Önce haftalık genel test': 'Weekly general test first',
+  'Bu haftanın genel testi gecikti. Yeni kelime öğrenmek, şimdiye kadar öğrendiğin kelimelerden genel testi çözünce açılır.': "This week's general test is overdue. Learning new words unlocks once you take the general test on the words you've learned so far.",
+  'Şimdiye kadar öğrendiğin {n} kelimeden {q} soruluk karışık test. Haftada bir zorunlu; istediğin zaman da çözebilirsin.': v => `A mixed ${pl(v.q, 'question')} test from the ${words(v)} you've learned so far. Required once a week; you can also take it any time.`,
+  'Kelime öğrendikçe, şimdiye kadar öğrendiğin tüm kelimelerden test çözebileceksin.': "As you learn words, you'll be able to take a test on everything you've learned so far.",
+  'Son genel test: {d} · {c}/{n} doğru (%{p})': 'Last general test: {d} · {c}/{n} correct ({p}%)',
+  'Sonraki zorunlu genel test: {d}': 'Next required general test: {d}',
+  'Haftalık zorunlu test, {m} kelime öğrendikten sonra başlar.': 'The weekly required test starts after you learn {m} words.',
+  'Bugünün kelimelerinden {n} soru': v => `${pl(v.n, 'question')} on today's words`,
+  'Bugün kelime öğrendikten sonra açılır': 'Unlocks after you learn words today',
+  'Haftalık genel testi çöz': 'Take the weekly general test', 'Haftada bir zorunlu': 'Required once a week',
+  'Kalıcı olması için şimdi bugünün kelimeleriyle {n} soruluk testi çöz.': v => `To make them stick, take the ${pl(v.n, 'question')} test on today's words now.`,
 };

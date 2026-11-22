@@ -211,3 +211,10 @@ select { flex: 1; min-width: 0; min-height: 44px; border-radius: 12px; border: 1
 .stack-btns { display: flex; flex-direction: column; gap: 10px; }
 .stack-btns .btn { width: 100%; }
 .btn { text-align: center; line-height: 1.25; }
+.general-card h2 { display: flex; align-items: center; gap: 8px; }
+.general-card h2 svg { color: var(--accent); flex: none; }
+.general-card .notice { margin-bottom: 8px; }
+.general-card .general-last { margin: 6px 0; }
+.general-card > p { margin: 6px 0; }
+.general-card .btn { margin-top: 6px; }
+.general-card.due { box-shadow: 0 0 0 2px var(--warn) inset; }
