@@ -5,7 +5,6 @@ import { BUILTIN, registerCustomWords, WORDS } from '../lib/data';
 import { downloadIcs, enableReminder, isIOS, notifySupported, scheduleInPage } from '../lib/reminder';
 import { getEnglishVoices, onVoicesChanged, speak, speechSupported } from '../lib/speech';
 import { t, type Lang } from '../lib/i18n';
-import { buildLockScript, lockWords } from '../lib/lockscreen';
 import { getState, normalizeState, replaceState, resetAll, setSettings, useApp, type AppState } from '../lib/store';
 
 export default function Settings({ open, onClose }: { open: boolean; onClose: () => void }) {
@@ -28,22 +27,6 @@ export default function Settings({ open, onClose }: { open: boolean; onClose: ()
     else setRemMsg(isIOS ? t('iPhone\'da uygulama kapalıyken zamanlanmış bildirim desteklenmiyor. Kesin hatırlatma için takvim hatırlatıcısını ekle.') : t('Bildirim yalnızca uygulama açıkken (arka planda bile olsa) gelir. Kapalıyken de hatırlatma istiyorsan takvim hatırlatıcısını ekle.'));
   }
   const file = useRef<HTMLInputElement>(null);
-  const [lockMsg, setLockMsg] = useState('');
-  const lockN = lockWords(s).length;
-  const lockScript = () => buildLockScript(getState(), location.href.split('#')[0]);
-  async function copyLock() {
-    try { await navigator.clipboard.writeText(lockScript()); setLockMsg(t('Kod kopyalandı ({n} kelime). Şimdi Scriptable\'da yapıştır.', { n: lockN })); }
-    catch { setLockMsg(t('Kopyalanamadı. "Dosya olarak kaydet" düğmesini kullan.')); }
-  }
-  async function saveLock() {
-    const blob = new Blob([lockScript()], { type: 'text/javascript' }); const name = 'Kelimelerim.js';
-    try {
-      const f = new File([blob], name, { type: 'text/javascript' });
-      if (navigator.canShare?.({ files: [f] }) && /iPhone|iPad|Android/i.test(navigator.userAgent)) { await navigator.share({ files: [f], title: name }); return; }
-    } catch (e) { if ((e as Error).name === 'AbortError') return; }
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove();
-    setTimeout(() => URL.revokeObjectURL(a.href), 2000);
-  }
 
   async function exportJson() {
     const data = { app: 'personal-english-vocabulary', format: 1, exportedAt: new Date().toISOString(), state: getState() };
@@ -116,22 +99,6 @@ export default function Settings({ open, onClose }: { open: boolean; onClose: ()
           <button className="btn" onClick={() => speak('I eat an apple every morning.', st.rate, st.voice)}>{t('Sesi dene')}</button>
           {voices.length === 0 && <p className="muted small">{t('İngilizce ses bulunamadı. Telefon ayarlarından (Metin okuma / Konuşulan içerik) İngilizce sesi indirebilirsin.')}</p>}
         </> : <p className="note">{t('Bu tarayıcı sesli okumayı desteklemiyor. Kartlardaki okunuş ve IPA yazımını kullanabilirsin; Chrome (Android) veya Safari (iPhone) önerilir.')}</p>}
-
-        <h3>{t('Kilit ekranında kelime')}</h3>
-        <p className="muted small">{t('Telefonun kilit ekranında, öğrendiğin kelimelerden biri Türkçe anlamıyla görünür ve belirli aralıklarla değişir. iPhone web uygulamalarına kilit ekranı izni vermediği için ücretsiz Scriptable uygulaması kullanılır; kelimeler kodun içindedir, internete bağlanmaz.')}</p>
-        <ol className="steps small">
-          <li>{t("App Store'dan ücretsiz Scriptable uygulamasını yükle.")}</li>
-          <li>{t('Aşağıdaki "Kodu kopyala" düğmesine bas.')}</li>
-          <li>{t('Scriptable\'ı aç, sağ üstteki + ile yeni betik oluştur, kodu yapıştır ve adını "Kelimelerim" yap.')}</li>
-          <li>{t('Kilit ekranına basılı tut, Özelleştir → Kilit Ekranı → widget ekle → Scriptable\'ı seç (geniş olan). Widget\'a dokun, Script olarak "Kelimelerim"i seç.')}</li>
-          <li>{t('Yeni kelimeler öğrendikçe kodu tekrar kopyalayıp aynı betiğin içeriğini değiştir.')}</li>
-        </ol>
-        <div className="stack-btns">
-          <button className="btn primary" onClick={copyLock} disabled={lockN === 0}>{t('Kodu kopyala ({n} kelime)', { n: lockN })}</button>
-          <button className="btn" onClick={saveLock} disabled={lockN === 0}>{t('Dosya olarak kaydet')}</button>
-        </div>
-        {lockN === 0 && <p className="muted small">{t('Önce birkaç kelime öğren.')}</p>}
-        {lockMsg && <p className="note" role="status">{lockMsg}</p>}
 
         <h3>{t('Yedekleme')}</h3>
         <p className="muted small">{t('Tüm ilerlemen yalnızca bu cihazda saklanır; hiçbir yere gönderilmez. Düzenli yedek alman önerilir.')}</p>
