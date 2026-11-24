@@ -198,4 +198,16 @@ export const EN: Record<string, Entry> = {
   'Bugün kelime öğrendikten sonra açılır': 'Unlocks after you learn words today',
   'Haftalık genel testi çöz': 'Take the weekly general test', 'Haftada bir zorunlu': 'Required once a week',
   'Kalıcı olması için şimdi bugünün kelimeleriyle {n} soruluk testi çöz.': v => `To make them stick, take the ${pl(v.n, 'question')} test on today's words now.`,
+
+  // Kilit ekranı
+  'Kilit ekranında kelime': 'Word on the lock screen',
+  'Telefonun kilit ekranında, öğrendiğin kelimelerden biri Türkçe anlamıyla görünür ve belirli aralıklarla değişir. iPhone web uygulamalarına kilit ekranı izni vermediği için ücretsiz Scriptable uygulaması kullanılır; kelimeler kodun içindedir, internete bağlanmaz.': "One of the words you've learned appears on your phone's lock screen with its Turkish meaning and changes from time to time. iPhone doesn't let web apps use the lock screen, so the free Scriptable app is used; the words are inside the code and it never goes online.",
+  "App Store'dan ücretsiz Scriptable uygulamasını yükle.": 'Install the free Scriptable app from the App Store.',
+  'Aşağıdaki "Kodu kopyala" düğmesine bas.': 'Tap "Copy code" below.',
+  'Scriptable\'ı aç, sağ üstteki + ile yeni betik oluştur, kodu yapıştır ve adını "Kelimelerim" yap.': 'Open Scriptable, create a new script with + at the top right, paste the code and name it "Kelimelerim".',
+  'Kilit ekranına basılı tut, Özelleştir → Kilit Ekranı → widget ekle → Scriptable\'ı seç (geniş olan). Widget\'a dokun, Script olarak "Kelimelerim"i seç.': 'Press and hold the lock screen, Customize → Lock Screen → add widget → choose Scriptable (the wide one). Tap the widget and pick "Kelimelerim" as the Script.',
+  'Yeni kelimeler öğrendikçe kodu tekrar kopyalayıp aynı betiğin içeriğini değiştir.': 'As you learn new words, copy the code again and replace the contents of the same script.',
+  'Kodu kopyala ({n} kelime)': v => `Copy code (${pl(v.n, 'word')})`, 'Dosya olarak kaydet': 'Save as file', 'Önce birkaç kelime öğren.': 'Learn a few words first.',
+  'Kod kopyalandı ({n} kelime). Şimdi Scriptable\'da yapıştır.': v => `Code copied (${pl(v.n, 'word')}). Now paste it in Scriptable.`,
+  'Kopyalanamadı. "Dosya olarak kaydet" düğmesini kullan.': 'Couldn\'t copy. Use "Save as file" instead.',
 };

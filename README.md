@@ -37,6 +37,10 @@ React + TypeScript + Vite, veriler cihazda (IndexedDB), üyelik/sunucu yok.
 - Genel test: şimdiye kadar öğrenilen tüm kelimelerden 30 soru (zorlanılan kelimeler öncelikli). İstenince her zaman
   çözülebilir; haftada bir zorunludur: son genel testten (ya da ilk kelimeden) 7 gün sonra ana sayfada kalıcı uyarı çıkar,
   bir gün daha gecikirse test çözülene kadar yeni kelime öğrenme kilitlenir (tekrar ve diğer testler açık kalır).
+- Kilit ekranında kelime (Ayarlar): iPhone web uygulamalarına kilit ekranı widget'ı izni vermediği için ücretsiz
+  Scriptable uygulaması kullanılır. "Kodu kopyala" öğrenilen kelimeleri içine gömülü bir Scriptable betiği üretir
+  (`src/lib/lockscreen.ts`); betik internete bağlanmaz, widget her yenilendiğinde bir kelimeyi Türkçe anlamıyla gösterir
+  (zorlanılan kelimeler daha sık). Yenilenme zamanını iOS belirler. Yeni kelimeler için kod yeniden kopyalanır.
 - Arayüz dili (Ayarlar → Dil / Language): Türkçe veya English. Yalnızca menüler, düğmeler ve mesajlar çevrilir;
   kelimeler İngilizce, anlamları, ipuçları ve örnek çevirileri Türkçe kalır. Seçim cihazda saklanır, varsayılan Türkçe.
   Metinler `src/lib/i18n-en.ts` içinde (anahtar Türkçe metnin kendisi).
