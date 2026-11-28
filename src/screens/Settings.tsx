@@ -67,13 +67,14 @@ export default function Settings({ open, onClose }: { open: boolean; onClose: ()
         </label>
         <label className="field">{t('Yeni kelime seviyesi')}
           <select value={st.levelPref} onChange={e => setSettings({ levelPref: e.target.value as AppState['settings']['levelPref'] })}>
-            <option value="A2">{t('Önce A2, sonra A1 eksikleri, sonra B1')}</option>
+            <option value="A2">{t('Önce A2, sonra A1 eksikleri, sonra B1 ve B2')}</option>
             <option value="A1">{t('Önce A1 temelleri')}</option>
             <option value="B1">{t("B1'e hazırlık (önce B1)")}</option>
+            <option value="B2">{t("B2'ye hazırlık (önce B2)")}</option>
             <option value="mixed">{t('Karışık')}</option>
           </select>
         </label>
-        <p className="muted small">{t('Sözlükte {a} A1, {b} A2, {c} B1 kelime var', { a: BUILTIN.filter(w => w.level === 'A1').length, b: BUILTIN.filter(w => w.level === 'A2').length, c: BUILTIN.filter(w => w.level === 'B1').length })}{s.custom.length ? t(', ayrıca {n} kendi kelimen', { n: s.custom.length }) : ''}.</p>
+        <p className="muted small">{t('Sözlükte {a} A1, {b} A2, {c} B1, {d} B2 kelime var', { a: BUILTIN.filter(w => w.level === 'A1').length, b: BUILTIN.filter(w => w.level === 'A2').length, c: BUILTIN.filter(w => w.level === 'B1').length, d: BUILTIN.filter(w => w.level === 'B2').length })}{s.custom.length ? t(', ayrıca {n} kendi kelimen', { n: s.custom.length }) : ''}.</p>
 
         <h3>{t('Günlük hatırlatma')}</h3>
         <label className="toggle"><input type="checkbox" checked={st.reminder.on} onChange={e => toggleReminder(e.target.checked)} /> {t('Her gün hatırlat (hedef bitmediyse)')}</label>

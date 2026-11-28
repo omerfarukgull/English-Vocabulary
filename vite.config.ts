@@ -31,6 +31,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,png,webp,json,ico,txt}'],
         navigateFallback: 'index.html',
         cleanupOutdatedCaches: true,
+        maximumFileSizeToCacheInBytes: 6 * 1024 * 1024, // 5000+ kelimelik sözlük tek pakette; çevrimdışı için önbelleğe alınmalı
         importScripts: ['reminder-sw.js'], // günlük hatırlatma bildirimi (periodic background sync)
       },
     }),

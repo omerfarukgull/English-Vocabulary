@@ -1388,3 +1388,1929 @@ any|"Eni" → soruda ve olumsuzda: "Any questions?" Hiç sorunuz var mı?
 many|"Meni" → "How many?" Kaç tane? → çok (sayılabilen: many books)
 much|"Maç" → "How much?" Ne kadar? → çok (sayılamayan: much water)
 few|"Fyuu" → "a few": birkaç; "few" tek başına: az
+# B1-B2 eklenen kelimeler için ipuçları
+abandon|a + band (bağ): bağı koparıp gitmek → terk etmek
+accelerate|Arabadaki "accelerator" gaz pedalıdır → hızlanmak
+accommodate|"Accommodation" = konaklama yeri → ağırlamak, yer sağlamak
+accomplish|"Complete" (tamamlamak) ile akraba → başarmak, tamamlamak
+accumulate|ac + "cumulus" (yığın bulutu): üst üste yığılmak → biriktirmek
+accuse|"The accused" = sanık → itham etmek, suçlamak
+acknowledge|ac + knowledge (bilgi): bildiğini kabul etmek → kabul etmek, onaylamak
+acquire|"Quest" (arayış) ile akraba: arayıp elde etmek → edinmek
+adjust|ad + just (tam, doğru): tam ayarına getirmek → ayarlamak
+administer|"Admin" (yönetici) → yönetmek, uygulamak
+adopt|"Adoption" = evlat edinme → evlat edinmek, benimsemek
+advocate|"Avukat" kelimesiyle aynı kökten → savunmak, desteklemek
+affect|"Effect" (etki) ile kardeş kelime: affect fiil, effect isim → etkilemek
+allocate|al + "locate" (yer belirlemek): her şeye yerini vermek → ayırmak, tahsis etmek
+alter|"Alternatif" ile aynı kökten: başka hâle getirmek → değiştirmek
+amaze|a + "maze" (labirent): labirentte kalmış gibi şaşırtmak → hayrete düşürmek
+amend|"Mend" (onarmak) ile akraba → düzeltmek, değiştirmek (metin)
+amuse|"Amusement park" = lunapark → eğlendirmek, güldürmek
+anticipate|anti/ante (önce) + cip (almak): önceden kavramak → öngörmek
+appeal|"Appeal court" = istinaf mahkemesi; bir şey sana "seslenir" → hoşa gitmek, başvurmak
+applaud|"Applause" = alkış → alkış tutmak
+appoint|"Appointment" = randevu; birine görev/zaman belirlemek → atamak
+approach|"Proximity" (yakınlık) ile akraba → yaklaşmak
+arise|a + rise (yükselmek): yüzeye çıkmak → ortaya çıkmak
+arouse|a + rouse (uyandırmak) → uyandırmak (ilgi, şüphe)
+arrest|"Arrest" kelimesindeki "rest" (durmak): şüpheliyi durdurmak → tutuklamak
+assemble|"Assembly line" = montaj hattı → toplanmak, monte etmek
+assert|"Assertive" = kendinden emin; açıkça ortaya koymak → iddia etmek
+assess|"Assessment" = değerlendirme → değerlendirmek
+assign|as + sign (işaret): birine işaretle görev vermek → görevlendirmek
+assist|"Asistan" kelimesiyle aynı kökten → yardımcı olmak
+assume|"Varsay(ım)" → "Assume" ile "Assumption" (varsayım) → varsaymak
+assure|as + sure (emin): birini emin kılmak → temin etmek
+attain|at + "tain" (tutmak, contain/obtain gibi): hedefi tutmak → ulaşmak
+attribute|"Atfetmek" → at + tribute (haraç, saygı): birine pay vermek → atfetmek
+authorize|"Author" (yetkili kişi) + -ize → yetki vermek
+await|a + wait (beklemek) → (bir şeyi) beklemek
+awaken|a + wake (uyanmak) → uyanmak, uyandırmak
+betray|"Betrayal" = ihanet; birini düşmana "teslim etmek" → ihanet etmek
+bind|"Binder" = klasör; kâğıtları bir arada bağlar → sıkıca bağlamak
+bleed|"Blood" (kan) ile akraba → kanamak
+blend|"Blender" = karıştırıcı → karıştırmak, harmanlamak
+blink|Göz bir anda "blink!" diye açılıp kapanır → göz kırpmak
+boast|"Böbür" ile ses benzerliği: "Bousst" → övünmek
+bow|"Bau" → sahne sonunda oyuncular eğilip selam verir → eğilmek
+breed|"Bread" değil "breed": hayvan yetiştirir, yavru üretir → yetiştirmek
+brew|"Brewery" = bira fabrikası → demlemek
+bribe|"Brayb" → masanın altından verilen para → rüşvet vermek
+broadcast|broad (geniş) + cast (atmak): geniş alana saçmak → yayınlamak
+browse|"Browser" = internet tarayıcısı → göz atmak, gezinmek
+bump|"Bamp!" diye çarpma sesi → çarpmak, toslamak
+capture|"Capture" ile "kapmak" ses benzerliği → yakalamak, ele geçirmek
+cease|"Ceasefire" = ateşkes → durmak, sona ermek
+characterize|"Karakter" + -ize: karakterini belirlemek → nitelendirmek
+cherish|"Cherry" gibi tatlı, kıymetli tutmak → çok değer vermek
+circulate|"Circle" (daire): daire çizip dolaşmak → dolaşmak, dağıtmak
+cite|"Citation" = alıntı → alıntı yapmak, kaynak göstermek
+clarify|"Clear" (açık) ile akraba → açıklığa kavuşturmak
+classify|"Class" (sınıf) + -ify → sınıflandırmak
+cling|"Kling" → yapışkan bir şey gibi sarılıp kalmak → sıkıca tutunmak
+collapse|col + lapse (düşmek): hepsi birden düşmek → çökmek
+collide|"Collision" = çarpışma → çarpışmak
+combine|"Kombin(e)" ile aynı kökten → birleştirmek
+commence|"Commencement" = başlangıç, mezuniyet töreni → başlamak (resmî)
+commit|"Commit a crime" = suç işlemek → işlemek (suç), kendini adamak
+compel|com + pel (itmek, "propeller" gibi): zorla itmek → zorlamak
+compensate|"Kompanse etmek" ile aynı → telafi etmek, tazmin etmek
+compete|"Competition" = yarışma → yarışmak
+compile|"Compiler" = derleyici (yazılım) → derlemek
+complement|"Complete" (tamamlamak) ile akraba; "compliment" (iltifat) ile karıştırma → tamamlamak
+comply|"Compliance" = uyum; kurala "complete" uymak → uymak (kurala)
+compose|"Kompozitör" = besteci → bestelemek, oluşturmak
+comprehend|"Comprehension" = okuduğunu anlama → kavramak
+compress|com + press (bastırmak) → sıkıştırmak
+comprise|"Kapsar" → bir bütünün içerdiği parçalar → içermek, oluşmak
+conceal|con + ceal ("cell" gibi kapalı oda): saklamak → gizlemek
+concede|"Concession" = taviz → kabul etmek (yenilgiyi)
+conceive|"Concept" (kavram) ile akraba: zihinde oluşturmak → tasarlamak
+conclude|"Conclusion" = sonuç → sonuçlandırmak
+condemn|"Damn" (lanetlemek) ile akraba → kınamak
+conduct|"Conductor" = orkestra şefi, kondüktör → yürütmek, yönetmek
+confess|"Konfesyon" (günah çıkarma) → suçunu itiraf etmek
+confine|con + fine ("final" gibi sınır): sınır içine almak → sınırlamak
+confront|con + front (ön, cephe): karşı karşıya gelmek → yüzleşmek
+confuse|"Konfüze olmak" → kafasını karıştırmak
+congratulate|"Congrats!" = tebrikler → tebrik etmek
+consent|con + sent ("sense" gibi his): aynı şeyi hissetmek → razı olmak
+conserve|"Konserve" = korunmuş yiyecek → korumak, tasarruf etmek
+consult|"Konsültasyon" = danışma → danışmak
+consume|"Consumer" = tüketici → tüketmek
+contemplate|con + "temple" (tapınak): tapınakta derin düşünmek → düşünüp taşınmak
+contend|con + tend (yönelmek): birbirine karşı yönelmek → mücadele etmek
+contradict|contra (karşı) + dict (söylemek): karşıt söylemek → çelişmek
+contribute|con + tribute (pay): payını koymak → katkıda bulunmak
+convert|con + vert (çevirmek, "vertigo" gibi) → dönüştürmek
+convey|"Conveyor belt" = yürüyen bant: taşır, iletir → iletmek
+convict|"Convict" = mahkûm; "convince" ile akraba → mahkûm etmek
+cooperate|co (birlikte) + operate (çalışmak) → iş birliği yapmak
+cope|"Kop" → zorluğa karşı kopmadan dayanmak → başa çıkmak
+correspond|co + respond (cevap vermek): karşılıklı cevaplaşmak → yazışmak, uyuşmak
+crawl|"Crawl" yüzme stili: kollarla sürünür gibi → emeklemek, sürünmek
+crush|"Crash" (çarpmak) ile ses benzerliği: ezip çarpmak → ezmek
+cultivate|"Kültür" ile aynı kökten (toprağı işlemek) → yetiştirmek
+deceive|"Deception" = aldatma → aldatmak, kandırmak
+declare|de + clare ("clear": açık): açıkça söylemek → ilan etmek
+decline|de (aşağı) + cline ("incline": eğim): aşağı eğilmek → azalmak, reddetmek
+dedicate|"Dedication" = ithaf: kitabın başında "... için" yazısı → adamak, ithaf etmek
+deduce|de + duce (götürmek, "produce" gibi): bilgiden sonuca götürmek → sonuç çıkarmak
+defeat|"Defeat" ile "def" (savunma) kırılır → yenmek
+define|de + fine (sınır, "final" gibi): sınırını çizmek → tanımını yapmak
+delegate|"Delege" kelimesiyle aynı → yetki devretmek
+demolish|de + "mole" (kitle, yapı): yapıyı indirmek → yıkmak
+demonstrate|"Demonstrasyon" = gösteri → göstermek, kanıtlamak
+denote|de + note (not, işaret) → belirtmek
+depart|"Departure" = havalimanında kalkış → ayrılmak, kalkmak
+depict|de + pict ("picture": resim): resmini çizmek → tasvir etmek
+deposit|"Depozito" kelimesiyle aynı kökten → yatırmak (para)
+deprive|de + "private": elinden özel şeyini almak → yoksun bırakmak
+derive|de + "river" (nehir): kaynaktan akıp gelmek → türemek
+descend|de (aşağı) + scend ("ascend": yükselmek) → inmek
+designate|"Design" (tasarım) ile akraba: işaretleyip belirlemek → belirlemek
+despise|de (aşağı) + spise ("spy": bakmak): tepeden bakmak → hor görmek
+detect|"Dedektif" kelimesiyle aynı kökten → tespit etmek
+deter|de + ter ("terror": korku): korkutup vazgeçirmek → caydırmak
+deteriorate|"Deterior" = daha kötü (Latince) → kötüleşmek
+devote|de + vote (yemin, oy): kendini yeminle vermek → adamak
+diagnose|"Diagnoz/teşhis" ile aynı kökten → teşhis koymak
+differ|"Different" (farklı) ile akraba → farklı olmak
+diminish|"Mini" (küçük) ile akraba → azalmak
+dip|Patates kızartmasını sosa "dip" yapmak → batırmak
+disappoint|dis + appoint (atamak): umduğun yere atanmamak → hayal kırıklığına uğratmak
+discard|dis + card (kart): elindeki kartı atmak → elden çıkarmak
+disguise|dis + guise (görünüş): görünüşünü değiştirmek → kılık değiştirmek
+dismiss|"Dismiss" = "dağılabilirsiniz!": gönder git → kovmak, göz ardı etmek
+dispatch|"Dispeç(er)" = sevk görevlisi → göndermek, sevk etmek
+display|Telefonun "display"i = ekran: her şeyi gösterir → sergilemek
+dispose|"Disposable" = tek kullanımlık (atılan) → atmak (dispose of)
+dispute|dis + pute ("computer" gibi hesap): hesaplar ayrışır → tartışmak
+disrupt|dis + rupt (kırmak, "erupt" gibi): düzeni kırmak → aksatmak
+dissolve|"Solve" (çözmek) ile akraba: şeker suda çözülür → çözünmek
+distinguish|"Distinct" (ayrı, belirgin) ile akraba → ayırt etmek
+distort|dis + tort (bükmek, "torture" gibi) → çarpıtmak
+distract|dis + tract (çekmek, "traktör" gibi): dikkati başka yöne çekmek → dikkatini dağıtmak
+distribute|"Distribütör" = dağıtıcı firma → dağıtmak
+divert|di + vert (çevirmek): yolu başka yöne çevirmek → saptırmak
+dominate|"Dominant" (baskın) ile aynı kökten → hâkim olmak
+donate|"Donör" = bağışçı → bağışlamak
+drain|"Drenaj" ile aynı kökten → süzmek, boşaltmak
+dread|"Dred" → "dreadful" (korkunç) → çok korkmak
+drift|"Drift" yapan araba kayar → sürüklenmek
+dump|"Dump truck" = damperli kamyon; yükü boşaltır → atmak, boşaltmak
+dwell|"Dwelling" = konut → oturmak, kafaya takmak
+elect|"Election" = seçim → seçmek (oyla)
+elevate|"Elevator" = asansör → yükseltmek
+eliminate|"Elemek" ile ses benzerliği; "elimine etmek" → ortadan kaldırmak
+embark|em + bark ("barque": gemi): gemiye binmek → binmek, başlamak
+embarrass|"Embarrassing" = utanç verici → utandırmak
+embrace|em + brace ("bras": kollar): kollarına almak → kucaklamak
+emerge|e (dışarı) + merge (dalmak): sudan dışarı çıkmak → belirmek
+emit|e (dışarı) + mit (göndermek, "mission" gibi) → yaymak, salmak
+emphasize|"Emphasis" = vurgu → vurgulamak
+enable|en + able (yapabilir): yapabilir kılmak → olanak sağlamak
+enclose|en + close (kapatmak): içine kapatmak → ilişikte göndermek
+encounter|en + counter ("karşı"): karşına çıkmak → karşılaşmak
+endorse|en + dorse (sırt): belgenin arkasını imzalamak → desteklemek, onaylamak
+endure|"Endurance" = dayanıklılık → katlanmak, dayanmak
+enforce|en + force (güç): güçle uygulamak → uygulamak (yasayı)
+engage|"Engagement" = nişan, bağlılık → meşgul etmek
+enhance|en + hance (yüksek, Fransızca "haut") → geliştirmek, artırmak
+enlarge|en + large (büyük) → büyütmek
+enrich|en + rich (zengin) → zenginleştirmek
+enroll|en + roll (liste): listeye yazılmak → kaydolmak
+ensure|en + sure (emin): emin kılmak → sağlamak, garantilemek
+entertain|"Entertainment" = eğlence → eğlendirmek
+entitle|en + title (unvan, başlık): birine unvan/hak vermek → hak vermek
+envy|"Envious" = kıskanç; "invidia" (Latince) → kıskanmak
+equip|"Ekipman" kelimesiyle aynı kökten → donatmak
+erase|"Eraser" = silgi → silmek
+erupt|e (dışarı) + rupt (kırmak): kırıp dışarı fışkırmak → patlamak (yanardağ)
+establish|"Establishment" = kuruluş; "stable" (sağlam) ile akraba → kurmak
+estimate|"Tahmin" → "estimated time" = tahmini süre → tahmini hesaplamak
+evacuate|e + vacu ("vakum": boşluk): boşaltmak → tahliye etmek
+evaluate|e + value (değer): değerini çıkarmak → değer biçmek
+evaporate|e + vapor (buhar) → buharlaşmak
+evoke|e + voke ("voice": ses): dışarı çağırmak → çağrıştırmak
+evolve|"Evolution" = evrim → gelişmek, evrimleşmek
+exaggerate|"Ekzajere" → abartmak
+exceed|ex (dışarı) + ceed (gitmek): sınırın dışına gitmek → aşmak
+exclude|ex (dışarı) + clude (kapatmak): dışarıda bırakmak → hariç tutmak
+execute|"Executive" = yönetici, uygulayan → uygulamak, idam etmek
+exert|ex + ert: dışarı güç vermek → uygulamak (güç, baskı)
+exhaust|"Egzoz" kelimesiyle aynı kökten: dışarı boşaltmak → tüketmek
+exhibit|"Exhibition" = sergi → sergilemek
+expel|ex (dışarı) + pel (itmek) → kovmak, okuldan atmak
+explode|"Explosion" = patlama → patlamak
+exploit|"Exploitation" = sömürü → sömürmek
+expose|ex (dışarı) + pose (koymak): ortaya koymak → açığa çıkarmak
+extend|ex + tend (germek): dışarı doğru germek → uzatmak
+extract|ex (dışarı) + tract (çekmek): dışarı çekmek → çıkarmak
+fade|"Feyd" → film sonunda görüntü "fade out" olur → solmak
+fascinate|"Fascinating!" = büyüleyici → büyülemek, hayran bırakmak
+fetch|Köpeğe topu attığında "Fetch!" dersin → gidip getirmek
+flee|"Fli" → tehlikeden "fly" (uçmak) gibi hızla kaçmak → kaçıp gitmek
+flourish|"Flower" (çiçek) ile akraba: çiçek açar gibi → gelişmek, serpilmek
+fluctuate|"Fluid" (akışkan) ile akraba: dalga gibi inip çıkmak → dalgalanmak
+forbid|for + bid (emretmek): "yapma" diye emretmek → men etmek
+foster|"Foster family" = koruyucu aile → teşvik etmek, koruyucu ailelik yapmak
+frighten|"Fright" (korku) + -en (fiil yapar) → korkuya salmak
+frown|"Fraun" → suratını asıp kaşlarını çatmak
+fulfill|full (dolu) + fill (doldurmak): sözü tam doldurmak → yerine getirmek
+gasp|"Gasp!" → şaşırınca ağzından çıkan hızlı nefes sesi → nefesi kesilmek
+generate|"Jeneratör" kelimesiyle aynı kökten → oluşturmak, üretmek
+glance|"Glans" → bir anlık hızlı bakış → göz atmak
+grant|"Grant" = hibe, burs → vermek, bağışlamak
+grasp|"Grab" (kapmak) ile ses benzerliği → kavramak, sıkıca tutmak
+grin|"Grin" → Cheshire kedisi gibi kocaman sırıtış → sırıtmak
+grind|"Grinder" = kahve öğütücü → öğütmek
+growl|"Grrr!" köpeğin hırlama sesi → hırlamak
+halt|"Halt!" = Dur! (askerî komut) → durdurmak, durmak
+harm|"Harmful" = zararlı → incitmek, zarar vermek
+harvest|"Harvest moon" = hasat ayı → hasat etmek
+hesitate|"Hes-itate": "eee..." diye duraksamak → tereddüt etmek
+highlight|high (yüksek) + light (ışık): üstüne ışık tutmak → vurgulamak
+hum|"Hmmm" → ağzını kapalı tutup mırıldanmak → mırıldanmak (şarkı)
+illustrate|"İllüstrasyon" kelimesiyle aynı kökten → resimlemek, örneklerle açıklamak
+imitate|"İmitasyon" = taklit → taklit etmek
+immerse|im (içine) + merse ("merge": dalmak) → daldırmak
+implement|"Implement" = alet; işi aletle hayata geçirmek → uygulamak
+imply|im (içine) + ply (katlamak): anlamı içine katlamak → ima etmek
+impose|im (üzerine) + pose (koymak): üstüne koymak → dayatmak
+impress|im (içine) + press (bastırmak): akla iz bırakmak → etkilemek
+imprison|im (içine) + prison (hapishane) → hapsetmek
+incorporate|in (içine) + corpor ("corpse/korpus": beden): bedenin içine katmak → dahil etmek
+indicate|"İndikatör" = gösterge → göstermek, işaret etmek
+induce|in (içine) + duce (götürmek): bir yöne yönlendirmek → neden olmak
+indulge|"İndülans" → kendine izin vermek → şımartmak, kendini bırakmak
+infer|in + fer (taşımak, "transfer" gibi): bilgiden anlam taşımak → çıkarım yapmak
+inflate|in (içine) + flate (üflemek): içine hava üflemek → şişirmek
+inflict|in + flict (vurmak, "conflict" gibi): darbe vurmak → vermek (acı, zarar)
+inhabit|"Inhabitant" = sakin; "habitat" (yaşam alanı) → yaşamak, ikamet etmek
+inherit|"Heritage/heir" (miras, mirasçı) ile akraba → miras almak
+inhibit|in + hibit ("habit": tutmak): içeride tutmak → engellemek
+initiate|"Initial" (ilk) ile akraba: ilk adımı atmak → başlatmak
+insert|"Insert" tuşu: araya yazı sokar → sokmak, yerleştirmek
+inspect|"İnspektör" = müfettiş → denetlemek
+instruct|"Instructor" = eğitmen → talimat vermek
+insult|in + sult (sıçramak): birinin üstüne atlamak → hakaret etmek
+insure|"Insurance" = sigorta; "sure" (emin) ile akraba → sigortalamak
+integrate|"Entegre" kelimesiyle aynı kökten → bütünleştirmek
+intend|in + tend (yönelmek): zihnini bir şeye yöneltmek → niyet etmek
+interfere|inter (arasına) + fere (vurmak): araya girip çarpmak → karışmak
+interpret|"Interpreter" = sözlü çevirmen → yorumlamak, tercüme etmek
+intervene|inter (arası) + vene (gelmek): araya gelmek → müdahale etmek
+invade|"Invasion" = istila → işgal etmek
+invest|"Investment" = yatırım; "vest" (giydirmek): paraya elbise giydirmek → yatırım yapmak
+involve|in + volve (sarmak, "revolver" gibi): içine sarmak → içermek, dahil etmek
+isolate|"İzole" kelimesiyle aynı; "isola" (ada) → ayırmak
+justify|"Justice" (adalet) ile akraba: haklı göstermek → haklı çıkarmak
+kidnap|kid (çocuk) + nap (kapmak) → kaçırmak (insan)
+launch|"Lanç" → roket "launch" edilir: fırlatılır → başlatmak, piyasaya sürmek
+leap|"Leap year" = artık yıl (takvim bir gün sıçrar) → sıçramak
+liberate|"Liberty/liberal" (özgürlük) ile akraba → özgürleştirmek
+lick|"Lik" → dondurmayı dille yalarsın → yalamak
+linger|"Long" (uzun) ile akraba: uzun süre kalmak → oyalanmak
+locate|"Lokasyon" kelimesiyle aynı kökten → yerini bulmak
+lure|"Lur" → balıkçının sahte yemi "lure" → cezbetmek
+maintain|"Maintenance" = bakım → sürdürmek, bakımını yapmak
+manufacture|manu (el) + facture ("factory": yapmak): elle yapmak → üretmek
+master|"Master" = usta → ustalaşmak
+merge|"Merge" (Git'te dalları birleştirmek) → birleşmek
+migrate|"Migren" değil "migrate": kuşlar göç eder; "migrant" = göçmen → göç etmek
+mock|"Mock" = sahte, taklit: taklidini yapıp alay etmek → alay etmek
+modify|"Modifiye" araba → değiştirmek
+monitor|"Monitör" ekranı izlemek için → izlemek, takip etmek
+mourn|"Morning" değil "mourn": siyah giyip yas tutmak → yas tutmak
+multiply|"Multi" (çok): çoğaltmak → çarpmak, çoğalmak
+murmur|"Mır mır" → mırıldanmak
+neglect|neg (değil) + lect (seçmek): ilgilenmemeyi seçmek → ihmal etmek
+negotiate|"Negosyasyon" → müzakere etmek
+nominate|"Nominal/nom" (isim): adını ileri sürmek → aday göstermek
+notify|"Notification" = bildirim → bildirmek
+nourish|"Nutrition" (beslenme) ile akraba → beslemek
+nurture|"Nurse" (bakıcı) ile akraba → besleyip yetiştirmek
+object|"Objection!" = İtiraz ediyorum! (mahkemede) → itiraz etmek
+oblige|"Obligatory" = zorunlu → zorunda bırakmak
+observe|"Observatory" = gözlemevi → gözlemlemek
+occupy|"Occupied" = dolu (tuvalet kapısında) → meşgul etmek, işgal etmek
+offend|"Offense" = gücendirme, suç → gücendirmek
+omit|o + mit (göndermek): dışarıda bırakmak → atlamak
+operate|"Operasyon" = ameliyat, işlem → çalıştırmak, ameliyat etmek
+oppose|"Opposite" (karşı) ile akraba → karşı çıkmak
+oppress|op (üstüne) + press (bastırmak) → baskı altında tutmak
+outline|out (dış) + line (çizgi): dış çizgileri → ana hatlarını çizmek
+overcome|over (üstünden) + come (gelmek) → üstesinden gelmek
+overlook|over (üstünden) + look: bakarken üstünden atlamak → gözden kaçırmak
+overtake|over (üstünden) + take: önüne geçmek → sollamak
+overwhelm|over + whelm (devirmek, boğmak): dalga gibi üstüne gelmek → bunaltmak
+paralyze|"Paraliz/felç" ile aynı kökten → felç etmek
+pause|Müzikteki "pause" tuşu → duraklamak
+penetrate|"Penetrasyon" → nüfuz etmek
+perceive|"Perception" = algı → algılamak
+permit|"Permission" = izin → izin vermek (resmî)
+persist|per (sonuna kadar) + sist (durmak): sonuna kadar dayanmak → ısrar etmek
+pierce|"Piercing" = kulak/burun deldirme → delmek
+plead|"Plea" = yalvarış, savunma → yalvarmak, savunmak
+pledge|"Pledge" = söz, yemin → söz vermek
+plunge|"Plonj" → suya dalış → dalmak, düşmek
+polish|"Poliş" → "Polisaj" = parlatma → cilalamak
+pollute|"Pollution" = kirlilik → kirletmek
+ponder|"Pound" (ağırlık) ile akraba: tartıp düşünmek → uzun uzun düşünmek
+portray|"Portre" kelimesiyle aynı kökten → canlandırmak, tasvir etmek
+pose|"Poz vermek" ile aynı → poz vermek, oluşturmak
+possess|"Possession" = mülk, eşya → elinde bulundurmak
+postpone|post (sonra) + pone (koymak): sonraya koymak → ertelemek
+praise|"Price" (değer) ile akraba: değerini söylemek → övmek
+precede|pre (önce) + cede (gitmek) → önce gelmek
+prescribe|pre (önce) + scribe (yazmak): doktor önceden yazar → reçete yazmak
+preserve|pre (önce) + serve (korumak): "preservative" = koruyucu → korumak
+presume|pre (önce) + sume (almak): önceden kabul etmek → varsaymak
+prevail|pre + vail (güçlü olmak, "valid" gibi) → galip gelmek
+proceed|pro (ileri) + ceed (gitmek) → ilerlemek, devam etmek
+proclaim|pro (ileri) + claim (bağırmak) → ilan etmek
+prohibit|pro (önüne) + hibit (tutmak): önünü tutmak → yasaklamak
+prolong|pro + long (uzun) → süresini uzatmak
+promote|"Promosyon" kelimesiyle aynı kökten → terfi ettirmek, tanıtmak
+prompt|Bilgisayardaki "prompt" seni harekete geçirir → sevk etmek
+propose|pro (öne) + pose (koymak): öne sürmek → önermek
+prosecute|"Prosecutor" = savcı → kovuşturmak, dava açmak
+prosper|"Prosperity" = refah → gelişmek, refaha ermek
+provoke|"Provokasyon" kelimesiyle aynı kökten → kışkırtmak
+pump|"Pompa" kelimesiyle aynı kökten → pompalamak
+punch|"Punch!" boksörün yumruğu → yumruklamak
+purchase|"Purchase" = satın alım (fişte) → satın almak (resmî)
+pursue|"Pursuit" = takip → peşinden gitmek
+quote|"Quote" = alıntı ("..." tırnak içi) → alıntı yapmak
+raid|"Reyd" → polis baskını → baskın yapmak
+rank|"Rank" = rütbe, sıra → sıralamak
+rebel|"Rebel" = asi; re + bel (savaş, "belligerent") → isyan etmek
+recite|re + cite (söylemek): tekrar söylemek → ezberden okumak
+reckon|"Rek(ın)" → kafada hesaplamak → sanmak, tahmin etmek
+reconcile|re + concile ("council": bir araya gelme) → barıştırmak
+recruit|"Recruit" = acemi asker → işe almak
+refer|"Referans" kelimesiyle aynı kökten → atıfta bulunmak, yönlendirmek
+refine|re + fine (ince): daha ince hâle getirmek; "rafineri" → arıtmak
+refrain|re + frain (dizgin, "frenlemek"): kendini frenlemek → sakınmak
+regard|re + gard ("guard": gözetmek): dikkatle bakmak → saymak, görmek
+register|"Register" = kayıt defteri → kaydolmak
+regret|"Re-gret": yeniden ağlamak (gråta, eski İskandinav) → pişman olmak
+regulate|"Regülatör" = düzenleyici → düzenlemek
+rehearse|"Prova" → re + hearse: tekrar tekrar yapmak → prova yapmak
+reinforce|re + in + force (güç): yeniden güç katmak → güçlendirmek
+reject|re (geri) + ject (atmak, "project" gibi): geri atmak → reddetmek
+relate|"Relation" = ilişki → ilişkilendirmek
+release|re + lease (bırakmak): serbest bırakmak; film "release" tarihi → yayınlamak
+relieve|"Relief" = rahatlama → rahatlatmak
+remark|"Remarkable" = dikkat çekici; re + mark (işaret) → belirtmek
+remedy|"Remedy" = çare, ilaç; "medicine" ile akraba → çare bulmak
+render|"Render" (bilgisayarda görüntüyü oluşturmak) → kılmak, hâle getirmek
+renovate|re + nova (yeni): yeniden yeni yapmak → yenilemek
+represent|"Representative" = temsilci → temsil etmek
+require|"Requirement" = gereklilik; "request" ile akraba → gerektirmek
+resemble|re + semble ("similar": benzer) → benzemek
+resent|re + sent ("sense": his): olumsuz hissi tekrar tekrar yaşamak → içerlemek
+reside|"Resident" = sakin; "rezidans" → ikamet etmek
+resign|re + sign (imza): imzayı geri çekmek → istifa etmek
+resist|"Resistance" = direnç → direnmek
+resolve|"Resolution" = çözüm, karar → çözmek, karar vermek
+respond|"Response" = cevap → cevap vermek
+restore|"Restorasyon" kelimesiyle aynı kökten → onarmak
+restrain|re + strain (germek, sıkmak): geri sıkı tutmak → zapt etmek
+restrict|"Restriction" = kısıtlama; "strict" (katı) ile akraba → kısıtlamak
+resume|"Resume" (video oynatıcıda: kaldığın yerden devam) → devam etmek
+retain|re (geri) + tain (tutmak): elde tutmak → korumak
+retreat|"Retreat!" = Geri çekilin! (askerî komut) → geri çekilmek
+retrieve|"Retriever" köpeği avı geri getirir → geri almak
+reveal|re + veal ("veil": peçe): peçeyi kaldırmak → ortaya çıkarmak
+reverse|"Reverse" = arabada geri vites → tersine çevirmek
+revive|re + vive (yaşamak, "vivid" gibi): yeniden yaşatmak → canlandırmak
+ridicule|"Ridiculous" = gülünç → alay etmek
+rinse|"Rins" → saçı şampuandan sonra suyla durulamak → durulamak
+roam|"Rome" (Roma): her yol Roma'ya; dolaşa dolaşa → dolaşmak
+roar|"Roar!" → aslanın kükreme sesi → kükremek
+rob|"Robbery" = soygun → soymak
+rotate|"Rotasyon" = dönme → dönmek, döndürmek
+ruin|"Ruins" = harabeler → mahvetmek
+sacrifice|"Sacred" (kutsal) ile akraba: kutsal için vermek → feda etmek
+scan|"Scanner" = tarayıcı → taramak
+scatter|"Sketır" → tohumları etrafa saçmak → dağıtmak
+scold|"Skould" → annenin azarı → azarlamak
+seal|"Seal" = mühür; zarfı mühürlemek → mühürlemek, kapatmak
+secure|"Security" = güvenlik → güvenceye almak
+seize|"Siiz" → "seize the day" = günü yakala → ele geçirmek
+shatter|"Şetır" → cam paramparça olur → paramparça etmek
+shelter|"Shelter" = barınak (hayvan barınağı) → barındırmak
+shiver|"Şivır" → soğuktan titreyerek → titremek
+shrink|"Şrink" → yıkanınca kazak küçüldü → küçülmek
+shrug|"Şrag" → "bilmem" diye omuz silkmek
+sigh|"Say" → "ahh" diye iç çekmek
+simplify|"Simple" (basit) + -ify → basitleştirmek
+skip|"Skip" tuşu: reklamı atla → atlamak
+slam|"Slam!" kapı sertçe kapanınca çıkan ses → çarpmak (kapı)
+slap|"Şlap!" tokat sesi → tokat atmak
+smash|"Smash" (tenis/voleybolda sert vuruş) → kırmak, parçalamak
+sniff|"Snif snif" → burnunu çekerek koklamak
+soak|"Souk" → kuru fasulyeyi suda bekletmek → ıslatmak
+sob|"Sob sob" → hıçkırık sesi → hıçkıra hıçkıra ağlamak
+soothe|"Smooth" (yumuşak) ile ses benzerliği → yatıştırmak
+specialize|"Special" (özel) + -ize: bir alanda özel olmak → uzmanlaşmak
+specify|"Specific" (belirli) ile akraba → belirtmek
+speculate|"Spekülasyon" kelimesiyle aynı kökten → tahmin yürütmek
+spin|"Spin" (topa verilen falso, çamaşır makinesinde sıkma) → fırıl fırıl dönmek
+split|"Split" ekran = bölünmüş ekran → bölmek, ayrılmak
+spoil|"Spoiler" = filmin sonunu söyleyip tadını bozan → bozmak
+spot|"Spot" = nokta: gözünle bir noktayı yakalamak → fark etmek
+spray|"Sprey" kelimesiyle aynı → püskürtmek
+stab|"Stab" → bıçağın saplanması → bıçaklamak
+stack|"Stack" = yığın → üst üste yığmak
+stain|"Stain remover" = leke çıkarıcı → lekelemek
+stare|"Star" (yıldız) gibi gözünü dikip bakmak → dik dik bakmak
+startle|"Start" ile akraba: aniden irkilip sıçratmak → ürkütmek
+starve|"Starving!" = açlıktan ölüyorum → açlıktan ölmek, aç kalmak
+steer|"Steering wheel" = direksiyon → yönlendirmek
+stem|"Stem" = bitkinin sapı: her şey saptan çıkar → kaynaklanmak (stem from)
+stimulate|"Stimülan" = uyarıcı → uyarmak, teşvik etmek
+straighten|straight (düz) + -en (fiil yapar) → düzeltmek
+strain|"Stres" ile ses benzerliği: kası zorlamak; süzgeçten geçirmek → zorlamak, süzmek
+strike|"Strike!" (bowlingde hepsini devirmek); grev → vurmak, grev yapmak
+strip|"Strip" = şerit: kabuğu şerit şerit soymak → soymak, çıkarmak
+strive|"Strive" ile "strong" (güçlü) çaba → çabalamak
+stroll|"Stroller" = bebek arabası (gezintiye çıkarılır) → gezinmek
+stumble|"Stambıl" → taşa takılıp tökezlemek
+submit|"Submit" butonu: formu gönder → teslim etmek, sunmak
+subscribe|"Subscribe" butonu (YouTube) → abone olmak
+substitute|"Sub" = yedek oyuncu → yerine koymak
+suck|"Sak" → pipetle emmek → emmek
+summarize|"Summary" = özet → özetlemek
+supervise|super (üstten) + vise ("vision": bakmak) → denetlemek
+supplement|"Supplement" = besin takviyesi → desteklemek, ek yapmak
+suppress|sup (aşağı) + press (bastırmak) → bastırmak
+surpass|sur (üstünden) + pass (geçmek) → aşmak
+surrender|sur + render (vermek): kendini teslim etmek → teslim olmak
+survey|sur (üstten) + vey ("view": bakmak): genel bakış → anket yapmak, incelemek
+suspect|"Suspect" = şüpheli (polis dilinde) → şüphelenmek
+suspend|"Suspension" = askı (arabanın süspansiyonu) → askıya almak
+sustain|sus (alttan) + tain (tutmak): alttan tutup ayakta tutmak → sürdürmek
+swear|"I swear!" = yemin ederim → yemin etmek
+sweep|"Sviip" → süpürgeyle "fış fış" → süpürmek
+swell|"Swell" = deniz kabarması → şişmek
+swing|Parktaki "swing" = salıncak → sallanmak
+tackle|Futbolda "tackle" = topa müdahale → ele almak, üstesinden gelmeye çalışmak
+tempt|"Temptation" = günaha çağrı, cazibe → cezbetmek
+terminate|"Terminatör" → her şeyi bitiren; "terminal" = son durak → sona erdirmek
+terrify|"Terror" (dehşet) + -ify → dehşete düşürmek
+testify|"Testimony" = tanıklık → tanıklık etmek
+threaten|"Threat" (tehdit) + -en → tehdit etmek
+thrill|"Thriller" = gerilim filmi → heyecanlandırmak
+thrive|"Thrive" ile "drive" (itici güç) → gelişmek, büyümek
+tickle|"Tikıl" → "gıdı gıdı" gıdıklama → gıdıklamak
+tighten|tight (sıkı) + -en → sıkılaştırmak
+tilt|"Tilt" → pinball makinesi eğilince "TILT" yazar → eğmek
+tolerate|"Tolerans" kelimesiyle aynı kökten → hoşgörmek, katlanmak
+torture|"Tortür" → işkence etmek
+trace|"Trace" = iz: izini takip etmek → izini sürmek
+transform|"Transformers" robotları biçim değiştirir → dönüştürmek
+transmit|trans (öte) + mit (göndermek): öteye göndermek; "transmitter" = verici → iletmek
+transport|trans (öte) + port (taşımak) → nakletmek
+trap|"Tuzak" → "trap" (fare kapanı: mousetrap) → tuzağa düşürmek
+tremble|"Tremor" (sarsıntı) ile akraba → titremek
+trigger|"Trigger" = tetik → tetiklemek
+trim|"Trimmer" = sakal düzeltme makinesi → kırpmak, budamak
+undergo|under (altından) + go (geçmek) → geçirmek (ameliyat, değişim)
+undermine|under (altından) + mine (maden kazmak): temelini kazmak → baltalamak
+undertake|under + take (almak): işin altına girmek → üstlenmek
+unify|uni (bir, tek) + -fy: tek yapmak → birleştirmek
+unite|"United" = birleşik (United States) → birleşmek
+unveil|un + veil (peçe, örtü): örtüyü kaldırmak → açılışını yapmak
+upgrade|up (yukarı) + grade (seviye) → yükseltmek, güncellemek
+uphold|up (yukarı) + hold (tutmak): ayakta tutmak → desteklemek
+urge|"Urgent" (acil) ile akraba → ısrarla tavsiye etmek
+utilize|"Utility" = fayda → kullanmak, yararlanmak
+vanish|"Vanish" = buhar olup uçmak; "vain" (boş) ile akraba → ortadan kaybolmak
+vary|"Variety" = çeşitlilik → değişmek
+venture|"Adventure" (macera) ile akraba → cesaret edip girişmek
+verify|"Verified" = onaylanmış hesap (mavi tik) → doğrulamak
+vibrate|"Vibrasyon" = titreşim → titreşmek
+violate|"Violence" (şiddet) ile akraba → ihlal etmek
+visualize|"Visual" (görsel) + -ize → gözünde canlandırmak
+vomit|"Vomit" → mide bulantısı sonrası → kusmak
+vow|"Vav" → nikâhta "wedding vows" = evlilik yeminleri → yemin etmek
+weaken|weak (zayıf) + -en → zayıflatmak
+weave|"Web" (ağ) ile akraba: ağ örmek → dokumak
+weep|"Viip" → sessizce gözyaşı dökmek → ağlamak
+widen|wide (geniş) + -en → genişletmek
+withdraw|with (geri) + draw (çekmek) → çekmek (para), geri çekilmek
+withstand|with (karşı) + stand (durmak): karşı durmak → dayanmak
+witness|"Witness" = tanık (mahkemede) → tanık olmak
+worship|worth (değer) + ship: değer verip tapmak → ibadet etmek
+wreck|"Shipwreck" = gemi enkazı → harap etmek
+yell|"Yel!" → yüksek sesle bağırmak → bağırıp çağırmak
+yield|Trafikteki "YIELD" tabelası = yol ver → vermek, sağlamak, yol vermek
+absolute|"Absolut" → mutlak, kesin
+abstract|"Abstrakt" / soyut sanat ("abstract art") → soyut
+absurd|"Absürt" kelimesiyle aynı → saçma
+abundant|"Abundance" = bolluk; "abound" (bol olmak) → bol
+accessible|"Access" (erişim) + -ible (-ilebilir) → erişilebilir
+accustomed|ac + custom (âdet): âdet edinmiş → alışık
+adequate|ad + equate ("equal": eşit): ihtiyaca eşit → yeterli
+adjacent|ad (yanında) + jacent (yatan) → bitişik
+advanced|"Advance" (ilerlemek) + -ed → ileri düzey
+adverse|ad + verse (dönmek): ters yöne dönmüş → olumsuz, ters
+affectionate|"Affection" (sevgi) + -ate → sevecen
+affluent|af + fluent (akan): parası akıp gelen → varlıklı
+agricultural|"Agriculture" = tarım; "agri" (tarla) + "culture" → tarımsal
+alert|"Alarm" ile akraba: "Alert!" = uyarı → uyanık, tetikte
+alien|"Alien" = uzaylı, yabancı → yabancı, uzaylı
+alike|a + like (gibi) → benzer, aynı
+ambitious|"Ambition" = hırs → hırslı
+ample|"Amplify" (büyütmek) ile akraba → bol, geniş
+apparent|"Appear" (görünmek) ile akraba → belli, açık
+applicable|"Apply" (uygulamak) + -able → uygulanabilir
+appropriate|ap + propri ("proper": uygun) → uygun
+approximate|ap + proxim ("proximity": yakınlık) → yaklaşık
+arbitrary|"Arbiter" = hakem: hakemin keyfine kalmış → keyfi
+arrogant|"Arogan" kelimesiyle aynı → kibirli
+ashamed|a + shame (utanç) + -ed → utanmış
+assertive|"Assert" (iddia etmek) + -ive → kendinden emin
+astonishing|"Astonish" = hayrete düşürmek; "a-stun" (sersemletmek) → şaşırtıcı
+attentive|"Attention" (dikkat) + -ive → dikkatli, ilgili
+authentic|"Otantik" kelimesiyle aynı → gerçek
+awkward|"Ak-ward": ters yöne dönük → garip, beceriksiz
+bare|"Bare feet" = çıplak ayak → çıplak
+barren|"Bare" (çıplak) ile ses benzerliği: çıplak, ürünsüz toprak → çorak
+bizarre|"Bizar" (Fransızca: tuhaf) → tuhaf, acayip
+bland|"Blend" değil "bland": tuzsuz, baharatsız yemek → tatsız, yavan
+bleak|"Black" (kara) ile ses benzerliği: kapkara gelecek → kasvetli
+bold|"Bold" yazı = kalın harf → cesur, kalın (yazı)
+breathtaking|breath (nefes) + taking (alan): nefesini alıp götüren → nefes kesici
+brutal|"Brutal" = vahşi; "brüt" (kaba) ile akraba → acımasız
+capable|"Capacity" (kapasite) ile akraba → yetenekli
+casual|"Casual wear" = günlük giyim → gündelik, rahat
+cautious|"Caution" = dikkat (tabelalarda) → temkinli
+clumsy|"Klamzi" → elindeki her şeyi düşüren → sakar
+coherent|co (birlikte) + here ("adhere": yapışmak): birbirine yapışık → tutarlı
+collective|"Kolektif" kelimesiyle aynı → ortak, toplu
+colossal|"Kolosal" → Rodos Heykeli "Colossus" → devasa
+commercial|"Commerce" = ticaret; TV "commercial" = reklam → ticari
+compatible|com (birlikte) + pat ("patience": dayanmak): birlikte yaşayabilen → uyumlu
+competent|"Compete" (yarışmak) ile akraba: yarışabilecek kadar iyi → yetkin
+competitive|"Competition" (yarışma) ile akraba → rekabetçi
+complex|"Kompleks" kelimesiyle aynı → karmaşık
+compulsory|"Compel" (zorlamak) ile akraba → zorunlu
+concise|con + cise (kesmek, "scissors" gibi): fazlasını kesmek → kısa ve öz
+concrete|"Concrete" = beton: elle tutulur → somut, beton
+confidential|"Confidence" (güven) ile akraba: güvenle saklanan → gizli
+conscious|con + science (bilmek): farkında olmak → bilinçli
+consecutive|con + secu ("second/sequence": takip eden) → ardışık
+conservative|"Conserve" (korumak) + -ive: eskiyi korumak isteyen → muhafazakâr
+consistent|"Consist" ile akraba: hep aynı kalan → tutarlı
+conspicuous|con + spic ("spectacle": görmek): herkesin gördüğü → göze çarpan
+constant|"Konstant/sabit" → con + stant (durmak): hep aynı duran → sürekli, sabit
+constructive|"Construct" (inşa etmek) + -ive → yapıcı
+contemporary|con (birlikte) + tempor (zaman, "tempo") → çağdaş
+content|"Contented" = halinden memnun; vurgu sonda: con-TENT → memnun
+controversial|contro (karşı) + vers (dönmek): herkes ayrı yöne döner → tartışmalı
+convenient|con + venient (gelmek): işine gelen → uygun
+corporate|"Korporasyon" kelimesiyle aynı kökten → kurumsal
+courteous|"Court" (saray): saray adabı → nazik
+crafty|"Craft" (beceri, zanaat) + -y: becerisini hileye kullanan → kurnaz
+credible|"Credit" (güven, kredi) ile akraba → inandırıcı
+criminal|"Kriminal" kelimesiyle aynı → suç ile ilgili, cezai
+crucial|"Cross" (haç, kavşak) ile akraba: yol ayrımındaki an → hayati
+crude|"Crude oil" = ham petrol → kaba, ham
+cumbersome|"Cumber" (engel) + -some → hantal
+current|"Current" = akıntı, akım: şu an akan → şimdiki, güncel
+customary|"Custom" (âdet) + -ary → alışılagelmiş
+cynical|"Sinik" kelimesiyle aynı kökten → alaycı, kuşkucu
+dazzling|"Dazzle" = gözü kamaştırmak → göz kamaştırıcı
+decent|"Desent" → "decent" (layık, yakışır) → düzgün, makul
+decisive|"Decision" (karar) ile akraba → kararlı, belirleyici
+defective|"Defect" (kusur) + -ive → kusurlu
+definite|de + finite (sınırlı): sınırları belli → kesin
+deliberate|"Liberty" (özgür seçim) ile akraba: bilerek seçilmiş → kasıtlı
+delicate|"Delikat/narin" → "delikatesen" (ince yiyecekler) → narin, hassas
+dense|"Density" = yoğunluk → yoğun, sık
+deprived|"Deprive" (yoksun bırakmak) + -ed → yoksun
+desperate|de (yok) + sperate ("esperanza": umut) → çaresiz, umutsuz
+destructive|"Destroy" (yok etmek) ile akraba → yıkıcı
+devoted|"Devote" (adamak) + -ed → kendini adamış
+diligent|"Dilijans" (eski posta arabası): durmadan çalışan → çalışkan
+disabled|dis + abled ("able": yapabilen) → engelli
+disastrous|"Disaster" (felaket) + -ous → felaket, berbat
+discreet|"Diskret" kelimesiyle aynı → ketum, sağduyulu
+distinct|"Distinguish" (ayırt etmek) ile akraba → belirgin
+diverse|"Diversity" = çeşitlilik → çeşitli
+divine|"Divan/divinity" (tanrısallık) → ilahi, harika
+domestic|"Domestic flights" = iç hatlar → evcil, yerli
+dominant|"Dominant" (baskın gen) → baskın
+drastic|"Drastik" kelimesiyle aynı → köklü, sert
+dull|"Dal" → parlaklığı olmayan, sıkıcı → sıkıcı, donuk
+durable|"Duration" (süre) ile akraba: uzun süre dayanan → dayanıklı
+eager|"Iigır" → "eager beaver" = çalışmaya hevesli → hevesli
+earnest|"Ernest" adı: "The Importance of Being Earnest" → ciddi, samimi
+elaborate|e + labor (emek): çok emek verilmiş → ayrıntılı, özenli
+elegant|"Elegan/zarif" → zarif, şık
+elementary|"Elementary school" = ilkokul → temel, ilk
+eligible|"Elect" (seçmek) ile akraba: seçilebilir → uygun, hak sahibi
+eloquent|e + loqu (konuşmak, "lokum" değil "eloquence") → etkili konuşan
+enthusiastic|"Entuziast" → "enthusiasm" = coşku → coşkulu
+entire|"Entire" = intact (bütün) ile akraba → tamamı, bütünü
+envious|"Envy" (kıskançlık) + -ous → gıpta eden
+equivalent|equi (eşit) + valent ("value": değer) → eşdeğer
+eternal|"Eternity" = sonsuzluk → sonsuz, ebedi
+evident|"Evidence" = kanıt → açık, belli
+evil|"Evil" = "live" kelimesinin tersi → kötü, şeytani
+excessive|"Excess" (fazla) + -ive → aşırı
+exclusive|"Exclusive" = özel (sadece bize özel haber) → özel, seçkin
+explicit|ex (dışarı) + plic (katlanmış): açılmış, ortada → açık seçik
+extensive|"Extend" (uzatmak) ile akraba: geniş yayılan → kapsamlı
+external|"Ekstern" → ex (dış) → dış, harici
+extinct|ex + tinct ("sönmüş", Latince): sönüp gitmiş → nesli tükenmiş
+extraordinary|extra (ötesinde) + ordinary (sıradan) → olağanüstü
+fabulous|"Fable" (masal) ile akraba: masal gibi → muhteşem
+faint|"Feynt" → zayıf, solgun ses/ışık; bayılmak üzere → zayıf, baygın
+faithful|faith (inanç, sadakat) + -ful → sadık
+fake|"Feyk" → fake hesap = sahte hesap → sahte
+familiar|"Family" ile akraba: aileden biri gibi → tanıdık, aşina
+feasible|"Faisable" (Fransızca: yapılabilir) → uygulanabilir
+feeble|"Fiibıl" → "feeble" ile "fail" (başarısız) → cılız, takatsiz
+fertile|"Fertilizer" = gübre → verimli
+fierce|"Fiers" → "fierce lion": vahşi aslan → vahşi, şiddetli
+filthy|"Filth" (pislik) + -y → çok kirli
+finite|"Final/fin" (son) ile akraba → sınırlı, sonlu
+firm|"Firm" = sağlam (aynı zamanda "firma") → sıkı, sağlam
+fiscal|"Fiscal year" = mali yıl; "fisk" (hazine) → mali
+fragile|"Fragile" yazılı kutu: kırılabilir eşya → kırılgan
+frank|"Frank" (Franklar özgür insanlar): dobra → açık sözlü
+fraudulent|"Fraud" (dolandırıcılık) + -ulent → hileli
+frequent|"Frequency" = sıklık → sık
+frustrated|"Frustration" = bıkkınlık → hüsrana uğramış
+fundamental|"Fundament/fon" (temel) → temel, esaslı
+futile|"Fyuutıl" → "futile" ile "fail" (boşa çıkmak) → boşuna, nafile
+genuine|"Genuine leather" = hakiki deri → gerçek, hakiki
+gigantic|"Giant" (dev) ile akraba; "gigantik" → dev gibi
+glorious|"Glory" (şan) + -ous → şanlı, muhteşem
+gradual|"Grade" (derece, basamak): basamak basamak → kademeli
+grave|"Grave" = mezar: mezar kadar ciddi → ciddi, vahim
+grim|"Grim Reaper" = ölüm meleği → asık suratlı, kasvetli
+gross|"Brüt" anlamı: "gross salary" = brüt maaş; ayrıca "Iyy, gross!" = iğrenç
+harsh|"Harş" → kulak tırmalayan sert ses → sert, acımasız
+hasty|"Haste" (acele) + -y → aceleci
+heavenly|"Heaven" (cennet) + -ly → cennet gibi, harika
+hectic|"Hektik" → yoğun, nefes alınmayan gün → telaşlı
+hesitant|"Hesitate" (tereddüt etmek) ile akraba → tereddütlü
+hideous|"Hidıs" → saklanacak kadar korkunç görünüşlü → çok çirkin
+hollow|"Hole" (delik) ile akraba → içi boş, oyuk
+horizontal|"Horizon" (ufuk) çizgisi yataydır → yatay
+hostile|"Hostility" = düşmanlık → düşmanca
+humble|"Humus" (toprak) ile akraba: yere yakın → alçakgönüllü
+identical|"Identical twins" = tek yumurta ikizleri → aynı, özdeş
+idle|"Idle" = boşta (bilgisayar boşta) → aylak, boşta
+ignorant|"Ignore" (görmezden gelmek) ile akraba → cahil, habersiz
+illiterate|il (değil) + literate (okur yazar) → okuma yazma bilmeyen
+imaginary|"Imagine" (hayal etmek) ile akraba → hayali
+immediate|im (değil) + mediate (aracı): arada bir şey olmadan → acil, hemen
+immense|im (değil) + mense ("measure": ölçmek): ölçülemez → engin, muazzam
+imminent|"İminent" → in + minent (çıkıntı yapan): kapıya dayanmış → eli kulağında
+immune|"Immune system" = bağışıklık sistemi → bağışık
+impartial|im (değil) + partial (taraf tutan) → tarafsız
+imperative|"Imperative" (emir kipi) → zorunlu, şart
+impressive|"Impress" (etkilemek) + -ive → etkileyici
+indifferent|"Fark etmez" tavrı: in + different: fark görmeyen → kayıtsız
+indispensable|in (değil) + dispense (dağıtmak, vazgeçmek) + able → vazgeçilmez
+individual|in (değil) + divid ("divide": bölmek): bölünemeyen tek kişi → bireysel
+inevitable|in (değil) + evitable ("evade": kaçmak) → kaçınılmaz
+infamous|in + famous: ünlü ama kötü yönden → kötü şöhretli
+inferior|"Inferior" = alt (Latince "infra"); "superior" (üstün) karşıtı → aşağı
+informal|in (değil) + formal (resmî) → gayriresmî
+inherent|in + here ("adhere": yapışık): içine yapışık → özünde olan
+initial|"İnisiyal/baş harf" (A.K. gibi) → ilk, başlangıç
+innocent|in (değil) + nocent (zarar veren) → masum
+innovative|in + nova (yeni): "innovation" = yenilik → yenilikçi
+insecure|in (değil) + secure (güvenli) → güvensiz
+intact|in (değil) + tact (dokunulmuş): hiç dokunulmamış → sağlam
+intense|"İntens" → in + tense (gerilmiş) → yoğun, şiddetli
+interior|"İnteryör/iç mimari" (interior design) → iç
+intermediate|inter (arası) + mediate (orta) → orta düzey
+internal|"İnternal/dahili" → iç, dahili
+intimate|"İntim/samimi" → samimi, yakın
+invaluable|in + valuable: değeri ölçülemeyecek kadar değerli → paha biçilmez
+irritable|"Irritate" (sinirlendirmek) + -able → asabi
+isolated|"İzole" + -ed → izole, ıssız
+joint|"Joint" = eklem, birleşim yeri → ortak
+judicial|"Judge" (yargıç) ile akraba → adli, yargısal
+junior|"Junior" (Jr.): babasıyla aynı adı taşıyan küçük → alt kademe, genç
+juvenile|"Jüvenil" → genç; "juvenile court" = çocuk mahkemesi → çocuk, genç
+keen|"Kiin" → "keen on football" = futbola meraklı → meraklı, can atan
+lame|"Leym" → "a lame excuse" = topal bahane → topal, zayıf
+lavish|"Lav(e)" = yıkamak: parayla yıkanmak → cömert, savurgan
+legendary|"Legend" (efsane) + -ary → efsanevi
+legible|"Leg" (okumak, Latince "legere") + -ible → okunaklı
+legitimate|"Legal" ile akraba → meşru, yasal
+lethal|"Lethal weapon" = öldürücü silah → öldürücü
+likely|"Like" (gibi) + -ly: öyle olacak gibi → muhtemel
+literal|"Letter" (harf) ile akraba → harfi harfine
+literary|"Literatür/edebiyat" → edebi
+lively|"Live" (canlı) + -ly → canlı, hareketli
+loyal|"Loyalty card" = sadakat kartı → vefalı, sadık
+lucrative|"Lucre" (kazanç) ile akraba → kazançlı
+luxurious|"Luxury" (lüks) + -ous → lüks
+magnificent|magni (büyük) + ficent (yapan) → görkemli
+major|"Major" = büyük (major/minor) → büyük, önemli
+mandatory|"Mandate" (emir, yetki) ile akraba → mecburi
+marine|"Marin/marina" (deniz) → deniz ile ilgili
+marvelous|"Marvel" (harika şey) + -ous → harika
+massive|"Mass" (kütle) + -ive → kocaman
+mature|"Matür" → olgun
+medieval|medi (orta) + eval ("age": çağ) → ortaçağa ait
+mere|"Mir" → "a mere child" = sadece bir çocuk → sadece
+military|"Militer/militan" ile aynı kökten → askeri
+minimal|"Minimal/minimum" → asgari
+minor|"Minor" = küçük (major karşıtı) → küçük, önemsiz
+mobile|"Mobil" kelimesiyle aynı → hareketli, seyyar
+moderate|"Mode/moderator": ölçülü → ılımlı, orta
+moist|"Moyst" → "moisture" (nem); nemli kek → hafif ıslak
+moral|"Moral/ahlak" (İngilizcede moral = ahlaki) → ahlaki
+mortal|"Mort" (ölüm, Fransızca) → ölümlü
+mutual|"Mutual friend" = ortak arkadaş → karşılıklı
+naive|"Naif" kelimesiyle aynı → saf, toy
+native|"Native speaker" = anadili konuşan → yerli, ana (dil)
+naughty|"Naughty" → "nought/naught" (hiç): hiçbir işe yaramayan çocuk → yaramaz
+negligible|"Neglect" (ihmal etmek) + -ible → ihmal edilebilir
+neutral|"Nötr" kelimesiyle aynı → tarafsız
+noble|"Nobel" ve "noble": soylu → soylu, asil
+nominal|"Nominal" değer → sembolik, itibari
+notorious|"Noted" (bilinen) ile akraba ama kötü yönden → adı çıkmış
+numerous|"Number" (sayı) ile akraba → çok sayıda
+obedient|"Obey" (itaat etmek) ile akraba → itaatkâr
+objective|"Objektif" kelimesiyle aynı → nesnel
+obligatory|"Oblige" (zorunda bırakmak) ile akraba → zorunlu tutulan
+obscure|ob + scure (örtü): örtülü, gölgede → belirsiz, az bilinen
+obsolete|"Obsolet/eskimiş" → modası geçmiş
+odd|"Odd numbers" = tek sayılar → tuhaf, tek (sayı)
+oral|"Oral" (ağız ile ilgili) → sözlü
+outstanding|out (dışarı) + standing (duran): diğerlerinden dışarı çıkan → üstün
+overall|over (üstünden) + all (hepsi) → genel, toplam
+overseas|over (ötesi) + seas (denizler) → denizaşırı
+overweight|over (fazla) + weight (ağırlık) → kilolu
+pale|"Peyl" → "pale" ile "pal(e) yüz": kansız yüz → solgun
+partial|"Part" (parça) + -ial → kısmi
+passionate|"Passion" (tutku) + -ate → tutkulu
+peculiar|"Pekülyar" → kendine özgü, tuhaf
+permanent|"Perma" = kalıcı (permanent marker: silinmez kalem) → kalıcı
+persistent|"Persist" (ısrar etmek) ile akraba → ısrarcı
+persuasive|"Persuade" (ikna etmek) ile akraba → ikna edici
+petty|"Petit" (Fransızca: küçük) → önemsiz, küçük
+plain|"Plain yogurt" = sade yoğurt → sade, düz
+plausible|"Applaud" (alkışlamak) ile akraba: alkışlanabilir → akla yatkın
+plentiful|"Plenty" (bol) + -ful → bol
+political|"Politik" kelimesiyle aynı → siyasi
+portable|port (taşımak) + -able → taşınabilir
+precise|"Precision" = hassasiyet → kesin, tam
+preliminary|pre (önce) + limin (eşik) → ön, hazırlık niteliğinde
+premature|pre (önce) + mature (olgun) → erken
+prestigious|"Prestij" → prestijli
+primary|"Primary school" = ilkokul → birincil
+prime|"Prime minister" = başbakan → asıl, başlıca
+primitive|"Primitif" kelimesiyle aynı → ilkel
+principal|"Principal" = okul müdürü (baştaki kişi) → başlıca
+prior|"Priority" = öncelik → önceden olan
+probable|"Probably" (muhtemelen) ile akraba → olası
+productive|"Product" (ürün) ile akraba → verimli
+profound|pro + found ("fundamental": dip) → derin
+progressive|"Progress" (ilerleme) + -ive → ilerici
+prominent|pro + minent (çıkıntı): öne çıkan → önde gelen
+prone|"Proun" → yüzüstü eğilmiş: bir şeye eğilimli → yatkın
+prudent|"Provident/providence" (öngörü) ile akraba → ihtiyatlı
+pure|"Pür" (pür dikkat) → saf
+random|"Random" (rastgele sayı) → rastgele
+rapid|"Rapid" (hızlı akan nehir kısmı) → süratli
+rational|"Rasyonel" kelimesiyle aynı → akılcı
+realistic|"Realist/gerçekçi" → gerçekçi
+reckless|reck (önemsemek) + -less: hiç önemsemeyen → pervasız
+redundant|"Redundant" (fazlalık) → gereksiz, işten çıkarılmış
+relevant|"Relevan(t)/ilgili" → konuyla ilgili → ilgili
+reluctant|re + luct (mücadele): içinden karşı koyan → isteksiz
+remote|"Remote control" = uzaktan kumanda → uzak
+repetitive|"Repeat" (tekrar etmek) ile akraba → tekrarlayan
+respective|"Respectively" (sırasıyla) ile akraba → ilgili, kendi
+retail|re + tail (kesmek, "tailor": terzi): parça parça kesip satmak → perakende
+rigid|"Rijit" → katı
+rigorous|"Rigor" (sertlik) ile akraba → titiz, sıkı
+robust|"Robust" → "robot" gibi sağlam → sağlam
+rotten|"Rot" (çürümek) + -en → çürük
+royal|"Royal family" = kraliyet ailesi → kraliyet ile ilgili
+rural|"Rural" (urban'ın karşıtı) → kırsal
+ruthless|ruth (merhamet) + -less → acımasız
+sacred|"Sakral/kutsal" (sacrifice ile akraba) → kutsal
+sane|"Sağlıklı akıl" → "insane" (deli) kelimesinin tersi → aklı başında
+satisfactory|"Satisfy" (tatmin etmek) ile akraba → tatmin edici
+scarce|"Skers" → "scarcity" (kıtlık) → kıt
+secondary|"Second" (ikinci) + -ary → ikincil
+senior|"Senior" (Sr.): büyük; "senyör" → kıdemli
+serene|"Serenat/serene sky" (açık gökyüzü) → sakin, huzurlu
+severe|"Sivir" → "severe weather" = sert hava → şiddetli
+shallow|"Şelou" → derin değil → sığ, yüzeysel
+sheer|"Şiir" → "sheer luck" = katıksız şans; dik uçurum → saf, katıksız
+significant|"Sign" (işaret) ile akraba: işaret edilecek kadar önemli → önemli
+slender|"Slim" (ince) ile ses benzerliği → ince, narin
+slight|"Slayt" → "a slight problem" = ufak bir sorun → hafif
+sloppy|"Slop" (çamur) ile akraba → özensiz, dağınık
+sluggish|"Slug" (sümüklü böcek) gibi yavaş → uyuşuk
+sober|"Soubır" → alkol almamış → ayık, ciddi
+sole|"Solo" ile akraba → tek, yegâne
+solemn|"Solemn oath" = ciddi yemin → ağırbaşlı
+solid|"Solid" (katı hâl) → katı, sağlam
+sovereign|"Souvereign" → "supreme" (en yüksek) ile akraba → egemen
+spacious|"Space" (alan) + -ious → geniş, ferah
+sparse|"Spars" → "spread" (yayılmak) ile akraba: dağınık serpilmiş → seyrek
+spectacular|"Spektaküler" → göz alıcı
+spiritual|"Spirit" (ruh) + -ual → manevi
+splendid|"Splendid!" = harika! → görkemli
+spontaneous|"Spontane" kelimesiyle aynı → kendiliğinden
+stable|"Stabil" kelimesiyle aynı → sabit, dengeli
+stale|"Steyl" → bayatlamış ekmek → bayat
+static|"Statik" kelimesiyle aynı → durağan
+steady|"Stedi" → "Ready, steady, go!" = hazır, sabit, git → istikrarlı
+stiff|"Stif" → sert, tutulmuş boyun → sert, tutulmuş
+straightforward|straight (düz) + forward (ileri): dosdoğru → basit, açık sözlü
+stubborn|"Stub" (kütük) gibi yerinden kıpırdamayan → inatçı
+stunning|"Stun" (sersemletmek) + -ing → çarpıcı
+subjective|"Subjektif" kelimesiyle aynı → öznel
+subsequent|sub (altında) + sequent ("sequence": takip eden) → müteakip
+substantial|"Substance" (madde, öz) ile akraba → önemli miktarda
+subtle|"Satıl" → (b okunmaz) ince, belli belirsiz → ince
+sufficient|"Suffice" (yetmek) ile akraba → yeterli
+suitable|"Suit" (uymak): "it suits you" = sana yakıştı → uygun
+superb|"Süper" ile aynı kökten → harika, enfes
+superficial|super (üst) + face (yüz): sadece yüzeyde → yüzeysel
+superior|"Super" ile akraba; "inferior" (aşağı) karşıtı → üstün
+supreme|"Supreme Court" = Yüksek Mahkeme → en yüksek
+surplus|sur (üstünde) + plus (fazla) → fazla, artı
+suspicious|"Suspect" (şüpheli) ile akraba → şüphe uyandıran
+swift|"Swift" (kırlangıç gibi hızlı kuş) → hızlı
+sympathetic|"Sempatik" görünür ama İngilizcede: duygudaş, anlayışlı → anlayışlı
+tame|"Teym" → vahşi değil, evcilleştirilmiş → evcil, uysal
+tedious|"Tiidiıs" → "tedium" (bıkkınlık) → bıktırıcı
+tender|"Tender steak" = yumuşak et → yumuşak, şefkatli
+tense|"Tension" (gerginlik) ile akraba → gergin
+thorough|"Through" (baştan sona) ile akraba → titiz, kapsamlı
+timid|"Timid" (Latince "timere": korkmak) → çekingen
+tolerant|"Tolerans" ile aynı kökten → hoşgörülü
+toxic|"Toksik" kelimesiyle aynı → zehirli
+transparent|trans (içinden) + parent ("appear": görünmek) → şeffaf
+tremendous|"Tremble" (titremek) ile akraba: insanı titretecek kadar büyük → muazzam
+trivial|"Trivia" (önemsiz bilgiler) → önemsiz
+ultimate|"Ultimatom" (son uyarı) ile aynı kökten → nihai, en son
+unanimous|una (bir) + anim (ruh): tek ruh → oy birliğiyle alınan
+unaware|un (değil) + aware (farkında) → habersiz
+unbearable|un + bear (katlanmak) + -able → dayanılmaz
+underground|under (alt) + ground (zemin) → yer altı
+unique|"Unik" → uni (bir, tek): tek bir tane → eşsiz
+universal|"Universe" (evren) ile akraba → evrensel
+unprecedented|un (değil) + precedent (emsal, önce gelen) → eşi görülmemiş
+urban|"Urban" (şehir) stili; "rural" (kırsal) karşıtı → kentsel
+urgent|"Urgent!" (e-postada acil) → acil
+vague|"Veyg" → "vague" ile "fog" (sis): sisli, net olmayan → belirsiz
+valid|"Valid" (geçerli kart) → geçerli
+vast|"Vest" değil "vast": uçsuz bucaksız → engin
+verbal|"Verb" (fiil, söz) ile akraba → sözlü
+versatile|"Version" (çeşit) ile akraba: birçok yöne dönebilen → çok yönlü
+vertical|"Vertigo" (baş dönmesi: yükseklik) → dikey
+viable|"Vie" (hayat, Fransızca): yaşayabilir → uygulanabilir
+vicious|"Vice" (kusur, kötülük) ile akraba → kötü niyetli
+vigorous|"Vigor" (güç, zindelik) + -ous → güçlü, dinç
+virtual|"Virtual reality" = sanal gerçeklik → sanal
+vital|"Vital signs" = hayati belirtiler → hayati
+vivid|"Viva" (yaşa!) ile akraba: canlı → canlı, parlak
+voluntary|"Volunteer" (gönüllü) ile akraba → gönüllü olarak yapılan
+vulnerable|"Vulnus" (yara, Latince): yaralanabilir → savunmasız
+wary|"Aware" (farkında) ile akraba: dikkatli olan → temkinli
+weary|"Wiiri" → "worn" (yıpranmış) → yorgun, bıkkın
+weird|"Wiird" → "Weird!" = Tuhaf! → tuhaf
+wicked|"Wicked Witch" = kötü cadı (Oz Büyücüsü) → kötü
+widespread|wide (geniş) + spread (yayılmış) → yaygın
+witty|"Wit" (zekâ, espri) + -y → esprili
+worthwhile|worth (değer) + while (zaman): zamanına değer → zahmete değer
+wretched|"Reçid" → "wretch" (zavallı) → perişan, sefil
+ability|"Able" (yapabilen) ile akraba → yetenek
+abuse|ab (kötü) + use (kullanmak) → kötüye kullanma, istismar
+acceptance|"Accept" (kabul etmek) ile akraba → kabul
+access|"Access" = erişim (Access denied: erişim reddedildi) → erişim
+accountability|"Account" (hesap) + ability → hesap verebilirlik
+accuracy|"Accurate" (doğru) ile akraba → doğruluk
+addiction|"Addicted" = bağımlı → bağımlılık
+addition|"Add" (eklemek) ile akraba → ekleme, ilave
+administration|"Admin" = yönetici → yönetim
+admission|"Admit" (içeri almak, kabul etmek) ile akraba → giriş, kabul
+adolescence|"Adolesan" (ergen) → ergenlik
+adoption|"Adopt" (evlat edinmek) ile akraba → evlat edinme
+advocacy|"Advocate" (savunmak; avukat) ile akraba → savunuculuk
+agenda|"Ajanda" kelimesiyle aynı kökten → gündem
+aid|"First aid" = ilk yardım → yardım
+allowance|"Allow" (izin vermek): verilen pay → harçlık, ödenek
+ambiguity|ambi (iki) + guity: iki anlama gelen → belirsizlik
+ambition|"Ambitious" (hırslı) ile akraba → hırs, hedef
+analysis|"Analiz" kelimesiyle aynı → analiz, inceleme
+ancestor|"Ancient" (eski) ile ses benzerliği; "ante" (önce) → ata
+appearance|"Appear" (görünmek) ile akraba → görünüş
+applause|"Applaud" (alkışlamak) ile akraba → alkış
+application|"Apply" (başvurmak) ile akraba; telefondaki "app" → başvuru, uygulama
+aptitude|"Apt" (yatkın) ile akraba; "aptitude test" = yetenek testi → yatkınlık
+array|"Array" = dizi (programlamada) → dizi, yelpaze
+aspect|a + spect ("spectacle": bakmak): bakılan taraf → yön
+aspiration|"Aspire" (arzulamak) ile akraba → arzu, hedef
+assault|"Assault rifle" = saldırı tüfeği → saldırı
+assertion|"Assert" (iddia etmek) ile akraba → iddia
+assistance|"Assist" (yardım etmek) ile akraba; "asistan" → yardım
+association|"Asosiyasyon/dernek"; "associate" (ilişkilendirmek) → dernek, çağrışım
+assumption|"Assume" (varsaymak) ile akraba → varsayım
+assurance|"Assure" (temin etmek) ile akraba → güvence
+attendance|"Attend" (katılmak) ile akraba → katılım, devam
+attitude|"Atitüd" → tavır → tutum, tavır
+attraction|"Attract" (çekmek) ile akraba → cazibe, turistik yer
+authority|"Otorite" kelimesiyle aynı kökten → yetki
+availability|"Available" (müsait) ile akraba → uygunluk
+awareness|"Aware" (farkında) + -ness → farkındalık
+background|back (arka) + ground (zemin) → geçmiş, arka plan
+behavior|"Behave" (davranmak) ile akraba → davranış
+bias|"Bayıs" → eğik, bir tarafa yatık bakış → önyargı
+boom|"Bum!" patlama sesi → patlama, ani artış
+boost|"Boost" = takviye, güç artışı (oyunlarda) → destek, artış
+boundary|"Bound" (sınırlı) ile akraba → sınır çizgisi
+breakdown|break (kırılmak) + down (aşağı) → arıza, çöküş
+breakthrough|break (kırmak) + through (içinden): duvarı yarıp geçmek → atılım
+burden|"Bear" (taşımak) ile akraba: taşınan şey → yük
+capability|"Capable" (yetenekli) ile akraba → kapasite
+caution|"Caution!" (tabelada: dikkat) → dikkat, ihtiyat
+certainty|"Certain" (emin) ile akraba → kesinlik
+characteristic|"Karakteristik" kelimesiyle aynı → özellik
+charm|"Şarm" → cazibe; "charming" (çekici) → çekicilik
+circumstance|circum (etrafında) + stance (duran): etraftaki durum → koşul
+clarity|"Clear" (açık, net) ile akraba → netlik
+clash|"Kleş!" → kılıçların çarpışma sesi → çatışma
+classification|"Classify" (sınıflandırmak) ile akraba → sınıflandırma
+coincidence|co (birlikte) + incidence (olay): olayların denk gelmesi → tesadüf
+collaboration|"Kolaborasyon" (ortak çalışma) → işbirliği
+command|"Komut/kumanda" → emir, komut
+commodity|"Commode" (kullanışlı) ile akraba: alınıp satılan mal → emtia
+companion|com (birlikte) + panion ("pan": ekmek): ekmeğini paylaştığın kişi → yol arkadaşı
+comparison|"Compare" (karşılaştırmak) ile akraba → karşılaştırma
+compliance|"Comply" (uymak) ile akraba → uyum
+component|"Komponent" kelimesiyle aynı → bileşen
+compromise|"Kompromi" → iki taraf da biraz verir → uzlaşma
+concept|"Konsept" kelimesiyle aynı → kavram
+conflict|"Konflikt/çatışma" → çatışma
+confusion|"Confuse" (kafasını karıştırmak) ile akraba → karışıklık
+conscience|con + science (bilmek): içinden bilmek → vicdan
+consensus|con (birlikte) + sensus (his): aynı hisler → fikir birliği
+consequence|con + sequence (ardından gelen) → sonuç
+consistency|"Consistent" (tutarlı) ile akraba → tutarlılık
+conspiracy|"Komplo" → con (birlikte) + spire (soluk almak): fısıldaşmak → komplo
+constraint|con + straint ("strict": sıkı) → kısıtlama
+consumption|"Consume" (tüketmek) ile akraba → tüketim
+context|con + text (metin): metnin etrafı → bağlam
+contradiction|"Contradict" (çelişmek) ile akraba → çelişki
+contrast|"Kontrast" kelimesiyle aynı → zıtlık
+controversy|"Controversial" (tartışmalı) ile akraba → tartışma
+convention|"Konvansiyonel" ile aynı kökten; "kongre" → gelenek, kongre
+conversion|"Convert" (dönüştürmek) ile akraba → dönüşüm
+conviction|"Convince" (ikna etmek) ile akraba → inanç, mahkûmiyet
+courtesy|"Court" (saray) adabı → nezaket
+coverage|"Cover" (kapsamak) + -age → kapsama
+credibility|"Credible" (inandırıcı) ile akraba → güvenilirlik
+crisis|"Kriz" kelimesiyle aynı → kriz
+criticism|"Kritik/kritisizm" → eleştiri
+cruelty|"Cruel" (zalim) + -ty → zalimlik
+curiosity|"Curious" (meraklı) ile akraba → merak
+custody|"Custodian" (bekçi) ile akraba: koruma altında tutma → velayet, gözaltı
+custom|"Customs" = gümrük; "customer" (müşteri: alışkanlıkla gelen) → gelenek
+affection|"Affect" (etkilemek) ile akraba: kalbi etkileyen his → sevgi, şefkat
+anxiety|"Anxious" (endişeli) ile akraba → kaygı
+awe|"Awesome" = harika (huşu uyandıran) → huşu
+bliss|"Bless" (kutsamak) ile akraba → mutluluk, saadet
+compassion|com (birlikte) + passion (acı çekmek): birlikte acı duymak → merhamet
+contempt|"Contemptible" (aşağılık) → küçümseme
+alliance|"Ally" (müttefik) ile akraba → ittifak
+campaign|"Kampanya" kelimesiyle aynı → kampanya
+candidate|"Kandida" → "candid" (beyaz): Roma'da adaylar beyaz giyerdi → aday
+civilization|"Civil" (sivil) ile akraba; "sivilizasyon" → medeniyet
+constitution|"Konstitüsyon" → con + stitute (kurmak): devletin kuruluş belgesi → anayasa
+corruption|"Korupsiyon" → bozulmuşluk → yolsuzluk
+acquisition|"Acquire" (edinmek) ile akraba → satın alma, edinme
+asset|"Aset" → şirketin değerli varlıkları → varlık
+bankruptcy|bank (banka) + rupt (kırılmış): kırık tezgâh → iflas
+dawn|"Doon" → "Dawn" adı: günün ilk ışığı → şafak
+debate|"Debate" ile "bat" (vuruşmak): fikirler çarpışır → tartışma
+decay|de (aşağı) + cay (düşmek): bozulup düşmek → çürüme
+deception|"Deceive" (aldatmak) ile akraba → aldatma
+defect|de + fect (yapılmış): kötü yapılmış → kusur
+defense|"Defans" kelimesiyle aynı → savunma
+deficiency|"Deficit" (açık) ile akraba → yetersizlik
+definition|"Define" (tanımlamak) ile akraba → tanım
+denial|"Deny" (inkâr etmek) ile akraba → inkâr
+dependence|"Depend" (bağlı olmak) ile akraba → bağımlılık
+depth|"Deep" (derin) ile akraba → derinlik
+descendant|"Descend" (inmek) ile akraba: soydan aşağı inen → torun
+descent|"Descend" (inmek) ile akraba → iniş
+desire|"Dizayır" → "desire" ile "dilek" → arzu, istek
+destination|"Destinasyon" kelimesiyle aynı → varış yeri
+destiny|"Destan/destiny" → "destination" ile akraba: varılacak yer → kader
+destruction|"Destroy" (yok etmek) ile akraba → yıkım
+detection|"Detect" (tespit etmek) ile akraba; "dedektif" → tespit
+determination|"Determine" (kararlaştırmak) ile akraba → kararlılık
+dignity|"Dignified" (ağırbaşlı) ile akraba → onur, haysiyet
+dilemma|"Dilema" kelimesiyle aynı; di (iki) + lemma: iki seçenek → ikilem
+dimension|"Dimension" (3D = 3 boyut) → boyut
+disaster|dis (kötü) + aster (yıldız): kötü yıldız → felaket
+disclosure|"Disclose" (açığa vurmak) ile akraba → ifşa
+discourse|"Diskur" → dis + course (akış): konuşmanın akışı → söylem
+discretion|"Discreet" (ketum) ile akraba → takdir yetkisi, ağzı sıkılık
+discrimination|"Diskriminasyon" → ayrımcılık
+disgrace|dis (kaybı) + grace (lütuf, itibar): itibarını kaybetmek → rezalet
+disorder|dis + order (düzen) → bozukluk, düzensizlik
+distinction|"Distinct" (ayrı) ile akraba → ayrım, fark
+distortion|"Distort" (çarpıtmak) ile akraba → çarpıtma
+domain|"Domain" (alan adı: www...) → alan
+draft|"Draft" (e-postada taslaklar klasörü) → taslak
+drawback|draw (çekmek) + back (geri): seni geri çeken → dezavantaj
+ease|"Easy" (kolay) ile akraba → zahmetsizlik
+edition|"Edit" (düzenlemek) ile akraba; "limited edition" → baskı (kitap)
+efficiency|"Efficient" (verimli) ile akraba → verimlilik
+emergence|"Emerge" (ortaya çıkmak) ile akraba → ortaya çıkış
+emphasis|"Emfaz/vurgu" → vurgu
+endeavor|"Endevır" → "en devoir" (Fransızca: görevde) → çaba
+endurance|"Endure" (dayanmak) ile akraba → dayanıklılık
+enemy|"Enemy" = "in-amicus" (dost değil, Latince) → düşman
+enterprise|"Enter" (girmek) ile akraba: işe girişmek → girişim
+enthusiasm|"Entuziazm" → coşku
+entity|"Entite" → var olan şey → varlık, kuruluş
+entry|"Enter" (girmek) ile akraba → giriş
+equation|"Equal" (eşit) ile akraba: iki tarafı eşit → denklem
+equilibrium|equi (eşit) + libra (terazi) → denge durumu
+equity|"Equal" (eşit) ile akraba → hakkaniyet
+era|"Era" (çağ, Latince "aera") → çağ, dönem
+essence|"Esans" kelimesiyle aynı kökten → öz
+esteem|"Estimate" (değer biçmek) ile akraba → saygı, itibar
+evolution|"Evolve" (gelişmek) ile akraba; "evrim" → evrim
+examination|"Exam" (sınav) ile akraba → muayene, sınav
+exception|"Except" (hariç) ile akraba → istisna
+excess|"Exceed" (aşmak) ile akraba → fazlalık
+exchange|ex + change (değiştirmek): "Exchange office" = döviz bürosu → değişim
+exhaustion|"Exhausted" (bitkin) ile akraba → bitkinlik
+existence|"Exist" (var olmak) ile akraba → varoluş
+expansion|"Expand" (genişletmek) ile akraba → genişleme
+expedition|"Ekspedisyon/sefer" → keşif gezisi
+expertise|"Expert" (uzman) ile akraba; "ekspertiz" → uzmanlık
+explanation|"Explain" (açıklamak) ile akraba → açıklama
+exposure|"Expose" (maruz bırakmak) ile akraba; fotoğrafta "pozlama" → maruz kalma
+expression|"Express" (ifade etmek) ile akraba → ifade
+extension|"Extend" (uzatmak) ile akraba; "uzatma kablosu" → uzatma
+extent|"Extend" (uzatmak) ile akraba: ne kadar uzandığı → ölçü, derece
+extinction|"Extinct" (nesli tükenmiş) ile akraba → nesil tükenmesi
+fame|"Famous" (ünlü) ile akraba; "Hall of Fame" → şöhret
+famine|"Famine" ile "famished" (çok aç) → kıtlık
+aggression|"Agresif" kelimesiyle aynı kökten → saldırganlık
+delight|"Delightful" = çok hoş → büyük sevinç
+despair|de (yok) + spair ("esperanza": umut) → umutsuzluk
+disgust|dis (değil) + gust ("gusto": tat): tadı kötü gelen → tiksinti
+distress|dis + stress: büyük stres → sıkıntı
+currency|"Current" (akan, dolaşımdaki): dolaşımdaki para → para birimi
+deficit|"Defisit/açık" → açık (bütçe)
+expenditure|"Expend" (harcamak) ile akraba → harcama
+expense|"Expensive" (pahalı) ile akraba → masraf
+fate|"Fatal" (ölümcül) ile akraba: yazgı → kader
+fault|"Fault" (tenis: servis hatası) → kusur, hata
+feature|"Feature" (uygulamanın yeni özelliği) → özellik
+feedback|feed (beslemek) + back (geri): geriye bilgi beslemek → geri bildirim
+fellowship|"Fellow" (arkadaş) + -ship → dostluk, burs
+fiction|"Science fiction" = bilimkurgu → kurgu
+flaw|"Flou" → çatlak, kusur → kusur
+flexibility|"Flexible" (esnek) ile akraba → esneklik
+fluency|"Fluent" (akıcı) ile akraba; "fluid" (akışkan) → akıcılık
+focus|"Fokus/odak" (fotoğraf makinesinde) → odak
+fortune|"Fortune" ile "fortuna" (şans tanrıçası) → servet, şans
+foundation|"Fondöten" (makyajın temeli) ile aynı kökten → temel, vakıf
+fraction|"Fraksiyon" → "fracture" (kırık) ile akraba: kırılmış parça → kesir
+fragment|"Fragman" (film fragmanı = parça) → parça
+framework|frame (çerçeve) + work (iş) → çerçeve, iskelet
+fraud|"Frod" → sahte belgeyle kandırma → dolandırıcılık
+friction|"Friksiyon" → sürtünme
+gap|"Mind the gap!" (metroda: boşluğa dikkat) → boşluk
+generosity|"Generous" (cömert) ile akraba → cömertlik
+gesture|"Jest" kelimesiyle aynı kökten → jest, hareket
+glimpse|"Glimps" → "glance" (göz atmak) ile akraba → bir anlık bakış
+glory|"Glorious" (şanlı) ile akraba; "glorya" → şan, şeref
+goodwill|good (iyi) + will (istek) → iyi niyet
+grace|"Graceful" (zarif) ile akraba; "Grace" adı → zarafet, lütuf
+greed|"Greedy" (açgözlü) ile akraba → açgözlülük
+grip|"Grip" (raketin tutma yeri) → kavrama, tutuş
+growth|"Grow" (büyümek) + -th → büyüme
+guidance|"Guide" (rehber) ile akraba → rehberlik
+habitat|"Habitat" (yaşam alanı); "inhabit" ile akraba → yaşam alanı
+harmony|"Armoni" kelimesiyle aynı → uyum, ahenk
+hazard|"Hazard lights" = dörtlü flaşör → tehlike, risk
+heritage|"Heir" (mirasçı) ile akraba; "World Heritage" = Dünya Mirası → miras
+honor|"Onur" ile ses benzerliği → onur, şeref
+hospitality|"Hospital/host" (misafir ağırlayan) ile akraba → misafirperverlik
+humanity|"Human" (insan) + -ity → insanlık
+humility|"Humble" (alçakgönüllü) ile akraba → alçakgönüllülük
+identity|"Identity card" = kimlik kartı; "ID" → kimlik
+impact|im + pact (vurmak): çarpma etkisi → etki, çarpma
+implication|"Imply" (ima etmek) ile akraba → ima, olası sonuç
+impulse|"İmpuls" (dürtü) kelimesiyle aynı → dürtü
+incentive|"İnsentif" → teşvik
+incident|"Incidence/olay" → "accident" (kaza) ile akraba → olay
+inhabitant|"Inhabit" (yaşamak) ile akraba → sakin
+inheritance|"Inherit" (miras almak) ile akraba → miras
+innovation|"İnovasyon" kelimesiyle aynı → yenilik
+input|in (içeri) + put (koymak): içeri konan → girdi
+inquiry|"Enquire/inquire" (sormak) ile akraba → soruşturma
+insight|in (içine) + sight (görüş): içini görmek → içgörü
+insistence|"Insist" (ısrar etmek) ile akraba → ısrar
+inspection|"Inspect" (denetlemek) ile akraba; "inspektör" → denetim
+instance|"For instance" = örneğin → örnek, durum
+instinct|"İnstinkt/içgüdü" → içgüdü
+institution|"Enstitü" kelimesiyle aynı kökten → kurum
+integrity|"Integer" (tam sayı): bütün, tam olmak → dürüstlük, bütünlük
+intelligence|"Entelijans" (CIA: Central Intelligence) → zekâ, istihbarat
+intention|"Intend" (niyet etmek) ile akraba → niyet
+interaction|inter (arası) + action (eylem) → etkileşim
+interference|"Interfere" (karışmak) ile akraba; "enterferans" → müdahale
+interruption|"Interrupt" (sözünü kesmek) ile akraba → kesinti
+intervention|"Intervene" (müdahale etmek) ile akraba → müdahale
+intimacy|"Intimate" (samimi) ile akraba → yakınlık
+introduction|"Intro" = giriş bölümü → giriş, tanıştırma
+intuition|"Tuition/tutor" (gözetmek) ile akraba: içten görmek → sezgi
+judgment|"Judge" (yargıç) ile akraba → yargı, muhakeme
+justice|"Just" (adil) ile akraba → adalet
+justification|"Justify" (haklı çıkarmak) ile akraba → gerekçe
+landmark|land (arazi) + mark (işaret): bölgenin işareti → simge yapı
+legacy|"Legacy" (geride bırakılan) → miras, iz
+likelihood|"Likely" (muhtemel) + -hood → olasılık
+literacy|"Literate" (okur yazar) ile akraba → okuryazarlık
+logic|"Lojik/mantık" → mantık
+loyalty|"Loyal" (sadık) ile akraba → sadakat
+luxury|"Lüks" kelimesiyle aynı kökten → lüks, şatafat
+malice|"Mal-" (kötü, "malware" gibi) → kötü niyet
+margin|"Marj" (kâr marjı) kelimesiyle aynı → kenar boşluğu, fark
+maximum|"Maksimum" kelimesiyle aynı → azami
+means|"By means of" = ... aracılığıyla → araç, yöntem
+memorial|"Memory" (anı) ile akraba → anıt
+mercy|"Merci" (Fransızca: teşekkür) ile akraba: lütuf → merhamet
+merit|"Meritokrasi" (liyakat yönetimi) → değer, liyakat
+milestone|mile (mil) + stone (taş): yol kenarındaki mil taşı → dönüm noktası
+minimum|"Minimum" kelimesiyle aynı → asgari
+mischief|mis (kötü) + chief (sonuç, Eski Fransızca) → yaramazlık
+misery|"Miserable" (perişan) ile akraba; "Les Misérables" → sefalet
+mode|"Mod" (sessiz mod) kelimesiyle aynı → mod, biçim
+momentum|"Moment" (an) ile akraba; fizikte momentum → ivme
+motive|"Motivasyon" ile aynı kökten → neden, güdü
+myth|"Mit/mitoloji" kelimesiyle aynı → efsane
+frustration|"Frustrated" (sinirli, hüsrana uğramış) ile akraba → bıkkınlık
+fury|"Furious" (öfkeli) ile akraba → öfke
+gratitude|"Grateful" (minnettar) ile akraba → minnettarlık
+grief|"Grieve" (yas tutmak) ile akraba → keder, yas
+guilt|"Guilty" (suçlu) ile akraba → suçluluk duygusu
+hatred|"Hate" (nefret etmek) + -red → nefret
+harassment|"Harass" (rahatsız etmek) ile akraba → taciz
+legislation|"Legal" (yasal) ile akraba → mevzuat
+liberty|"Statue of Liberty" = Özgürlük Heykeli → hürriyet
+fund|"Fon" kelimesiyle aynı → fon
+income|in (içeri) + come (gelmek): içeri gelen para → gelir
+infrastructure|infra (alt) + structure (yapı) → altyapı
+inventory|"Envanter" kelimesiyle aynı → envanter
+labor|"Laboratuvar/labor" (çalışma) → emek
+liability|"Liable" (sorumlu) ile akraba → yükümlülük
+monopoly|mono (tek) + poly (satmak, Yunanca): tek satıcı; Monopoly oyunu → tekel
+necessity|"Necessary" (gerekli) ile akraba → gereklilik
+negligence|"Neglect" (ihmal etmek) ile akraba → ihmal
+niche|"Niş" kelimesiyle aynı → özel alan
+nonsense|non (değil) + sense (anlam): anlamsız → saçmalık
+notion|"Note" (not, fikir) ile akraba → fikir, kavram
+novelty|"Novel" (yeni; roman) ile akraba → yenilik
+nuisance|"Nüsans" → "noxious" (zararlı) ile akraba → baş belası
+objection|"Object" (itiraz etmek) ile akraba → itiraz
+obsession|"Obsesyon" kelimesiyle aynı → takıntı
+obstacle|ob (karşı) + stacle (duran) → engel
+occasion|"Special occasion" = özel gün → vesile
+occupation|"Occupy" (meşgul etmek) ile akraba: seni meşgul eden iş → meslek
+occurrence|"Occur" (meydana gelmek) ile akraba → olay
+offense|"Offend" (gücendirmek) ile akraba → suç, gücendirme
+offspring|off (-dan) + spring (fışkırmak): ebeveynden çıkan → yavru
+omission|"Omit" (atlamak) ile akraba → atlama
+opponent|"Oppose" (karşı çıkmak) ile akraba → rakip
+optimism|"Optimist/iyimser" → iyimserlik
+option|"Opsiyon" kelimesiyle aynı → seçenek
+origin|"Orijin/orijinal" → köken
+outbreak|out (dışarı) + break (patlamak) → salgın
+outcome|out (dışarı) + come (gelmek): sonunda dışarı çıkan → sonuç
+outlook|out (dışarı) + look (bakış) → bakış açısı
+output|out (dışarı) + put (koymak): dışarı verilen → çıktı
+outrage|"Outrageous" (rezalet) ile akraba → öfke, infial
+overview|over (üstten) + view (bakış) → genel bakış
+pace|"Peys" → adım hızı → hız, tempo
+peak|"Piik" → dağın sivri tepesi → zirve
+perception|"Perceive" (algılamak) ile akraba → algı
+perfection|"Perfect" (mükemmel) ile akraba → mükemmellik
+perspective|"Perspektif" kelimesiyle aynı → bakış açısı
+phase|"Faz" kelimesiyle aynı → evre
+philosophy|"Felsefe/filozofi" → felsefe
+pity|"What a pity!" = Ne yazık! → acıma, yazık
+plea|"Plead" (yalvarmak) ile akraba → yalvarma
+pleasure|"Please" (memnun etmek) ile akraba; "My pleasure" → zevk, memnuniyet
+plot|"Plot twist" = olay örgüsünde ani dönüş → olay örgüsü
+poverty|"Poor" (fakir) ile akraba → yoksulluk
+precaution|pre (önce) + caution (dikkat) → önlem
+precision|"Precise" (kesin) ile akraba; "presizyon" → hassasiyet
+predecessor|pre (önce) + decessor (giden) → selef
+prediction|pre (önce) + diction (söyleme) → tahmin
+preference|"Prefer" (tercih etmek) ile akraba → tercih
+prejudice|pre (önce) + judice ("judge": yargı): önceden yargılamak → önyargı
+premise|pre (önce) + mise (konulmuş) → önerme, mekân
+presumption|"Presume" (varsaymak) ile akraba → varsayım
+pretext|pre (önce) + text (metin): asıl sebebin önüne konan → bahane
+prevention|"Prevent" (önlemek) ile akraba → önleme
+privilege|privi ("private": özel) + lege (yasa): özel yasa → ayrıcalık
+probability|"Probably" (muhtemelen) ile akraba → ihtimal
+proceeds|"Proceed" (ilerlemek) ile akraba: işten çıkıp gelen → hasılat
+process|"Proses/süreç" → süreç
+proficiency|"Proficient" (usta) ile akraba → ustalık
+prohibition|"Prohibit" (yasaklamak) ile akraba → yasak
+projection|"Projeksiyon" kelimesiyle aynı → tahmin, yansıtma
+property|"Proper" (kendine ait) ile akraba → mülk, özellik
+proportion|"Proporsiyon/orantı" → oran
+proposition|"Propose" (önermek) ile akraba → öneri
+provision|"Provide" (sağlamak) ile akraba; "provizyon" → tedarik
+provocation|"Provokasyon" → kışkırtma
+pursuit|"Pursue" (peşinden gitmek) ile akraba → arayış
+qualification|"Kalifikasyon" → "qualified" (nitelikli) → nitelik
+quantity|"Kantite/nicelik" → nicelik
+quest|"Quest" (oyundaki görev) → arayış
+range|"Range" (menzil) → yelpaze, aralık
+ratio|"Rasyo/oran" → oran
+rationale|"Rasyonel" (akılcı) ile akraba → gerekçe
+reaction|re (karşı) + action (eylem) → tepki
+realm|"Royal" (kraliyet) ile akraba: krallık → alan, diyar
+recognition|"Recognize" (tanımak) ile akraba → tanınma
+recollection|"Recollect" (hatırlamak) ile akraba → anımsama
+reconciliation|"Reconcile" (barıştırmak) ile akraba → barışma
+recreation|re + creation (yaratma): kendini yeniden yaratmak → eğlence, dinlenme
+reduction|"Reduce" (azaltmak) ile akraba → azaltma, indirim
+reflection|"Reflect" (yansıtmak) ile akraba; "refleks" → yansıma
+refuge|"Refugee" = mülteci (sığınan) → sığınak
+region|"Regional" (bölgesel); "rejyon" → bölge
+reign|"Rey(n)" → "regal/regime" (kral) ile akraba → hükümdarlık dönemi
+rejection|"Reject" (reddetmek) ile akraba → ret
+reliability|"Reliable" (güvenilir) ile akraba → güvenilirlik
+reputation|"Repute" (saymak) ile akraba → itibar
+resemblance|"Resemble" (benzemek) ile akraba → benzerlik
+resistance|"Resist" (direnmek) ile akraba; "rezistans" → direnç
+resolution|"Resolve" (çözmek) ile akraba; "rezolüsyon" → karar, çözüm
+resource|"Source" (kaynak) ile akraba → kaynak
+response|"Respond" (cevap vermek) ile akraba → yanıt
+responsibility|"Responsible" (sorumlu) ile akraba → sorumluluk
+restraint|"Restrain" (zapt etmek) ile akraba → kısıtlama
+restriction|"Restrict" (kısıtlamak) ile akraba → kısıtlama
+revelation|"Reveal" (ortaya çıkarmak) ile akraba → ifşa
+revolution|"Revolüsyon/devrim"; "revolve" (dönmek) → devrim
+rhythm|"Ritim" kelimesiyle aynı → ritim
+passion|"Pasyon/tutku" → tutku
+rage|"Road rage" = trafik öfkesi → büyük öfke
+relief|"Relieve" (rahatlatmak) ile akraba → rahatlama
+revenge|re + venge ("vengeance": öç) → intikam
+rebellion|"Rebel" (asi) ile akraba → isyan
+policy|"Polis/politika" ile aynı kökten → politika, ilke
+network|net (ağ) + work → ağ
+revenue|re (geri) + venue (gelen): geri gelen para → gelir
+rivalry|"Rival" (rakip) ile akraba → rekabet
+safeguard|safe (güvenli) + guard (koruma) → koruma önlemi
+sanction|"Sanksiyon" kelimesiyle aynı → yaptırım
+satisfaction|"Satisfy" (tatmin etmek) ile akraba → memnuniyet
+scheme|"Şema" kelimesiyle aynı kökten → plan, düzen
+scope|"Skop" → "telescope/microscope": görüş alanı → kapsam
+scrutiny|"Scrutinize" (incelemek) → dikkatli inceleme
+segment|"Segment" kelimesiyle aynı → bölüm
+sentiment|"Sentimental" (duygusal) ile akraba → duygu
+sequence|"Sekans" kelimesiyle aynı → sıra, dizi
+setback|set (konmak) + back (geri): geri atılmak → aksilik
+shortage|short (kısa, eksik) + -age → kıtlık
+simplicity|"Simple" (basit) ile akraba → sadelik
+solidarity|"Solid" (sağlam) ile akraba: sıkı kenetlenme → dayanışma
+solitude|"Solo" (tek) ile akraba → yalnızlık
+stability|"Stabil" ile aynı kökten → istikrar
+stake|"Steyk" → "at stake" = tehlikede; kazık → pay, tehlikede olan şey
+stance|"Stand" (durmak) ile akraba: duruş → tutum
+statement|"State" (beyan etmek) + -ment → açıklama
+stereotype|"Stereotip" kelimesiyle aynı → kalıp yargı
+stimulus|"Stimulate" (uyarmak) ile akraba → uyarıcı
+structure|"Strüktür/yapı" → yapı
+substance|"Substans/madde" → madde, öz
+succession|"Succeed" (ardından gelmek) ile akraba → art arda gelme
+supervision|"Supervise" (denetlemek) ile akraba → gözetim
+surveillance|sur (üstten) + veillance (gözetleme, Fransızca "veiller") → gözetleme
+suspicion|"Suspect" (şüphelenmek) ile akraba → şüphe
+synthesis|"Sentez" kelimesiyle aynı → sentez
+tact|"Takt/incelik" → "tactile" (dokunma): ince dokunuş → incelik
+temper|"Lose your temper" = öfkelenmek → huy, öfke
+tendency|"Tend" (eğiliminde olmak) ile akraba; "tendans" → eğilim
+tension|"Tansiyon" kelimesiyle aynı kökten → gerginlik
+territory|"Teritoryal" → "terra" (toprak) → bölge, toprak
+testimony|"Testify" (tanıklık etmek) ile akraba → tanıklık
+threshold|"Threş-hold" → kapı eşiği → eşik
+torment|"Torture" (işkence) ile akraba → eziyet
+trait|"Treyt" → kişilik çizgisi ("trait" = çizgi) → özellik
+transition|trans (öte) + ition (gitmek): bir yerden ötekine → geçiş
+transparency|"Transparent" (şeffaf) ile akraba → şeffaflık
+trial|"Try" (denemek) ile akraba; mahkemede deneme → duruşma, deneme
+triumph|"Triumph" (Roma'da zafer alayı) → büyük zafer
+turmoil|"Tör-moyl" → "turn" (dönmek) gibi her şey birbirine girer → kargaşa
+urgency|"Urgent" (acil) ile akraba → aciliyet
+usage|"Use" (kullanmak) + -age → kullanım
+utility|"Utility" (fayda); "utilize" ile akraba → fayda, kamu hizmeti
+vanity|"Vain" (boş, kibirli) ile akraba → kibir
+variable|"Vary" (değişmek) + -able → değişken
+variation|"Varyasyon" kelimesiyle aynı → değişim
+viewpoint|view (görüş) + point (nokta) → bakış noktası
+vigilance|"Vigilant" (uyanık) ile akraba → uyanıklık
+virtue|"Virtüöz" (ustalık erdemi) ile aynı kökten → erdem
+visibility|"Visible" (görünür) ile akraba → görüş mesafesi
+volume|"Volüm/hacim"; TV'de "volume" = ses → hacim, ses seviyesi
+vulnerability|"Vulnerable" (savunmasız) ile akraba → savunmasızlık
+whim|"Wim" → aklına esiveren kapris → ani istek
+zeal|"Zealous" (gayretli) ile akraba → şevk, gayret
+sorrow|"Sorry" (üzgün) ile ses benzerliği → keder
+treaty|"Treat" (anlaşmak, müzakere etmek) ile akraba → antlaşma
+warfare|war (savaş) + fare (yol, gidiş) → savaş
+welfare|well (iyi) + fare (gidiş): işlerin iyi gitmesi → refah
+transaction|trans + action (işlem): el değiştiren işlem → işlem (para)
+anchovy|"Ançuez" (ançüez) → hamsi
+bagel|"Beygıl" → ortası delik halka ekmek → simit benzeri ekmek
+basil|"Basil/Basileus" (kral, Yunanca): "kral otu" → fesleğen
+broth|"Brew" (kaynatmak) ile akraba → et suyu
+bun|"Hamburger bun" = hamburger ekmeği → çörek
+cauliflower|cauli ("cabbage": lahana) + flower (çiçek): çiçekli lahana → karnabahar
+celery|"Selri" → "seleri" (Fransızca céleri) → kereviz sapı
+cinnamon|"Cinnamon roll" = tarçınlı çörek → tarçın
+clove|"Clou" (çivi, Fransızca): karanfil çivi biçimlidir → karanfil, (sarımsak) diş
+cod|"Cod liver oil" = balık yağı (morina karaciğeri) → morina balığı
+cranberry|crane (turna kuşu) + berry (dut): turna dutu → kızılcık
+custard|"Kastırd" → yumurtalı süt kreması → muhallebi
+ginger|"Ginger" (kızıl saçlı; zencefil kökü) → zencefil
+gravy|"Greyvi" → Şükran Günü yemeğinde etin üstüne dökülen sos → et sosu
+herb|"Herbal tea" = bitki çayı → ot, baharat otu
+leek|"Liik" → Galler'in simgesi; uzun yeşil sap → pırasa
+lobster|"Lobster" → "Lobster" kırmızı pençeli deniz canlısı → ıstakoz
+mackerel|"Makrel" → "Uskumru" (Almanca Makrele) → uskumru
+mayonnaise|"Mayonez" kelimesiyle aynı → mayonez
+meatball|meat (et) + ball (top): et topu → köfte
+mustard|"Mustard" (hot dog'un sarı sosu) → hardal
+nutmeg|nut (ceviz) + meg (misk): misk kokulu ceviz → muskat
+oat|"Oatmeal" = yulaf ezmesi → yulaf
+pastry|"Pasta" kelimesiyle aynı kökten (hamur) → hamur işi
+pistachio|"Pistachio ice cream" = fıstıklı dondurma → antep fıstığı
+pomegranate|pome (elma) + granate (taneli): taneli elma → nar
+porridge|"Porç" → "Goldilocks" masalındaki ayıların lapası → yulaf lapası
+prawn|"Pron" → büyük karides → karides (büyük)
+quince|"Kvins" → "Ayva" (marmelatın atası: "marmelo") → ayva
+radish|"Radix" (kök, Latince): kökü yenen sebze → turp
+sardine|"Sardalya" kelimesiyle aynı kökten (Sardinya adası) → sardalya
+stew|"Stu" → kısık ateşte uzun uzun pişen yemek → güveç, yahni
+trout|"Traut" → nehirde yaşayan benekli balık → alabalık
+turnip|"Törnip" → "turn" (yuvarlak) + nip (kök) → şalgam
+alligator|"El lagarto" (İspanyolca: kertenkele) → timsah
+calf|"Kef" → "cow" (inek) yavrusu → buzağı
+cheetah|"Çita" kelimesiyle aynı → çita
+cockroach|"Cucaracha" (İspanyolca) → hamamböceği
+cub|"Kab" → "Chicago Cubs" (ayı yavruları) → yavru
+duckling|duck (ördek) + -ling (küçük) → ördek yavrusu
+falcon|"Falkon" → "Millennium Falcon" (Star Wars gemisi) → şahin
+flea|"Flii" → "flea market" = bit pazarı → pire
+gazelle|"Gazal/ceylan" (Arapça gazal) → ceylan
+goldfish|gold (altın) + fish (balık) → japon balığı
+grasshopper|grass (çimen) + hopper (zıplayan) → çekirge
+hare|"Her" → kaplumbağa ile yarışan masaldaki tavşan → yaban tavşanı
+hawk|"Haak" → "hawk-eyed" = şahin gözlü → atmaca
+hornet|"Horn" (boynuz, boru) gibi vızıldayan → eşek arısı (büyük)
+lizard|"Lizırd" → "lizard" ile "kertenkele" → kertenkele
+mole|"Moul" → yer altında tünel kazan → köstebek
+moth|"Moth" ile "mouth" (ağız): yünü yiyen → güve
+mule|"Myuul" → "Mule" (at ile eşek kırması) → katır
+ox|"Oks" → "Oxford" (öküz geçidi) → öküz
+peacock|pea (tavus) + cock (horoz) → tavus kuşu
+piglet|pig (domuz) + -let (küçük) → domuz yavrusu
+reindeer|rein (dizgin) + deer (geyik): Noel Baba'nın kızağını çeker → ren geyiği
+rhino|"Rhinoceros" = rhino (burun) + ceros (boynuz) → gergedan
+skunk|"Skank" → kötü koku saçan siyah-beyaz hayvan → kokarca
+slug|"Slag" → kabuksuz salyangoz → sümüklü böcek
+stork|"Stork" → bebek getiren kuş (masallarda) → leylek
+toad|"Toud" → kara kurbağası
+woodpecker|wood (ağaç) + pecker (gagalayan) → ağaçkakan
+bedspread|bed (yatak) + spread (sermek) → yatak örtüsü
+cabinet|"Kabine" (dolap/oda) kelimesiyle aynı kökten → dolap
+closet|"Close" (kapalı) ile akraba: kapalı küçük oda → gömme dolap
+duvet|"Düve" → kaz tüyüyle doldurulmuş örtü (Fransızca) → yorgan
+hallway|hall (salon) + way (yol) → koridor
+hinge|"Hinc" → "hang" (asmak) ile akraba: kapıyı asılı tutar → menteşe
+lawn|"Loon" → "lawn mower" = çim biçme makinesi → çimenlik
+pantry|"Pan" (ekmek, Fransızca pain) → ekmeğin saklandığı yer → kiler
+patio|"Patyo" (İspanyolca: avlu) → veranda, avlu
+porch|"Porç" → "portico" (revak) ile akraba → giriş verandası
+quilt|"Kvilt" → parça parça dikilmiş yorgan → yorgan (dikişli)
+staircase|stair (basamak) + case (kasa) → merdiven
+tablecloth|table (masa) + cloth (kumaş) → masa örtüsü
+hose|"Houz" → bahçe hortumu (garden hose) → hortum
+spade|"Speyd" → "call a spade a spade" (küreğe kürek demek) → bel küreği
+tweezers|"Tvizırz" → kaşları almak için → cımbız
+apron|"Eyprın" → aşçı önlüğü → önlük
+beret|"Bere" kelimesiyle aynı → bere (Fransız)
+buckle|"Bakıl" → "Buckle up!" = kemerini tak → toka (kemer)
+cardigan|"Kardigan" (Lord Cardigan'ın adından) → hırka
+cufflink|cuff (manşet) + link (bağlantı) → kol düğmesi
+gown|"Gaun" → "wedding gown" = gelinlik → gece elbisesi, cüppe
+leggings|"Leg" (bacak) + -ings → tayt
+locket|"Lock" (kilit) ile akraba: açılıp kapanan küçük kutu kolye → madalyon kolye
+overalls|over (üstünden) + all (tümü): her şeyin üstüne giyilen → tulum
+robe|"Rob" (Fransızca: elbise) → "bathrobe" = bornoz → bornoz, sabahlık
+sash|"Seş" → güzellik yarışmasında takılan bant → kuşak
+shawl|"Şal" kelimesiyle aynı kökten (Farsça şal) → şal
+stocking|"Stock" (gövde): bacağı saran → uzun çorap
+suspenders|"Suspend" (asmak) ile akraba: pantolonu asılı tutar → pantolon askısı
+tuxedo|"Tuxedo Park" (New York) → smokin
+wig|"Vig" → "periwig" kısaltması → peruk
+creek|"Kriik" → küçük akarsu → dere
+dew|"Duu" → sabah çimenlerdeki damlalar → çiy
+drought|"Dry" (kuru) ile akraba → kuraklık
+dune|"Dune" filmi (çöl gezegeni) → kum tepesi
+frost|"Frozen" (donmuş) ile akraba → don, kırağı
+glacier|"Glas/glace" (buz, Fransızca) → buzul
+gorge|"Gorc" → "gorge" (boğaz, gırtlak) → dar vadi
+hail|"Heyl" → gökten düşen buz taneleri → dolu (yağış)
+lava|"Lav" kelimesiyle aynı → lav
+marsh|"Marş" → "marsh" ile "mud" (çamur) → bataklık
+meadow|"Mead" (çayır) → çiçekli otlak → çayır
+mist|"Mist" ile "misty" (puslu) → pus
+moss|"Mos" → taşları kaplayan yeşil kadife → yosun
+oasis|"Vaha" → "Oasis" grubu; çöldeki su → vaha
+peninsula|pen (neredeyse, "paene") + insula (ada) → yarımada
+pebble|"Pebıl" → çakıl taşı
+plateau|"Plato" kelimesiyle aynı → plato, yayla
+reef|"Riif" → "Great Barrier Reef" = Büyük Set Resifi → resif
+ridge|"Ric" → dağın sırt çizgisi → sırt (dağ)
+riverbank|river (nehir) + bank (kıyı) → nehir kıyısı
+slope|"Sloup" → kayak pistindeki eğim → yokuş, yamaç
+stream|"Stream" (canlı yayın: akış) → dere, akarsu
+weed|"Wiid" → bahçede istenmeyen ot → yabani ot
+wilderness|"Wild" (vahşi) ile akraba → vahşi doğa
+artery|"Arter" kelimesiyle aynı → atardamar
+brow|"Eyebrow" = kaş → alın, kaş
+eyelash|eye (göz) + lash (kamçı) → kirpik
+eyelid|eye (göz) + lid (kapak) → göz kapağı
+fist|"Fist bump" = yumruk tokuşturma → yumruk
+forehead|fore (ön) + head (baş) → alın
+jaw|"Jaws" (Jaws filmi: köpekbalığının çeneleri) → çene
+knuckle|"Nakıl" → parmak boğumu; "knock" (kapıya vurmak) → parmak eklemi
+limb|"Lim" → ağacın dalı gibi uzanan kol/bacak → uzuv
+navel|"Neyvıl" → göbek deliği
+nostril|"Nose" (burun) ile akraba → burun deliği
+palm|"Palm reading" = el falı → avuç içi
+shin|"Şin" → "shin guard" = futbolcunun tekmeliği → incik
+thigh|"Thay" → "thigh" ile "tight" (sıkı): uyluk kası → uyluk
+vein|"Veyn" → "ven" (Latince vena) → toplardamar
+waist|"Weyst" → "waist" ile "waste" (aynı ses) → bel
+blister|"Blistır" → yeni ayakkabının yaptığı kabarcık → su toplaması
+bruise|"Bruuz" → "brew" gibi mosmor → morluk
+dose|"Doz" kelimesiyle aynı → doz
+fracture|"Fraktür/kırık" → kırık (kemik)
+itch|"İç" → kaşınan yer → kaşıntı
+ointment|"Oint" ("anoint": yağ sürmek) → merhem
+rash|"Reş" → ciltte ani kızarıklık → kızarıklık
+scar|"Scarface" = yara izli yüz → yara izi
+sprain|"Spreyn" → bilek burkulması → burkulma
+surgeon|"Surgery" (ameliyat) ile akraba → cerrah
+axle|"Aks" kelimesiyle aynı kökten → dingil
+brake|"Break" (kırmak) ile aynı ses: hızı kırar → fren
+freight|"Freyt" → "freight train" = yük treni → yük, kargo
+jet|"Jet" kelimesiyle aynı → jet uçağı
+runway|run (koşmak) + way (yol): uçağın koştuğu yol → pist
+sidecar|side (yan) + car (araç) → sepet (motosiklet)
+yacht|"Yat" kelimesiyle aynı (ch okunmaz) → yat
+alley|"Bowling alley" = bovling yolu; dar yol → ara sokak
+arcade|"Arcade game" = atari salonu oyunu → oyun salonu, pasaj
+cemetery|"Semetri" → "cemetery" ile "sementer" → mezarlık
+courthouse|court (mahkeme) + house (bina) → adliye binası
+district|"District" (Hunger Games'teki bölgeler) → semt, ilçe
+junction|"Junction" ile "join" (birleşmek): yolların birleştiği yer → kavşak
+kiosk|"Köşk" kelimesinden geçmiştir → büfe, kulübe
+mansion|"Mansiyon" → "maison" (Fransızca ev): büyük ev → konak
+slum|"Slam" → "Slumdog Millionaire" filmi → gecekondu mahallesi
+temple|"Tempel" → "Temple Run" oyunu → tapınak
+auditor|"Audit" (denetim) ile akraba; "auditör" → denetçi
+bricklayer|brick (tuğla) + layer (dizen) → duvar ustası
+clerk|"Klörk" → "clerical" (büro işi) → memur, kâtip
+courier|"Kurye" kelimesiyle aynı → kurye
+florist|"Flora" (bitki) ile akraba → çiçekçi
+janitor|"Janus" (kapıların tanrısı): kapıya bakan → hademe, kapıcı
+jeweler|"Jewel" (mücevher) + -er → kuyumcu
+landlord|land (arazi) + lord (efendi) → ev sahibi (kiraya veren)
+librarian|"Library" (kütüphane) + -ian → kütüphaneci
+locksmith|lock (kilit) + smith (usta) → çilingir
+porter|"Port" (taşımak) ile akraba: yük taşıyan → hamal
+shepherd|sheep (koyun) + herd (sürü bekçisi) → çoban
+tailor|"Teylır" → "Tailor" Fransızca "tailler" (kesmek) → terzi
+tutor|"Tutorial" (eğitim videosu) ile akraba → özel öğretmen
+welder|"Weld" (kaynak yapmak) + -er → kaynakçı
+choir|"Kvayır" → "koro" (choir) → koro
+harmonica|"Armonika" kelimesiyle aynı kökten → mızıka
+sketch|"Skeç" (kısa gösteri) kelimesiyle aynı kökten → eskiz
+hurdle|"Hördıl" → engelli koşu: atlanacak engel → engel (koşu)
+javelin|"Cevlin" → olimpik atma sporu → cirit
+paddle|"Pedıl" → kanoda suya daldırılan kürek → kürek (kano)
+sled|"Slide" (kaymak) ile akraba → kızak
+wrestling|"Wrestle" (güreşmek) + -ing; WWE wrestling → güreş
+blackboard|black (kara) + board (tahta) → kara tahta
+glossary|"Glossa" (dil, Yunanca) → sözlükçe
+sharpener|sharpen (sivriltmek) + -er → kalemtıraş
+protractor|pro + tract (çekmek, açmak) + -or: açıyı açıp ölçen → iletki
+textbook|text (metin) + book (kitap) → ders kitabı
+bandwidth|band (bant) + width (genişlik) → bant genişliği
+cursor|"Kürsör/imleç" → imleç
+firewall|fire (ateş) + wall (duvar): yangın duvarı → güvenlik duvarı
+hacker|"Hack" (kırmak, sızmak) + -er → bilgisayar korsanı
+hardware|hard (sert) + ware (eşya): elle tutulan parçalar → donanım
+malware|mal (kötü) + ware ("software") → kötü amaçlı yazılım
+storage|store (depolamak) + -age → depolama
+touchscreen|touch (dokunmak) + screen (ekran) → dokunmatik ekran
+accordingly|"According to" (-e göre) ile akraba → buna göre
+additionally|"Addition" (ek) + -ally → ek olarak
+admittedly|"Admit" (kabul etmek) ile akraba → kabul etmek gerekir ki
+allegedly|"Allege" (iddia etmek) ile akraba → iddiaya göre
+altogether|all (hepsi) + together (birlikte) → tamamen, toplamda
+annually|"Annual" (yıllık) ile akraba; "anniversary" → her yıl
+anyhow|any (herhangi) + how (nasıl): nasıl olursa → her neyse
+arguably|"Argue" (tartışmak) ile akraba: savunulabilir şekilde → tartışmasız denebilir ki
+barely|"Bare" (çıplak) ile akraba: çırılçıplak, ancak yetecek kadar → zar zor
+basically|"Basic" (temel) + -ally → temelde
+beforehand|before (önce) + hand (el): önceden ele almak → önceden
+broadly|"Broad" (geniş) + -ly → genel olarak
+chiefly|"Chief" (baş, şef) + -ly → başlıca
+closely|"Close" (yakın) + -ly → yakından
+comparatively|"Compare" (karşılaştırmak) ile akraba → nispeten
+consequently|"Consequence" (sonuç) ile akraba → sonuç olarak
+conversely|"Converse" (ters) ile akraba → tersine
+drastically|"Drastic" (sert) + -ally → büyük ölçüde
+effectively|"Effective" (etkili) + -ly → etkili bir şekilde
+elsewhere|else (başka) + where (yer) → başka bir yerde
+formally|"Formal" (resmî) + -ly → resmi olarak
+furthermore|further (daha ileri) + more (daha) → üstelik
+hence|"Hens" → "from here" (buradan) anlamından → bundan dolayı
+increasingly|"Increase" (artmak) ile akraba → giderek artan şekilde
+indeed|in + deed (iş, eylem): fiilen → gerçekten
+instantly|"Instant" (anlık; "instant coffee" = hazır kahve) + -ly → anında
+intentionally|"Intention" (niyet) ile akraba → kasıtlı olarak
+lately|"Late" (geç, yakın zamanda) + -ly: yakın zamanlarda → son günlerde
+likewise|like (gibi) + wise (biçimde) → aynı şekilde
+markedly|"Marked" (belirgin, işaretli) + -ly → belirgin biçimde
+meanwhile|mean (ara) + while (süre): aradaki sürede → bu arada
+namely|"Name" (isim) + -ly: adlarıyla söylersek → yani
+neatly|"Neat" (düzenli, temiz) + -ly → düzgünce
+nevertheless|never + the + less: hiç de azalmadan → yine de
+nonetheless|none + the + less: hiç azalmadan → yine de, buna rağmen
+noticeably|"Notice" (fark etmek) + -ably: fark edilecek şekilde → gözle görülür şekilde
+nowadays|now (şimdi) + a + days (günler) → günümüzde
+particularly|"Particular" (belirli, özel) + -ly → bilhassa
+predominantly|"Predominant" (baskın) + -ly; "dominant" ile akraba → ağırlıklı olarak
+presumably|"Presume" (varsaymak) ile akraba → tahminen
+promptly|"Prompt" (çabuk, dakik) + -ly → vakit kaybetmeden
+relatively|"Relative" (göreli) + -ly; "relativity" = görelilik → görece
+repeatedly|"Repeat" (tekrarlamak) ile akraba → tekrar tekrar
+reportedly|"Report" (haber) ile akraba: haberlere göre → söylendiğine göre
+secondly|second (ikinci) + -ly → ikinci olarak
+seemingly|"Seem" (görünmek) + -ingly → görünüşte
+seldom|"Seldım" → "seld" (nadir, Eski İngilizce) → pek az, seyrek
+simultaneously|"Simultane" (simultane çeviri: aynı anda) → aynı anda
+somehow|some (bir) + how (nasıl): bir şekilde → bir şekilde
+somewhat|some (biraz) + what (şey) → biraz
+specifically|"Specific" (belirli) + -ally → özellikle
+supposedly|"Suppose" (farz etmek) ile akraba → güya, sözde
+surprisingly|"Surprise" (sürpriz) ile akraba → şaşırtıcı bir şekilde
+technically|"Teknik" + -ly → teknik olarak
+thereby|there (orada) + by (ile): bununla → böylece
+thus|"Dhas" → "this" (bu) ile akraba: bu yüzden → bu yüzden
+truly|"True" (doğru, gerçek) + -ly; "Yours truly" → sahiden
+undoubtedly|un (değil) + doubt (şüphe) + -edly → şüphesiz
+unexpectedly|un (değil) + expected (beklenen) + -ly → beklenmedik şekilde
+uniformly|"Uniform" (tek biçim; üniforma) + -ly → eşit şekilde
+utterly|"Utter" (tam, katıksız) + -ly → büsbütün
+virtually|"Virtual" (sanal, neredeyse gerçek) + -ly → neredeyse tamamen
+whatsoever|what + so + ever: ne olursa olsun → hiç, hiçbir şekilde
+wholly|"Whole" (bütün) + -ly → bütünüyle
+back-up|"Backup" (yedek dosya): back (arka) + up → yedeklemek
+blow-up|blow (patlamak, üflemek) + up → havaya uçurmak
+break-down|break (kırılmak) + down (aşağı): çöküp kalmak → bozulmak
+break-in|break (kırmak) + in (içeri): kapıyı kırıp içeri girmek → zorla girmek
+break-out|break (kırmak) + out (dışarı): aniden dışarı fışkırmak → patlak vermek
+break-up|break (kırılmak) + up: ilişkinin kırılması → ayrılmak
+bring-up|bring (getirmek) + up (yukarı): büyütüp yukarı çıkarmak → yetiştirmek
+call-off|call (çağırmak) + off (kapalı): "kapalı" diye ilan etmek → iptal etmek
+carry-on|carry (taşımak) + on (devam): taşımaya devam → devam etmek
+carry-out|carry (taşımak) + out (sonuna kadar) → gerçekleştirmek
+catch-up|catch (yakalamak) + up: öndekini yakalamak → yetişmek
+check-in|check (kontrol) + in (içeri): kayıt olup içeri girmek → giriş yapmak
+check-out|check (kontrol) + out (dışarı): hesabı kapatıp çıkmak → çıkış yapmak
+come-up-with|come up (ortaya çıkmak) + with (ile): bir fikirle gelmek → bulmak (fikir)
+cut-down|cut (kesmek) + down (aşağı): miktarı aşağı kesmek → azaltmak
+drop-by|drop (düşmek, uğramak) + by (yanından): yolda uğramak → uğramak
+drop-off|drop (bırakmak) + off: arabadan indirip bırakmak → bırakmak
+end-up|end (son) + up: sonunda bir yerde bulunmak → sonunda bir yere varmak
+fall-apart|fall (düşmek) + apart (ayrı): parçalara ayrılmak → dağılmak
+figure-out|figure (hesaplamak) + out (sonuna kadar) → çözmek, anlamak
+get-over|get (geçmek) + over (üstünden): hastalığın üstünden geçmek → atlatmak
+get-rid-of|get + rid (kurtulmuş) + of → kurtulmak
+give-in|give (vermek) + in (içeri): direnci teslim etmek → pes etmek
+go-off|go (gitmek) + off: alarm "patlar" → çalmak (alarm), patlamak
+go-over|go (gitmek) + over (üstünden): üstünden geçmek → gözden geçirmek
+hand-in|hand (el) + in (içeri): eline teslim etmek → teslim etmek (ödev)
+hang-out|hang (takılmak) + out (dışarıda) → takılmak, vakit geçirmek
+hang-up|hang (asmak) + up: eskiden ahize duvara asılırdı → telefonu kapatmak
+keep-up|keep (tutmak) + up (yukarıda): seviyeyi korumak → ayak uydurmak
+let-down|let (bırakmak) + down (aşağı): yere bırakmak → yüzüstü bırakmak
+look-into|look (bakmak) + into (içine) → araştırmak
+look-up|look (bakmak) + up: sözlükte yukarıdan aşağı aramak → (sözlükte) bakmak
+make-up|make (yapmak) + up: kafadan uydurmak; barışmak → uydurmak, barışmak
+mix-up|mix (karıştırmak) + up → karıştırmak (iki şeyi)
+move-on|move (hareket etmek) + on (ileri) → yola devam etmek
+pass-out|pass (geçmek) + out (dışarı): bilinç dışarı geçer → bayılmak
+point-out|point (işaret etmek) + out (dışarı): parmakla göstermek → belirtmek
+put-off|put (koymak) + off (uzağa): ileri bir tarihe koymak → ertelemek
+put-out|put (koymak) + out (sönük) → söndürmek
+put-up-with|put up (katlanmak) + with (ile) → tahammül etmek
+run-into|run (koşmak) + into (içine): birine çarpar gibi denk gelmek → tesadüfen karşılaşmak
+run-out-of|run out (tükenmek) + of → tükenmek, bitirmek
+set-up|set (kurmak) + up: yukarı dikmek → kurmak
+show-off|show (göstermek) + off: gösterişle sergilemek → hava atmak
+show-up|show (görünmek) + up: ortaya çıkmak → gelmek
+sort-out|sort (sıralamak) + out: düzene sokmak → halletmek
+stand-out|stand (durmak) + out (dışarı): kalabalıktan dışarı taşmak → göze çarpmak
+take-over|take (almak) + over (üzerinden): kontrolü üstlenmek → devralmak
+take-up|take (almak) + up: yeni bir işi ele almak → (bir hobiye) başlamak
+tell-off|tell (söylemek) + off: sertçe söyleyip uzaklaştırmak → azarlamak
+think-over|think (düşünmek) + over (baştan sona) → iyice düşünmek
+turn-down|turn (çevirmek) + down (aşağı): düğmeyi kısmak; teklifi geri çevirmek → reddetmek
+turn-up|turn (çevirmek) + up (yukarı): sesi açmak; ortaya çıkmak → açmak (ses), gelmek
+warm-up|warm (ısınmak) + up → ısınmak (spor)
+wear-out|wear (giymek, yıpratmak) + out (sonuna kadar) → eskitmek
+work-out|work (çalışmak) + out: "workout" = antrenman → spor yapmak
+break-into|break (kırmak) + into (içine) → zorla girmek
+catch-on|catch (yakalamak) + on: herkesin aklını yakalamak → yaygınlaşmak
+come-over|come (gelmek) + over (öte taraftan) → (birinin evine) gelmek
+cross-out|cross (çarpı atmak) + out → üstünü çizmek
+cut-off|cut (kesmek) + off (kopuk) → kesmek (bağlantı)
+do-up|do (yapmak) + up: düğmeleri yukarı kadar kapatmak → iliklemek
+dress-up|dress (giyinmek) + up (yukarı: daha şık) → şık giyinmek
+fall-over|fall (düşmek) + over (devrilerek) → düşmek
+get-by|get (gitmek) + by (yanından): kıt kanaat geçip gitmek → idare etmek
+hand-out|hand (el) + out (dışarı): elden dağıtmak → dağıtmak
+hold-up|hold (tutmak) + up: trafikte tutulmak → geciktirmek
+keep-on|keep (sürdürmek) + on (devam) → devam etmek
+kick-off|kick (tekme) + off: maç ilk vuruşla başlar → başlamak (maç)
+lay-off|lay (koymak) + off (dışarı) → işten çıkarmak
+leave-out|leave (bırakmak) + out (dışarıda) → dışarıda bırakmak
+log-in|log (kayıt) + in (içeri): kayda girmek → oturum açmak
+look-out|look (bakmak) + out (dışarı): "Dışarı bak!" → dikkat et!
+pay-off|pay (ödemek) + off (tamamen): emeğin karşılığı ödenir → karşılığını vermek
+put-down|put (koymak) + down (aşağı) → yere koymak
+run-over|run (koşmak) + over (üstünden): aracın üstünden geçmesi → ezmek
+save-up|save (biriktirmek) + up → para biriktirmek
+see-off|see (görmek) + off (uzağa): giderken arkasından bakmak → uğurlamak
+settle-down|settle (yerleşmek) + down → yerleşmek, durulmak
+sign-up|sign (imza atmak) + up: listeye imza → kaydolmak
+slow-down|slow (yavaş) + down (aşağı) → yavaşlamak
+speak-up|speak (konuşmak) + up (yukarı: daha yüksek) → sesini yükseltmek
+stay-up|stay (kalmak) + up (ayakta) → geç saate kadar uyumamak
+take-apart|take (almak) + apart (ayrı): parçalara ayırıp almak → parçalarına ayırmak
+tear-up|tear (yırtmak) + up (tamamen) → yırtıp parçalamak
+think-up|think (düşünmek) + up: kafadan çıkarmak → uydurmak
+tidy-up|tidy (düzenli) + up → toplamak, düzenlemek
+turn-into|turn (dönmek) + into (-e): bir şeye dönmek → dönüşmek
+turn-over|turn (çevirmek) + over (öbür tarafa) → ters çevirmek
+use-up|use (kullanmak) + up (tamamen) → tüketmek
+watch-out|watch (izlemek) + out (dışarı): "Dışarıyı izle!" → dikkat etmek
+write-down|write (yazmak) + down (kâğıda) → not etmek
+crust|"Krast" → "crust" ile "kurtçuk değil kabuk": dış sert katman → kabuk (ekmek, pizza)
+loaf|"Louf" → "a loaf of bread" = bir somun ekmek → somun
+colander|"Kalındır" → "colare" (süzmek, Latince) → süzgeç
+grater|"Grate" (rendelemek) + -er → rende
+peeler|"Peel" (soymak) + -er → soyacak
+rolling-pin|rolling (yuvarlanan) + pin (çubuk) → oklava
+cutting-board|cutting (kesme) + board (tahta) → kesme tahtası
+toothpick|tooth (diş) + pick (karıştırmak, kazımak) → kürdan
+straw|"Straa" → "strawberry" içindeki "straw"; içecek pipeti → pipet, saman
+lunchbox|lunch (öğle yemeği) + box (kutu) → beslenme çantası
+pillowcase|pillow (yastık) + case (kılıf) → yastık kılıfı
+lampshade|lamp (lamba) + shade (gölge) → abajur
+doorknob|door (kapı) + knob (topuz) → kapı tokmağı
+gutter|"Gatır" → "gut" (oluk, kanal) → yağmur oluğu
+shed|"Şed" → bahçede alet koyulan küçük kulübe → kulübe
+hedge|"Hec" → bahçeyi çevreleyen sık çalı → çit (bitki)
+sandbox|sand (kum) + box (kutu) → kum havuzu
+checkers|"Check" (kare desen): damalı tahta → dama
+deck|"Dek" → kart destesi; geminin güvertesi → deste, güverte
+yo-yo|"Yoyo" kelimesiyle aynı → yoyo
+teddy-bear|"Teddy" (Başkan Teddy Roosevelt) + bear (ayı) → oyuncak ayı
+voucher|"Vauçır" → "vouch" (kefil olmak): değerine kefil kâğıt → hediye çeki
+mortgage|mort (ölü) + gage (rehin): borç bitince ölen rehin → konut kredisi
+pension|"Pansiyon/pension" → "pay" (ödeme) ile akraba → emekli maaşı
+wage|"Weyc" → "wage" ile "gage" (karşılık): günlük ücret → ücret
+bonus|"Bonus" kelimesiyle aynı → ikramiye
+shareholder|share (hisse) + holder (tutan) → hissedar
+bond|"Bond" (bağ): James Bond değil, sıkı bağ; tahvil → bağ, tahvil
+bid|"Bid" (açık artırmada fiyat teklifi) → teklif
+seashell|sea (deniz) + shell (kabuk) → deniz kabuğu
+starfish|star (yıldız) + fish (balık) → deniz yıldızı
+pony|"Poni" → küçük boylu at → midilli
+hairbrush|hair (saç) + brush (fırça) → saç fırçası
+hairdryer|hair (saç) + dryer (kurutucu) → saç kurutma makinesi
+earphones|ear (kulak) + phones (ses) → kulaklık (kulak içi)
+lily|"Lili" adı → beyaz zambak → zambak
+ivy|"Ayvi" → "Poison Ivy" (zehirli sarmaşık) → sarmaşık
+thorn|"Thorn" → gülün dikeni → diken
+petal|"Petıl" → çiçeğin renkli yaprağı → taç yaprağı
+bark|"Bark" (ağacın kabuğu; köpeğin havlaması da "bark") → ağaç kabuğu
+twig|"Twig" → kuş yuvasındaki ince dal → ince dal
+log|"Log" (gemi kütüğü; "logbook" = seyir defteri) → kütük
+clay|"Kley" → çömlek yapılan toprak → kil
+candlestick|candle (mum) + stick (çubuk) → şamdan
+ashtray|ash (kül) + tray (tepsi) → kül tablası
+dustpan|dust (toz) + pan (tava, kap) → faraş
+sponge|"SpongeBob" = Sünger Bob → sünger
+bleach|"Bliiç" → "blanch/blank" (beyaz) ile akraba: ağartıcı → çamaşır suyu
+ironing-board|ironing (ütüleme) + board (tahta) → ütü masası
+bottle-opener|bottle (şişe) + opener (açacak) → şişe açacağı
+can-opener|can (konserve kutusu) + opener (açacak) → konserve açacağı
+foil|"Folyo" kelimesiyle aynı kökten → alüminyum folyo
+wrapping-paper|wrapping (sarma) + paper (kâğıt) → hediye paketi kâğıdı
+sparkler|"Spark" (kıvılcım) + -ler → maytap
+analyze|Türkçedeki "analiz" ile aynı kökten
+coordinate|Türkçedeki "koordine" ile aynı kökten
+dictate|Türkçedeki "dikte" ile aynı kökten
+formulate|Türkçedeki "formüle" ile aynı kökten
+guarantee|Türkçedeki "garanti" ile aynı kökten
+infect|Türkçedeki "enfekte" ile aynı kökten
+inject|Türkçedeki "enjekte" ile aynı kökten
+license|Türkçedeki "lisans" ile aynı kökten
+manipulate|Türkçedeki "manipüle" ile aynı kökten
+motivate|Türkçedeki "motive" ile aynı kökten
+mount|Türkçedeki "monte" ile aynı kökten
+protest|Türkçedeki "protesto" ile aynı kökten
+reserve|Türkçedeki "rezerve" ile aynı kökten
+sponsor|Türkçedeki "sponsor" ile aynı kökten
+transfer|Türkçedeki "transfer" ile aynı kökten
+academic|Türkçedeki "akademik" ile aynı kökten
+acute|Türkçedeki "akut" ile aynı kökten
+allergic|Türkçedeki "alerjik" ile aynı kökten
+anonymous|Türkçedeki "anonim" ile aynı kökten
+automatic|Türkçedeki "otomatik" ile aynı kökten
+chronic|Türkçedeki "kronik" ile aynı kökten
+civil|Türkçedeki "sivil" ile aynı kökten
+classic|Türkçedeki "klasik" ile aynı kökten
+compact|Türkçedeki "kompakt" ile aynı kökten
+critical|Türkçedeki "kritik" ile aynı kökten
+diplomatic|Türkçedeki "diplomatik" ile aynı kökten
+dynamic|Türkçedeki "dinamik" ile aynı kökten
+economic|Türkçedeki "ekonomik" ile aynı kökten
+ethical|Türkçedeki "etik" ile aynı kökten
+exotic|Türkçedeki "egzotik" ile aynı kökten
+federal|Türkçedeki "federal" ile aynı kökten
+genetic|Türkçedeki "genetik" ile aynı kökten
+hysterical|Türkçedeki "histerik" ile aynı kökten
+ideal|Türkçedeki "ideal" ile aynı kökten
+industrial|Türkçedeki "endüstriyel" ile aynı kökten
+ironic|Türkçedeki "ironik" ile aynı kökten
+liberal|Türkçedeki "liberal" ile aynı kökten
+manual|Türkçedeki "manuel" ile aynı kökten
+obese|Türkçedeki "obez" ile aynı kökten
+organic|Türkçedeki "organik" ile aynı kökten
+parallel|Türkçedeki "paralel" ile aynı kökten
+passive|Türkçedeki "pasif" ile aynı kökten
+potential|Türkçedeki "potansiyel" ile aynı kökten
+radical|Türkçedeki "radikal" ile aynı kökten
+sophisticated|Türkçedeki "sofistike" ile aynı kökten
+symbolic|Türkçedeki "sembolik" ile aynı kökten
+systematic|Türkçedeki "sistemli" ile aynı kökten
+tragic|Türkçedeki "trajik" ile aynı kökten
+tropical|Türkçedeki "tropikal" ile aynı kökten
+alternative|Türkçedeki "alternatif" ile aynı kökten
+analogy|Türkçedeki "analoji" ile aynı kökten
+atmosphere|Türkçedeki "atmosfer" ile aynı kökten
+barrier|Türkçedeki "bariyer" ile aynı kökten
+bureaucracy|Türkçedeki "bürokrasi" ile aynı kökten
+chaos|Türkçedeki "kaos" ile aynı kökten
+conference|Türkçedeki "konferans" ile aynı kökten
+criterion|Türkçedeki "kriter" ile aynı kökten
+coalition|Türkçedeki "koalisyon" ile aynı kökten
+committee|Türkçedeki "komite" ile aynı kökten
+dialogue|Türkçedeki "diyalog" ile aynı kökten
+discipline|Türkçedeki "disiplin" ile aynı kökten
+doctrine|Türkçedeki "doktrin" ile aynı kökten
+dynamics|Türkçedeki "dinamik" ile aynı kökten
+element|Türkçedeki "element" ile aynı kökten
+ethics|Türkçedeki "etik" ile aynı kökten
+fantasy|Türkçedeki "fantezi" ile aynı kökten
+depression|Türkçedeki "depresyon" ile aynı kökten
+democracy|Türkçedeki "demokrasi" ile aynı kökten
+diplomacy|Türkçedeki "diplomasi" ile aynı kökten
+economy|Türkçedeki "ekonomi" ile aynı kökten
+format|Türkçedeki "format" ile aynı kökten
+frequency|Türkçedeki "frekans" ile aynı kökten
+function|Türkçedeki "fonksiyon" ile aynı kökten
+hierarchy|Türkçedeki "hiyerarşi" ile aynı kökten
+hypothesis|Türkçedeki "hipotez" ile aynı kökten
+ideology|Türkçedeki "ideoloji" ile aynı kökten
+illusion|Türkçedeki "illüzyon" ile aynı kökten
+index|Türkçedeki "endeks" ile aynı kökten
+irony|Türkçedeki "ironi" ile aynı kökten
+manifesto|Türkçedeki "manifesto" ile aynı kökten
+mechanism|Türkçedeki "mekanizma" ile aynı kökten
+mission|Türkçedeki "misyon" ile aynı kökten
+morale|Türkçedeki "moral" ile aynı kökten
+norm|Türkçedeki "norm" ile aynı kökten
+orientation|Türkçedeki "oryantasyon" ile aynı kökten
+paradox|Türkçedeki "paradoks" ile aynı kökten
+parameter|Türkçedeki "parametre" ile aynı kökten
+penalty|Türkçedeki "penaltı" ile aynı kökten
+performance|Türkçedeki "performans" ile aynı kökten
+phenomenon|Türkçedeki "fenomen" ile aynı kökten
+portion|Türkçedeki "porsiyon" ile aynı kökten
+prestige|Türkçedeki "prestij" ile aynı kökten
+principle|Türkçedeki "prensip" ile aynı kökten
+procedure|Türkçedeki "prosedür" ile aynı kökten
+profile|Türkçedeki "profil" ile aynı kökten
+propaganda|Türkçedeki "propaganda" ile aynı kökten
+psychology|Türkçedeki "psikoloji" ile aynı kökten
+quota|Türkçedeki "kota" ile aynı kökten
+radiation|Türkçedeki "radyasyon" ile aynı kökten
+reference|Türkçedeki "referans" ile aynı kökten
+rehabilitation|Türkçedeki "rehabilitasyon" ile aynı kökten
+nostalgia|Türkçedeki "nostalji" ile aynı kökten
+panic|Türkçedeki "panik" ile aynı kökten
+regime|Türkçedeki "rejim" ile aynı kökten
+scandal|Türkçedeki "skandal" ile aynı kökten
+scenario|Türkçedeki "senaryo" ile aynı kökten
+statistics|Türkçedeki "istatistik" ile aynı kökten
+status|Türkçedeki "statü" ile aynı kökten
+strategy|Türkçedeki "strateji" ile aynı kökten
+syndrome|Türkçedeki "sendrom" ile aynı kökten
+theme|Türkçedeki "tema" ile aynı kökten
+tragedy|Türkçedeki "trajedi" ile aynı kökten
+trauma|Türkçedeki "travma" ile aynı kökten
+trend|Türkçedeki "trend" ile aynı kökten
+version|Türkçedeki "versiyon" ile aynı kökten
+vision|Türkçedeki "vizyon" ile aynı kökten
+sympathy|Türkçedeki "sempati" ile aynı kökten
+brownie|Türkçedeki "brownie" ile aynı kökten
+marmalade|Türkçedeki "marmelat" ile aynı kökten
+omelet|Türkçedeki "omlet" ile aynı kökten
+papaya|Türkçedeki "papaya" ile aynı kökten
+pudding|Türkçedeki "puding" ile aynı kökten
+salami|Türkçedeki "salam" ile aynı kökten
+sushi|Türkçedeki "suşi" ile aynı kökten
+syrup|Türkçedeki "şurup" ile aynı kökten
+tofu|Türkçedeki "tofu" ile aynı kökten
+waffle|Türkçedeki "waffle" ile aynı kökten
+antelope|Türkçedeki "antilop" ile aynı kökten
+canary|Türkçedeki "kanarya" ile aynı kökten
+chimpanzee|Türkçedeki "şempanze" ile aynı kökten
+cobra|Türkçedeki "kobra" ile aynı kökten
+jaguar|Türkçedeki "jaguar" ile aynı kökten
+leopard|Türkçedeki "leopar" ile aynı kökten
+llama|Türkçedeki "lama" ile aynı kökten
+termite|Türkçedeki "termit" ile aynı kökten
+hammock|Türkçedeki "hamak" ile aynı kökten
+radiator|Türkçedeki "radyatör" ile aynı kökten
+blazer|Türkçedeki "blazer" ile aynı kökten
+brooch|Türkçedeki "broş" ile aynı kökten
+sweatshirt|Türkçedeki "sweatshirt" ile aynı kökten
+canyon|Türkçedeki "kanyon" ile aynı kökten
+crater|Türkçedeki "krater" ile aynı kökten
+erosion|Türkçedeki "erozyon" ile aynı kökten
+geyser|Türkçedeki "gayzer" ile aynı kökten
+lagoon|Türkçedeki "lagün" ile aynı kökten
+savanna|Türkçedeki "savan" ile aynı kökten
+antibiotic|Türkçedeki "antibiyotik" ile aynı kökten
+cramp|Türkçedeki "kramp" ile aynı kökten
+migraine|Türkçedeki "migren" ile aynı kökten
+therapy|Türkçedeki "terapi" ile aynı kökten
+cockpit|Türkçedeki "kokpit" ile aynı kökten
+hovercraft|Türkçedeki "hoverkraft" ile aynı kökten
+tanker|Türkçedeki "tanker" ile aynı kökten
+boulevard|Türkçedeki "bulvar" ile aynı kökten
+cathedral|Türkçedeki "katedral" ile aynı kökten
+plaza|Türkçedeki "plaza" ile aynı kökten
+diplomat|Türkçedeki "diplomat" ile aynı kökten
+sheriff|Türkçedeki "şerif" ile aynı kökten
+technician|Türkçedeki "teknisyen" ile aynı kökten
+cello|Türkçedeki "çello" ile aynı kökten
+melody|Türkçedeki "melodi" ile aynı kökten
+opera|Türkçedeki "opera" ile aynı kökten
+orchestra|Türkçedeki "orkestra" ile aynı kökten
+symphony|Türkçedeki "senfoni" ile aynı kökten
+arena|Türkçedeki "arena" ile aynı kökten
+cricket|Türkçedeki "kriket" ile aynı kökten
+dart|Türkçedeki "dart" ile aynı kökten
+judo|Türkçedeki "judo" ile aynı kökten
+atlas|Türkçedeki "atlas" ile aynı kökten
+encyclopedia|Türkçedeki "ansiklopedi" ile aynı kökten
+algorithm|Türkçedeki "algoritma" ile aynı kökten
+pixel|Türkçedeki "piksel" ile aynı kökten
+socially|Türkçedeki "sosyal" ile aynı kökten
+vanilla|Türkçedeki "vanilya" ile aynı kökten
+caramel|Türkçedeki "karamel" ile aynı kökten
+thermos|Türkçedeki "termos" ile aynı kökten
+stock|Türkçedeki "stok" ile aynı kökten
+warranty|Türkçedeki "garanti" ile aynı kökten
+bikini|Türkçedeki "bikini" ile aynı kökten
+brochure|Türkçedeki "broşür" ile aynı kökten

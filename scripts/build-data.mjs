@@ -78,7 +78,7 @@ for (const [i, [file, raw]] of lines.entries()) {
   const [en, tr, ipa, say, ex, exTr, level, icon] = f.map(s => s.trim());
   const id = en.toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-|-$/g, '');
   if (!/^\/.+\/$/.test(ipa)) errors.push(`${file}:${i + 1}: IPA bozuk: ${ipa}`);
-  if (!['A1', 'A2', 'B1'].includes(level)) errors.push(`${file}:${i + 1}: seviye: ${level}`);
+  if (!['A1', 'A2', 'B1', 'B2'].includes(level)) errors.push(`${file}:${i + 1}: seviye: ${level}`);
   if (seenEn.has(id)) errors.push(`${file}:${i + 1}: tekrar eden kelime: ${en}`);
   seenEn.set(id, 1);
   const trKey = tr.toLocaleLowerCase('tr');

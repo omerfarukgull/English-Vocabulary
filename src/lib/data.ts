@@ -3,7 +3,7 @@ import iconPaths from '../data/icons.json';
 import families from '../data/families.json';
 import { getLang } from './i18n';
 
-export type Level = 'A1' | 'A2' | 'B1';
+export type Level = 'A1' | 'A2' | 'B1' | 'B2';
 export interface Word {
   id: string; en: string; tr: string; ipa: string; say: string;
   ex: string; exTr: string; level: Level; cat: string; img: boolean;

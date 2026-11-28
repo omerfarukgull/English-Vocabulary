@@ -49,7 +49,7 @@ export default function Words({ start, goLearn }: { start: (c: SessionConfig) =>
       <div className="chips scroll" role="tablist">{FILTERS.map(([k, l]) => <button key={k} role="tab" aria-selected={f === k} className={`chip btnchip ${f === k ? 'on' : ''}`} onClick={() => setF(k)}>{t(l)}</button>)}</div>
       <div className="row gap">
         <select value={cat} onChange={e => setCat(e.target.value)} aria-label={t('Kategori')}><option value="">{t('Tüm kategoriler')}</option>{CATEGORIES.map(c => <option key={c.id} value={c.id}>{catName(c.id)}</option>)}</select>
-        <select value={level} onChange={e => setLevel(e.target.value)} aria-label={t('Seviye')}><option value="">{t('Tüm seviyeler')}</option><option>A1</option><option>A2</option><option>B1</option></select>
+        <select value={level} onChange={e => setLevel(e.target.value)} aria-label={t('Seviye')}><option value="">{t('Tüm seviyeler')}</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option></select>
       </div>
       <div className="muted small">{t('{n} kelime', { n: list.length })}</div>
       {list.length === 0

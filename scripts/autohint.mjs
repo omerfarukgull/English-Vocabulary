@@ -23,9 +23,12 @@ function suffixText(m, w, base) {
     return '-ly: burada isimden sıfat yapar (arkadaş → arkadaşça gibi)';
   }
   if (m === 'ING') {
-    if (/(ma|me|ış|iş|uş|üş|lık|lik|luk|lük)\b/.test(w.tr.split(/[,(]/)[0].trim()) || ['meaning', 'feeling', 'painting'].includes(w.id)) return '-ing: eylemin adı (-ma/-me)';
+    if (/(ma|me|ış|iş|uş|üş|lık|lik|luk|lük)\b/.test(w.tr.split(/[,(]/)[0].trim()) || ['meaning', 'feeling', 'painting'].includes(w.id) || ['abstract', 'sports'].includes(w.cat)) return '-ing: eylemin adı (-ma/-me)';
     return '-ing: sıfat yapar (… uyandıran, -ıcı/-ici)';
   }
+  // -al / -y / -ing isim yaptığında (approval, discovery, understanding) "sıfat yapar" demesin
+  if (w.cat !== 'adjectives' && /^-al:/.test(m) && !/(sal|sel)\b/.test(w.tr)) return '-al: fiilden isim yapar';
+  if (w.cat !== 'adjectives' && /^-y:/.test(m) && !/(lı|li|lu|lü)\b/.test(w.tr)) return '-y: isim yapar (-lık)';
   return m;
 }
 export function autoHint(w, byId, excluded) {

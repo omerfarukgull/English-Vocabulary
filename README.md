@@ -5,7 +5,7 @@ React + TypeScript + Vite, veriler cihazda (IndexedDB), üyelik/sunucu yok.
 
 ## Özellikler
 - Günlük 10 yeni kelime hedefi (tekrarlardan ayrı sayılır), ilerleme çubuğu, seri (streak)
-- 2571 kelime, 26 kategori (Zamirler dahil: kişi, nesne, iyelik, dönüşlü, işaret, soru, belgisiz ve karşılıklı zamirler), A1/A2/B1 (A2'den başlar, sonra A1 eksikleri, sonra B1)
+- 5164 kelime, 26 kategori (Zamirler dahil: kişi, nesne, iyelik, dönüşlü, işaret, soru, belgisiz ve karşılıklı zamirler), A1/A2/B1/B2 (A2'den başlar, sonra A1 eksikleri, sonra B1 ve B2; Ayarlar'dan "B2'ye hazırlık" seçilebilir)
 - Öğrenme kartı: görsel, İngilizce, Türkçe, Türkçe okunuş, IPA, sesli telaffuz, örnek cümle + çeviri
 - 5 test türü + karışık: görselden yaz, görselden seç, İngilizce→Türkçe, Türkçe→İngilizce yaz, dinle ve bul
 - SM-2 benzeri akıllı tekrar; "Öğrenildi" için art arda 3 doğru + en az 3 farklı test türü gerekir

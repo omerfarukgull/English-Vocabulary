@@ -13,7 +13,7 @@ export interface Settings {
   voice?: string;
   autoplay: boolean;
   dailyGoal: number;
-  levelPref: 'A2' | 'A1' | 'B1' | 'mixed';
+  levelPref: 'A2' | 'A1' | 'B1' | 'B2' | 'mixed';
   reminder: { on: boolean; time: string }; // günlük hatırlatma saati "HH:MM"
   focusCat: string; // '' = tüm kategoriler; aksi halde yeni kelimeler yalnızca bu kategoriden gelir
   lang: Lang; // arayüz dili (kelime içeriği her zaman İngilizce → Türkçe)
@@ -105,7 +105,7 @@ function bumpDay(s: AppState, patch: (d: DayLog) => DayLog): AppState {
 }
 
 // ---------- yeni kelime planı ----------
-const LEVEL_ORDER: Record<Settings['levelPref'], Level[]> = { A2: ['A2', 'A1', 'B1'], A1: ['A1', 'A2', 'B1'], B1: ['B1', 'A2', 'A1'], mixed: ['A1', 'A2', 'B1'] };
+const LEVEL_ORDER: Record<Settings['levelPref'], Level[]> = { A2: ['A2', 'A1', 'B1', 'B2'], A1: ['A1', 'A2', 'B1', 'B2'], B1: ['B1', 'A2', 'A1', 'B2'], B2: ['B2', 'B1', 'A2', 'A1'], mixed: ['A1', 'A2', 'B1', 'B2'] };
 
 /** Henüz görülmemiş kelimeleri seviye tercihine göre, kategorileri karıştırarak sıralar. */
 export function unseenOrdered(s: AppState): string[] {
@@ -280,7 +280,7 @@ export function resetAll() { update(s => ({ ...emptyState(), settings: s.setting
 export function slugOf(en: string) { return en.toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-|-$/g, ''); }
 export function makeCustomWord(en: string, tr: string, extra: Partial<Word> = {}): Word {
   const e = en.trim().replace(/\s+/g, ' ');
-  const level = (['A1', 'A2', 'B1'] as const).includes(extra.level as Level) ? extra.level as Level : 'A2';
+  const level = (['A1', 'A2', 'B1', 'B2'] as const).includes(extra.level as Level) ? extra.level as Level : 'A2';
   return { id: 'my-' + slugOf(e), en: e, tr: tr.trim(), ipa: '', say: (extra.say ?? '').trim(), ex: (extra.ex ?? '').trim(), exTr: (extra.exTr ?? '').trim(), level, cat: CUSTOM_CAT, img: false, custom: true };
 }
 /** Yeni kelime ekler; aynı kelime zaten varsa (sözlükte veya senin listende) eklemez ve onu döndürür. */

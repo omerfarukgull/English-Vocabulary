@@ -111,7 +111,7 @@ export default function AddWord({ open, onClose, edit, onOpenWord, goLearn }: {
             <input value={exTr} onChange={e => setExTr(e.target.value)} />
           </label>
           <label className="field">{t('Seviye')}
-            <select value={level} onChange={e => setLevel(e.target.value as Level)}><option>A1</option><option>A2</option><option>B1</option></select>
+            <select value={level} onChange={e => setLevel(e.target.value as Level)}><option>A1</option><option>A2</option><option>B1</option><option>B2</option></select>
           </label>
           {err && <p className="note">{err}</p>}
           <button type="submit" className="btn primary block" disabled={!canSave}>{edit ? t('Kaydet') : unknown ? t('Yine de kaydet') : t('Kelimeyi ekle')}</button>
